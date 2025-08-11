@@ -1,0 +1,19 @@
+// Component-specific styles for login
+// Global authentication styles are imported in src/styles.scss from assets/scss/pages/_authentication.scss
+
+.auth-logo-img {
+  max-width: 100%;
+  height: auto;
+
+  /* Mobile first — make it appropriately sized */
+  width: 50vw; /* take 50% of viewport width on mobile */
+  min-width: 200px; /* ensure it's not too small */
+  max-width: 300px; /* cap the maximum size on mobile */
+  
+  /* On larger screens, use fixed height */
+  @media (min-width: 768px) {
+    width: auto;
+    height: 220px;
+    max-width: none;
+  }
+}

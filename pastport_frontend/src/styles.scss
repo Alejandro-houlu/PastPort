@@ -1,1 +1,81 @@
-/* You can add global styles to this file, and also import other style files */
+// Swiper
+.coverflowslide .slide {
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.coverflowslide .slick-list {
+    overflow: hidden !important;
+}
+
+.coverflowslide .slick-center {
+    transform: scale(1.2); // Adjust the scale factor for the "Coverflow" effect
+    z-index: 1;
+}
+
+.coverflowslide .carousel {
+    width: 100%;
+    max-width: 600px; // Adjust the carousel width as needed
+    margin: 0 auto;
+}
+
+.space .slick-slide {
+    margin: 10px;
+}
+
+#notificationItemsTabContent {
+    .avatar-title {
+        height: 30px !important;
+        width: 30px !important;
+    }
+}
+
+[data-bs-theme="dark"] {
+    .fc {
+        .fc-multimonth-daygrid {
+            background: #212529 !important;
+
+        }
+
+        .fc-day-disabled {
+            background: #282b2e !important;
+        }
+
+        .fc-multimonth {
+            border-color: #32383e !important;
+        }
+    }
+}
+
+// PastPort specific customizations
+#pastportauth {
+    .slick-dots {
+        bottom: -36px;
+        z-index: 1;
+
+        .slick-active {
+            button {
+                background-color: #ad64f1 !important; // PastPort primary color
+            }
+        }
+    }
+
+    .slick-dots li {
+        height: 7px !important;
+    }
+
+    .slick-dots li button {
+        width: 22px !important;
+        height: 5px !important;
+        border: none;
+        background-color: rgba(173, 100, 241, .2) !important; // PastPort primary with opacity
+        padding: 0px;
+        margin: 0px;
+        transition: all .3s;
+        border-radius: 50px;
+
+        &::before {
+            display: none;
+        }
+    }
+}
