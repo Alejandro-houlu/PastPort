@@ -1,0 +1,9 @@
+
+1. python main.py --mode init (create vector database collection)
+2. python main.py --mode load --rootfolder="../data" --speciesfolder=" " (create chunks from specific species folder, defaults to C:.../data and "dinosaur_sauropod"
+3. python main.py --mode info (to check existing no of chunks)
+4. python main.py --mode update --rootfolder="../data" --speciesfolder=" " (to check either existing folder or new folder for new docs and add into vector database)
+5. python main.py --mode query (to ask questions)
+6. python main.py --mode delete_chunks --chunk_ids "dinosaur_sauropod:ac.md:0:1" "dinosaur_sauropod:ac.md:0:2"
+7. python main.py --mode delete_collection (to delete vector database collection. Files will still be intact)
+
