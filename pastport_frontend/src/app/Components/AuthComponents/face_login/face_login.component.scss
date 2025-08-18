@@ -1,0 +1,565 @@
+.face-login-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+
+// Biometric Consent Modal
+.consent-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    pointer-events: none; // Allow clicks to pass through
+  }
+
+  .modal-content {
+    position: relative;
+    background: white;
+    border-radius: 12px;
+    max-width: 90%;
+    max-height: 80%;
+    overflow-y: auto;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    animation: modalSlideIn 0.3s ease;
+
+    @media (min-width: 768px) {
+      max-width: 500px;
+    }
+  }
+
+  .modal-header {
+    padding: 24px 24px 0;
+    
+    h3 {
+      margin: 0;
+      color: #ad64f1; // PastPort purple
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  }
+
+  .modal-body {
+    padding: 16px 24px;
+
+    .consent-text {
+      color: #666;
+      line-height: 1.6;
+      white-space: pre-line;
+    }
+  }
+
+  .modal-footer {
+    padding: 0 24px 24px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+
+    @media (min-width: 480px) {
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    .btn {
+      flex: 1;
+      
+      @media (min-width: 480px) {
+        flex: none;
+        min-width: 120px;
+      }
+    }
+  }
+}
+
+// Main Face Login Interface
+.face-login-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+// Loading Overlay
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+  .loading-spinner {
+    width: 60px;
+    height: 60px;
+    border: 4px solid rgba(173, 100, 241, 0.3);
+    border-top: 4px solid #ad64f1;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+  }
+
+  .loading-text {
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+// Camera Interface
+.camera-interface {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+
+  &.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  .camera-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #000;
+
+    &.mirrored {
+      transform: scaleX(-1); // Mirror front camera
+    }
+  }
+
+  .face-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+
+    .face-circle {
+      width: 280px;
+      height: 280px;
+      border: 3px solid rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      position: relative;
+      transition: all 0.3s ease;
+
+      @media (max-width: 480px) {
+        width: 240px;
+        height: 240px;
+      }
+
+      &.detected {
+        border-color: #ad64f1;
+        box-shadow: 0 0 20px rgba(173, 100, 241, 0.5);
+      }
+
+      &.live {
+        border-color: #28a745;
+        box-shadow: 0 0 20px rgba(40, 167, 69, 0.5);
+        animation: livePulse 2s ease-in-out infinite;
+      }
+
+      .face-guide {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 80%;
+        border: 2px dashed rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .camera-controls {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+
+    .control-btn {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.1);
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+
+    .center-controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .status-indicator {
+        position: relative;
+        width: 20px;
+        height: 20px;
+
+        .status-dot {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background: rgba(255, 255, 255, 0.5);
+          transition: all 0.3s ease;
+        }
+
+        &.active .status-dot {
+          background: #ad64f1;
+        }
+
+        .pulse-ring {
+          position: absolute;
+          top: -10px;
+          left: -10px;
+          width: 40px;
+          height: 40px;
+          border: 2px solid #ad64f1;
+          border-radius: 50%;
+          animation: pulse 2s ease-in-out infinite;
+        }
+      }
+    }
+  }
+
+  .status-message {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 20px;
+
+    p {
+      color: white;
+      font-size: 1.1rem;
+      margin: 0 0 10px 0;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .quality-indicator {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+
+      .quality-bar {
+        width: 200px;
+        height: 4px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 2px;
+        overflow: hidden;
+
+        .quality-fill {
+          height: 100%;
+          background: linear-gradient(90deg, #dc3545 0%, #ffc107 50%, #28a745 100%);
+          transition: width 0.3s ease;
+        }
+      }
+
+      .quality-text {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+// Processing State
+.processing-state {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+
+  .processing-animation {
+    margin-bottom: 30px;
+
+    .face-scan-animation {
+      width: 120px;
+      height: 120px;
+      border: 3px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      position: relative;
+      animation: scanRotate 2s linear infinite;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -3px;
+        left: -3px;
+        right: -3px;
+        bottom: -3px;
+        border: 3px solid transparent;
+        border-top-color: #ad64f1;
+        border-radius: 50%;
+        animation: scanPulse 1.5s ease-in-out infinite;
+      }
+    }
+  }
+
+  h3 {
+    margin: 0 0 30px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .processing-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+
+    .step {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      opacity: 0.5;
+      transition: all 0.3s ease;
+
+      &.active {
+        opacity: 1;
+        background: rgba(173, 100, 241, 0.2);
+      }
+
+      i {
+        font-size: 1.2rem;
+        width: 20px;
+        text-align: center;
+      }
+
+      span {
+        font-size: 0.95rem;
+      }
+    }
+  }
+}
+
+// Registration, Success, and Error states use existing auth styles
+.registration-form,
+.success-state,
+.error-state {
+  .auth-page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+}
+
+// Animations
+@keyframes modalSlideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+@keyframes livePulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(40, 167, 69, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(40, 167, 69, 0.8);
+  }
+}
+
+@keyframes scanRotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes scanPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+}
+
+// Mobile-specific adjustments
+@media (max-width: 768px) {
+  .camera-interface {
+    .camera-controls {
+      bottom: 30px;
+      padding: 0 20px;
+
+      .control-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+      }
+    }
+
+    .status-message {
+      top: 40px;
+      padding: 0 15px;
+
+      p {
+        font-size: 1rem;
+      }
+
+      .quality-indicator .quality-bar {
+        width: 150px;
+      }
+    }
+  }
+
+  .processing-state {
+    padding: 15px;
+
+    h3 {
+      font-size: 1.3rem;
+    }
+
+    .processing-steps {
+      .step {
+        padding: 10px;
+
+        i {
+          font-size: 1.1rem;
+        }
+
+        span {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+// Landscape mobile adjustments
+@media (max-height: 500px) and (orientation: landscape) {
+  .camera-interface {
+    .status-message {
+      top: 20px;
+    }
+
+    .camera-controls {
+      bottom: 20px;
+    }
+  }
+
+  .processing-state {
+    .processing-animation {
+      margin-bottom: 20px;
+
+      .face-scan-animation {
+        width: 80px;
+        height: 80px;
+      }
+    }
+
+    h3 {
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+    }
+
+    .processing-steps {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: none;
+
+      .step {
+        flex: 1;
+        min-width: 120px;
+        max-width: 150px;
+      }
+    }
+  }
+}

@@ -1,0 +1,343 @@
+//
+// _authentication.scss
+//
+
+// Variables for PastPort theme (Galaxy-inspired)
+$primary: #ad64f1;
+$secondary: #4788ff;
+$success: #40bb82;
+$info: #3fa7d6;
+$warning: #ffca5b;
+$danger: #ee6352;
+$light: #f3f6f9;
+$dark: #212529;
+$white: #fff;
+$footer-height: 80px;
+$prefix: 'bs-';
+
+.auth-page-wrapper{
+    .auth-page-content{
+        padding-bottom: $footer-height;
+        position: relative;
+        z-index: 2;
+        width: 100%;
+    }
+    .footer{
+        left: 0;
+        background-color: transparent;
+        color: var(--#{$prefix}body-color);
+    }
+}
+
+.auth-one-bg-position{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 380px;
+    
+    @media (max-width: 575.98px) {
+        height: 280px;
+    }
+}
+
+.auth-one-bg{
+    background-image: url("../../images/ppBackground4.jpg");
+    background-position: center;
+    background-size: cover;
+
+    .bg-overlay{
+        background: linear-gradient(to right, darken($primary, 6%), $primary);
+        opacity: 0.2;
+    }
+}
+
+.shape{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+    >svg {
+        width: 100%;
+        height: auto;
+        fill: var(--#{$prefix}body-bg);
+    }
+}
+
+// auth-pass-inputgroup
+
+.auth-pass-inputgroup{
+    input[type="text"] + .btn .ri-eye-fill{
+        &:before{
+            content: "\ecb6";
+        }
+    }
+}
+
+.particles-js-canvas-el{
+    position: relative;
+}
+
+// signin card title
+
+.signin-other-title{
+    position: relative;
+    &:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        left: 0;
+        right: 0;
+        border-top: 1px dashed var(--#{$prefix}border-color);
+        top: 10px;
+    }
+
+    .title{
+        display: inline-block;
+        position: relative;
+        z-index: 9;
+        background-color: var(--#{$prefix}secondary-bg);
+        padding: 2px 16px;
+    }
+}
+
+// Auth cover
+
+.auth-bg-cover{
+    background: $auth-bg-cover;
+
+    > .bg-overlay{
+        background-image: url("../../images/cover-pattern.png");
+        background-position: center;
+        background-size: cover;
+        opacity: 1;
+        background-color: transparent;
+    }
+
+    .footer{
+        color: rgba($white, .5);
+    }
+}
+
+//password validations 
+#password-contain {
+    display: none;
+
+    p {
+        padding-left: 13px;
+
+        &.valid {
+            color: $success;
+
+            &::before {
+                position: relative;
+                left: -8px;
+                content: "✔";
+            }
+        }
+
+        &.invalid {
+            color: $danger;
+
+            &::before {
+                position: relative;
+                left: -8px;
+                content: "✖";
+            }
+        }
+    }
+}
+
+// Galaxy-inspired PastPort Authentication Styling
+
+// Auth logo styling
+.auth-logo {
+  img {
+    filter: brightness(1.1);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+// Enhanced card styling
+.card {
+  background: rgba($white, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba($white, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  
+  .card-body {
+    padding: 2rem;
+  }
+}
+
+// Enhanced form styling
+.form-control {
+  background: rgba($white, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  
+  &:focus {
+    background: rgba($white, 1);
+    border-color: $primary;
+    box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
+  }
+  
+  &.is-invalid {
+    border-color: $danger;
+    
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
+    }
+  }
+}
+
+.form-label {
+  font-weight: 500;
+  color: #495057;
+  margin-bottom: 0.5rem;
+}
+
+// Enhanced button styling
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+  
+  &.btn-primary {
+    background: linear-gradient(135deg, $primary, $secondary);
+    border: none;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba($primary, 0.4);
+    }
+  }
+  
+  &.btn-icon {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
+
+// Enhanced signin other title
+.signin-other-title {
+  position: relative;
+  margin: 2rem 0 1rem;
+  
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    right: 0;
+    border-top: 1px dashed rgba(0, 0, 0, 0.2);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .title {
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    background-color: rgba($white, 0.95);
+    padding: 0 1rem;
+    color: #6c757d;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+}
+
+// Form validation
+.invalid-feedback {
+  display: block;
+  font-size: 0.8rem;
+  color: $danger;
+  margin-top: 0.25rem;
+}
+
+// Form check (remember me)
+.form-check {
+  margin: 1.5rem 0;
+  
+  .form-check-input {
+    border-radius: 4px;
+    
+    &:checked {
+      background-color: $primary;
+      border-color: $primary;
+    }
+    
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
+    }
+  }
+  
+  .form-check-label {
+    color: #495057;
+    font-size: 0.9rem;
+  }
+}
+
+// Text colors
+.text-white-50 {
+  color: rgba($white, 0.7) !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .auth-page-wrapper {
+    .card {
+      margin: 1rem;
+      
+      .card-body {
+        padding: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .auth-page-wrapper {
+    .card {
+      .card-body {
+        padding: 1rem;
+      }
+    }
+    
+    .btn.btn-icon {
+      width: 36px;
+      height: 36px;
+    }
+  }
+}

@@ -1,0 +1,261 @@
+<div class="face-login-container">
+  <!-- Biometric Consent Modal -->
+  @if (showConsentModal && consentModalContent) {
+    <div class="consent-modal" [class.show]="showConsentModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>{{ consentModalContent.title }}</h3>
+        </div>
+        <div class="modal-body">
+          <div class="consent-text">
+            {{ consentModalContent.content }}
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" (click)="onConsentAccepted()">
+            {{ consentModalContent.acceptText }}
+          </button>
+          <button class="btn btn-secondary" (click)="onConsentRejected()">
+            {{ consentModalContent.declineText }}
+          </button>
+        </div>
+      </div>
+    </div>
+  }
+
+  <!-- Main Face Login Interface -->
+  @if (!showConsentModal) {
+    <div class="face-login-main">
+      
+      <!-- Loading State -->
+      @if (state.isLoading) {
+        <div class="loading-overlay">
+          <div class="loading-spinner"></div>
+          <p class="loading-text">{{ state.message }}</p>
+        </div>
+      }
+
+      <!-- Camera Interface -->
+      @if (state.step === 'camera') {
+        <div class="camera-interface" [class.fullscreen]="cameraActive">
+          
+          <!-- Video Element -->
+          <video #videoElement 
+                 class="camera-video" 
+                 autoplay 
+                 muted 
+                 playsinline
+                 [class.mirrored]="facingMode === 'user'">
+          </video>
+
+          <!-- Face Detection Overlay -->
+          <div class="face-overlay">
+            <div class="face-circle" 
+                 [class.detected]="faceDetected" 
+                 [class.live]="livenessDetected">
+              <div class="face-guide"></div>
+            </div>
+          </div>
+
+          <!-- Camera Controls -->
+          <div class="camera-controls">
+            <button class="control-btn close-btn" (click)="goToRegularLogin()">
+              <i class="ri-close-line"></i>
+            </button>
+            
+            <div class="center-controls">
+              <div class="status-indicator" [class.active]="faceDetected">
+                @if (faceDetected) {
+                  <div class="pulse-ring"></div>
+                }
+                <div class="status-dot"></div>
+              </div>
+            </div>
+            
+            <button class="control-btn flip-btn" (click)="switchCamera()">
+              <i class="ri-camera-switch-line"></i>
+            </button>
+          </div>
+
+          <!-- Status Message -->
+          <div class="status-message">
+            <p>{{ state.message }}</p>
+            @if (faceDetected) {
+              <div class="quality-indicator">
+                <div class="quality-bar">
+                  <div class="quality-fill" [style.width.%]="faceQuality * 100"></div>
+                </div>
+                <span class="quality-text">Quality: {{ (faceQuality * 100) | number:'1.0-0' }}%</span>
+              </div>
+            }
+          </div>
+        </div>
+      }
+
+      <!-- Processing State -->
+      @if (state.step === 'processing') {
+        <div class="processing-state">
+          <div class="processing-animation">
+            <div class="face-scan-animation"></div>
+          </div>
+          <h3>{{ state.message }}</h3>
+          <div class="processing-steps">
+            <div class="step active">
+              <i class="ri-eye-line"></i>
+              <span>Analyzing face</span>
+            </div>
+            <div class="step active">
+              <i class="ri-shield-check-line"></i>
+              <span>Verifying identity</span>
+            </div>
+            <div class="step">
+              <i class="ri-user-line"></i>
+              <span>Authenticating</span>
+            </div>
+          </div>
+        </div>
+      }
+
+      <!-- Registration Form -->
+      @if (state.step === 'registration') {
+        <div class="registration-form">
+          <div class="auth-page-wrapper">
+            <div class="auth-page-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-8 col-lg-6 col-xl-5">
+                    <div class="card mt-4">
+                      <div class="card-body p-4">
+                        <div class="text-center mt-2">
+                          <div class="avatar-lg mx-auto">
+                            <div class="avatar-title rounded-circle bg-light">
+                              <i class="ri-user-add-line display-5 text-primary"></i>
+                            </div>
+                          </div>
+                          <h5 class="text-primary mt-3">Create Your Account</h5>
+                          <p class="text-muted">{{ state.message }}</p>
+                        </div>
+                        
+                        <div class="p-2 mt-4">
+                          <form (ngSubmit)="completeRegistration()">
+                            <div class="mb-3">
+                              <label class="form-label" for="username">Your Name</label>
+                              <input 
+                                type="text" 
+                                class="form-control" 
+                                id="username" 
+                                [(ngModel)]="username"
+                                name="username"
+                                placeholder="Enter your full name"
+                                required>
+                            </div>
+
+                            <div class="mt-4">
+                              <button 
+                                class="btn btn-primary w-100" 
+                                type="submit"
+                                [disabled]="state.isLoading || !username.trim()">
+                                @if (state.isLoading) {
+                                  <span class="spinner-border spinner-border-sm me-2"></span>
+                                }
+                                Create Account
+                              </button>
+                            </div>
+
+                            <div class="mt-4 text-center">
+                              <button 
+                                type="button" 
+                                class="btn btn-link" 
+                                (click)="goToRegularLogin()">
+                                Use Email/Password Instead
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+
+      <!-- Success State -->
+      @if (state.step === 'success') {
+        <div class="success-state">
+          <div class="auth-page-wrapper">
+            <div class="auth-page-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-8 col-lg-6 col-xl-5">
+                    <div class="card mt-4">
+                      <div class="card-body p-4 text-center">
+                        <div class="avatar-lg mx-auto">
+                          <div class="avatar-title rounded-circle bg-success">
+                            <i class="ri-check-line display-5 text-white"></i>
+                          </div>
+                        </div>
+                        <h5 class="text-success mt-3">Authentication Successful!</h5>
+                        <p class="text-muted">{{ state.message }}</p>
+                        <div class="mt-3">
+                          <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                          </div>
+                          <p class="mt-2 text-muted">Redirecting to your dashboard...</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+
+      <!-- Error State -->
+      @if (state.step === 'error') {
+        <div class="error-state">
+          <div class="auth-page-wrapper">
+            <div class="auth-page-content">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-8 col-lg-6 col-xl-5">
+                    <div class="card mt-4">
+                      <div class="card-body p-4 text-center">
+                        <div class="avatar-lg mx-auto">
+                          <div class="avatar-title rounded-circle bg-danger">
+                            <i class="ri-error-warning-line display-5 text-white"></i>
+                          </div>
+                        </div>
+                        <h5 class="text-danger mt-3">Authentication Failed</h5>
+                        <p class="text-muted">{{ state.message }}</p>
+                        
+                        @if (state.showRetry) {
+                          <div class="mt-4">
+                            <button class="btn btn-primary me-2" (click)="retry()">
+                              <i class="ri-refresh-line me-1"></i>
+                              Try Again
+                            </button>
+                            <button class="btn btn-secondary" (click)="goToRegularLogin()">
+                              Use Email/Password
+                            </button>
+                          </div>
+                        }
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  }
+
+  <!-- Hidden Canvas for Image Processing -->
+  <canvas #canvasElement style="display: none;"></canvas>
+</div>
