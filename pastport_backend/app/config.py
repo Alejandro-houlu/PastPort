@@ -2,7 +2,9 @@ import os
 from typing import List
 from pydantic_settings import BaseSettings
 from pydantic import Field
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 class Settings(BaseSettings):
     # Database Configuration
@@ -35,7 +37,6 @@ class Settings(BaseSettings):
         return (
             f"mysql+aiomysql://{self.db_user}:{self.db_password}"
             f"@{self.db_host}:{self.db_port}/{self.db_name}"
-            f"?ssl_ca=&ssl_cert=&ssl_key=&ssl_check_hostname=false&ssl_verify_cert=false"
         )
     
     class Config:
