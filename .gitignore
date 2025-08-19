@@ -1,3 +1,5 @@
 # Frontend development reference folder
 galaxy/
 TravelDex/
+__pycache__/
+*.pyc
