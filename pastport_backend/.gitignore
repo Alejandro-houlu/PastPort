@@ -1,6 +1,8 @@
 # Ignore traveldex_backend project
 traveldex_backend/
 yolo-api-server/
-app/__pycache__
 ca-certificate.crt
+migrate_face_data.py
+__pycache__/
+
 
