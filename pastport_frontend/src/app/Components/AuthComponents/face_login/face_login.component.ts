@@ -245,20 +245,23 @@ export class FaceLoginComponent implements OnInit, OnDestroy {
    * Capture and process using streamlined authentication flow
    */
   async captureAndProcess(): Promise<void> {
+    if(this.state.step === 'processing')return;
+
+    const videoEl = this.videoElement?.nativeElement;
+
+    if (!this.videoElement?.nativeElement) {
+      throw new Error('Video element not available');return;
+    }
+
+    this.stopDetection();
     this.state.step = 'processing';
     this.state.isLoading = true;
     this.state.message = 'Capturing and analyzing your face...';
     
-    this.stopDetection();
 
     try {
       // Check if video element is available
-      if (!this.videoElement?.nativeElement) {
-        throw new Error('Video element not available');
-      }
 
-      const videoEl = this.videoElement.nativeElement;
-      
       console.log('🎯 Starting streamlined authentication flow...');
       
       // Use the new streamlined authentication method
@@ -301,7 +304,7 @@ export class FaceLoginComponent implements OnInit, OnDestroy {
         ageGroup: authResult.ageGroup,
         userId: authResult.userId
       });
-      
+      this.state.isLoading = false
       this.state.step = 'success';
       this.state.message = `Welcome back, ${authResult.username}! (Confidence: ${Math.round(authResult.confidence * 100)}%)`;
       
