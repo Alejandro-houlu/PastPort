@@ -37,10 +37,12 @@ export interface AuthenticationResponse {
     id: string;
     name: string;
     age_group: 'child' | 'teen' | 'adult' | 'senior';
+    email?: string;
   };
   token?: string;
   temp_face_id?: string;
   message: string;
+  confidence?: number; // Face matching confidence from backend
 }
 
 export interface RegistrationRequest {
@@ -49,7 +51,7 @@ export interface RegistrationRequest {
 }
 
 export interface FaceLoginRequest {
-  face_image: string; // base64 encoded
+  embeddings: number[][]; // List of 128-dimensional face embeddings
   device_info?: string;
 }
 

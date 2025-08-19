@@ -1,12 +1,24 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { BehaviorSubject, Observable, throwError } from 'rxjs';
-import { catchError, tap } from 'rxjs/operators';
+import { BehaviorSubject, firstValueFrom } from 'rxjs';
 import { 
   AuthenticationResponse, 
   FaceLoginRequest, 
   RegistrationRequest 
 } from '../Models/face-recognition.models';
+import { environment } from '../../environments/environment';
+
+export interface EmailLoginRequest {
+  email: string;
+  password: string;
+}
+
+export interface EmailRegistrationRequest {
+  email: string;
+  password: string;
+  name: string;
+  age_group: 'child' | 'teen' | 'adult' | 'senior';
+}
 
 export interface User {
   id: string;
@@ -27,7 +39,7 @@ export interface JWTPayload {
   providedIn: 'root'
 })
 export class AuthService {
-  private readonly API_BASE_URL = 'http://localhost:8000/api/v1'; // Backend URL
+  private readonly API_BASE_URL = `${environment.apiUrl}`; // Backend URL
   private readonly TOKEN_KEY = 'pastport_jwt_token';
   private readonly USER_KEY = 'pastport_user_data';
 
@@ -43,49 +55,107 @@ export class AuthService {
   }
 
   /**
+   * Perform email/password login
+   */
+  async emailLogin(email: string, password: string): Promise<AuthenticationResponse> {
+    const request: EmailLoginRequest = {
+      email: email,
+      password: password
+    };
+
+    try {
+      const response = await firstValueFrom(
+        this.http.post<AuthenticationResponse>(`${this.API_BASE_URL}/auth/email-login`, request)
+      );
+      
+      if (response.status === 'success' && response.action === 'login') {
+        this.handleSuccessfulLogin(response);
+      }
+      
+      return response;
+    } catch (error) {
+      throw this.handleError(error);
+    }
+  }
+
+  /**
+   * Register new user with email/password
+   */
+  async emailRegister(email: string, password: string, name: string, age_group: 'child' | 'teen' | 'adult' | 'senior'): Promise<AuthenticationResponse> {
+    const request: EmailRegistrationRequest = {
+      email: email,
+      password: password,
+      name: name,
+      age_group: age_group
+    };
+
+    try {
+      const response = await firstValueFrom(
+        this.http.post<AuthenticationResponse>(`${this.API_BASE_URL}/auth/email-register`, request)
+      );
+      
+      if (response.status === 'success' && response.action === 'login') {
+        this.handleSuccessfulLogin(response);
+      }
+      
+      return response;
+    } catch (error) {
+      throw this.handleError(error);
+    }
+  }
+
+  /**
    * Perform facial recognition login
    */
-  faceLogin(faceImage: string, deviceInfo?: string): Observable<AuthenticationResponse> {
+  async faceLogin(embeddings: number[][], deviceInfo?: string): Promise<AuthenticationResponse> {
     const request: FaceLoginRequest = {
-      face_image: faceImage,
+      embeddings: embeddings,
       device_info: deviceInfo
     };
 
-    return this.http.post<AuthenticationResponse>(`${this.API_BASE_URL}/auth/face-login`, request)
-      .pipe(
-        tap(response => {
-          if (response.status === 'success' && response.action === 'login') {
-            this.handleSuccessfulLogin(response);
-          }
-        }),
-        catchError(this.handleError)
+    try {
+      const response = await firstValueFrom(
+        this.http.post<AuthenticationResponse>(`${this.API_BASE_URL}/auth/face-login`, request)
       );
+      
+      if (response.status === 'success' && response.action === 'login') {
+        this.handleSuccessfulLogin(response);
+      }
+      
+      return response;
+    } catch (error) {
+      throw this.handleError(error);
+    }
   }
 
   /**
    * Complete user registration after face capture
    */
-  completeRegistration(tempFaceId: string, username: string): Observable<AuthenticationResponse> {
+  async completeRegistration(tempFaceId: string, username: string): Promise<AuthenticationResponse> {
     const request: RegistrationRequest = {
       temp_face_id: tempFaceId,
       username: username
     };
 
-    return this.http.post<AuthenticationResponse>(`${this.API_BASE_URL}/auth/complete-registration`, request)
-      .pipe(
-        tap(response => {
-          if (response.status === 'success' && response.action === 'login') {
-            this.handleSuccessfulLogin(response);
-          }
-        }),
-        catchError(this.handleError)
+    try {
+      const response = await firstValueFrom(
+        this.http.post<AuthenticationResponse>(`${this.API_BASE_URL}/auth/complete-registration`, request)
       );
+      
+      if (response.status === 'success' && response.action === 'login') {
+        this.handleSuccessfulLogin(response);
+      }
+      
+      return response;
+    } catch (error) {
+      throw this.handleError(error);
+    }
   }
 
   /**
    * Handle successful login response with JWT token
    */
-  private handleSuccessfulLogin(response: AuthenticationResponse): void {
+  public handleSuccessfulLogin(response: AuthenticationResponse): void {
     if (response.token && response.user) {
       // Store JWT token
       localStorage.setItem(this.TOKEN_KEY, response.token);
@@ -251,7 +321,7 @@ export class AuthService {
   /**
    * Handle HTTP errors
    */
-  private handleError(error: any): Observable<never> {
+  private handleError(error: any): Error {
     console.error('Auth service error:', error);
     
     // Handle JWT-specific errors
@@ -268,7 +338,7 @@ export class AuthService {
       errorMessage = error.message;
     }
     
-    return throwError(() => new Error(errorMessage));
+    return new Error(errorMessage);
   }
 
   /**

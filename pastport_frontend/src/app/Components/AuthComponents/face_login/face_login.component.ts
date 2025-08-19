@@ -245,37 +245,52 @@ export class FaceLoginComponent implements OnInit, OnDestroy {
    * Capture and process using streamlined authentication flow
    */
   async captureAndProcess(): Promise<void> {
+    if(this.state.step === 'processing')return;
+
+    const videoEl = this.videoElement?.nativeElement;
+
+    if (!this.videoElement?.nativeElement) {
+      throw new Error('Video element not available');return;
+    }
+
+    this.stopDetection();
     this.state.step = 'processing';
     this.state.isLoading = true;
     this.state.message = 'Capturing and analyzing your face...';
     
-    this.stopDetection();
 
     try {
       // Check if video element is available
-      if (!this.videoElement?.nativeElement) {
-        throw new Error('Video element not available');
-      }
 
-      const videoEl = this.videoElement.nativeElement;
-      
       console.log('🎯 Starting streamlined authentication flow...');
       
       // Use the new streamlined authentication method
       const authResult = await this.faceLoginService.authenticateUser(videoEl);
 
-      console.log('🔍 AUTHENTICATION RESULT:', {
+      console.log('🔍 AUTHENTICATION RESULT - COMPLETE DATA:', {
         isRecognized: authResult.isRecognized,
         isNewUser: authResult.isNewUser,
         requiresUsername: authResult.requiresUsername,
         userId: authResult.userId,
         username: authResult.username,
         confidence: authResult.confidence,
-        ageGroup: authResult.ageGroup
+        ageGroup: authResult.ageGroup,
+        accessToken: authResult.accessToken ? 'Present (' + authResult.accessToken.substring(0, 20) + '...)' : 'Missing',
+        refreshToken: authResult.refreshToken ? 'Present (' + authResult.refreshToken.substring(0, 20) + '...)' : 'Missing',
+        userData: authResult.userData
       });
+
+      // Verify tokens are stored properly
+      const storedToken = localStorage.getItem('pastport_jwt_token');
+      const storedRefreshToken = localStorage.getItem('pastport_refresh_token');
 
       if (authResult.isRecognized && authResult.username) {
         // User recognized - proceed with login
+          console.log('🔐 TOKEN STORAGE VERIFICATION:', {
+          accessTokenStored: storedToken ? 'Yes (' + storedToken.substring(0, 20) + '...)' : 'No',
+          refreshTokenStored: storedRefreshToken ? 'Yes (' + storedRefreshToken.substring(0, 20) + '...)' : 'No'
+        });
+
         await this.handleRecognizedUser(authResult);
       } else if (authResult.isNewUser && authResult.requiresUsername) {
         // New user detected - ask for username
@@ -301,7 +316,7 @@ export class FaceLoginComponent implements OnInit, OnDestroy {
         ageGroup: authResult.ageGroup,
         userId: authResult.userId
       });
-      
+      this.state.isLoading = false
       this.state.step = 'success';
       this.state.message = `Welcome back, ${authResult.username}! (Confidence: ${Math.round(authResult.confidence * 100)}%)`;
       
@@ -355,33 +370,59 @@ export class FaceLoginComponent implements OnInit, OnDestroy {
         tempFaceId: this.tempFaceId
       });
       
-      // Use the new registration completion method with the tempFaceId
-      // The face data should have already been captured during the initial authentication flow
-      const success = await this.faceLoginService.completeNewUserRegistrationWithId(
-        this.tempFaceId,
+      // Use the backend registration method (pass null since camera is stopped)
+      const registrationResult = await this.faceLoginService.registerNewUser(
+        null,
         this.username.trim()
       );
       
-      if (success) {
-        this.state.step = 'success';
-        this.state.message = `Welcome to PastPort, ${this.username}!`;
+      if (registrationResult.success) {
+        console.log('🎉 REGISTRATION SUCCESS:', registrationResult);
         
-        console.log('🎉 REGISTRATION SUCCESS:', {
-          username: this.username.trim(),
-          totalProfiles: this.faceLoginService.getStoredEmbeddingsCount()
-        });
-        
-        // Navigate to main app after short delay
-        setTimeout(() => {
-          console.log('🔄 Would navigate to dashboard (disabled for demo)');
-          // this.router.navigate(['/dashboard']); // Disabled for frontend testing
-        }, 2000);
+        if (registrationResult.authResult) {
+          // Registration included authentication - handle as successful login
+          console.log('✅ Registration completed with authentication:', {
+            username: registrationResult.authResult.username,
+            userId: registrationResult.authResult.userId,
+            confidence: registrationResult.authResult.confidence,
+            accessToken: registrationResult.authResult.accessToken ? 'Present' : 'Missing',
+            refreshToken: registrationResult.authResult.refreshToken ? 'Present' : 'Missing'
+          });
+          
+          // Verify tokens are stored properly
+          const storedToken = localStorage.getItem('pastport_jwt_token');
+          const storedRefreshToken = localStorage.getItem('pastport_refresh_token');
+          console.log('🔐 POST-REGISTRATION TOKEN STORAGE:', {
+            accessTokenStored: storedToken ? 'Yes (' + storedToken.substring(0, 20) + '...)' : 'No',
+            refreshTokenStored: storedRefreshToken ? 'Yes (' + storedRefreshToken.substring(0, 20) + '...)' : 'No'
+          });
+          
+          this.state.step = 'success';
+          this.state.message = `Welcome to PastPort, ${registrationResult.authResult.username}!`;
+          
+          // Navigate to main app after short delay
+          setTimeout(() => {
+            console.log('🔄 Would navigate to dashboard (disabled for demo)');
+            // this.router.navigate(['/dashboard']); // Disabled for frontend testing
+          }, 2000);
+        } else {
+          // Registration successful but no authentication data
+          this.state.step = 'success';
+          this.state.message = `Welcome to PastPort, ${this.username}! Please try logging in.`;
+          
+          setTimeout(() => {
+            console.log('🔄 Registration complete, redirecting to login');
+            // Could redirect to login or retry authentication
+          }, 2000);
+        }
       } else {
         this.handleError('Failed to complete registration. Please try again.');
       }
     } catch (error) {
       console.error('Error completing registration:', error);
       this.handleError('Registration failed. Please try again.');
+    } finally {
+      this.state.isLoading = false;
     }
   }
 
