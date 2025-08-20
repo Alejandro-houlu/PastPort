@@ -1,0 +1,111 @@
+<div class="dashboard-container">
+  <!-- Welcome Section -->
+  <div class="row">
+    <div class="col-12">
+      <div class="welcome-card">
+        <div class="welcome-content">
+          <div class="welcome-text">
+            <h1 class="welcome-title">{{ getGreeting() }}!</h1>
+            <p class="welcome-subtitle" *ngIf="userData">
+              Welcome back, <span class="username">{{ userData.username }}</span>
+            </p>
+            <p class="welcome-subtitle" *ngIf="!userData">
+              Welcome to PastPort
+            </p>
+            <div class="date-time-info">
+              <div class="date">{{ getFormattedDate() }}</div>
+              <div class="time">{{ getFormattedTime() }}</div>
+            </div>
+          </div>
+          <div class="welcome-logo">
+            <img src="assets/pastport_visuals/icononly_transparent_nobuffer.png" alt="PastPort" class="logo-icon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Action Section -->
+  <div class="row justify-content-center">
+    <div class="col-lg-8 col-xl-6">
+      <div class="action-card">
+        <div class="action-content text-center">
+          <div class="action-icon">
+            <i class="bx bx-camera"></i>
+          </div>
+          <h2 class="action-title">Ready to Explore Museums?</h2>
+          <p class="action-description">
+            Use our AI-powered visual recognition to get personalized museum tours and discover fascinating stories behind every exhibit.
+          </p>
+          
+          <!-- Main CTA Button -->
+          <button type="button" class="btn btn-primary btn-lg btn-get-started" (click)="openCamera()">
+            <i class="bx bx-camera me-2"></i>
+            Let's Get Started
+          </button>
+          
+          <!-- Quick Stats -->
+          <div class="quick-stats mt-4">
+            <div class="row text-center">
+              <div class="col-4">
+                <div class="stat-item">
+                  <div class="stat-number">0</div>
+                  <div class="stat-label">Museums</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="stat-item">
+                  <div class="stat-number">0</div>
+                  <div class="stat-label">Exhibits</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="stat-item">
+                  <div class="stat-number">0</div>
+                  <div class="stat-label">Tours</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feature Cards -->
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="bx bx-brain"></i>
+        </div>
+        <h5 class="feature-title">AI-Powered Recognition</h5>
+        <p class="feature-description">
+          Advanced visual AI identifies exhibits and provides rich contextual information.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="bx bx-book-open"></i>
+        </div>
+        <h5 class="feature-title">Interactive Tours</h5>
+        <p class="feature-description">
+          Get personalized museum tours with engaging stories and historical context.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="bx bx-history"></i>
+        </div>
+        <h5 class="feature-title">Tour History</h5>
+        <p class="feature-description">
+          Keep track of your museum visits and favorite exhibits for future reference.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

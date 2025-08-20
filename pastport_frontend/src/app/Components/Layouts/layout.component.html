@@ -1,0 +1,20 @@
+<div id="layout-wrapper">
+  <!-- Top Navbar -->
+  <app-navbar (mobileMenuButtonClicked)="onToggleMobileMenu()"></app-navbar>
+  
+  <!-- Sidebar -->
+  <app-sidebar></app-sidebar>
+  
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="page-content">
+      <div class="container-fluid">
+        <!-- Router Outlet for Dynamic Content -->
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <app-footer></app-footer>
+  </div>
+</div>

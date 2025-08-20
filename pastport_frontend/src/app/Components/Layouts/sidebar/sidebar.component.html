@@ -1,0 +1,66 @@
+<div class="app-menu navbar-menu">
+  <!-- Sidebar Logo -->
+  <div class="navbar-brand-box">
+    <a href="#" class="logo logo-dark">
+      <span class="logo-sm">
+        <img src="assets/pastport_visuals/icononly_transparent_nobuffer.png" alt="PastPort" height="32">
+      </span>
+      <span class="logo-lg">
+        <img src="assets/pastport_visuals/fulllogo_transparent_nobuffer.png" alt="PastPort" height="40">
+      </span>
+    </a>
+    <a href="#" class="logo logo-light">
+      <span class="logo-sm">
+        <img src="assets/pastport_visuals/icononly_transparent_nobuffer.png" alt="PastPort" height="32">
+      </span>
+      <span class="logo-lg">
+        <img src="assets/pastport_visuals/fulllogo_transparent_nobuffer.png" alt="PastPort" height="40">
+      </span>
+    </a>
+  </div>
+
+  <!-- Sidebar Menu -->
+  <div id="scrollbar">
+    <div class="container-fluid">
+      <div id="two-column-menu"></div>
+      
+      <ul class="navbar-nav" id="navbar-nav">
+        <li class="menu-title">
+          <span>Menu</span>
+        </li>
+
+        <!-- Menu Items -->
+        <li class="nav-item" *ngFor="let item of menuItems">
+          <a class="nav-link menu-link" 
+             [class.active]="item.isActive"
+             (click)="navigateToItem(item); hideSidebarOnMobile()"
+             [routerLink]="item.link"
+             routerLinkActive="active">
+            <i [class]="item.icon"></i>
+            <span>{{ item.label }}</span>
+          </a>
+        </li>
+
+        <!-- Divider -->
+        <li class="menu-title mt-4">
+          <span>Quick Actions</span>
+        </li>
+
+        <!-- Camera Action -->
+        <li class="nav-item">
+          <a class="nav-link menu-link camera-action" 
+             (click)="hideSidebarOnMobile()">
+            <i class="bx bx-camera"></i>
+            <span>Open Camera</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Sidebar Footer -->
+  <div class="sidebar-background"></div>
+</div>
+
+<!-- Mobile Sidebar Overlay -->
+<div class="vertical-overlay" (click)="hideSidebarOnMobile()"></div>
