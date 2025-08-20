@@ -1,0 +1,52 @@
+// Layout component styles
+// Main layout wrapper styles are handled in src/assets/scss/structure/_layouts.scss
+
+#layout-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: var(--bs-vertical-menu-width, 250px);
+  transition: margin-left 0.3s ease;
+  
+  @media (max-width: 767.98px) {
+    margin-left: 0;
+  }
+}
+
+.page-content {
+  padding: calc(var(--bs-header-height, 70px) + 1.5rem) 1.5rem 1.5rem;
+  min-height: calc(100vh - var(--bs-footer-height, 60px));
+  
+  @media (max-width: 767.98px) {
+    padding: calc(var(--bs-header-height, 70px) + 1rem) 1rem 1rem;
+  }
+}
+
+// Responsive adjustments for sidebar states
+[data-sidebar-size="sm"] {
+  .main-content {
+    margin-left: var(--bs-vertical-menu-width-sm, 70px);
+    
+    @media (max-width: 767.98px) {
+      margin-left: 0;
+    }
+  }
+}
+
+// Mobile sidebar overlay
+.vertical-sidebar-enable {
+  .main-content {
+    margin-left: 0;
+  }
+}
+
+// Camera mode - hide layout when camera is active
+.camera-active {
+  #layout-wrapper {
+    display: none;
+  }
+}

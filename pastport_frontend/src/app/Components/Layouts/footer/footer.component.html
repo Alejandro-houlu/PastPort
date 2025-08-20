@@ -1,0 +1,29 @@
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="text-sm-start d-none d-sm-block">
+          {{ currentYear }} © PastPort. 
+          <span class="text-muted">Crafted with <i class="mdi mdi-heart text-danger"></i> by the PastPort Team</span>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="text-sm-end d-none d-sm-block">
+          <span class="text-muted">Version {{ version }}</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Mobile Footer -->
+    <div class="row d-block d-sm-none">
+      <div class="col-12 text-center">
+        <div class="mb-1">
+          {{ currentYear }} © PastPort
+        </div>
+        <div class="text-muted small">
+          Version {{ version }}
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

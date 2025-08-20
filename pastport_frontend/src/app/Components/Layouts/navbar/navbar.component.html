@@ -1,0 +1,96 @@
+<header id="page-topbar">
+  <div class="navbar-header">
+    <!-- Logo and Brand -->
+    <div class="d-flex align-items-center">
+      <!-- Mobile Menu Toggle -->
+      <button type="button" class="btn btn-sm px-3 fs-16 header-item vertical-menu-btn topnav-hamburger d-lg-none" 
+              (click)="toggleMobileMenu()">
+        <span class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+
+      <!-- Desktop Menu Toggle -->
+      <button type="button" class="btn btn-sm px-3 fs-16 header-item vertical-menu-btn topnav-hamburger d-none d-lg-block" 
+              (click)="toggleMobileMenu()">
+        <span class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+
+      <!-- Logo -->
+      <div class="navbar-brand-box horizontal-logo d-lg-none">
+        <a href="#" class="logo logo-dark">
+          <span class="logo-sm">
+            <img src="assets/pastport_visuals/icononly_transparent_nobuffer.png" alt="PastPort" height="32">
+          </span>
+        </a>
+        <a href="#" class="logo logo-light">
+          <span class="logo-sm">
+            <img src="assets/pastport_visuals/icononly_transparent_nobuffer.png" alt="PastPort" height="32">
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Side Items -->
+    <div class="d-flex align-items-center">
+      
+      <!-- Search (Future Implementation) -->
+      <!-- <div class="ms-1 header-item d-none d-sm-flex">
+        <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle">
+          <i class="bx bx-search fs-22"></i>
+        </button>
+      </div> -->
+
+      <!-- Notifications (Future Implementation) -->
+      <!-- <div class="dropdown ms-sm-3 header-item topbar-user">
+        <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle">
+          <i class="bx bx-bell fs-22"></i>
+          <span class="position-absolute topbar-badge fs-10 translate-middle badge rounded-pill bg-danger">3</span>
+        </button>
+      </div> -->
+
+      <!-- User Profile Dropdown -->
+      <div class="dropdown ms-sm-3 header-item topbar-user" *ngIf="userData">
+        <button type="button" class="btn" id="page-header-user-dropdown" 
+                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="d-flex align-items-center">
+            <div class="header-profile-user bg-primary rounded-circle d-flex align-items-center justify-content-center">
+              <i class="bx bx-user text-white fs-18"></i>
+            </div>
+            <span class="text-start ms-xl-2 d-none d-xl-block">
+              <span class="d-block fw-medium user-name-text">{{ userData.username || 'User' }}</span>
+              <span class="d-block fs-12 user-name-sub-text">{{ userData.email || 'Welcome' }}</span>
+            </span>
+          </span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-end">
+          <!-- Profile -->
+          <a class="dropdown-item" (click)="goToProfile()">
+            <i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i>
+            <span class="align-middle">Profile</span>
+          </a>
+          
+          <!-- Settings -->
+          <a class="dropdown-item" (click)="goToSettings()">
+            <i class="mdi mdi-cog-outline text-muted fs-16 align-middle me-1"></i>
+            <span class="align-middle">Settings</span>
+          </a>
+          
+          <div class="dropdown-divider"></div>
+          
+          <!-- Logout -->
+          <a class="dropdown-item" (click)="logout()">
+            <i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i>
+            <span class="align-middle">Logout</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

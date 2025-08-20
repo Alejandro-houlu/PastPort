@@ -1,0 +1,122 @@
+// Navbar component styles
+// Main topbar styles are handled in src/assets/scss/structure/_topbar.scss
+
+.header-profile-user {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #ad64f1, #4788ff) !important;
+  
+  i {
+    font-size: 16px;
+  }
+}
+
+.hamburger-icon {
+  display: inline-block;
+  width: 20px;
+  height: 16px;
+  position: relative;
+  
+  span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: var(--bs-header-item-color);
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+    
+    &:nth-child(1) {
+      top: 0px;
+    }
+    
+    &:nth-child(2) {
+      top: 7px;
+    }
+    
+    &:nth-child(3) {
+      top: 14px;
+    }
+  }
+}
+
+// Hamburger animation when open
+.hamburger-icon.open {
+  span {
+    &:nth-child(1) {
+      top: 7px;
+      transform: rotate(135deg);
+    }
+    
+    &:nth-child(2) {
+      opacity: 0;
+      left: -60px;
+    }
+    
+    &:nth-child(3) {
+      top: 7px;
+      transform: rotate(-135deg);
+    }
+  }
+}
+
+// User dropdown customization
+.topbar-user {
+  .dropdown-menu {
+    min-width: 200px;
+    border: 1px solid var(--bs-border-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    
+    .dropdown-item {
+      padding: 0.75rem 1rem;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background-color: rgba(173, 100, 241, 0.1);
+        color: #ad64f1;
+        
+        i {
+          color: #ad64f1 !important;
+        }
+      }
+    }
+    
+    .dropdown-divider {
+      margin: 0.5rem 0;
+      border-color: var(--bs-border-color);
+    }
+  }
+}
+
+// Logo styling
+.navbar-brand-box {
+  .logo {
+    img {
+      transition: transform 0.3s ease;
+      
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 767.98px) {
+  .navbar-header {
+    padding: 0 1rem;
+  }
+  
+  .header-profile-user {
+    width: 28px;
+    height: 28px;
+    
+    i {
+      font-size: 14px;
+    }
+  }
+}

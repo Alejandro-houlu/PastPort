@@ -1,271 +1,117 @@
-// 
-// _layouts.scss
-// 
+//
+// _layouts.scss - PastPort Layout Styles
+//
 
-[data-layout-width="boxed"] {
-    body {
-        background-color: var(--#{$prefix}boxed-body-bg);
-    }
-
-    #layout-wrapper {
-        max-width: var(--#{$prefix}boxed-layout-width);
-        margin: 0 auto;
-        box-shadow: $box-shadow;
-        background-color: var(--#{$prefix}body-bg);
-    }
-
-    &[data-layout="vertical"] {
-        #layout-wrapper {
-            min-height: 100vh;
-        }
-    }
-
-    #page-topbar,
-    .footer {
-        max-width: var(--#{$prefix}boxed-layout-width);
-        margin: 0 auto;
-        left: 0 !important;
-    }
-
-    &[data-sidebar-size="sm-hover"],
-    &[data-sidebar-size="sm"] {
-        &[data-layout="vertical"] {
-            @media (min-width: 768px) {
-                #layout-wrapper {
-                    min-height: 1400px;
-                }
-            }
-
-            .main-content {
-                @media (max-width: 767.98px) {
-                    margin-left: 0;
-                }
-            }
-        }
-
-        #page-topbar,
-        .footer {
-            left: 0 !important;
-            max-width: calc(var(--#{$prefix}boxed-layout-width) - var(--#{$prefix}vertical-menu-width-sm));
-
-            @media (min-width: 768px) {
-                left: var(--#{$prefix}vertical-menu-width-sm) !important;
-            }
-        }
-    }
-
-    &[data-sidebar-size="sm-hover-active"],
-    &[data-sidebar-size="lg"] {
-
-        #page-topbar,
-        .footer {
-            max-width: calc(var(--#{$prefix}boxed-layout-width) - var(--#{$prefix}vertical-menu-width));
-
-            @media (min-width: 768px) {
-                left: var(--#{$prefix}vertical-menu-width) !important;
-            }
-        }
-    }
-
-    &[data-sidebar-size="md"] {
-
-        #page-topbar,
-        .footer {
-            max-width: calc(var(--#{$prefix}boxed-layout-width) - var(--#{$prefix}vertical-menu-width-md));
-
-            @media (min-width: 768px) {
-                left: var(--#{$prefix}vertical-menu-width-md) !important;
-            }
-        }
-    }
-
-    // deteched
-
-    &[data-layout=vertical][data-layout-style=detached] {
-        body {
-            background-color: var(--#{$prefix}body-bg);
-        }
-
-        @media (min-width: 1024.1px) {
-            #layout-wrapper {
-                max-width: 1300px;
-                box-shadow: none;
-            }
-
-            .layout-width {
-                max-width: 1300px;
-            }
-        }
-
-        &[data-sidebar-size="sm-hover"],
-        &[data-sidebar-size="sm"],
-        &[data-sidebar-size="md"],
-        &[data-sidebar-size="lg"] {
-
-            #page-topbar,
-            .footer {
-                max-width: 100%;
-                left: 0 !important;
-            }
-        }
-    }
+// CSS Custom Properties for PastPort
+:root {
+  --bs-vertical-menu-width: 250px;
+  --bs-vertical-menu-width-sm: 70px;
+  --bs-vertical-menu-width-md: 180px;
+  --bs-header-height: 70px;
+  --bs-footer-height: 60px;
+  --bs-boxed-layout-width: 1200px;
 }
 
-// Horizontal Boxed Layout
-
-[data-layout="horizontal"][data-layout-width="boxed"] {
-
-    #page-topbar,
-    #layout-wrapper,
-    .footer {
-        max-width: 100%;
-    }
-
-    .container-fluid,
-    .navbar-header {
-        max-width: var(--#{$prefix}boxed-layout-width);
-    }
-
-    .navbar-header {
-        padding: 0 calc(#{$grid-gutter-width} * 0.5) 0 0;
-    }
-
-    &[data-sidebar-size="sm-hover"],
-    &[data-sidebar-size="sm"] &[data-sidebar-size="sm-hover-active"],
-    &[data-sidebar-size="lg"] {
-
-        #page-topbar,
-        .footer {
-            left: 0 !important;
-        }
-    }
+// Main layout wrapper
+#layout-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bs-body-bg);
 }
 
-// Scrollable layout
-
-[data-layout-position="scrollable"] {
-    @media (min-width: 992px) {
-
-        #page-topbar,
-        .navbar-menu {
-            position: absolute;
-        }
+// Vertical layout (default for PastPort)
+[data-layout="vertical"] {
+  .main-content {
+    margin-left: var(--bs-vertical-menu-width);
+    transition: margin-left 0.3s ease;
+    
+    @media (max-width: 767.98px) {
+      margin-left: 0;
     }
-
-    &[data-layout="horizontal"] {
-        @media (min-width: 992px) {
-
-            #page-topbar,
-            .topnav {
-                position: absolute;
-            }
-        }
+  }
+  
+  // Small sidebar
+  &[data-sidebar-size="sm"] {
+    .main-content {
+      margin-left: var(--bs-vertical-menu-width-sm);
+      
+      @media (max-width: 767.98px) {
+        margin-left: 0;
+      }
     }
+  }
+  
+  // Medium sidebar
+  &[data-sidebar-size="md"] {
+    .main-content {
+      margin-left: var(--bs-vertical-menu-width-md);
+      
+      @media (max-width: 767.98px) {
+        margin-left: 0;
+      }
+    }
+  }
 }
 
-//Semibox Sidebar Action 
-
-[data-layout="semibox"][data-sidebar-visibility="hidden"] {
-
-    @media (min-width: 768px) {
-        .navbar-menu {
-            display: none;
-        }
-
-        .horizontal-logo {
-            display: inline-block;
-            width: auto;
-        }
-
-        .footer {
-            left: 0;
-        }
-
-        #page-topbar {
-            left: 0;
-        }
-
-        .main-content {
-            margin-left: 0px;
-        }
-
-        &[data-sidebar-size="sm"],
-        &[data-sidebar-size="sm-hover"] {
-            .navbar-brand-box {
-                position: static;
-                padding: 0 1.3rem
-            }
-
-            .logo {
-                span.logo-lg {
-                    display: inline-block;
-                }
-
-                span.logo-sm {
-                    display: none;
-                }
-            }
-        }
-    }
-
-
-    &:is([data-sidebar="dark"], [data-sidebar="gradient"], [data-sidebar="gradient-2"], [data-sidebar="gradient-3"], [data-sidebar="gradient-4"]) {
-        .logo-dark {
-            display: none;
-        }
-
-        .logo-light {
-            display: inline-block;
-        }
-    }
-
-    @media (min-width: 1440px) {
-        .navbar-menu {
-            display: none;
-        }
-
-        .horizontal-logo {
-            display: inline-block;
-            width: auto;
-        }
-
-        .footer {
-            left: calc(var(--#{$prefix}semibox-width) + #{$grid-gutter-width});
-        }
-
-        #page-topbar {
-            left: calc(var(--#{$prefix}semibox-width) + #{$grid-gutter-width});
-        }
-
-        .main-content {
-            margin-left: 0px;
-        }
-
-
-        &[data-sidebar-size="sm"],
-        &[data-sidebar-size="sm-hover"] {
-            .navbar-brand-box {
-                position: static;
-                padding: 0 1.3rem
-            }
-
-            .logo {
-                span.logo-lg {
-                    display: inline-block;
-                }
-
-                span.logo-sm {
-                    display: none;
-                }
-            }
-        }
-    }
+// Page content
+.page-content {
+  padding: calc(var(--bs-header-height) + 1.5rem) 1.5rem 1.5rem;
+  min-height: calc(100vh - var(--bs-footer-height));
+  flex: 1;
+  
+  @media (max-width: 767.98px) {
+    padding: calc(var(--bs-header-height) + 1rem) 1rem 1rem;
+  }
 }
 
-// [data-sidebar-size="sm"] {
-//     .sidebar-menu-scroll {
-//         overflow: hidden !important;
-//         height: 100% !important;
-//         max-height: none !important;
-//     }
-// }
+// Mobile sidebar overlay
+.vertical-sidebar-enable {
+  .main-content {
+    margin-left: 0;
+  }
+  
+  .vertical-overlay {
+    display: block;
+  }
+}
+
+.vertical-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+}
+
+// Dark theme specific adjustments
+[data-bs-theme="dark"] {
+  #layout-wrapper {
+    background-color: var(--bs-dark);
+  }
+  
+  .main-content {
+    background-color: var(--bs-dark);
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 767.98px) {
+  :root {
+    --bs-header-height: 60px;
+    --bs-footer-height: 50px;
+  }
+  
+  .page-content {
+    padding: calc(var(--bs-header-height) + 0.75rem) 0.75rem 0.75rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .page-content {
+    padding: calc(var(--bs-header-height) + 0.5rem) 0.5rem 0.5rem;
+  }
+}
