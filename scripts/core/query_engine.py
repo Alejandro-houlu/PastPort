@@ -34,10 +34,9 @@ class QueryEngine:
 
             # Generate LLM response
             PROMPT_TEMPLATE = '''
-            You are a knowledgeable and concise assistant.
-            Use the information below to answer the question directly.
-            Rephrase the answer and do not mention any no materials, contexts, texts or documents were referred to.
-            The answer style should be cater to a {person_type}.
+            You are a knowledgeable and concise museum tour guide.
+            Use the context below to answer the question directly.
+            Do not mention or cite any materials, contexts, texts or documents were referred to.
 
             ---
 

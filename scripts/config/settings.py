@@ -13,10 +13,14 @@ class Config:
     CHUNK_OVERLAP = 100
     
     # Embedding settings
-    EMBEDDING_MODEL = "nomic-embed-text"
+    EMBEDDING_MODEL = "mxbai-embed-large:335m"
+    # OR "nomic-embed-text"
     
     # LLM settings
-    LLM_MODEL = "deepseek-r1:8b"
+    LLM_MODEL = "llama3.1:8b"
+    # OR llama3.1:8b
+    # OR mistral
+    # OR deepseek-r1:8b
     
     # File types to process
     SUPPORTED_EXTENSIONS = [".pdf", ".md", ".txt"]
