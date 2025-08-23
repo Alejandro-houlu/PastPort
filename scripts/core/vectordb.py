@@ -2,6 +2,7 @@
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaEmbeddings
 from config.settings import Config
+from chromadb.config import Settings
 
 class GetEmbeddings:
     def __init__(self, model: str = Config.EMBEDDING_MODEL):
@@ -26,8 +27,9 @@ class VectorDBManager:
     def initialize(self):
         """Initialize the vector database"""
         try:
+            client_settings = Settings(anonymized_telemetry=False, is_persistent=True)
             self.vdb = Chroma(collection_name=self.collection_name, embedding_function=self.embedding_function,
-                               persist_directory=self.db_path)
+                               persist_directory=self.db_path, client_settings=client_settings)
             print(f"✅ VectorDB initialized: {self.collection_name}")
             return True
         except Exception as e:
