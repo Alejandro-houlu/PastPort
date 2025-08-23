@@ -17,7 +17,7 @@ class Config:
     # OR "nomic-embed-text"
     
     # LLM settings
-    LLM_MODEL = "llama3.1:8b"
+    LLM_MODEL = "mistral"
     # OR llama3.1:8b
     # OR mistral
     # OR deepseek-r1:8b
