@@ -12,6 +12,12 @@ export const routes: Routes = [
     loadComponent: () => import('./Components/AuthComponents/face_login/face_login.component').then(m => m.FaceLoginComponent)
   },
   
+  // Camera route (no layout - full screen)
+  {
+    path: 'camera',
+    loadComponent: () => import('./Components/mainCam/main-cam.component').then(m => m.MainCamComponent)
+  },
+  
   // Main application routes (with layout)
   {
     path: '',

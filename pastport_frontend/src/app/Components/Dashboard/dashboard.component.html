@@ -6,12 +6,16 @@
         <div class="welcome-content">
           <div class="welcome-text">
             <h1 class="welcome-title">{{ getGreeting() }}!</h1>
-            <p class="welcome-subtitle" *ngIf="userData">
-              Welcome back, <span class="username">{{ userData.username }}</span>
-            </p>
-            <p class="welcome-subtitle" *ngIf="!userData">
-              Welcome to PastPort
-            </p>
+            @if (userData) {
+              <p class="welcome-subtitle">
+                Welcome back, <span class="username">{{ userData.username }}</span>
+              </p>
+            }
+            @if (!userData) {
+              <p class="welcome-subtitle">
+                Welcome to PastPort
+              </p>
+            }
             <div class="date-time-info">
               <div class="date">{{ getFormattedDate() }}</div>
               <div class="time">{{ getFormattedTime() }}</div>

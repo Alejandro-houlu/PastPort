@@ -1,9 +1,11 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import Response
 from app.config import settings
 from app.api.health import router as health_router
 from app.api.auth import router as auth_router
+from app.api.mainCam_recognition import router as mainCam_router
+from app.websocket.mainCam_handler import handle_mainCam_websocket_connection
 
 # Create FastAPI app
 app = FastAPI(
@@ -25,6 +27,13 @@ app.add_middleware(
 # Include routers
 app.include_router(health_router, prefix="/api/v1", tags=["health"])
 app.include_router(auth_router, tags=["authentication"])
+app.include_router(mainCam_router, prefix="/api/v1/mainCam", tags=["mainCam recognition"])
+
+
+@app.websocket("/ws/mainCam")
+async def websocket_mainCam_endpoint(websocket: WebSocket):
+    """WebSocket endpoint for real-time mainCam recognition"""
+    await handle_mainCam_websocket_connection(websocket)
 
 @app.get("/")
 async def root():

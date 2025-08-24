@@ -1,4 +1,28 @@
 // Layout component styles
+
+// Vertical overlay for mobile sidebar 
+.vertical-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 1003;
+  display: none;
+}
+
+// Mobile Menu
+.vertical-sidebar-enable {
+  .vertical-overlay {
+    display: block;
+  }
+
+  .app-menu {
+    margin-left: 0 !important;
+    z-index: 1004;
+  }
+}
 // Main layout wrapper styles are handled in src/assets/scss/structure/_layouts.scss
 
 #layout-wrapper {

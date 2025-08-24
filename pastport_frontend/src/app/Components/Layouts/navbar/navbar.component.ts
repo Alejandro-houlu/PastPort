@@ -1,12 +1,13 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
+import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { AuthService } from '../../../Services/auth.service';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgbDropdownModule],
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
@@ -14,7 +15,10 @@ export class NavbarComponent implements OnInit {
 
   @Output() mobileMenuButtonClicked = new EventEmitter();
 
-  userData: any = null;
+  userData: any = {
+        username: 'User',
+        email: 'user@pastport.com'
+      };
 
   constructor(
     private router: Router,
@@ -46,6 +50,8 @@ export class NavbarComponent implements OnInit {
    * Toggle mobile menu
    */
   toggleMobileMenu(): void {
+    // Add hamburger animation (following TravelDx pattern)
+    document.querySelector('.hamburger-icon')?.classList.toggle('open');
     this.mobileMenuButtonClicked.emit();
   }
 

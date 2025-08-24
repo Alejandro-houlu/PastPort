@@ -1,0 +1,114 @@
+<!-- Full Screen Camera Container -->
+<div class="camera-container">
+  <!-- Hamburger Menu Button (Top Left) -->
+  <div class="camera-header">
+    <button class="hamburger-btn" (click)="toggleSidebar()" type="button">
+      <i class="bx bx-menu"></i>
+    </button>
+    
+    <!-- Back Button (Top Right) -->
+    <button class="back-btn" (click)="goBack()" type="button">
+      <i class="bx bx-x"></i>
+    </button>
+  </div>
+
+  <!-- Video Element (Full Screen) -->
+  <div class="video-container">
+    <video #videoElement 
+           class="camera-video" 
+           autoplay 
+           muted 
+           playsinline>
+    </video>
+    
+    <!-- Recognition Overlay Canvas -->
+    <canvas #overlayCanvas 
+            class="recognition-overlay">
+    </canvas>
+    
+    <!-- Camera Placeholder Overlay (shown when camera is not active) -->
+    @if (!cameraActive) {
+      <div class="camera-placeholder">
+        <div class="placeholder-content">
+          @if (!isLoading) {
+            <i class="bx bx-camera camera-icon"></i>
+            <p>Camera View</p>
+            <small>Connecting to camera...</small>
+          } @else {
+            <i class="bx bx-loader-alt bx-spin camera-icon"></i>
+            <p>Initializing Camera...</p>
+            <small>Please allow camera access</small>
+          }
+        </div>
+      </div>
+    }
+  </div>
+
+  <!-- Camera Controls (Bottom) -->
+  <div class="camera-controls">
+    <!-- Last Image Thumbnail -->
+    <div class="last-image-container" (click)="onLastImageClick()">
+      <div class="image-thumbnail">
+        @if (lastCapturedImage) {
+          <img [src]="lastCapturedImage" alt="Last captured">
+        } @else {
+          <div class="placeholder-thumbnail">
+            <i class="bx bx-image"></i>
+          </div>
+        }
+      </div>
+    </div>
+
+    <!-- Capture Button -->
+    <div class="capture-container">
+      <button class="capture-btn" 
+              (click)="captureAndAnalyze()" 
+              [disabled]="isLoading"
+              type="button">
+        <div class="capture-inner">
+          @if (!isLoading) {
+            <i class="bx bx-camera"></i>
+          } @else {
+            <i class="bx bx-loader-alt bx-spin"></i>
+          }
+        </div>
+      </button>
+    </div>
+
+    <!-- Camera Flip Button -->
+    <div class="flip-container">
+      <button class="flip-btn" (click)="onFlipCamera()" type="button">
+        <i class="bx bx-refresh"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Sidebar Overlay (Mobile) -->
+  <div class="sidebar-overlay" 
+       [class.show]="showSidebar" 
+       (click)="closeSidebar()">
+  </div>
+
+  <!-- Mini Sidebar (Camera Mode) -->
+  <div class="camera-sidebar" [class.show]="showSidebar">
+    <div class="sidebar-header">
+      <img src="assets/pastport_visuals/icononly_transparent_nobuffer.png" 
+           alt="PastPort" 
+           height="32">
+      <button class="close-sidebar-btn" (click)="closeSidebar()">
+        <i class="bx bx-x"></i>
+      </button>
+    </div>
+    
+    <div class="sidebar-menu">
+      <a class="menu-item" (click)="goBack(); closeSidebar()">
+        <i class="bx bx-home"></i>
+        <span>Dashboard</span>
+      </a>
+      <a class="menu-item" (click)="onLastImageClick(); closeSidebar()">
+        <i class="bx bx-photo-album"></i>
+        <span>Photo Album</span>
+      </a>
+    </div>
+  </div>
+</div>
