@@ -47,10 +47,16 @@
                                             formControlName="email" 
                                             [ngClass]="{ 'is-invalid': submitted && f['email'].errors }" 
                                             placeholder="Enter your email">
-                                        <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
-                                            <div *ngIf="f['email'].errors['required']">Email is required</div>
-                                            <div *ngIf="f['email'].errors['email']">Email must be a valid email address</div>
-                                        </div>
+                                        @if (submitted && f['email'].errors) {
+                                            <div class="invalid-feedback">
+                                                @if (f['email'].errors['required']) {
+                                                    <div>Email is required</div>
+                                                }
+                                                @if (f['email'].errors['email']) {
+                                                    <div>Email must be a valid email address</div>
+                                                }
+                                            </div>
+                                        }
                                     </div>
 
                                     <div class="mb-3">
@@ -71,12 +77,20 @@
                                                 type="button" 
                                                 id="password-addon"
                                                 (click)="toggleFieldTextType()">
-                                                <i class="ri-eye-line" *ngIf="!fieldTextType"></i>
-                                                <i class="ri-eye-off-line" *ngIf="fieldTextType"></i>
+                                                @if (!fieldTextType) {
+                                                    <i class="ri-eye-line"></i>
+                                                }
+                                                @if (fieldTextType) {
+                                                    <i class="ri-eye-off-line"></i>
+                                                }
                                             </button>
-                                            <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
-                                                <span *ngIf="f['password'].errors['required']">Password is required</span>
-                                            </div>
+                                            @if (submitted && f['password'].errors) {
+                                                <div class="invalid-feedback">
+                                                    @if (f['password'].errors['required']) {
+                                                        <span>Password is required</span>
+                                                    }
+                                                </div>
+                                            }
                                         </div>
                                     </div>
 

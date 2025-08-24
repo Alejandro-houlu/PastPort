@@ -108,11 +108,21 @@ export class SidebarComponent implements OnInit {
   }
 
   /**
+   * Navigate to camera
+   */
+  openCamera(): void {
+    this.router.navigate(['/camera']);
+    this.hideSidebarOnMobile();
+  }
+
+  /**
    * Hide sidebar on mobile after navigation
    */
   hideSidebarOnMobile(): void {
     if (window.innerWidth <= 768) {
       document.body.classList.remove('vertical-sidebar-enable');
+      // Also remove hamburger animation
+      document.querySelector('.hamburger-icon')?.classList.remove('open');
     }
   }
 }

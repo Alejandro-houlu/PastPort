@@ -61,6 +61,15 @@ export class LayoutComponent implements OnInit {
   }
 
   /**
+   * Close mobile sidebar (following TravelDx pattern)
+   */
+  closeMobileSidebar(): void {
+    document.body.classList.remove('vertical-sidebar-enable');
+    document.querySelector('.hamburger-icon')?.classList.remove('open');
+    this.isMobileMenuOpen = false;
+  }
+
+  /**
    * Handle window resize
    */
   onResize(event: any): void {
