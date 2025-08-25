@@ -1,0 +1,299 @@
+<!-- Loading State -->
+@if (isLoading) {
+  <div class="d-flex align-items-center justify-content-center min-vh-100">
+    <div class="text-center">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <p class="mt-3 text-muted">Loading artifact details...</p>
+    </div>
+  </div>
+}
+
+<!-- Error State -->
+@if (error && !isLoading) {
+  <div class="d-flex align-items-center justify-content-center min-vh-100">
+    <div class="text-center">
+      <i class="ri-error-warning-line text-danger" style="font-size: 4rem;"></i>
+      <h4 class="mt-3">Unable to Load Artifact</h4>
+      <p class="text-muted">{{ error }}</p>
+      <button class="btn btn-primary" (click)="goBackToCamera()">
+        <i class="ri-arrow-left-line"></i> Back to Camera
+      </button>
+    </div>
+  </div>
+}
+
+<!-- Artifact Display -->
+@if (enhancedArtifact && !isLoading && !error) {
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-body">
+          <!-- Back Button Header -->
+          <div class="d-flex align-items-center mb-4">
+            <button class="btn btn-soft-primary btn-sm me-3" (click)="goBackToCamera()" type="button">
+              <i class="ri-arrow-left-line"></i> Back to Camera
+            </button>
+            <div class="flex-grow-1">
+              <div class="d-none d-md-flex justify-content-end gap-2">
+                <button class="btn btn-soft-primary btn-sm" (click)="addToTour()" type="button">
+                  <i class="ri-add-circle-line"></i> Add to Tour
+                </button>
+                <button class="btn btn-soft-secondary btn-sm" (click)="shareArtifact()" type="button">
+                  <i class="ri-share-line"></i> Share
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row gx-lg-5">
+            <!-- Left Column: Image Gallery -->
+            <div class="col-xl-4 col-md-8 mx-auto">
+              <div class="product-img-slider sticky-side-div">
+                <!-- Main Image -->
+                @if (enhancedArtifact.images && enhancedArtifact.images.length > 0) {
+                  <div class="swiper-slide">
+                    <img 
+                      [src]="enhancedArtifact.images[selectedImageIndex]" 
+                      [alt]="enhancedArtifact.display_name"
+                      class="img-fluid d-block"
+                      (error)="$any($event.target).src='assets/images/rafflesia.jpg'"
+                    />
+                  </div>
+                } @else {
+                  <div class="swiper-slide">
+                    <div class="d-flex align-items-center justify-content-center bg-secondary-subtle rounded" style="height: 400px;">
+                      <div class="text-center text-muted">
+                        <i class="ri-image-line" style="font-size: 4rem;"></i>
+                        <p class="mt-2 mb-0">No image available</p>
+                      </div>
+                    </div>
+                  </div>
+                }
+
+                <!-- Image Thumbnails -->
+                @if (enhancedArtifact.images && enhancedArtifact.images.length > 1) {
+                  <div class="d-flex gap-2 mt-2">
+                    @for (image of enhancedArtifact.images; track $index) {
+                      <div 
+                        class="nav-slide-item"
+                        [class.border-primary]="selectedImageIndex === $index"
+                        (click)="selectImage($index)"
+                        style="cursor: pointer;"
+                      >
+                        <img 
+                          [src]="image" 
+                          [alt]="enhancedArtifact.display_name + ' view ' + ($index + 1)"
+                          class="img-fluid d-block"
+                          style="width: 60px; height: 60px; object-fit: cover;"
+                          (error)="$any($event.target).src='assets/images/rafflesia.jpg'"
+                        />
+                      </div>
+                    }
+                  </div>
+                }
+              </div>
+            </div>
+            <!-- end col -->
+
+            <!-- Right Column: Artifact Information -->
+            <div class="col-xl-8">
+              <div class="mt-xl-0 mt-5">
+                <div class="d-flex">
+                  <div class="flex-grow-1">
+                    <h4>{{ enhancedArtifact.display_name }}</h4>
+                    <div class="hstack gap-3 flex-wrap">
+                      <div><a href="javascript:void(0);" class="text-primary d-block">{{ enhancedArtifact.category }}</a></div>
+                      <div class="vr"></div>
+                      <div class="text-muted">Museum : <span class="text-body fw-medium">{{ enhancedArtifact.museum_location }}</span></div>
+                      @if (enhancedArtifact.artifact_location) {
+                        <div class="vr"></div>
+                        <div class="text-muted">Location : <span class="text-body fw-medium">{{ enhancedArtifact.artifact_location }}</span></div>
+                      }
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Info Cards Grid -->
+                <div class="row mt-4">
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="p-2 border border-dashed rounded">
+                      <div class="d-flex align-items-center">
+                        <div class="avatar-sm me-2">
+                          <div class="avatar-title rounded bg-transparent text-primary fs-24">
+                            <i class="ri-price-tag-3-line"></i>
+                          </div>
+                        </div>
+                        <div class="flex-grow-1">
+                          <p class="text-muted mb-1">Category :</p>
+                          <h5 class="mb-0 fs-14">{{ enhancedArtifact.category }}</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="p-2 border border-dashed rounded">
+                      <div class="d-flex align-items-center">
+                        <div class="avatar-sm me-2">
+                          <div class="avatar-title rounded bg-transparent text-primary fs-24">
+                            <i class="ri-building-line"></i>
+                          </div>
+                        </div>
+                        <div class="flex-grow-1">
+                          <p class="text-muted mb-1">Museum :</p>
+                          <h5 class="mb-0 fs-14">{{ enhancedArtifact.museum_location }}</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end col -->
+                  @if (enhancedArtifact.isDisplay) {
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="p-2 border border-dashed rounded">
+                        <div class="d-flex align-items-center">
+                          <div class="avatar-sm me-2">
+                            <div class="avatar-title rounded bg-transparent text-primary fs-24">
+                              <i class="ri-eye-line"></i>
+                            </div>
+                          </div>
+                          <div class="flex-grow-1">
+                            <p class="text-muted mb-1">Status :</p>
+                            <h5 class="mb-0 fs-14">On Display</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end col -->
+                  }
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="p-2 border border-dashed rounded">
+                      <div class="d-flex align-items-center">
+                        <div class="avatar-sm me-2">
+                          <div class="avatar-title rounded bg-transparent text-primary fs-24">
+                            <i class="ri-time-line"></i>
+                          </div>
+                        </div>
+                        <div class="flex-grow-1">
+                          <p class="text-muted mb-1">Updated :</p>
+                          <h5 class="mb-0 fs-14">{{ enhancedArtifact.updated_at | date:'MMM d, y' }}</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end col -->
+                </div>
+
+                <!-- Description -->
+                <div class="mt-4 text-muted">
+                  <h5 class="fs-14">Description :</h5>
+                  <p>{{ enhancedArtifact.description }}</p>
+                </div>
+
+                <!-- Tabbed Content -->
+                <div class="product-content mt-5">
+                  <h5 class="fs-14 mb-3">Artifact Details :</h5>
+                  <ul ngbNav #artifactNav="ngbNav" [activeId]="1" class="nav nav-tabs nav-tabs-custom nav-primary" role="tablist">
+                    <li [ngbNavItem]="1" class="nav-item">
+                      <a ngbNavLink class="nav-link" data-bs-toggle="tab" role="tab">
+                        Specifications
+                      </a>
+                      <ng-template ngbNavContent>
+                        <div class="tab-pane fade show active" role="tabpanel">
+                          <div class="table-responsive">
+                            <table class="table mb-0">
+                              <tbody>
+                                @for (spec of enhancedArtifact.specifications | keyvalue; track spec.key) {
+                                  <tr>
+                                    <th scope="row" style="width: 200px;">{{ spec.key }}</th>
+                                    <td>{{ spec.value }}</td>
+                                  </tr>
+                                }
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </ng-template>
+                    </li>
+                    <li [ngbNavItem]="2" class="nav-item">
+                      <a ngbNavLink class="nav-link" data-bs-toggle="tab" role="tab">
+                        Historical Context
+                      </a>
+                      <ng-template ngbNavContent>
+                        <div>
+                          <h5 class="font-size-16 mb-3">Historical Background</h5>
+                          <p>{{ enhancedArtifact.historical_context }}</p>
+                        </div>
+                      </ng-template>
+                    </li>
+                    <li [ngbNavItem]="3" class="nav-item">
+                      <a ngbNavLink class="nav-link" data-bs-toggle="tab" role="tab">
+                        Conservation
+                      </a>
+                      <ng-template ngbNavContent>
+                        <div>
+                          <h5 class="font-size-16 mb-3">Conservation Notes</h5>
+                          <p>{{ enhancedArtifact.conservation_notes }}</p>
+                        </div>
+                      </ng-template>
+                    </li>
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content border border-top-0 p-4">
+                    <div [ngbNavOutlet]="artifactNav"></div>
+                  </div>
+                </div>
+                <!-- product-content -->
+
+                <!-- Related Artifacts -->
+                @if (enhancedArtifact.related_artifacts && enhancedArtifact.related_artifacts.length > 0) {
+                  <div class="mt-5">
+                    <h5 class="fs-14 mb-3">Related Artifacts :</h5>
+                    <div class="row">
+                      @for (related of enhancedArtifact.related_artifacts; track related.id) {
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="border border-dashed rounded p-3 h-100" style="cursor: pointer;" (click)="viewRelatedArtifact(related.id)">
+                            <div class="d-flex align-items-center">
+                              <div class="avatar-sm me-2">
+                                <img [src]="related.image" [alt]="related.name" class="avatar-sm rounded object-fit-cover" 
+                                     (error)="$any($event.target).src='assets/images/rafflesia.jpg'">
+                              </div>
+                              <div class="flex-grow-1">
+                                <h6 class="fs-14 mb-0">{{ related.name }}</h6>
+                                <p class="text-muted mb-0 fs-13">View Details</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      }
+                    </div>
+                  </div>
+                }
+
+                <!-- Action Buttons -->
+                <div class="mt-4 d-flex gap-2 flex-wrap justify-content-center">
+                  <button class="btn btn-primary" (click)="addToTour()">
+                    <i class="ri-add-circle-line me-1"></i>
+                    Add to Tour
+                  </button>
+                  <button class="btn btn-soft-primary" (click)="shareArtifact()">
+                    <i class="ri-share-line me-1"></i>
+                    Share
+                  </button>
+                </div>
+
+              </div>
+            </div>
+            <!-- end col -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end card body -->
+      </div>
+      <!-- end card -->
+    </div>
+    <!-- end col -->
+  </div>
+  <!-- end row -->
+}

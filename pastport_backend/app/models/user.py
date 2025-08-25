@@ -34,7 +34,7 @@ class User(Base):
     updated_at = Column(DateTime, default=lambda: datetime.now(ZoneInfo("Asia/Singapore")), onupdate=lambda: datetime.now(ZoneInfo("Asia/Singapore")))
     
     # Authentication method tracking
-    auth_method = Column(String(20), default="face")  # 'email', 'face', or 'both'
+    auth_method = Column(String(20))  # 'email', 'face', or 'both'
     
     def verify_password(self, password: str) -> bool:
         """Verify a password against the hashed password"""

@@ -1,0 +1,93 @@
+// Artifact Display Component - Dark theme compatible styles
+// Following PastPort's dashboard dark theme approach
+
+// Dark theme card styling - matching dashboard approach
+.card {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem; // Add bottom margin to prevent footer overlap
+}
+
+// Sticky positioning for gallery - Following Galaxy's sticky pattern
+.sticky-side-div {
+  @media (min-width: 992px) {
+    position: sticky;
+    top: calc(var(--bs-header-height, 70px) + 2rem);
+  }
+}
+
+// Custom thumbnail navigation styling
+.nav-slide-item {
+  border: 2px solid transparent;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  
+  &:hover {
+    border-color: rgba(173, 100, 241, 0.5);
+    background: rgba(255, 255, 255, 0.08);
+  }
+  
+  &.border-primary {
+    border-color: #ad64f1 !important;
+    background: rgba(173, 100, 241, 0.1);
+  }
+}
+
+// Info cards dark theme styling
+.border.border-dashed.rounded {
+  background: rgba(255, 255, 255, 0.03) !important;
+  backdrop-filter: blur(10px);
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-color: rgba(173, 100, 241, 0.3) !important;
+    transform: translateY(-2px);
+  }
+}
+
+// Tab content dark theme
+.tab-content {
+  background: rgba(255, 255, 255, 0.03) !important;
+  backdrop-filter: blur(10px);
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+// Ensure proper image sizing in gallery
+.product-img-slider {
+  .swiper-slide img {
+    border-radius: 0.5rem;
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+// Mobile responsiveness adjustments
+@media (max-width: 768px) {
+  .sticky-side-div {
+    position: static;
+  }
+  
+  .product-img-slider {
+    .swiper-slide img {
+      max-height: 300px;
+    }
+  }
+  
+  .nav-slide-item img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  
+  // Additional bottom padding on mobile to prevent footer overlap
+  .card {
+    margin-bottom: 4rem !important;
+  }
+}

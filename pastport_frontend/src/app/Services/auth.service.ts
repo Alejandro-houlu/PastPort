@@ -6,6 +6,11 @@ import {
   FaceLoginRequest, 
   RegistrationRequest 
 } from '../Models/face-recognition.models';
+import { 
+  BackendUserResponse, 
+  UserVerificationResult, 
+  UserComparisonResult 
+} from '../Models/user.models';
 import { environment } from '../../environments/environment';
 
 export interface EmailLoginRequest {
@@ -379,6 +384,130 @@ export class AuthService {
     const fiveMinutes = 5 * 60; // 5 minutes in seconds
     
     return (payload.exp - currentTime) < fiveMinutes;
+  }
+
+  /**
+   * Verify current user with backend API
+   */
+  async verifyCurrentUser(): Promise<UserVerificationResult> {
+    const token = this.getToken();
+    const localUser = this.getCurrentUser();
+
+    if (!token || !localUser) {
+      return {
+        isValid: false,
+        userData: null,
+        discrepancies: ['No token or user data found in localStorage'],
+        error: 'User not authenticated'
+      };
+    }
+
+    try {
+      const response = await firstValueFrom(
+        this.http.get<BackendUserResponse>(`${this.API_BASE_URL}/auth/me`, {
+          headers: this.getAuthHeaders()
+        })
+      );
+
+      // Compare user ID only (as requested)
+      const userIdMatches = localUser.id === response.user_id;
+      
+      if (userIdMatches) {
+        // Update localStorage with latest backend data
+        this.updateUserDataFromBackend(response);
+        
+        return {
+          isValid: true,
+          userData: response,
+          discrepancies: []
+        };
+      } else {
+        // User ID mismatch - this is a serious issue, logout user
+        this.logout();
+        return {
+          isValid: false,
+          userData: null,
+          discrepancies: [`User ID mismatch: localStorage(${localUser.id}) != backend(${response.user_id})`],
+          error: 'User ID verification failed'
+        };
+      }
+    } catch (error: any) {
+      console.error('Error verifying user with backend:', error);
+      
+      // Handle specific error cases
+      if (error.status === 401) {
+        // Token is invalid, logout user
+        this.logout();
+        return {
+          isValid: false,
+          userData: null,
+          discrepancies: ['Invalid or expired token'],
+          error: 'Authentication failed'
+        };
+      } else if (error.status === 404) {
+        // User not found in backend
+        this.logout();
+        return {
+          isValid: false,
+          userData: null,
+          discrepancies: ['User not found in backend'],
+          error: 'User not found'
+        };
+      } else {
+        // Network or other errors - return cached data but flag the error
+        return {
+          isValid: false,
+          userData: null,
+          discrepancies: ['Network error or server unavailable'],
+          error: error.message || 'Failed to verify user with backend'
+        };
+      }
+    }
+  }
+
+  /**
+   * Update localStorage user data with backend data
+   */
+  private updateUserDataFromBackend(backendUser: BackendUserResponse): void {
+    const updatedUser: User = {
+      id: backendUser.user_id,
+      name: backendUser.username,
+      age_group: (backendUser.age_group as 'child' | 'teen' | 'adult' | 'senior') || 'adult',
+      email: backendUser.email
+    };
+
+    // Update localStorage
+    localStorage.setItem(this.USER_KEY, JSON.stringify(updatedUser));
+    
+    // Update BehaviorSubject
+    this.currentUserSubject.next(updatedUser);
+    
+    console.log('Updated localStorage user data with backend data:', updatedUser);
+  }
+
+  /**
+   * Get current user with optional backend verification
+   */
+  async getCurrentUserVerified(verifyWithBackend: boolean = false): Promise<User | null> {
+    if (!verifyWithBackend) {
+      return this.getCurrentUser();
+    }
+
+    try {
+      const verificationResult = await this.verifyCurrentUser();
+      
+      if (verificationResult.isValid && verificationResult.userData) {
+        // Return the current user (which may have been updated during verification)
+        return this.getCurrentUser();
+      } else {
+        // Verification failed, return null
+        return null;
+      }
+    } catch (error) {
+      console.error('Error during user verification:', error);
+      // Return cached user data as fallback
+      return this.getCurrentUser();
+    }
   }
 
   /**

@@ -32,7 +32,7 @@ export class Login implements OnInit {
 
   // Convenience getter for easy access to form fields
   get f() { 
-    return this.loginForm.controls; 
+    return this.loginForm.controls
   }
 
   /**
@@ -52,8 +52,8 @@ export class Login implements OnInit {
       password: this.f['password'].value
     });
 
-    // For now, just log the attempt (will connect to Django backend later)
-    alert('Login functionality will be connected to Django backend');
+    // For now, just log the attempt (will connect to fastApi backend later)
+    alert('Login functionality will be connected to fastApi backend');
   }
 
   /**

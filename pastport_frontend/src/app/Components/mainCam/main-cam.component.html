@@ -23,7 +23,9 @@
     
     <!-- Recognition Overlay Canvas -->
     <canvas #overlayCanvas 
-            class="recognition-overlay">
+            class="recognition-overlay"
+            (click)="onCanvasClick($event)"
+            style="pointer-events: auto; cursor: pointer;">
     </canvas>
     
     <!-- Camera Placeholder Overlay (shown when camera is not active) -->

@@ -26,9 +26,9 @@ export class MainCamVisualizationService {
       return;
     }
 
-    console.log(`🎨 Drawing recognition results on ${canvas.width}x${canvas.height} canvas`);
-    console.log(`📊 Image shape: ${results.image_shape.width}x${results.image_shape.height}`);
-    console.log(`🎯 Found ${results.detections.length} detections, ${results.masks.length} masks`);
+    // console.log(`🎨 Drawing recognition results on ${canvas.width}x${canvas.height} canvas`);
+    // console.log(`📊 Image shape: ${results.image_shape.width}x${results.image_shape.height}`);
+    // console.log(`🎯 Found ${results.detections.length} detections, ${results.masks.length} masks`);
 
     // Clear previous drawings
     ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -46,6 +46,7 @@ export class MainCamVisualizationService {
       fontSize: 14,
       fontFamily: 'Arial, sans-serif',
       minConfidence: 0.3,
+      onMaskClick: () => {}, // Default empty callback
       ...options
     };
 
@@ -115,8 +116,8 @@ export class MainCamVisualizationService {
     const width = x2_transformed - x1_transformed;
     const height = y2_transformed - y1_transformed;
 
-    console.log(`🎨 Drawing detection: ${detection.class_name} at (${x.toFixed(1)}, ${y.toFixed(1)}) size ${width.toFixed(1)}x${height.toFixed(1)}`);
-    console.log(`🔧 Transform: bbox(${bbox.x1}, ${bbox.y1}, ${bbox.x2}, ${bbox.y2}) -> canvas(${x.toFixed(1)}, ${y.toFixed(1)}, ${width.toFixed(1)}, ${height.toFixed(1)})`);
+    // console.log(`🎨 Drawing detection: ${detection.class_name} at (${x.toFixed(1)}, ${y.toFixed(1)}) size ${width.toFixed(1)}x${height.toFixed(1)}`);
+    // console.log(`🔧 Transform: bbox(${bbox.x1}, ${bbox.y1}, ${bbox.x2}, ${bbox.y2}) -> canvas(${x.toFixed(1)}, ${y.toFixed(1)}, ${width.toFixed(1)}, ${height.toFixed(1)})`);
 
     // Skip any box entirely off-screen
     if (x + width < 0 || y + height < 0 || x > canvas.width || y > canvas.height) {
@@ -371,7 +372,15 @@ export class MainCamVisualizationService {
     results: RecognitionResult,
     canvas: HTMLCanvasElement
   ): Detection | null {
-    if (!results.detections) return null;
+    console.log('🔍 DETECTION DEBUG: getDetectionAtPoint called');
+    console.log('🔍 DETECTION DEBUG: Click point:', x, y);
+    console.log('🔍 DETECTION DEBUG: Canvas size:', canvas.width, canvas.height);
+    console.log('🔍 DETECTION DEBUG: Image shape:', results.image_shape);
+    
+    if (!results.detections) {
+      console.log('🔍 DETECTION DEBUG: No detections available');
+      return null;
+    }
 
     // Use the same CSS 'object-fit: cover' scaling logic as drawing
     const cw = canvas.width;
@@ -385,11 +394,17 @@ export class MainCamVisualizationService {
     const sx = (vw - sw)/2;
     const sy = (vh - sh)/2;
 
+    console.log('🔍 DETECTION DEBUG: Scaling info:');
+    console.log('  - scale:', scale);
+    console.log('  - visible area:', sw, 'x', sh);
+    console.log('  - offset:', sx, sy);
+
     // Find detection at point using transformed coordinates
     let bestDetection: Detection | null = null;
     let bestConfidence = 0;
 
-    for (const detection of results.detections) {
+    for (let i = 0; i < results.detections.length; i++) {
+      const detection = results.detections[i];
       const bbox = detection.bbox;
       
       // Transform bounding box coordinates to canvas space
@@ -398,16 +413,34 @@ export class MainCamVisualizationService {
       const x2_transformed = (bbox.x2 - sx) * scale;
       const y2_transformed = (bbox.y2 - sy) * scale;
       
+      console.log(`🔍 DETECTION DEBUG: Detection ${i} (${detection.class_name}):`);
+      console.log('  - Original bbox:', bbox);
+      console.log('  - Transformed bbox:', {
+        x1: x1_transformed.toFixed(1),
+        y1: y1_transformed.toFixed(1),
+        x2: x2_transformed.toFixed(1),
+        y2: y2_transformed.toFixed(1)
+      });
+      
       // Check if click point is within transformed bounding box
-      if (x >= x1_transformed && x <= x2_transformed && 
-          y >= y1_transformed && y <= y2_transformed) {
+      const isInside = x >= x1_transformed && x <= x2_transformed && 
+                      y >= y1_transformed && y <= y2_transformed;
+      
+      console.log('  - Click inside?', isInside);
+      console.log('  - X check:', x, '>=', x1_transformed.toFixed(1), '&&', x, '<=', x2_transformed.toFixed(1), '=', (x >= x1_transformed && x <= x2_transformed));
+      console.log('  - Y check:', y, '>=', y1_transformed.toFixed(1), '&&', y, '<=', y2_transformed.toFixed(1), '=', (y >= y1_transformed && y <= y2_transformed));
+      
+      if (isInside) {
+        console.log('  - ✅ Click is inside this detection!');
         if (detection.confidence > bestConfidence) {
           bestDetection = detection;
           bestConfidence = detection.confidence;
+          console.log('  - 🏆 New best detection:', detection.class_name, 'confidence:', detection.confidence);
         }
       }
     }
 
+    console.log('🔍 DETECTION DEBUG: Final result:', bestDetection ? bestDetection.class_name : 'null');
     return bestDetection;
   }
 }
@@ -424,4 +457,5 @@ export interface VisualizationOptions {
   fontSize?: number;
   fontFamily?: string;
   minConfidence?: number;
+  onMaskClick?: (detection: Detection) => void;
 }

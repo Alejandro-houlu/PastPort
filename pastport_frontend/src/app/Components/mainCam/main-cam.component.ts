@@ -346,7 +346,7 @@ export class MainCamComponent implements OnInit, OnDestroy, AfterViewInit {
     // Update canvas size to match video
     this.visualizationService.updateCanvasSize(canvas, video);
 
-    // Draw recognition results
+    // Draw recognition results with click callback
     this.visualizationService.drawRecognitionResults(canvas, result, {
       showBoxes: false, // Remove bounding boxes - only show masks and labels
       showLabels: true,
@@ -354,8 +354,69 @@ export class MainCamComponent implements OnInit, OnDestroy, AfterViewInit {
       showMasks: true,
       boxColor: '#ad64f1',
       labelBackgroundColor: '#ad64f1',
-      minConfidence: 0.3
+      minConfidence: 0.3,
+      onMaskClick: (detection) => this.onArtifactClick(detection) // Add click callback
     });
+  }
+
+  /**
+   * Handle artifact mask click
+   */
+  private onArtifactClick(detection: any): void {
+    console.log(`🎯 Artifact clicked: ${detection.class_name} (confidence: ${(detection.confidence * 100).toFixed(1)}%)`);
+    
+    // Navigate to artifact display page
+    this.router.navigate(['/artifact', detection.class_name]);
+  }
+
+  /**
+   * Handle canvas click for artifact detection
+   */
+  onCanvasClick(event: MouseEvent): void {
+    console.log('🖱️ CLICK DEBUG: Canvas click event triggered!', event);
+    
+    if (!this.lastRecognitionResult) {
+      console.log('🖱️ CLICK DEBUG: No recognition result available');
+      return;
+    }
+    
+    if (!this.overlayCanvas?.nativeElement) {
+      console.log('🖱️ CLICK DEBUG: No overlay canvas available');
+      return;
+    }
+
+    const canvas = this.overlayCanvas.nativeElement;
+    const rect = canvas.getBoundingClientRect();
+    
+    // Calculate click coordinates relative to canvas
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+
+    console.log('🖱️ CLICK DEBUG: Canvas dimensions:', canvas.width, 'x', canvas.height);
+    console.log('🖱️ CLICK DEBUG: Canvas rect:', rect);
+    console.log('🖱️ CLICK DEBUG: Raw click coordinates:', event.clientX, event.clientY);
+    console.log('🖱️ CLICK DEBUG: Relative click coordinates:', x.toFixed(1), y.toFixed(1));
+    console.log('🖱️ CLICK DEBUG: Available detections:', this.lastRecognitionResult.detections.length);
+    
+    // Log detection details
+    this.lastRecognitionResult.detections.forEach((det, index) => {
+      console.log(`🖱️ CLICK DEBUG: Detection ${index}:`, det.class_name, 'bbox:', det.bbox, 'confidence:', det.confidence);
+    });
+
+    // Use visualization service to detect which artifact was clicked
+    const detection = this.visualizationService.getDetectionAtPoint(
+      x, 
+      y, 
+      this.lastRecognitionResult, 
+      canvas
+    );
+
+    if (detection) {
+      console.log('🎯 CLICK DEBUG: Artifact detected!', detection.class_name);
+      this.onArtifactClick(detection);
+    } else {
+      console.log('🔍 CLICK DEBUG: No artifact detected at click position');
+    }
   }
 
   /**
