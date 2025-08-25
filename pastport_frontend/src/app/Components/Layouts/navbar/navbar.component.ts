@@ -1,8 +1,10 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
-import { AuthService } from '../../../Services/auth.service';
+import { Subscription } from 'rxjs';
+import { AuthService, User } from '../../../Services/auth.service';
+import { UserDataService, UserDataLoadingState } from '../../../Services/user-data.service';
 
 @Component({
   selector: 'app-navbar',
@@ -11,38 +13,51 @@ import { AuthService } from '../../../Services/auth.service';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent implements OnInit, OnDestroy {
 
   @Output() mobileMenuButtonClicked = new EventEmitter();
 
-  userData: any = {
-        username: 'User',
-        email: 'user@pastport.com'
-      };
+  userData: User | null = null;
+  isLoadingUserData = false;
+  
+  private userDataSubscription?: Subscription;
 
   constructor(
     private router: Router,
-    private authService: AuthService
+    private authService: AuthService,
+    private userDataService: UserDataService
   ) {}
 
   ngOnInit(): void {
-    // Get user data from auth service or local storage
     this.loadUserData();
   }
 
+  ngOnDestroy(): void {
+    if (this.userDataSubscription) {
+      this.userDataSubscription.unsubscribe();
+    }
+  }
+
   /**
-   * Load user data
+   * Load user data using UserDataService (cached only, no backend verification)
    */
-  private loadUserData(): void {
-    // Try to get user data from auth service or localStorage
-    const token = localStorage.getItem('pastport_jwt_token');
-    if (token) {
-      // For now, we'll use a simple approach
-      // In a real app, you'd decode the JWT or call an API
-      this.userData = {
-        username: 'User', // This would come from JWT or API
-        email: 'user@pastport.com'
-      };
+  private async loadUserData(): Promise<void> {
+    try {
+      const result = await this.userDataService.loadUserDataCached();
+      
+      this.isLoadingUserData = result.isLoading;
+      this.userData = result.userData;
+      
+      // Subscribe to loading state changes
+      this.userDataSubscription = this.userDataService.loadingState$.subscribe(state => {
+        this.isLoadingUserData = state.isLoading;
+        this.userData = state.userData;
+      });
+      
+    } catch (error) {
+      console.error('Error loading user data in navbar:', error);
+      this.userData = null;
+      this.isLoadingUserData = false;
     }
   }
 

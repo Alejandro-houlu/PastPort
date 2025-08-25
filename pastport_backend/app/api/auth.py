@@ -64,7 +64,7 @@ async def login(
             detail="Invalid email or password"
         )
     
-    # Update last login (if you want to track this)
+        # Update last login
     user.updated_at = datetime.now(ZoneInfo("Asia/Singapore"))
     await db.commit()
     

@@ -3,24 +3,45 @@
   <div class="row">
     <div class="col-12">
       <div class="welcome-card">
-        <div class="welcome-content">
+        <!-- Loading Overlay for User Data -->
+        @if (isLoadingUserData) {
+          <div class="loading-overlay">
+            <div class="loading-spinner">
+              <div class="spinner-circle"></div>
+            </div>
+            <div class="loading-text">Loading your data...</div>
+          </div>
+        }
+        
+        <div class="welcome-content" [class.loading]="isLoadingUserData">
           <div class="welcome-text">
-            <h1 class="welcome-title">{{ getGreeting() }}!</h1>
-            @if (userData) {
-              <p class="welcome-subtitle">
-                Welcome back, <span class="username">{{ userData.username }}</span>
-              </p>
+            @if (isLoadingUserData) {
+              <!-- Skeleton Loading for Dynamic Content -->
+              <div class="skeleton-title"></div>
+              <div class="skeleton-subtitle"></div>
+            } @else {
+              <!-- Actual Dynamic Content -->
+              <h1 class="welcome-title">{{ getGreeting() }}!</h1>
+              @if (userData) {
+                <p class="welcome-subtitle">
+                  Welcome back, <span class="username">{{ userData.name }}</span>
+                </p>
+              }
+              @if (!userData) {
+                <p class="welcome-subtitle">
+                  Welcome to PastPort
+                </p>
+              }
             }
-            @if (!userData) {
-              <p class="welcome-subtitle">
-                Welcome to PastPort
-              </p>
-            }
+            
+            <!-- Date/Time is always shown (not user-dependent) -->
             <div class="date-time-info">
               <div class="date">{{ getFormattedDate() }}</div>
               <div class="time">{{ getFormattedTime() }}</div>
             </div>
           </div>
+          
+          <!-- Logo is always shown (static) -->
           <div class="welcome-logo">
             <img src="assets/pastport_visuals/icononly_transparent_nobuffer.png" alt="PastPort" class="logo-icon">
           </div>

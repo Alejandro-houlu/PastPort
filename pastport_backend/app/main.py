@@ -5,6 +5,7 @@ from app.config import settings
 from app.api.health import router as health_router
 from app.api.auth import router as auth_router
 from app.api.mainCam_recognition import router as mainCam_router
+from app.api.artifacts_api import router as artifacts_router
 from app.websocket.mainCam_handler import handle_mainCam_websocket_connection
 
 # Create FastAPI app
@@ -28,6 +29,7 @@ app.add_middleware(
 app.include_router(health_router, prefix="/api/v1", tags=["health"])
 app.include_router(auth_router, tags=["authentication"])
 app.include_router(mainCam_router, prefix="/api/v1/mainCam", tags=["mainCam recognition"])
+app.include_router(artifacts_router, prefix="/api/v1", tags=["artifacts"])
 
 
 @app.websocket("/ws/mainCam")

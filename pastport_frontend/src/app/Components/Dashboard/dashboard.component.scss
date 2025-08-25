@@ -10,6 +10,7 @@
 
 // Welcome Card
 .welcome-card {
+  position: relative;
   background: linear-gradient(135deg, rgba(173, 100, 241, 0.1), rgba(71, 136, 255, 0.05));
   border: 1px solid rgba(173, 100, 241, 0.2);
   border-radius: 16px;
@@ -273,6 +274,88 @@
   margin-bottom: 0;
 }
 
+// Loading States
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  
+  .loading-spinner {
+    margin-bottom: 1rem;
+    
+    .spinner-circle {
+      width: 40px;
+      height: 40px;
+      border: 3px solid rgba(173, 100, 241, 0.2);
+      border-top: 3px solid #ad64f1;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+  }
+  
+  .loading-text {
+    color: var(--bs-body-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.welcome-content.loading {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+// Skeleton Loading
+.skeleton-title {
+  height: 2.5rem;
+  background: linear-gradient(90deg, rgba(173, 100, 241, 0.1) 25%, rgba(173, 100, 241, 0.2) 50%, rgba(173, 100, 241, 0.1) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  width: 60%;
+  
+  @media (max-width: 767.98px) {
+    height: 2rem;
+  }
+}
+
+.skeleton-subtitle {
+  height: 1.125rem;
+  background: linear-gradient(90deg, rgba(173, 100, 241, 0.1) 25%, rgba(173, 100, 241, 0.2) 50%, rgba(173, 100, 241, 0.1) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  width: 80%;
+  animation-delay: 0.2s;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
 // Responsive adjustments
 @media (max-width: 575.98px) {
   .dashboard-container {
@@ -291,5 +374,19 @@
   
   .feature-card {
     border-radius: 12px;
+  }
+  
+  .loading-overlay {
+    border-radius: 12px;
+    
+    .spinner-circle {
+      width: 32px;
+      height: 32px;
+      border-width: 2px;
+    }
+    
+    .loading-text {
+      font-size: 0.8rem;
+    }
   }
 }

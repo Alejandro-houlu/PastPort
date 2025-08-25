@@ -1,6 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
+import { Subscription } from 'rxjs';
+import { AuthService, User } from '../../Services/auth.service';
+import { UserDataService, UserDataLoadingState } from '../../Services/user-data.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -9,12 +12,20 @@ import { Router } from '@angular/router';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss']
 })
-export class DashboardComponent implements OnInit {
+export class DashboardComponent implements OnInit, OnDestroy {
 
-  userData: any = null;
+  userData: User | null = null;
   currentTime = new Date();
+  isLoadingUserData = false;
+  verificationError: string | null = null;
+  
+  private userDataSubscription?: Subscription;
 
-  constructor(private router: Router) {}
+  constructor(
+    private router: Router,
+    private authService: AuthService,
+    private userDataService: UserDataService
+  ) {}
 
   ngOnInit(): void {
     this.loadUserData();
@@ -25,19 +36,48 @@ export class DashboardComponent implements OnInit {
     }, 60000);
   }
 
+  ngOnDestroy(): void {
+    if (this.userDataSubscription) {
+      this.userDataSubscription.unsubscribe();
+    }
+  }
+
   /**
-   * Load user data
+   * Load user data with backend verification using UserDataService
    */
-  private loadUserData(): void {
-    // Try to get user data from localStorage
-    const token = localStorage.getItem('pastport_jwt_token');
-    if (token) {
-      // For now, we'll use a simple approach
-      // In a real app, you'd decode the JWT or call an API
-      this.userData = {
-        username: 'User', // This would come from JWT or API
-        email: 'user@pastport.com'
-      };
+  private async loadUserData(): Promise<void> {
+    try {
+      const result = await this.userDataService.loadUserDataWithVerification();
+      
+      this.isLoadingUserData = result.isLoading;
+      this.userData = result.userData;
+      this.verificationError = result.error;
+      
+      // Handle critical errors that require redirect to login
+      if (!result.userData && result.error && 
+          (result.error.includes('Authentication failed') || 
+           result.error.includes('User not found') ||
+           result.error.includes('User ID verification failed') ||
+           result.error === 'No user data found')) {
+        this.router.navigate(['/auth/login']);
+        return;
+      }
+      
+      // Subscribe to loading state changes
+      this.userDataSubscription = this.userDataService.loadingState$.subscribe(state => {
+        this.isLoadingUserData = state.isLoading;
+        this.userData = state.userData;
+        this.verificationError = state.error;
+      });
+      
+    } catch (error) {
+      console.error('Error loading user data:', error);
+      this.verificationError = 'Failed to load user data';
+      this.isLoadingUserData = false;
+      
+      if (!this.userData) {
+        this.router.navigate(['/auth/login']);
+      }
     }
   }
 
@@ -46,7 +86,7 @@ export class DashboardComponent implements OnInit {
    */
   openCamera(): void {
     // Navigate to face recognition component
-    this.router.navigate(['/auth/face-login']);
+    this.router.navigate(['/camera']);
   }
 
   /**

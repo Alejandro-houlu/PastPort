@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import { AuthGuard } from './Services/auth.guard';
+import { MainCamComponent } from './Components/mainCam/main-cam.component';
 
 export const routes: Routes = [
   // Authentication routes (no layout)
@@ -15,18 +16,24 @@ export const routes: Routes = [
   // Camera route (no layout - full screen)
   {
     path: 'camera',
-    loadComponent: () => import('./Components/mainCam/main-cam.component').then(m => m.MainCamComponent)
+    loadComponent: () => import('./Components/mainCam/main-cam.component').then(m => m.MainCamComponent),
+    canActivate:[AuthGuard]
   },
   
   // Main application routes (with layout)
   {
     path: '',
     loadComponent: () => import('./Components/Layouts/layout.component').then(m => m.LayoutComponent),
-    // canActivate: [AuthGuard], // Temporarily disabled for development
+    canActivate: [AuthGuard],
+
     children: [
       {
         path: 'dashboard',
         loadComponent: () => import('./Components/Dashboard/dashboard.component').then(m => m.DashboardComponent)
+      },
+      {
+        path: 'artifact/:id',
+        loadComponent: () => import('./Components/Artifact/artifact-display.component').then(m => m.ArtifactDisplayComponent)
       },
       {
         path: 'travel-history',
@@ -50,7 +57,7 @@ export const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/dashboard',
+        redirectTo: '/auth/login',
         pathMatch: 'full'
       }
     ]
