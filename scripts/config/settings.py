@@ -11,6 +11,9 @@ class Config:
     DEFAULT_SPECIES_FOLDER = "dinosaur_sauropod"
     CHUNK_SIZE = 500
     CHUNK_OVERLAP = 100
+
+    # MULTIQUERY MODEL
+    MULTIQ_MODEL = "mistral"
     
     # Embedding settings
     EMBEDDING_MODEL = "mxbai-embed-large:335m"
