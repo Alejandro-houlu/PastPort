@@ -1,31 +1,17 @@
  Skip to main content 
 **Today's hours:** 8 a.m. to 6 p.m. (last entry 5 p.m.)
-  *  Passes 
-
-## Before you Continue...
-Great news! We're exploring a wildly new way to book your Zoo Passes. Would you like to take it for a spin?
- Yes Please!   No Thanks. 
-
-## Before you Continue...
-Great news! We're exploring a wildly new way to book your Zoo Passes. Would you like to take it for a spin?
- Yes Please!   No Thanks. 
+  *  Passes  
   *  Join  
-  *  Donate 
+  *  Donate  
+  *  Account  
 
 
 **Today's hours:** 8 a.m. to 6 p.m. (last entry 5 p.m.)
   
-  *  Passes 
-
-## Before you Continue...
-Great news! We're exploring a wildly new way to book your Zoo Passes. Would you like to take it for a spin?
- Yes Please!   No Thanks. 
-
-## Before you Continue...
-Great news! We're exploring a wildly new way to book your Zoo Passes. Would you like to take it for a spin?
- Yes Please!   No Thanks. 
+  *  Passes  
   *  Join  
-  *  Donate 
+  *  Donate  
+  *  Account  
 
 
 **Today's hours:** 8 a.m. to 6 p.m. (last entry 5 p.m.)
@@ -50,10 +36,10 @@ Visit
   * Animals
 Animals
 ## Animals Global Nav Links
+    * Meet Our Animals
     * Exhibits
     * Webcams
     * Animal Care
-    * Conservation
     * Animal News Archive
  Image:   
 **Giant Panda Cam**
@@ -61,6 +47,7 @@ See the Smithsonian's National Zoo's Giant Pandas — Bao Li and Qing Bao — li
   * Support
 Support
 ## Support Global Nav Links
+    * How to Support the Zoo
     * Donate
     * Volunteer
     * Include Us in Your Will
@@ -83,6 +70,7 @@ Looking for the perfect gift? Support animal conservation and wildlife research 
   * Education
 Education
 ## Education Global Nav Links
+    * Education Overview
     * Kids, Families, and Schools
     * Teens
     * Adults and Educators 
@@ -112,7 +100,7 @@ About the Smithsonian Conservation Biology Institute
 
 Search
   1. Home
-  2. [](https://nationalzoo.si.edu/animals)Animals
+  2. Animals
 
 
 FacebookXGoogle Classroom
@@ -181,17 +169,17 @@ Family: Elapidae
 Genus and Species: Ophiophagus hannah
 ## Animal News
 
-July 18, 2025 
-### Happy National Zookeeper Week 2025 
-We're recognizing some of the dedicated professionals who go above and beyond for the animals in our care!
+August 22, 2025 
+### #DCPandas: Preparing for Pseudopregnancy 
+Our giant pandas didn’t breed this year, but changes in Qing Bao’s behavior and hormones indicate she’s going through pseudopregnancy. Learn more in our panda team update!
 
-July 15, 2025 
-### Behind the Scenes: A Przewalski’s Horse With a History of 'Over-Aunting' 
-Helping care for the youngest herd member is common in many species, but elderly Przewalski's horse Emma has a habit of taking it to the extreme.
+August 20, 2025 
+### Meet Our Roly-Poly and Prickly Lesser Tenrec Babies 
+They’re roly-poly, prickly and precious: meet our lesser tenrec babies! Get to know our growing tenrec family in this Q+A.
 
-July 15, 2025 
-### Checking In on the Foals: New Arrivals at the Smithsonian Conservation Biology Institute 
-Behind the scenes, our team welcomed four babies from three at-risk species: Hartmann’s mountain zebra, Przewalski’s horse, and Persian onager.
+August 15, 2025 
+### Trio of Rare Maned Wolf Pups Are Thriving at the Smithsonian Zoo’s Conservation Campus 
+Behind the scenes, our South American canid puppies are growing fast. Get a glimpse into their daily lives in this update from the SCBI keeper team.
 More News
 0) ? window.innerWidth : screen.width; if (width >= 1024) { expanded = true } else { expanded = false }">
 ### Contact Us
@@ -253,5 +241,5 @@ Copy link
 ✓
 Thanks for sharing!
 Find any service
-[](https://www.addtoany.com "Share Buttons")
+
 More…

@@ -1,5 +1,5 @@
 SKIP TO MAIN CONTENT
-[](https://www.nationalgeographic.com/ "National Geographic")
+
 Animals
 Topics—
 Animal Profiles
@@ -9,16 +9,16 @@ Animal Behaviors
 Animal Discoveries
 All Animals
 Latest—
-What do you do with thousands of dead Everglades pythons?
-What do you do with thousands of dead Everglades pythons?
-They used to poach this rare bird. Now, they save them.
-They used to poach this rare bird. Now, they save them.
-Rare image of great white shark captured off the coast of Maine
-Rare image of great white shark captured off the coast of Maine
-Is your dog your 'furbaby'? It's not an obsession—it's science
-Is your dog your 'furbaby'? It's not an obsession—it's science
-Nat Geo Recommends—
-What everyone gets wrong about the worst shark attack in history
+It's 'throw a baby puffin off a cliff' season in Iceland
+It's 'throw a baby puffin off a cliff' season in Iceland
+Plague still exists—but what threat does it pose to humans today?
+Plague still exists—but what threat does it pose to humans today?
+These lizards can survive (and thrive) on a lethal dose of lead
+These lizards can survive (and thrive) on a lethal dose of lead
+How 600-lb. megafish became a collector’s item in Thailand
+How 600-lb. megafish became a collector’s item in Thailand
+Featured—
+LIMITED TIME OFFER: 25% OFF
 History & Culture
 Topics—
 Historic Sites
@@ -29,17 +29,16 @@ Religion
 Holidays & Traditions
 All History & Culture
 Latest—
-See 100 years of New York City
-See 100 years of New York City
-Who was Nelson Mandela?
-Who was Nelson Mandela?
-Blowing out birthday candles is surprisingly ancient
-Blowing out birthday candles is surprisingly ancient
-Skeleton reveals that some ancient women were extreme hermits
-premium
-Skeleton reveals that some ancient women were extreme hermits
+These Black resort towns are still refuges today
+These Black resort towns are still refuges today
+WWII’s last Navajo code talkers tell their story
+WWII’s last Navajo code talkers tell their story
+Visiting a U.S. national park—for the retro architecture
+Visiting a U.S. national park—for the retro architecture
+Who was the real Cleopatra?
+Who was the real Cleopatra?
 Nat Geo Recommends—
-What lies beneath Hitler’s war lair?
+What was it like to live in Old Babylon?
 Travel
 Topics—
 National Parks
@@ -51,16 +50,17 @@ Green Travel
 Travel with Nat Geo
 All Travel
 Latest—
-A practical guide to long-distance walking in the UK
-A practical guide to long-distance walking in the UK
-This hidden Italian town is perfect for a summer escape
-This hidden Italian town is perfect for a summer escape
-My best summers were spent at Grand Canyon Lodge—now it’s gone
-My best summers were spent at Grand Canyon Lodge—now it’s gone
-Wellness is going high tech at these hotels
-Wellness is going high tech at these hotels
-Nat Geo Recommends—
-6 of the most unusual places to stay at U.S. national parks
+Adventures with Indigenous & Celtic Canadians
+paid content
+Adventures with Indigenous & Celtic Canadians
+Jamaica’s greenest parish is its best-kept secret
+Jamaica’s greenest parish is its best-kept secret
+This boho beach town is now Morocco's coolest destination
+This boho beach town is now Morocco's coolest destination
+Looking for the essence of French cuisine? Then visit Burgundy
+Looking for the essence of French cuisine? Then visit Burgundy
+Featured—
+LIMITED TIME OFFER: 25% OFF
 Health
 Topics—
 Wellness
@@ -70,18 +70,20 @@ Diseases & Conditions
 Medical Breakthroughs
 All Health
 Latest—
-This underdiagnosed vein disorder affects 4 in 10 Americans
-This underdiagnosed vein disorder affects 4 in 10 Americans
-How magnesium affects your sleep and anxiety
+Colonoscopies are the worst. Will they ever get better?
 premium
-How magnesium affects your sleep and anxiety
-What is methylene blue and can it really boost your brain power?
-What is methylene blue and can it really boost your brain power?
-The future of child health: expanding access to immunization
-paid content
-The future of child health: expanding access to immunization
+Colonoscopies are the worst. Will they ever get better?
+Peptide injections are the latest wellness hack—but do they work?
+premium
+Peptide injections are the latest wellness hack—but do they work?
+High cholesterol can be inherited. Here's what you should know.
+premium
+High cholesterol can be inherited. Here's what you should know.
+How to choose a walking style that aligns with your fitness goals
+premium
+How to choose a walking style that aligns with your fitness goals
 Nat Geo Recommends—
-Statin drugs are an Internet villain. Do they deserve it?
+Can drinking Coke really help with migraines?
 Science & Nature
 Science & Nature—
 Space & Astronomy
@@ -92,17 +94,17 @@ Oceans
 Tech & Innovation
 All Science & Nature
 Latest—
-This underdiagnosed vein disorder affects 4 in 10 Americans
-This underdiagnosed vein disorder affects 4 in 10 Americans
-How magnesium affects your sleep and anxiety
+Colonoscopies are the worst. Will they ever get better?
 premium
-How magnesium affects your sleep and anxiety
-Scientists are racing to develop a ‘living computer’
-Scientists are racing to develop a ‘living computer’
-Scientists record a 'forbidden' black hole collision
-Scientists record a 'forbidden' black hole collision
+Colonoscopies are the worst. Will they ever get better?
+How Sylvia Earle fell in love with the ocean
+How Sylvia Earle fell in love with the ocean
+10 night sky events to see in September
+10 night sky events to see in September
+Where should archaeologists dig next? AI has an answer.
+Where should archaeologists dig next? AI has an answer.
 Nat Geo Recommends—
-Which cities will still be livable in a world altered by climate change?
+The world’s plastic pollution crisis, explained
 Lifestyle
 Topics—
 Outdoor Gear
@@ -124,7 +126,7 @@ The 10 best compact cameras for travel, tested by Nat Geo
 Shows
 Watch Nat Geo on Disney+
 Sally
-David Blaine: Do Not Attempt
+Limitless
 Jaws @ 50
 Secrets of the Penguins
 View All
@@ -213,7 +215,7 @@ ShareTweetEmail
 ## The best of National Geographic delivered to your inbox
 Sign up for more inspiring photos, stories, and special offers from National Geographic.
 Sign Up
-#### Legal
+Legal
   * Terms of Use
   * Privacy Policy
   * Your US State Privacy Rights
@@ -223,7 +225,7 @@ Sign Up
   * Do Not Sell or Share My Personal Information
 
 
-#### Our Sites
+Our Sites
   * Nat Geo Home
   * Attend a Live Event
   * Book a Trip
@@ -239,7 +241,7 @@ Sign Up
   * Advertise With Us
 
 
-#### Join Us
+Join Us
   * Subscribe
   * Customer Service
   * Renew Subscription
@@ -249,9 +251,8 @@ Sign Up
   * Contribute to Protect the Planet
 
 
-#### Follow us
-National Geographic InstagramNational Geographic FacebookNational Geographic TwitterNational Geographic YoutubeNational Geographic LinkedinNational Geographic TiktokNational Geographic Reddit
+Follow usNational Geographic InstagramNational Geographic FacebookNational Geographic TwitterNational Geographic YoutubeNational Geographic LinkedinNational Geographic TiktokNational Geographic Reddit
 United States (Change)
 * * *
-[](https://www.nationalgeographic.com/ "National Geographic Logo")
+
 Copyright © 1996-2015 National Geographic SocietyCopyright © 2015-2025 National Geographic Partners, LLC. All rights reserved

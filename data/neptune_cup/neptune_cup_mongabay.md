@@ -1,12 +1,11 @@
-[](https://news.mongabay.com)[](https://news.mongabay.com)
-  * Features
+* Features
   * Videos
   * Podcasts
   * Specials
   * Articles
   * Shorts
 
-Donate [](https://news.mongabay.com/?s=)
+Donate 
   * English
   * Español (Spanish)
   * Français (French)
@@ -58,7 +57,7 @@ Jeremy Hance
 Comments Share article
 # Share this article
 If you liked this story, share it with other people.
-[](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnews.mongabay.com%2F2011%2F11%2Fbathtub-sized-marine-sponge-rediscovered-after-a-century-of-extinction%2F)[](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnews.mongabay.com%2F2011%2F11%2Fbathtub-sized-marine-sponge-rediscovered-after-a-century-of-extinction%2F&title=Bathtub-sized%20marine%20sponge%20rediscovered%20after%20a%20century%20of%20extinction)[](https://threads.net/intent/post?text=Bathtub-sized%20marine%20sponge%20rediscovered%20after%20a%20century%20of%20extinction%20https%3A%2F%2Fnews.mongabay.com%2F2011%2F11%2Fbathtub-sized-marine-sponge-rediscovered-after-a-century-of-extinction%2F)[](whatsapp://send?text=https%3A%2F%2Fnews.mongabay.com%2F2011%2F11%2Fbathtub-sized-marine-sponge-rediscovered-after-a-century-of-extinction%2F&title=Bathtub-sized%20marine%20sponge%20rediscovered%20after%20a%20century%20of%20extinction)[](https://reddit.com/submit?url=https%3A%2F%2Fnews.mongabay.com%2F2011%2F11%2Fbathtub-sized-marine-sponge-rediscovered-after-a-century-of-extinction%2F&title=Bathtub-sized%20marine%20sponge%20rediscovered%20after%20a%20century%20of%20extinction)[](javascript:emailArticle\(\))
+)
 Page link
   
 _Neptune’s cup used as a bathtub for a child before overharvesting almost pushed the species to extinction._
@@ -83,31 +82,31 @@ _DHI and the National University of Singapore biologist taking a closer look at 
 Jeremy Hance Editor
 #### Topics
 AnimalsArchiveEnvironmentGreenHappy-upbeat EnvironmentalInvertebratesMarine AnimalsOceansRediscovered SpeciesStrangeWildlifeAsiaSingapore
-[](https://news.mongabay.com/2011/11/bathtub-sized-marine-sponge-rediscovered-after-a-century-of-extinction/)
-# Beyond the Safari
-  The colonial ghosts of Uganda’s ‘Queen Elizabeth’ park Ashoka Mukpo 11 Apr 2025 
-  As Africa eyes protected areas expansion of 1 million square miles, concerns over enforcement persist Mike DiGirolamo 4 Feb 2025 
-  For Ugandan farmers, good fences make good neighbors — of elephants Ashoka Mukpo 13 Jan 2025 
-  Park rangers enforce deadly violence in Uganda Ashoka Mukpo 19 Dec 2024 
-The “fortress conservation” model is under pressure in East Africa, as protected areas become battlegrounds over history, human rights, and global efforts to halt biodiversity loss. Mongabay’s Special Issue goes beyond the region’s world-renowned safaris to examine how rural communities and governments are reckoning with conservation’s colonial origins, and trying to forge a path forward […]
-Beyond the Safari series 
+
+# Kafue River Transect
+  Bicolored waterberry: The overlooked tree shaping Zambia’s rivers Ryan Truscott 16 Jul 2025 
+  River of giants: Canoe team tracks hippos in one of Africa’s last strongholds Ryan Truscott 15 Jul 2025 
+  Wildlife & tourists on the up in Zambia’s Kafue Park: Q&A with manager Craig Reid Ryan Truscott 15 Jul 2025 
+  ‘Croc on a rock’: How a group of explorers suffers for science Ryan Truscott 14 Jul 2025 
+From its source in the wetlands near Zambia’s northwestern border, through the industrial zones of the Copperbelt, to where it plunges through a steep gorge toward the Zambezi, the Kafue River sustains some of Southern Africa’s richest ecosystems, vital to communities, wildlife, and energy production. Mongabay contributor Ryan Truscott joined an initiative exploring the river’s […]
+Kafue River Transect series 
 # Free and open access to credible information
  Learn more
 # Latest articles
 All articles
-  Sri Lanka tusker death sparks euthanasia debate & calls for conservation solutions Malaka Rodrigo 19 Jul 2025 
-  Evolution in overdrive as Baltic cod shrink due to fishing pressure, study shows Edward Carver 18 Jul 2025 
-  Billions spent, biodiversity declines — GEF insists it remains fit for purpose David Akana 18 Jul 2025 
-  Conservationists raise sharks to restore reefs in waters around Thailand Claire Turrell 18 Jul 2025 
-  Study finds worrying uptick in proboscis monkey trade in Indonesia Spoorthy Raman 18 Jul 2025 
-  Indonesia moves to revise sea sand export policy after court ruling Basten Gokkon, M Ambari 18 Jul 2025 
-  In the Andes, decentralization fails to address environmental harm Timothy J. Killeen 17 Jul 2025 
-  Brazil’s Congress passes ‘devastation bill’ in major environmental setback Fernanda Wenzel 17 Jul 2025 
+  Cruise industry expansion collides with Cozumel’s coral reef Fritz Pinnow 30 Aug 2025 
+  Carbon offset markets are unfair to communities in Borneo & beyond (commentary) Fiona McAlpine 29 Aug 2025 
+  Despite pledge, Colombia still has ways to expand Amazon oil exploration Maxwell Radwin 29 Aug 2025 
+  Climate change is driving fish stocks from countries’ waters to the high seas: Study Edward Carver 29 Aug 2025 
+  As plastics treaty talks break down, are there paths to a breakthrough? Charles Pekow 29 Aug 2025 
+  Nepal’s Supreme Court halts industrial development in Buddha’s birthplace Sonam Lama Hyolmo 29 Aug 2025 
+  Indonesia’s fish farm expansion to absorb D.C.-sized swath of protected forests M Ambari 29 Aug 2025 
+  Tracking rhino horn trade: Interview with International Rhino Foundation’s Nina Fascione Abhishyant Kidangoor 29 Aug 2025 
 All articles
 # Subscribe
 Stay informed with news and inspiration from nature’s frontline. 
  Newsletter
-[](https://news.mongabay.com)[](https://news.mongabay.com/2011/11/bathtub-sized-marine-sponge-rediscovered-after-a-century-of-extinction/)
+
 #### News formats
   * Videos
   * Podcasts

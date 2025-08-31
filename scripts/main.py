@@ -119,7 +119,7 @@ def main():
                 if not results:
                     print("❌ No results found. Try rephrasing your question.")
 
-                print(f"{results['c']}\n\n---\n\n💭 THOUGHT: {results['t']}\n\n🖋️ ANSWER: {results['a']}\n\nℹ️ SOURCES: {results['s']}")
+                print(f"{results['c']}\n\n---\n\n💭 THOUGHT: {results['t']}\n\n🖋️ ANSWER: {results['a']}\n\nℹ️ SOURCES: {results['s']}\n\n{results['r']}")
                 
                 print("\n" + "="*50)
                 

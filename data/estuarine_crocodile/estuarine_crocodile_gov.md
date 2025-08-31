@@ -1,5 +1,5 @@
 A Singapore Government Agency Website
-[](https://www.nparks.gov.sg/avs "Animal & Veterinary Service")
+
 Search
 Toggle mobile menu
 Search on mobile
@@ -10,7 +10,7 @@ Owning a Pet Cat Management Framework Bringing Animals into Singapore & Exportin
   *  Animals 
 Animal Welfare Animal Management Animal-Related Businesses Wildlife Management Wildlife in Singapore CITES Wildlife Forensics Animal Health & Veterinarians Animals in Scientific Research
   *  Outreach 
-Learning Storybook Competition Be Our Friend Pets' Day Out Free Webinar Series
+Learning Storybook Competition Be Our Friend Cat ember 2025 Pets' Day Out Free Webinar Series
   *  Resources 
 Legislation Pets & Animals - Do's & Don'ts
   *  News 
@@ -19,8 +19,8 @@ Legislation Pets & Animals - Do's & Don'ts
 Search
 Government officials will NEVER ask you to transfer money or disclose bank log-in details over a phone call. Call the 24/7 ScamShield Helpline at 1799 if you are unsure if something is a scam.
 Share
-  * [](https://www.facebook.com/sharer.php?u=https://www.nparks.gov.sg/avs/animals/wildlife-in-singapore/estuarine-crocodiles "Facebook")
-  * [](https://twitter.com/intent/tweet?url=https://www.nparks.gov.sg/avs/animals/wildlife-in-singapore/estuarine-crocodiles&amp;text= "Twitter")
+  * 
+  * 
   * 
 
 #  Estuarine Crocodiles 
@@ -113,6 +113,7 @@ _Photos by Max Khoo and Bryan Lim._
   * Learning
   * Storybook Competition
   * Be Our Friend
+  * Cat ember 2025
   * Pets' Day Out
   * Free Webinar Series
 
@@ -130,8 +131,8 @@ _Photos by Max Khoo and Bryan Lim._
 ### News
 ### E-Services
   * Contact Us
-  * [](https://www.nparks.gov.sg/contact-us)
-  * [](https://www.nparks.gov.sg/avs/animals/wildlife-in-singapore/estuarine-crocodiles)
+  * 
+  * 
 
 
   * Report Vulnerability

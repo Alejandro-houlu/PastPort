@@ -3,11 +3,11 @@
 Your _independent_ source for Harvard news since 1898
 Menu
 Toggle Search
-  * [](https://www.facebook.com/HarvardMagazine/ "facebook")
-  * [](https://twitter.com/HarvardMagazine)
-  * [](https://www.instagram.com/harvardmagazine/)
-  * [](https://www.tiktok.com/@harvardmagazine)
-  * [](https://www.youtube.com/user/harvardmagazine)
+  * 
+  * 
+  * 
+  * 
+  * 
 
 
   * Log in
@@ -23,6 +23,25 @@ Toggle Search
 Enter your keywords
 ##### Main navigation
   *  Harvard in the Crosshairs 
+  * The Magazine
+    *  Current Issue 
+    *  Past Issues 
+  * Classifieds
+    *  Vacation Rentals & Travel 
+    *  Real Estate 
+    *  Personals 
+    *  Products & Services 
+    *  Harvard Authors’ Bookshelf 
+    *  Education & Enrichment Resource 
+  * Class Notes & Obituaries
+    *  Browse Class Notes 
+    *  Browse Obituaries 
+  *  Podcast 
+  * Series
+    *  Commencement 
+    *  Five Questions 
+    *  Harvard in the Headlines 
+    *  New England Guide 
   * Topics
     *  Arts & Culture 
     *  Commentary 
@@ -31,60 +50,34 @@ Enter your keywords
     *  Humanities & Arts 
     *  International 
     *  Science & Technology 
-    *  Multimedia 
     *  Social Sciences 
     *  Sports & Athletics 
     *  Students & Alumni 
     *  The Professions 
     *  University News 
-  *  Podcast 
   *  Videos 
-  * The Magazine
-    *  Current Issue 
-    *  Past Issues 
-  * Class Notes & Obituaries
-    *  Browse Class Notes 
-    *  Browse Obituaries 
-  * Series
-    *  Commencement 
-    *  Five Questions 
-    *  Harvard in the Headlines 
-    *  New England Guide 
-  * Support Harvard Magazine
-    *  Donate 
-    *  Behind the Scenes 
-    *  How We Are Funded 
-    *  Special Gifts 
-    *  Ways to Support the Magazine 
-    *  Why We Need Your Support 
-  * Classifieds
-    *  Vacation Rentals & Travel 
-    *  Real Estate 
-    *  Personals 
-    *  Products & Services 
-    *  Harvard Authors’ Bookshelf 
-    *  Education & Enrichment Resource 
-    *  Ad Prices & Information 
-    *  Place An Ad 
+  *  Donate 
+  * Advertise
+    *  How to Advertise 
+    *  Classifieds Ad Prices & Information 
 
 
 Follow _Harvard Magazine:_
-  * [](https://www.facebook.com/HarvardMagazine/ "facebook")
-  * [](https://twitter.com/HarvardMagazine)
-  * [](https://www.instagram.com/harvardmagazine/)
-  * [](https://www.tiktok.com/@harvardmagazine)
-  * [](https://www.youtube.com/user/harvardmagazine)
+  * 
+  * 
+  * 
+  * 
+  * 
 
 
 Your _independent_ source for Harvard news since 1898
 Advertisement 
 Advertisement 
-**Features **
-Updated 1.17.2025
-#  Colossal Blossom
-##  Pursuing the peculiar genetics of a parasitic plant 
+**Science & Technology ** | 2.9.2017 
+# The largest flower in the world is a parasite
+##  Exploring the genetic mysteries of a gigantic parasite 
 by Jonathan Shaw
-March-April 2017
+From The March-April 2017 Issue
 
 > In Malaysia, the blooms are even celebrated on stamps.
 
@@ -120,15 +113,11 @@ March-April 2017
   * 5
 
 
-[](https://www.harvardmagazine.com/#print)[](https://www.harvardmagazine.com/#email)[](https://www.harvardmagazine.com/#facebook)[](https://www.harvardmagazine.com/#twitter)[](https://www.harvardmagazine.com/#instagram)[](https://www.harvardmagazine.com/#tiktok)
-[](https://www.harvardmagazine.com/#print)[](https://www.harvardmagazine.com/#email)[](https://www.harvardmagazine.com/#facebook)[](https://www.harvardmagazine.com/#twitter)[](https://www.harvardmagazine.com/#instagram)[](https://www.harvardmagazine.com/#tiktok)
+
+
 The largest flower in the world, _Rafflesia arnoldii,_ is more than three feet across. With no roots, shoots, stems, or leaves, this parasitic plant is stealthy, visually undetectable until it prepares to bloom. Buds erupt without warning from an infected host vine and swell slowly over months to the size of cabbages. In full bloom, each bud’s central floral chamber—orb-shaped, with a circular opening at the top—resembles a planetarium or astronomical observatory with a mottled roof partially opened to the sky. Within lies a disk covered with spiked structures. Botanists have named the spikes “processes,” but have no clear idea what they do. In the largest flowers, the chamber is almost big enough for an infant to crawl inside and fall asleep. But _R. arnoldii’s_ spectacular flower is the least of its appeal to scientists, because the genus to which it belongs also holds a gigantic genetic mystery.
 All members of the genus _Rafflesia_ produce huge flowers. (Even the smallest are roughly the size of dinner plates.) In the Philippines, on the Malay Peninsula, and on the islands of Java, Sumatra, and Borneo, where these plants grow from vines trailing across the rainforest floor, _Rafflesia_ are celebrated. The distinctive five-petaled flowers appear on stamps, currency, and even bags of rice in Malaysia. _Rafflesia_ is one of three national flowers in Indonesia. The buds and blooms are considered a delicacy in Thailand, while in other parts of southeast Asia, the plant is thought to have medicinal powers. Drinking a _Rafflesia_ tea after childbirth, indigenous peoples of northern Borneo believe, will flush the placenta and restore the figure.
 As fascinating as these mysterious blooms are to people, the flower is designed to attract a much smaller visitor. Carrion flies swarm to _Rafflesia_ , attracted by the scent of rotting meat—reportedly strongest around noon on the third or fourth day of the bloom, which lasts little more than a week. The pungent bouquet, which varies in intensity from one species to another, has led to the names “corpse lily” and “carrion flower” in English. In fact, Westerners frequently confuse this rarity with another “corpse flower,” _Titan arum_ , a large, stinking inflorescence (actually thousands of tiny flowers), often grown in greenhouses, that resembles a jack-in-the-pulpit and is related to calla lilies. _Rafflesia,_ on the other hand, have never been successfully cultivated.
-## Subscribe to our Friday email:   
-_This Week_
-Join thousands of _Harvard Magazine_ readers getting the top Harvard stories in their inbox every Friday.
-Email Address
   
 Charles Davis studies _Rafflesia_ 's peculiar genetics.  
 Photograph by Stu Rosner
@@ -164,50 +153,49 @@ Charles Davis with _Rafflesia tuan-mudae_ in 2007, Gunung Gading National Park, 
 Photograph by Ken Wurdack
 The inescapable conclusion, says Davis, is that extreme gigantism evolved in this tiny family of parasitic plants not once, but twice. Why? He suspects that in the first evolution, with the ring meristem-derived chamber, the plant had become as large as it could using that part of the flower. Only by “re-architecting” gigantism a second time, using petal structures, could the plant achieve the spans of three feet or more seen in species such as _R. arnoldii._
 But what advantage lies in enormous size? What extraordinary selection pressure could drive gigantism twice? Davis suspects that the answer may lie with the carrion fly. The literature on the biology of these insects is robust, he points out: “Carrion flies seek out the largest carcass they can find.” 
-[](https://www.harvardmagazine.com/#print)[](https://www.harvardmagazine.com/#email)[](https://www.harvardmagazine.com/#facebook)[](https://www.harvardmagazine.com/#twitter)[](https://www.harvardmagazine.com/#instagram)[](https://www.harvardmagazine.com/#tiktok)
+
 Jonathan Shaw ’89 is managing editor of this magazine.
-Click here for the March-April 2017 issue table of contents
+Published in the March-April 2017 print issue under the headline “Colossal Blossom,” in the Features section. 
 Read more articles by Jonathan Shaw
-## Related Topics
 Related topics
 Faculty & Community
 Science & Technology
 Advertisement
 ## You might also like
   
-###  [](https://www.harvardmagazine.com/2025/07/five-questions-harvard-brian-farrell-beetles)Five Questions with Brian D. Farrell
-A professor and curator of entomology on beetles, biodiversity, and evolutionary change 
+### Five Questions with Peter R. Girguis 
+A Harvard professor of evolutionary biology on what lurks in the deep sea 
   
-###  [](https://www.harvardmagazine.com/2025/06/harvard-smithsonian-jonathan-mcdowell-space-junk)This Astronomer is Sounding a Warning on 'Space Junk'
-As debris accumulates in low Earth orbit, the danger of destructive collisions continues to rise. 
+### How AI Is Reshaping Supply Chains 
+Harvard Kennedy School lecturer on using AI to strengthen supply chains 
   
-###  [](https://www.harvardmagazine.com/2025/06/harvard-symposium-data-art)When Code Meets Canvas
-In brushstrokes and bytes, a symposium at Harvard explores data, perception, and art. 
+### Do Mitochondria Hold the Power to Heal? 
+From Alzheimer’s to cancer, this tiny organelle might expand treatment options. 
 ## Most popular
   
-### The Professor Who Quantified Democracy
-Erica Chenoweth’s data shows how—and when—authoritarians fall. 
+### Shakespeare’s Greatest Rival 
+Without Christopher Marlowe, there might not have been a Bard. 
   
-### Grow, Make, Eat, and Imbibe
-Alumni promote the local origins of edible goods 
+### How MAGA Went Mainstream at Harvard 
+Trump, TikTok, and the pandemic are reshaping Gen Z politics. 
   
-### Harvard’s Hiring Freeze Continues
-University leaders say $1 billion per year is at risk due to federal actions 
+### Harvard President Alan Garber Helps First-Years Move In 
+As a potential settlement with the Trump administration looms, Garber gets students settled. 
 Advertisement
   
 ## Explore More From Current Issue
   
-John Harvard's Journal
-### How Harvard Students Handle Political Disagreements 
-The Undergraduate asks if intellectualism is really on life support. 
+Students
+### How MAGA Went Mainstream at Harvard 
+Trump, TikTok, and the pandemic are reshaping Gen Z politics. 
   
-Montage
-### Julia Rooney’s Cyanotype Art At Harvard 
-Julia Rooney’s paintings cross the analog-digital divide. 
+Museums & Collections
+### A Harvard Art Museums Painting Gets a Bath 
+Water and sunlight help restore a modern American classic. 
   
-University People
-### Harvard Medalists 
-Four people honored for exceptional service to the University 
+Research
+### Why Heat Waves Make You Miserable 
+Scientists are studying how much heat and humidity the human body can take. 
 ##### Contact
   * Contact
     * Staff
@@ -231,13 +219,22 @@ Four people honored for exceptional service to the University
     * Privacy Policy
 
 
+##### Footer support harvard magazine
+  * Support Harvard Magazine
+    * Behind the Scenes
+    * How We Are Funded
+    * Special Gifts
+    * Ways to Support the Magazine
+    * Why We Need Your Support
+
+
 ##### Newsletters
   * Newsletters
 
 
 ##### Advertise
   * Advertise
-    * Advertising
+    * Advertise
     * Classifieds
     * Ad Sizes | Specifications
     * Deadlines
@@ -258,11 +255,11 @@ Four people honored for exceptional service to the University
 Current issue
   
 ##### Social
-  * [](https://www.facebook.com/HarvardMagazine/ "facebook")
-  * [](https://twitter.com/HarvardMagazine)
-  * [](https://www.instagram.com/harvardmagazine/)
-  * [](https://www.tiktok.com/@harvardmagazine)
-  * [](https://www.youtube.com/user/harvardmagazine)
+  * 
+  * 
+  * 
+  * 
+  * 
 
 
   
@@ -278,6 +275,5 @@ Copy link
 ✓
 Thanks for sharing!
 Find any service
-[](https://www.addtoany.com "Share Buttons")
+
 More…
-[](https://www.harvardmagazine.com/2017/02/colossal-blossom)

@@ -16,30 +16,29 @@ class QueryEngine:
         """Query the vector database and generate LLM response"""
         print(f"🔍 Searching for: {question}")
                            
-        # Vector search
+        # # Single query search
         
-            # results = self.vectordb.similarity_search_with_score(
-            #     query=question,
-            #     k=n_results,
-            #     # filter={'source': "tweet"}
-            # )
-                        
-            # if not results:
-            #     print("❌ No relevant documents found.")
-            #     return None
-            
-            # results = sorted(results, key=lambda x: x[1], reverse=True)
+        # results = self.vectordb.similarity_search_with_score(
+        #     query=question,
+        #     k=n_results,
+        #     # filter={'source': "tweet"}
+        # )
+                    
+        # if not results:
+        #     print("❌ No relevant documents found.")
+        #     return None
+        
+        # results = sorted(results, key=lambda x: x[1], reverse=True)
 
         # Multiquery handling
         system = """You have the ability to issue search queries to get information to help answer user questions.
 
         Analyze the question and decide:
         - If the question requires multiple distinct pieces of information, generate multiple search queries
-        - If the question is simple and can be answered with a single search, use just one query
-        - If the original question is already well-formed for search, you can use it as-is
+        - If the original question is simple, well-formed and can be answered with a single search, return the original question.
 
         Return your response as JSON in this format: {{"searches": [{{"query": "search term 1"}}, {{"query": "search term 2"}}]}}
-        For single queries, just return: {{"searches": [{{"query": "the original or modified query"}}]}}"""
+        For single queries, just return: {{"searches": [{{"query": "the original question"}}]}}"""
 
         prompt = ChatPromptTemplate.from_messages([
             ("system", system),
@@ -96,33 +95,32 @@ class QueryEngine:
 
         context_text = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
         context_text_output = "\n\n---\n\n".join([f"Context #{i+1}\n\n{doc.page_content}" for i, (doc, _score) in enumerate(results)]) 
-        person_type = "child"
 
         # Generate LLM response
-        PROMPT_TEMPLATE = '''
-        You are a knowledgeable and concise museum tour guide.
+        PROMPT_TEMPLATE = '''You are a knowledgeable and concise museum tour guide.
         Use the context below to answer the question directly.
         Do not mention or cite any materials, contexts, texts or documents were referred to.
         
         ---
 
-        Context:
+        Context: 
         {context}
 
-        Question: {question}
+        Question: 
+        {question}
 
         Format your answer like this:
-
+        
         Thought:
         ...
 
-        Answer:
+        Answer: 
         ...
 
         '''
 
         prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
-        prompt = prompt_template.format(context=context_text, question=question, person_type=person_type)
+        prompt = prompt_template.format(context=context_text, question=question)
         
         print("\n🤖 Generating response...")
         # response = ollama.generate(model=self.llm_model, prompt=prompt)
@@ -142,8 +140,8 @@ class QueryEngine:
         answer_pattern_md = r'\*\*Answer:\*\*\s*(.*?)(?=\*\*\w+:\*\*|$)'
         
         # Pattern 2: Thought: and Answer: (plain format)
-        thought_pattern_plain = r'(?:^|\n)Thought:\s*(.*?)(?=\nAnswer:|$)'
-        answer_pattern_plain = r'(?:^|\n)Answer:\s*(.*?)(?=\n\w+:|$)'
+        thought_pattern_plain = r'\s*Thought:\s*(.*?)(?=\s*Answer:|$)'
+        answer_pattern_plain = r'\s*Answer:\s*(.*?)$'
         
         # Try markdown format first
         thought_match = re.search(thought_pattern_md, response_text, re.DOTALL | re.IGNORECASE)
@@ -164,6 +162,7 @@ class QueryEngine:
                         't': thought,
                         'a': answer,
                         's': source_list,
+                        'r': response_text
                         }
         return results_dict
 

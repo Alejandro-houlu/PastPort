@@ -52,8 +52,8 @@ Change Species
 Change Species
 No Matches
 Surprise me!
-[](https://ebird.org/species/maphor1)
-[](https://ebird.org/species/palhor1)
+
+
 
 Male © Jun Yang eBird S59522751 Macaulay Library ML 175950791
 
@@ -142,6 +142,6 @@ Take Merlin with you in the field! Free, global bird ID and field guide app powe
 Donate
 ### Follow eBird
      
-[](https://itunes.apple.com/us/app/ebird-by-cornell-lab-ornithology/id988799279) [](https://play.google.com/store/apps/details?id=edu.cornell.birds.ebird)
+ 
  
 © 2025 Cornell University

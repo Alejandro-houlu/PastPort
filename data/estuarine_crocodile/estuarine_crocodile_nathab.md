@@ -1,5 +1,5 @@
   Natural Habitat Adventures  
-Polar Bear ToursAfrican SafarisGalapagos ToursAlaska AdventuresU.S. National Parks ToursCanada & the NorthEurope AdventuresMexico & Central America ToursSouth America AdventuresAsia & Pacific AdventuresAntarctica & Arctic JourneysPhoto ExpeditionsWomen's JourneysAdventure CruisesFamily AdventuresNew Adventures
+Polar Bear ToursAfrican SafarisGalapagos ToursAlaska AdventuresU.S. National Parks ToursCanada & the NorthEurope AdventuresMexico & Central America ToursSouth America AdventuresAsia AdventuresAustralia & New Zealand AdventuresAntarctica & Arctic JourneysPhoto ExpeditionsWomen's JourneysAdventure CruisesNew Adventures
 Big Bad Wolf
 Big Bad Wolf
 A short film about the conservation challenges facing the wolves of Yellowstone.
@@ -112,23 +112,23 @@ Next5 Indigenous Climate Activists You Should Know
 
 #### Natural Habitat Adventures
 We have been a leading ecotourism and adventure travel provider since 1985. Led by world-class naturalist guides, our eco-conscious expeditions take you to the world's most remarkable nature locales.
-  * [](https://www.facebook.com/NaturalHabitatAdventures)
-  * [](https://www.instagram.com/naturalhabitatadventures/)
+  * 
+  * 
 
 
 ### Related Posts
  
-#### Is Zimbabwe's Wildlife Being Abducted by Chinese Zoos?
-December 11, 2014
+#### The Singing Lemurs of Madagascar
+March 31, 2025
  
-#### Animals Just Want to Have Fun
-August 10, 2010
+#### 8 Rainforest Ecotourism Adventures
+May 20, 2025
  
-#### 'Saving Africa's Giants' with Yao Ming Premiers Tonight
-December 18, 2014
+#### Will Climate Change Save the Galapagos Penguin?
+August 6, 2015
  
-#### In the Land of Glowing Skies: Kiwi Conservation in New Zealand
-February 8, 2022
+#### Top 7 Moments of the Natural Vida en Costa Rica
+June 10, 2015
 ###  Leave a reply Cancel reply
 Your email address will not be published. Required fields are marked *
 COMMENT
@@ -172,7 +172,8 @@ Regions
   * Canada & The North
   * Galapagos Tours
   * Antarctica & Arctic Voyages
-  * Asia & Pacific Adventures
+  * Asia Adventures
+  * Australia & New Zealand Adventures
   * Mexico & Central America Tours
   * South America Adventures
   * Europe Adventures
@@ -215,13 +216,13 @@ U.S. & Canada
 International
 PO Box 3065 · Boulder, CO USA 80307 info@nathab.com
 Copyright © 2025 • Natural Habitat Adventures 
-Request Your 2025/2026 Catalog
+Request Your 2026/2027 Catalog
 Discover the World's Best
 Nature Travel Experiences
 
 Together, Natural Habitat Adventures and World Wildlife Fund have teamed up to arrange nearly 100 nature travel experiences around the planet, while helping to protect the magnificent places we visit and their wild inhabitants.
 
-Request Your 2025/2026 Catalog
+Request Your 2026/2027 Catalog
 First Name
 Last Name
 Address
@@ -229,7 +230,7 @@ Suite
 City
 State
 Postal
-Country Antarctica Argentina Australia Bhutan Borneo Botswana Brazil Canada Chile China Costa Rica Croatia Ecuador England Falkland Islands Greenland High Arctic Iceland India Kenya Madagascar Malaysia Mexico Namibia Nepal New Zealand Norway Panama Peru Portugal Rwanda Scotland Slovenia South Africa South Georgia Island Svalbard/Spitsbergen Tanzania Uganda United States Zambia Zimbabwe
+Country Antarctica Argentina Australia Bhutan Borneo Botswana Brazil Canada Chile China Costa Rica Croatia Ecuador England Falkland Islands Greenland High Arctic Iceland India Kenya Madagascar Malaysia Mexico Mongolia Namibia Nepal New Zealand Norway Panama Peru Portugal Rwanda Scotland Slovenia South Africa South Georgia Island Svalbard/Spitsbergen Tanzania Uganda United States Zambia Zimbabwe
 Phone
 Email
 Sign up to receive our travel emails!  Privacy Policy 
@@ -281,13 +282,13 @@ If you're a travel consultant, what is your agency's name?
 Submit
 Thank you for requesting a catalog 
 We’ve received your request. If you have any questions about our trips, please feel free to contact an Adventure Specialist today by calling 800-543-8917.
-Request Your 2025/2026 Catalog
+Request Your 2026/2027 Catalog
 Discover the World's Best
 Nature Travel Experiences
 
 Together, Natural Habitat Adventures and World Wildlife Fund have teamed up to arrange nearly 100 nature travel experiences around the planet, while helping to protect the magnificent places we visit and their wild inhabitants.
 
-Request Your 2025/2026 Catalog
+Request Your 2026/2027 Catalog
 First Name
 Last Name
 Address
@@ -295,7 +296,7 @@ Suite
 City
 State
 Postal
-Country Antarctica Argentina Australia Bhutan Borneo Botswana Brazil Canada Chile China Costa Rica Croatia Ecuador England Falkland Islands Greenland High Arctic Iceland India Kenya Madagascar Malaysia Mexico Namibia Nepal New Zealand Norway Panama Peru Portugal Rwanda Scotland Slovenia South Africa South Georgia Island Svalbard/Spitsbergen Tanzania Uganda United States Zambia Zimbabwe
+Country Antarctica Argentina Australia Bhutan Borneo Botswana Brazil Canada Chile China Costa Rica Croatia Ecuador England Falkland Islands Greenland High Arctic Iceland India Kenya Madagascar Malaysia Mexico Mongolia Namibia Nepal New Zealand Norway Panama Peru Portugal Rwanda Scotland Slovenia South Africa South Georgia Island Svalbard/Spitsbergen Tanzania Uganda United States Zambia Zimbabwe
 Phone
 Email
 Sign up to receive our travel emails!  Privacy Policy 
@@ -367,7 +368,7 @@ Country Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antar
 Sign up to receive promotional and informational text messages about our trips 
 Text Messaging Policy
 Message and data rates may apply. You can unsubscribe from SMS at any time by texting STOP. Reply HELP for help. 2-4 promotional msgs/month. Informational msg frequency varies.
-Mail me a free 208-page Catalog of the World's Greatest Nature Journeys 
+Mail me a free 240-page Catalog of the World's Greatest Nature Journeys 
 Sign Up  Privacy Policy
 **Thank you for joining our email list!**
 Look for a special welcome message in your inbox, arriving shortly! Be sure to add naturalhabitat@nathab.com to your email contacts so you don’t miss out on future emails.
@@ -391,14 +392,14 @@ Country Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antar
 Sign up to receive promotional and informational text messages about our trips 
 Text Messaging Policy
 Message and data rates may apply. You can unsubscribe from SMS at any time by texting STOP. Reply HELP for help. 2-4 promotional msgs/month. Informational msg frequency varies.
-Mail me a free 208-page Catalog of the World's Greatest Nature Journeys 
+Mail me a free 240-page Catalog of the World's Greatest Nature Journeys 
 Sign Up  Privacy Policy
 **Thank you for joining our email list!**
 Look for a special welcome message in your inbox, arriving shortly! Be sure to add naturalhabitat@nathab.com to your email contacts so you don’t miss out on future emails.
 Hidden form View
 Home Trips Trips Catalog Catalog Contact Contact More More
 Our Trips
-  Polar Bear Tours   African Safaris   Galapagos Tours   Alaska Adventures   U.S. National Parks Tours   Canada & the North   Europe Adventures   Mexico & Central America Tours   South America Adventures   Asia & Pacific Adventures   Antarctica & Arctic Journeys   Photo Expeditions   Adventure Cruises   Women's Journeys   Family Adventures   New Adventures 
+  Polar Bear Tours   African Safaris   Galapagos Tours   Alaska Adventures   U.S. National Parks Tours   Canada & the North   Europe Adventures   Mexico & Central America Tours   South America Adventures   Asia Adventures   Australia & New Zealand Adventures   Antarctica & Arctic Journeys   Photo Expeditions   Adventure Cruises   Women's Journeys   New Adventures 
 Questions?[ Call 800-543-8917](tel:+800-543-8917)
   * Home
   * Trip Finder
@@ -432,4 +433,43 @@ Questions? Click to Chat
 Send a Message
 ×
 Home Trips Trips Catalog Catalog Book Contact Contact More More
+## Cookie Preferences
+When you visit our website, we store cookies on your browser to collect information. The information collected might relate to you, your preferences or your device, and is mostly used to make the site work as you expect it to and to provide a more personalized web experience. However, you can choose not to allow certain types of cookies, which may impact your experience of the site and the services we are able to offer. Click on the different category headings to find out more and change our default settings according to your preference. You cannot opt-out of our First Party Strictly Necessary Cookies as they are deployed in order to ensure the proper functioning of our website (such as prompting the cookie banner and remembering your settings, to log into your account, to redirect you when you log out, etc.). For more information about the First and Third Party Cookies used please follow this link:   
+Cookie Policy
+Allow All
+### Manage Consent Preferences
+#### Strictly Necessary Cookies
+Always Active
+Strictly Necessary Cookies
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+#### Performance and Targeting Cookies
+Performance and Targeting Cookies
+Under the California Consumer Privacy Act, you have the right to opt-out of the sale of your personal information to third parties. These cookies collect information for analytics and to personalize your experience with targeted ads. You may exercise your right to opt out of the sale of personal information by using this toggle switch. If you opt out we will not be able to offer you personalised ads and will not hand over your personal information to any third parties. Additionally, you may contact our legal department for further clarification about your rights as a California consumer by using this Exercise My Rights link. If you have enabled privacy controls on your browser (such as a plugin), we have to take that as a valid request to opt-out. Therefore we would not be able to track your activity through the web. This may affect our ability to personalize ads according to your preferences.
+  * ##### Performance Cookies
+Required Cookies
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+
+
+  * ##### Targeting Cookies
+Required Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising. Note that you will need to renew this choice each time you clear your cookies or use a new browser or device. You can also visit www.aboutads.info/choices to opt out of certain uses of cookies for advertising purposes.
+
+
+Confirm My Choices
+
+Back Button
+Back
+### Performance Cookies
+Vendor Search Search Icon Filter Icon
+Clear Filters
+Information storage and access
+Apply
+Consent Leg.Interest
+All Consent Allowed
+Select All Vendors
+Select All Vendors
+All Consent Allowed
+Confirm My Choices
+
+
 ╳

@@ -7,8 +7,8 @@ Close Cookie Preferences
   * Skip to Article Information
 
 
-[](https://nph.onlinelibrary.wiley.com/)
-[](https://nph.onlinelibrary.wiley.com/)
+
+
 Search withinThis Journal New Phytologist Journals Wiley Online Library
   * Search term
  Advanced Search Citation Search
@@ -24,7 +24,7 @@ Login / Register
   *  REGISTER 
 
 
-[](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10370#main1 "menu drawer")
+
   * Journals
     * New Phytologist 
     * Plants, People, Planet 
@@ -35,277 +35,49 @@ Login / Register
      
 
 
-#  Journal list menu 
-  * Journal
-  * __Articles
-
-
-  * Actions
-
-
-PLANTS, PEOPLE, PLANET
-Volume 7, Issue 2 pp. 448-466[](https://nph.onlinelibrary.wiley.com/journal/25722611 "PLANTS, PEOPLE, PLANET homepage")
-RESEARCH ARTICLE
-Open Access
-[](http://creativecommons.org/licenses/by/4.0/)
-# The seed transcriptome of _Rafflesia_ reveals horizontal gene transfer and convergent evolution: Implications for conserving the world's largest flower
-Jeanmaire Molina, 
+New Phytologist
+Volume 154, Issue 2 pp. 429-437
+Free Access
+# Is _Rafflesia_ an endothermic flower?
+Sandra Patiño, 
 Corresponding Author
-Jeanmaire Molina
-  * jmolina2@pace.edu
-  * jeanmaire.molina@liu.edu
-
-
-  * orcid.org/0000-0001-5250-2684
-
-
-Biology Department, Pace University, New York, New York, USA
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-**Correspondence**
-Jeanmaire Molina, Biology Department, Pace University, New York, NY, USA.
-Email: jmolina2@pace.edujeanmaire.molina@liu.edu
+Sandra Patiño
+Institute of Ecology and Resource Management, The University of Edinburgh, Darwin Building, Mayfield Road, Edinburgh EH9 3JU, UK;
+Helsinki Finland;
+Author for correspondence:_Sandra Patiño Fax: + 57 1 288 9564 Email:_ spatino@humboldt.org.coSearch for more papers by this author
+Tuula Aalto, 
+Tuula Aalto
+Department of Physics, University of Helsinki, PO Box 9 (Siltavuorenpenger 20D), University of Helsinki, FIN−0001
 Search for more papers by this author
-Adhityo Wicaksono, 
-Adhityo Wicaksono
-  * orcid.org/0000-0003-3298-3577
-
-
-Division of Biotechnology, Genbinesia Foundation, Gresik, Indonesia
-Study Group of Bioinformatics, Synthetic Biology Indonesia, Sumbawa, Indonesia
+Alice A. Edwards, 
+Alice A. Edwards
+Chemistry Department, Universiti Brunei Darussalam, Jln. Tungku Link, Bandar Seri Begawan BE 1410, Brunei Darussalam; Present address: Alexander von Humboldt Biological Research Institute, Calle 37 #8-40 Mezanine, Bogotá DC, Colombia
 Search for more papers by this author
-Todd P. Michael, 
-Todd P. Michael
-The Plant Molecular and Cellular Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, California, USA
-Cepheid, Sunnyvale, California, USA
+John Grace, 
+John Grace
+Institute of Ecology and Resource Management, The University of Edinburgh, Darwin Building, Mayfield Road, Edinburgh EH9 3JU, UK;
 Search for more papers by this author
-Su-Hwan Kwak, 
-Su-Hwan Kwak
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-Ronniel D. Pedales, 
-Ronniel D. Pedales
-  * orcid.org/0000-0002-5335-6313
-
-
-Institute of Biology, University of the Philippines Diliman, Quezon City, Philippines
-Search for more papers by this author
-Zoé Joly-Lopez, 
-Zoé Joly-Lopez
-  * orcid.org/0000-0002-7926-322X
-
-
-Département de Chimie, Université du Québec à Montréal, Montréal, Québec, Canada
-Search for more papers by this author
-Semar Petrus, 
-Semar Petrus
-Cepheid, Sunnyvale, California, USA
-Search for more papers by this author
-Allen Mamerto, 
-Allen Mamerto
-The Plant Molecular and Cellular Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, California, USA
-Search for more papers by this author
-Brian Tomek, 
-Brian Tomek
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-Sumaya Ahmed, 
-Sumaya Ahmed
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-Venkatasivasankar Maddu, 
-Venkatasivasankar Maddu
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-Kristina Yakubova, 
-Kristina Yakubova
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-Danilo Tandang, 
-Danilo Tandang
-  * orcid.org/0000-0003-2708-661X
-
-
-Botany and National Herbarium Division, National Museum of the Philippines, Manila, Philippines
-Search for more papers by this author
-Joseph W. Morin, 
-Joseph W. Morin
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-So-Yon Park, 
-So-Yon Park
-  * orcid.org/0000-0002-2126-3382
-
-
-Division of Plant Science and Biotechnology, University of Missouri, Columbia, Missouri, USA
-Search for more papers by this author
-Hyun-Oh Lee, 
-Hyun-Oh Lee
-Division of Plant Science and Biotechnology, University of Missouri, Columbia, Missouri, USA
-Search for more papers by this author
-William McLaughlin, 
-William McLaughlin
-U.S. Botanic Garden, Washington, District of Columbia, USA
-Search for more papers by this author
-Kyle Wallick, 
-Kyle Wallick
-U.S. Botanic Garden, Washington, District of Columbia, USA
-Search for more papers by this author
-James Adams, 
-James Adams
-U.S. Botanic Garden, Washington, District of Columbia, USA
-Search for more papers by this author
-Ari Novy, 
-Ari Novy
-  * orcid.org/0000-0002-0873-9948
-
-
-The Plant Molecular and Cellular Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, California, USA
-San Diego Botanic Garden, Encinitas, California, USA
-Search for more papers by this author
-Susan Pell, 
-Susan Pell
-  * orcid.org/0000-0002-7214-3225
-
-
-U.S. Botanic Garden, Washington, District of Columbia, USA
-Search for more papers by this author
-Michael D. Purugganan, 
-Michael D. Purugganan
-  * orcid.org/0000-0002-9197-4112
-
-
-Center for Genomics & Systems Biology, New York University, New York, USA
-Search for more papers by this author
-Jeanmaire Molina, 
+Sandra Patiño, 
 Corresponding Author
-Jeanmaire Molina
-  * jmolina2@pace.edu
-  * jeanmaire.molina@liu.edu
-
-
-  * orcid.org/0000-0001-5250-2684
-
-
-Biology Department, Pace University, New York, New York, USA
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-**Correspondence**
-Jeanmaire Molina, Biology Department, Pace University, New York, NY, USA.
-Email: jmolina2@pace.edujeanmaire.molina@liu.edu
+Sandra Patiño
+Institute of Ecology and Resource Management, The University of Edinburgh, Darwin Building, Mayfield Road, Edinburgh EH9 3JU, UK;
+Helsinki Finland;
+Author for correspondence:_Sandra Patiño Fax: + 57 1 288 9564 Email:_ spatino@humboldt.org.coSearch for more papers by this author
+Tuula Aalto, 
+Tuula Aalto
+Department of Physics, University of Helsinki, PO Box 9 (Siltavuorenpenger 20D), University of Helsinki, FIN−0001
 Search for more papers by this author
-Adhityo Wicaksono, 
-Adhityo Wicaksono
-  * orcid.org/0000-0003-3298-3577
-
-
-Division of Biotechnology, Genbinesia Foundation, Gresik, Indonesia
-Study Group of Bioinformatics, Synthetic Biology Indonesia, Sumbawa, Indonesia
+Alice A. Edwards, 
+Alice A. Edwards
+Chemistry Department, Universiti Brunei Darussalam, Jln. Tungku Link, Bandar Seri Begawan BE 1410, Brunei Darussalam; Present address: Alexander von Humboldt Biological Research Institute, Calle 37 #8-40 Mezanine, Bogotá DC, Colombia
 Search for more papers by this author
-Todd P. Michael, 
-Todd P. Michael
-The Plant Molecular and Cellular Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, California, USA
-Cepheid, Sunnyvale, California, USA
+John Grace, 
+John Grace
+Institute of Ecology and Resource Management, The University of Edinburgh, Darwin Building, Mayfield Road, Edinburgh EH9 3JU, UK;
 Search for more papers by this author
-Su-Hwan Kwak, 
-Su-Hwan Kwak
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-Ronniel D. Pedales, 
-Ronniel D. Pedales
-  * orcid.org/0000-0002-5335-6313
-
-
-Institute of Biology, University of the Philippines Diliman, Quezon City, Philippines
-Search for more papers by this author
-Zoé Joly-Lopez, 
-Zoé Joly-Lopez
-  * orcid.org/0000-0002-7926-322X
-
-
-Département de Chimie, Université du Québec à Montréal, Montréal, Québec, Canada
-Search for more papers by this author
-Semar Petrus, 
-Semar Petrus
-Cepheid, Sunnyvale, California, USA
-Search for more papers by this author
-Allen Mamerto, 
-Allen Mamerto
-The Plant Molecular and Cellular Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, California, USA
-Search for more papers by this author
-Brian Tomek, 
-Brian Tomek
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-Sumaya Ahmed, 
-Sumaya Ahmed
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-Venkatasivasankar Maddu, 
-Venkatasivasankar Maddu
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-Kristina Yakubova, 
-Kristina Yakubova
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-Danilo Tandang, 
-Danilo Tandang
-  * orcid.org/0000-0003-2708-661X
-
-
-Botany and National Herbarium Division, National Museum of the Philippines, Manila, Philippines
-Search for more papers by this author
-Joseph W. Morin, 
-Joseph W. Morin
-Department of Life Sciences, Long Island University, Brooklyn, New York, USA
-Search for more papers by this author
-So-Yon Park, 
-So-Yon Park
-  * orcid.org/0000-0002-2126-3382
-
-
-Division of Plant Science and Biotechnology, University of Missouri, Columbia, Missouri, USA
-Search for more papers by this author
-Hyun-Oh Lee, 
-Hyun-Oh Lee
-Division of Plant Science and Biotechnology, University of Missouri, Columbia, Missouri, USA
-Search for more papers by this author
-William McLaughlin, 
-William McLaughlin
-U.S. Botanic Garden, Washington, District of Columbia, USA
-Search for more papers by this author
-Kyle Wallick, 
-Kyle Wallick
-U.S. Botanic Garden, Washington, District of Columbia, USA
-Search for more papers by this author
-James Adams, 
-James Adams
-U.S. Botanic Garden, Washington, District of Columbia, USA
-Search for more papers by this author
-Ari Novy, 
-Ari Novy
-  * orcid.org/0000-0002-0873-9948
-
-
-The Plant Molecular and Cellular Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, California, USA
-San Diego Botanic Garden, Encinitas, California, USA
-Search for more papers by this author
-Susan Pell, 
-Susan Pell
-  * orcid.org/0000-0002-7214-3225
-
-
-U.S. Botanic Garden, Washington, District of Columbia, USA
-Search for more papers by this author
-Michael D. Purugganan, 
-Michael D. Purugganan
-  * orcid.org/0000-0002-9197-4112
-
-
-Center for Genomics & Systems Biology, New York University, New York, USA
-Search for more papers by this author
-First published: 13 April 2023
-<https://doi.org/10.1002/ppp3.10370>
-Citations: 11
+First published: 30 April 2002
+<https://doi.org/10.1046/j.1469-8137.2002.00396.x>
+Citations: 25
 [About](javascript:void\(0\))
   * ## Figures
   * ## References
@@ -325,7 +97,7 @@ Tools
 
 ShareShare
 Give access
-[](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10370)
+
 Close modal
 Share full-text access
 Please review our Terms and Conditions of Use and check box below to share full-text version of article.
@@ -338,348 +110,221 @@ Share a link
 Share on
   *   *   *   *   *   *   * 
 
-## Societal Impact Statement
-en
-_Rafflesia_ is a genus of parasitic plants with the largest flowers in the world, unique to the threatened forest habitats of tropical Asia. Here, we report on genes that are active (the transcriptome) in _Rafflesia_ seeds as part of a larger effort to understand _Rafflesia_. _Rafflesia_ has never been grown successfully outside of its native range. Consequently, seed banking is not yet possible, precluding a critical management strategy for conservation. The study of _Rafflesia_ seed biology is a critical step to improve its cultivation, which will educate the public about unique species and the importance of conserving their habitats.
-###  Summary
-  * _Rafflesia_ is of great interest as one of the only two plants known to have completely lost its chloroplast genome. _Rafflesia_ is a holoparasite and an endophyte that lives inside the tissues of its host, a tropical grape vine (_Tetrastigma_), emerging only to bloom—with the largest flower of any plant. Here, we report the first _Rafflesia_ seed transcriptome and compare it with those of other plants to deepen our understanding of its extraordinary life history.
-  * We assembled a transcriptome from RNA extracted from seeds of the Philippine endemic _Rafflesia speciosa_ and compared this with those of other plants, including _Arabidopsis_ , parasitic plants _Striga_ and _Cuscuta_ , and the mycoheterotrophic orchid _Anoectochilus_.
-  * Genetic and metabolic seed pathways in _Rafflesia_ were generally similar to the other plant species. However, there were some notable exceptions. We found evidence of horizontal transfer of a gene potentially involved in circumventing host defenses. Moreover, we identified a possible convergence among parasitic plants because _Rafflesia_ , _Striga_ , and _Cuscuta_ shared important similarities. We were unable to find evidence of genes involved in mycorrhizal symbiosis, suggesting that mycoheterotrophy is unlikely to play a role in _Rafflesia_ parasitism.
-  * To date, ex situ propagation of _Rafflesia_ by seed has been mostly unsuccessful. Our research is a bold step forward in understanding the fundamentals of _Rafflesia_ seed biology that will inform the continued propagation and seed-banking efforts concerning this recalcitrant plant. We discuss our findings in the broader context of the conservation of a genus in peril.
+## Summary
+  * • 
+The giant flowers of the parasitic _Rafflesia_ occur in the shade of the forest understorey. They present several characteristics in common with the related species, _Rhizanthes lowii_ , which is a strongly endothermic flower _._ The possible existence of endothermy in _Rafflesia tuan-mudae_ was investigated here.
+  * • 
+The internal and surface temperature of the flowers were continuously monitored with fine thermocouples while radiation fluxes and microclimatic variables were recorded. A computational fluid dynamic model was used to predict the concentrations of CO2 inside the diaphragm of the flower.
+  * • 
+It was found that the internal parts of the flower were maintained a few degrees (1–6 K) above air temperature. It was not possible to account for this temperature rise without postulating a significant internal source of heat. It was concluded that _R. tuan-mudae_ is an endothermic flower that generates a maximum of 50–60 W m−2 of heat in the centre of the column.
+  * • 
+The possible role of endothermy, CO2 and volatiles as elements in the mimicry of the flower to attract pollinating blowflies is discussed and compared with the related species _Rhizanthes lowii_.
 
 
-## Abstract
-tl
-Ang _Rafflesia_ ay isang uri ng parasitikong halaman na may pinakadambuhalang bulaklak sa buong mundo. Ito ay matatagpuan lamang sa mga nanganganib na tropikal na kagubatan ng Asya. Hindi pa napalalago ang _Rafflesia_ sa labas ng Asya. Dahil dito, hindi pa posible ang seed banking na mahalaga sa konserbasyon ng _Rafflesia_. Pinag-aralan namin dito ang genetics ng buto o liso ng _Rafflesia_ upang maunawaan ang mga prosesong nagaganap sa loob nito. Ang pag-aaral na ito ay isang kritikal na hakbang sa pagpapalago ng _Rafflesia_ upang ito ay mapreserba at maipalaganap ang malasakit ng publiko sa mga namumukod tanging halaman at lupalop na kanilang pinanggagalingan.
-## 1 INTRODUCTION
-Since first described in the 18th century from Java, Indonesia, the enormous blooms (~1 m) of _Rafflesia_ that smell like rotting meat have mesmerized scientists and lay naturalists alike. Unlike most plants, _Rafflesia_ (Rafflesiaceae) is a parasite bereft of stems, roots, and leaves. It lives as an endophyte, growing within the tissues of its host vine, the genus _Tetrastigma_ (Vitaceae), and only emerges from its host's exterior to flower (Davis et al., 2007). Genomic studies have demonstrated an association between _Rafflesia_ and _Tetrastigma_ predating the origin of _Tetrastigma_ itself, suggesting other taxa in the Vitaceae may have even served as hosts in the past (Cai et al., 2021). An association dating back to the Cretaceous may have afforded _Rafflesia_ , and the closely-related _Sapria_ , to become the only plants we know of to completely discard their plastid genomes (Cai et al., 2021; Molina et al., 2014) while retaining their plastid compartments for amino acid and lipid synthesis (Ng et al., 2018). The loss of the plastid genome is so far unique in Rafflesiaceae, that a science news article even asked, “When is a plant no longer a plant? (Pennisi, 2014).” However, its massive flowers attest to its bona fide “plant status.”
-There are about 40+ _Rafflesia_ spp. endemic to the dwindling forests of tropical Asia with several species considered critically endangered (Barcelona et al., 2009; Pelser et al., 2019). Dubbed panda of the plant world, _Rafflesia_ is a charismatic icon of plant conservation, but unlike the panda, efforts to conserve and cultivate _Rafflesia_ out of its natural habitat have been limited and challenging (Molina et al., 2017; Wicaksono et al., 2016, 2021). This is perhaps a direct consequence of the little that we know of its biology, especially of its seeds. Small mammals, like shrews previously observed to gnaw on the hard covering of the fruits, are believed to facilitate seed dispersal (Bänziger, 2004; Nais, 2001), though ants have also been seen transporting the seeds (Pelser et al., 2013, 2016). How these seeds germinate and infect the host is unknown (Wicaksono et al., 2021), but after the seed germinates in the host, it seems that the _Rafflesia_ endophyte can persist in the vegetative stage for years (M. Gabin, personal communication, July 28, 2016; Bascos et al., 2021).
-Molina et al. (2017) inoculated _Rafflesia_ seeds in uninfected _Tetrastigma_ host species growing in the US Botanic Garden, following techniques by Marius Gabin, a _Rafflesia_ grower in Malaysia, but the emergence of the bud has yet to be seen. Ex situ propagation attempts from _Rafflesia_ seed have been unsuccessful except for one—a blooming flower of _Rafflesia arnoldii_ was reported in 2022 in Bogor Botanic Garden, Indonesia, presumably a result of a seed inoculation experiment several years prior (S. Mursidawati and D. Latifah, personal communication, January 5, 2023). However, grafting _Rafflesia-_ infected _Tetrastigma_ to an uninfected rootstock seems to be the most viable method as implemented in Bogor Botanic Garden, producing multiple blooms for public display (Mursidawati et al., 2015; Thorogood et al., 2021), and exemplifies the importance of these emblematic species in promoting plant conservation awareness. To date, only one species, _Rafflesia patma_ , has been propagated ex situ (Mursidawati et al., 2015). It is estimated that 76% of parasitic plant diversity is missing in botanic gardens (Thorogood et al., 2021), including rare holoparasites like _Rafflesia_ , translating to lost opportunity to raise awareness and appreciation for these evolutionary marvels and their threatened habitats.
-In vitro experiments to induce _Rafflesia_ seed germination using various plant growth regulators such as gibberellins, ethylene, brassinolide, and cytokinin have also been unsuccessful (Molina et al., 2017). Even the synthetic strigol, GR24, known to stimulate seed germination in plant parasites of Orobanchaceae, did not induce germination. Transcriptome sequencing of germinating seeds of the Orobanchaceae parasite, _Phelipanche aegyptiaca_ exposed to GR24 revealed numerous differentially expressed genes related to DNA, RNA, protein repair and biosynthesis, carbohydrate, and energy metabolism. Upregulation of abscisic acid (ABA), gibberellin (GA), and ethylene-associated genes were also observed, with seed germination related to the increasing concentration of GA and ethylene and concomitant reduction in ABA (Yao et al., 2016). In fact, these plant hormone interactions during seed germination are not unique to plant parasites and generally apply to many plants, including the model species _Arabidopsis_ (Carrera-Castano et al., 2020).
-Ranjan et al. (2014) profiled the transcriptomes of different developmental stages of the holoparasite _Cuscuta pentagona_ (Convolvulaceae), and in the pre-haustoria seedling stage, they found an enrichment of genes associated with responses to stress, biotic, and endogenous stimuli, as well as transporter, kinase, and catalytic activities. The haustorium is the specialized feeding structure in many plant parasites that regulates transfer of nutrients from host to parasite (Teixeira-Costa, 2021; Yang et al., 2015). Yang et al. (2015) studied the genetic basis of haustorial development in plant parasites of Orobanchaceae, namely, _Phelipanche_ , _Tryphysaria_ , and _Striga_ , characterizing the shared upregulated genes as “parasitism genes,” having enhanced expression in the haustoria. These included genes for proteolysis such as serine carboxypeptidase and aspartyl protease, cell wall modification genes (e.g., pectate lyase), and peroxidase genes. They discovered that orthologs of these haustorial genes were expressed significantly in root and pollen tissues in nonparasitic model plant species suggesting that haustorium genes evolved from these nonparasitic but similarly intrusive plant structures.
-Unlike the seeds of Orobanchaceae which are responsive to host-derived strigolactones (Wang et al., 2017), it is yet unknown what triggers germination and development of the _Rafflesia_ seed. In this study, we seek a better understanding of _Rafflesia_ seed biology by comparing a newly generated transcriptome of _Rafflesia speciosa_ seeds to published seed transcriptomes of _Arabidopsis_ (Dorone et al., 2020), _Striga_ (Yang et al., 2015), _Cuscuta_ (Ranjan et al., 2014), and _Anoectochilus_ (Liu et al., 2015). The orchid _Anoectochilus_ is initially mycoheterotrophic during seed germination, reliant on mycorrhizal fungi due to lack of nutritive reserves in the minute seeds until leafy structures begin to photosynthesize (Liu et al., 2015). _Rafflesia_ seeds are comparatively tiny (0.7–0.9 mm; Figure 1) with scant oily endosperm enveloping the tiny undifferentiated embryo (Bouman & Meijer, 1994). JM (unpublished) has characterized diverse endophytic microbiota in _R. speciosa_ seeds with plant-growth promoting properties in the literature (Khalaf & Raizada, 2016). It is possible that _Rafflesia_ may be similarly dependent on microbial symbionts during germination, similar to _Anoectochilus_ and other mycorrhizal-dependent orchids. To our knowledge, this study presents the first seed transcriptome of _Rafflesia_. Here, we present the seed genetics of this unique holoparasite and describe its similarities and differences to other plants, including other parasites and a mycoheterotrophic orchid. We discuss how insights from the _Rafflesia_ seed transcriptome can benefit future ex situ propagation and conservation efforts of the world's largest flower.
+##  Introduction
+The genus _Rafflesia_ belongs to the wholly parasitic family Rafflesiaceae, which comprises 16 known species. It is known to be the largest flower of the plant kingdom (13–107 cm diameter) (Meijer, 1984) and also one of the rarest, being threatened with extinction as a consequence of the destruction of its habitat (Meijer, 1985; Bänziger, 1991; Nais & Wilcock, 1998). The genus is distributed from north of the Kra isthmus of Thailand through western Malaysia and the Philippines, Borneo, Sumatra and Java (Bänziger, 1991; Salleh, 1991; Meijer, 1997). _Rafflesia_ is an understory plant, which is first evident as a small protuberance emerging from the roots or near-ground stems of a few species of the vine _Tetrastigma_ (Vitaceae) (Fig. 1a). After 6–12 months it takes the form of a pink-brownish ‘cabbage’ (Fig. 1b), which blooms into an ephemeral flower (Fig. 1c,d) but lacks leaves or photosynthetic tissue, stems or roots, the only vegetative parts being fine filaments that penetrate the tissue of the vine host (Meijer, 1985; Ismail, 1988; Nais & Wilcock, 1998). The flowers are unisexual (Beaman _et al_., 1988; Bänziger, 1991) and by looking and smelling like ‘rotten flesh’ or ‘festering sore’, they attract several species of carrion flies or blowflies of the genus _Lucilia_ and _Chrysomya_ (Calliphoridae), which pollinate them (Bänziger, 1991; Beaman _et al_., 1988; Bänziger, 1996). If pollinated, after 6–9 months the structure below the column that holds the ovary of the female flower becomes the fruit, holding many thousands of miniature seeds that are likely to be dispersed by small mammals such as squirrels and treeshrews (Meijer, 1985). How the seeds germinate and penetrate the host is still unclear.
  
-**FIGURE 1**
+**Figure 1**
 Open in figure viewerPowerPoint
-Plants in this study and their corresponding seed anatomy. (a) _Rafflesia speciosa_ (photo by J. Molina, scale bar = 10 cm), seed anatomy modified from Wicaksono et al. (2021) to reveal the internal tissue of the embryo based on Ng et al. (2018); (b) _Cuscuta pentagona_ (photo by Mason Brock, scale bar = 1 cm), seed anatomy inspired by Olszewski et al. (2020); (c) _Anoectochilus roxburghii_ (image from Ye et al., 2017, _J Ethnopharm_ 209: 184–202, with permission, scale = 5 cm), seed anatomy inspired by Li et al. (2019); (d) _Striga hermonthica_ (photo from USDA ARS, public domain via Wikimedia Commons, scale = 5 cm), seed anatomy inspired by Seed Identification Guide (2018), www.idseed.org; and (e) _Arabidopsis thaliana_ (photo by SH Kwak, scale = 5 cm), seed anatomy inspired by Haughn and Chaudhury (2005). The images of _C. pentagona_ and _S. hermonthica_ were taken by Mason Brock and the United States Department of Agriculture: Agricultural Research Service, respectively and are available in Wikimedia public domain with no copyright. The image of _Anoectochilus roxburghii_ is added by permission from Elsevier.
-## 2 MATERIALS AND METHODS
-### 2.1 RNA extraction and library preparation
-Seeds (0.5 g) from one fruit of _R. speciosa_ were collected in August 2016 at Miagao, Iloilo, Philippines with permission from the Philippine government (Gratuitous Permit 242). The seeds were scraped from the dehisced fruit and air dried for transport to the United States with the appropriate transport and export permits. The dried seeds were ground in liquid nitrogen with total RNA extracted using Qiagen RNeasy Plant Mini Kit (Cat. No. 74904) following manufacturer's protocol resulting in 6.24 ng/μL of extracted RNA. Eluted RNA was treated with Ambion TURBO DNA-free kit (Thermo Fisher Scientific, Cat. No. AM1907) and then quantified by Qubit RNA BR assay. Ribo-Zero rRNA removal procedure was performed according to the manufacturer's instructions. rRNA-depleted RNA was cleaned up using the Agencourt RNAClean XP Kit (Beckman Coulter, Cat. No. A63987). ScriptSeq Complete Seed/Root kit (Illumina, Cat. No. BSR1206) was used for library prep following the protocol for “Low Input” RNA. The RNA-seq library was purified using the AMPure XP system. Final library quantification and quality control were performed using the Agilent Tape Station. Libraries were sequenced using Illumina protocols for 2 × 100-bp reads on an Illumina HiSeq 2500 instrument at the New York University GeneCore facility.
-### 2.2 _Rafflesia_ seed transcriptome assembly
-Illumina reads were filtered and trimmed for quality using Trimmomatic (v0.27). The resulting high-quality reads were assembled with Trinity (v2.8.5) into contigs. For comparison, raw data files for seed transcriptomes of _Striga hermonthica_ (StHe0GB1, imbibed seed Yang et al., [2015]), _C. pentagona_ (SRR966236, seed condition whether dry/imbibed not stated Ranjan et al., [2014]), _Anoectochilus roxburghii_ (SRR2962491, dry seeds Liu et al., [2015]), and _Arabidopsis thaliana_ (GSM5100805, dry seeds Dorone et al., [2020]) were downloaded and independently do novo assembled using Velvet 1.2.10 in Geneious Prime (Biomatters Ltd.) with default parameters.
-The fasta files of the assembled contigs of all five taxa were each imported into OmicsBox (Biobam Bioinformatics, Valencia, Spain), blasted against Magnoliopsida nonredundant protein sequences using blastx-fast algorithm with e-val 1.0e−100. For _Rafflesia_ , additional blasting against fungi was performed, and blast results were compared with those obtained for Magnoliopsida. Transcripts that had higher similarity values for fungal genes versus plant genes were eliminated in further analyses as these transcripts may be from endophytic fungi within _Rafflesia_ seeds. After filtering, Salmon (v1.6.0) was used to map the reads to the transcriptome followed by transcript quantification for quality control. Gene ontology (GO) mapping (Götz et al., 2008) using the latest database version was performed on all protein blast hits and then annotated with Blast2GO. Statistics related to Blast hits (top hit species), annotation (direct GO count biological process, molecular function, and cell component), and enzyme code mapping were generated for each transcriptome.
-## 3 RESULTS
-The read set (158,907,700) had an overall mapping rate of 92.1% and determined to be suitable for downstream analysis. Ninety-four percent (135,913,373) of our mapped reads were associated with highly expressed transcripts (TPM > 1000). Of the ~90K assembled _Rafflesia_ seed contigs, over 7K had blast hits using Blastx-fast algorithm (1.0e−100) in OmicsBox against nonredundant protein sequences of Magnoliopsida. Ninety-one percent (91%) of these had GO annotations (Table 1). Comparable statistics for other plant taxa are also given in Table 1. Table 2 provides the proportion of contigs in the _Rafflesia_ seed transcriptome. The top 10 blast hits for _Rafflesia_ (Figure 2) included Malpighiales taxa (_Hevea_ , _Manihot_ , _Jatropha_ , _Ricinus_ , and _Populus_ , total 49% transcripts) to which _Rafflesia_ belongs, though 2% transcripts were most similar to _Vitis_ of Vitaceae, the host family. We do not think this is contamination from the host because the _Rafflesia_ seeds were enclosed in the partially dehisced fruit and the seeds were not touching the host root.
-TABLE 1. Descriptive statistics of the de novo assembled transcripts for taxa in this study including _Rafflesia_.
-Plant taxon and reference | De novo assembled contigs | Number of BLAST hits | Percentage with GO annotations from number of BLAST hits  
----|---|---|---  
-_Arabidopsis_ (dry, GSM5100805; Dorone et al., 2020) | 20,236 | 10,995 | 93.4  
-_Anoechtochilus_ (dry, SRR2962491; Liu et al., 2015) | 63,274 | 5367 | 76.7  
-_Cuscuta_ (unknown seed condition, SRR966236; Ranjan et al., 2014) | 29,037 | 2120 | 83.2  
-_Rafflesia_ (air-dried, this study) | 89,950 | 7025 | 91.2  
-_Striga_ (imbibed, StHe0GB1; Yang et al., 2015) | 13,872 | 5584 | 98.5  
-  * _Note_ : Published raw data sets for _Anoechtochilus_ , _Arabidopsis_ , _Cuscuta_ , and _Striga_ were downloaded and de novo assembled producing contigs (>300 bp) that were blasted and annotated.
-  * Abbreviation: GO, gene ontology.
-
-
-TABLE 2. Contig statistics for the _Rafflesia_ seed transcriptome.
-Length range (bp) | Count | Percentage  
----|---|---  
-300–600 | 121 | 1.7  
-601–1000 | 1978 | 28.2  
-1001–2000 | 4011 | 57.1  
-2001–3000 | 681 | 9.7  
-3001–4000 | 167 | 2.4  
-4000+ | 67 | 0.9  
-Total | 7025 | 100  
-  * _Note_ : The proportion of contigs with a certain length, from those with BLAST hits, is given.
-  * Abbreviation: bp, base pairs.
-
-
+Sequence of blooming of _Rafflesia tuan-mudae_ : (a) young buds, about 3 months and 4 months old; (b) mature bud, about 9 months old; (c) opening bud, after 9 months growth; (d) female flower almost in full bloom.
+In a recent study (Patiño _et al._ , 2000), it was reported that the related species _Rhizanthes lowii_ is a strongly endothermic flower that exhibits weak thermoregulation. Endothermy in plants has been associated with an increase in cyanide-insensitive respiration, an alternative pathway of the respiratory electron transport system in the citric acid cycle that generates heat without producing adenosine triphosphate (ATP) (Bahr & Bonner, 1973; Meeuse, 1975; McCaig & Hill, 1977; Meeuse, 1978; McNulty & Cummins, 1987; Raskin _et al_., 1989). This process causes production and diffusion of copious amounts of CO2 (Buggeln _et al_., 1971) and volatile compounds (Meeuse, 1966; Meeuse, 1975; Meeuse, 1978) that may act as attractants of beetle pollinators. Patiño _et al_. (2000) suggested that CO2, when combined with other volatile compounds, increases the probability of pollination of _R. lowii_.
+Although there are morphological and functional differences, _Rafflesia_ species and _R. lowii_ share many characteristics. These flowers are sympatric in many areas and occur in the dense shade of the forest understory. Both are totally parasitic on a few, but different species of _Tetrastigma_ ssp. lianas. They both have a very specific pollination process, being pollinated only by carrion flies or blowflies, which they attract by resembling rotting flesh and/or the wounds of animals and by producing volatile substances (a form of mimicry). The aim of this study was to address the hypothesis that endothermy is part of the mimicry of _Rafflesia_ to attract pollinating flies, as in its relative _R. lowii_. To test the hypothesis we studied flowers of _Rafflesia tuan-mudae_ in natural conditions.
+##  Materials and Methods
+###  Plant material
+_Rafflesia tuan-mudae_ Becc. is an endemic species from Sarawak (Malaysia) confined to three isolated mountains Pueh, Gading and Rara. It usually grows in rich alluvial or limestone-derived soils and is restricted to primary and secondary forest of altitudes below approx. 2000 m. Meijer (1997) states the flower has a diameter range of between 44 cm and 56 cm, although Beccari (1868) reports an individual of 86 cm in diameter and one female flower of the present study measured 78 cm diameter. Three young buds and five flowers were located in the understory of dense canopy and studied in natural conditions in two visits in 1998 and one in 1999. One male flower and three buds were investigated from 14 to 27 July, three female flowers from 27 September to 12 October 1998 and one male flower from 13 to 17 January 1999. Four flower stages were classified as: (1) young bud, 3 months to 1 month before anthesis; (2) anthesis; (3) fresh flower, the first and the second days following anthesis; and (4) decaying flower, from the third day following anthesis. Mature buds were not used in this study to avoid any damage that could affect the final develop of the buds and the further anthesis.
+###  Study site
+This study was conducted in Taman Negara Gunung Gading, Lundu, Sarawak, Malaysia, SE Asia (1°40′ N 109°52′ E). The forest here is classified as a lowland Dipterocarp forest, 50–883 m above sea level (Meijer, 1997). The climate is aseasonal, with mean monthly rainfall exceeding 100 mm for all months.
+###  Field measurements
+The procedures described below were applied to all the flowers in this study unless otherwise specified.
+###  Temperature of buds, flowers and the microclimate
+Thermocouples (0.5 mm in diameter PVC-insulated copper-constantan; Industrial Thermocouple Supplies Pty. Ltd., Thomastown, Victoria Australia) were used to measure the temperatures of buds and floral structures. To place the thermocouples in the interior (column) of the buds (Fig. 2a), they were first threaded in 7–20 cm hypodermic needles, which were fully inserted into the centre of the bud, and then carefully removed by slipping the wire through the needle, leaving the end of the thermocouple at the desired place. The temperature measurements of open flowers started on the first day of blooming. Thermocouples were placed in different parts of the flower (Fig. 2b) to measure the temperature at: the centre of the disk or column (c), anther area of male flowers (at), stigma area of female flowers (st), process (p), surface of the perigone lobe (sp), surface of the diaphragm (sd), window (w) and surface of the perigone tube (pt). An additional thermocouple was placed inside the diaphragm without touching the tissue to measure the temperature of the air inside the diaphragm (da) (Fig. 2b). Soil temperature (_T_ so) was also recorded with a thermocouple 5 mm below the soil surface. Air temperature (_T_ a), and humidity were measured with thermocouples in a custom-built forced-air radiation-shielded hygrometer located near the flower. Wind velocity, _u_ , at the flower surface was measured with an omnidirectional hot-wire anemometer (model 8460-13E-V, TSI Inc., St Paul, MN, USA). This anemometer was used only during the day and disconnected when rain fell. A cup anemometer (Model MG2, Vector Instruments, Rhyl, Denbighshire, UK) was used night and day. This anemometer was placed at flower level. The net radiation, _R_ n, was measured with a Funk type net radiometer (Q*7, Campbell Scientific Ltd., Loughborough, Leicestershire, UK). The net radiometer was placed near the flower at the same level. Photosynthetic photon flux density (PPFD) was recorded with a quantum light sensor (Quantum Sensor SKP215, Sky Instruments Ltd. Llandrindod Wells, Powys, Wales, UK) to determine when the flowers were illuminated by brief periods of penumbral sunlight. The sensor was placed at the same level as the net radiometer.
  
-**FIGURE 2**
+**Figure 2**
 Open in figure viewerPowerPoint
-Top blast hits of the _Rafflesia_ seed transcripts. The top hits included Malpighiales taxa (_Hevea_ , _Manihot_ , _Jatropha_ , _Ricinus_ , _Populus_ , total 49% transcripts) to which _Rafflesia_ belongs, though 2% transcripts were most similar to _Vitis_ of Vitaceae, the host family.
-Because of the differences in sequence coverage across datasets resulting in discrepant counts for assembled contigs, we compared the proportions for GO counts for biological process (BP), molecular function, and cellular component (Figure 3) for each taxon (#GO for a specific category / total #GO for the taxon, e.g., 228 _Rafflesia_ transcripts for protein phosphorylation divided by all _Rafflesia_ transcripts annotated under BP). The most enriched GO functions for BP in the _Rafflesia_ seed were “protein phosphorylation,” “proteolysis,” and “phosphorylation,” though still proportionally lower compared with other taxa (Figure 3a). As for molecular function GO, _Rafflesia_ seed transcripts were enriched for “ATP binding,” “metal ion binding,” and “ATP hydrolysis activity,” like other taxa (Figure 3b). However, for cellular component (Figure 3c), _Rafflesia_ seed values were below average for “nucleus” but higher for “cytoplasm” which may be related to the higher activity of cytoplasmic-associated Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways such as “protein processing in endoplasmic reticulum (ER),” “glycolysis/gluconeogenesis,” “pyruvate metabolism,” “oxidative phosphorylation,” “peroxisome,” and “fatty acid degradation.” “mRNA surveillance pathway and beta-alanine metabolism” were also increased (Figure 4). The _Rafflesia_ seed transcriptome was proportionally higher for fatty acid metabolism, compared with the seed transcriptomes of the other taxa studied here, based on the heatmap of homologous oil metabolism genes (Figure 5) involved in seed germination (Miray et al., 2021).
+A schematic representation of a median longitudinal section through (a) male bud and (b) female flower of _Rafflesia tuan-mudae_ showing the floral structures. The symbols are: sp, surface of the perigone lobe; w, windows; p, process; at, anther area of the male flowers; st, stigmatic area of the female flower; c, column; o, ovary; sd, surface of the diaphragm; da, space of the diaphragm; ra, ramenta; pt, surface of the perigone tube.
+All variables for the two male flowers and the three buds were measured every 20 s and recorded as means of 15 readings once per 5 min night and day. For the three female flowers, the variables were measured every 6 s and recorded as means of 10 readings once per minute during the day, and every 20 s, and recorded as means of 15 readings once per 5 min, during the night on a data logger (Model 21X, Campbell Scientific, Ltd). They were subsequently plotted as average 10-min values.
+**Data analysis** Differences in mean excess temperatures of the column of three female vs two male flowers and of the anther vs stigmatic area of the same flowers were analysed with one-way analysis of variance using Minitab 12.3 software (Minitab Inc., State College, PA, USA).
+###  Heat balance models
+The heat supply required to raise the tissue temperature of the central column of a female flower several degrees above ambient temperature was calculated using two different approaches. (1) The method described by van Gardingen & Grace (1991); in this method, the heat transfer is modelled as a combination of forced and free convection, assuming no transpirational cooling. (2) An exact method using computational fluid dynamics; heat and CO2 transfer in this method is solved using a commercial software package fluent (Kim _et al_., 1997). The solution was based on a finite difference scheme in an adaptive grid and the transfer equations were solved in a segregated mode. Flow past the flower was set to the measured value of 0.2 m s −1, and was assumed to be turbulent. Free convection caused by temperature differences was also included, since the wind velocities near the central column were low. Physical properties of the flower material (conductivity, specific heat capacity) were assumed to be the same as water.
+The CO2 production rate was solved from heat production given knowledge of the heat of combustion of glucose, and assuming that six CO2 molecules are produced per one glucose oxidized (Penning de Vries _et al_., 1974).
+##  Results
+###  Temperature of buds, flowers and microclimate
+Diurnal changes in tissue temperature and microclimate variables were studied for 14 d on three young buds of undetermined sex and 5–8 d on two male and three female flowers. The buds available for study did not reach maturity because termites destroyed them at the end of the second week of measurements.
+Figure 3 shows a representative 9-d course of tissue and air temperatures for the three buds. The data represent the average of interior (column) and surface tissue temperatures for the three buds.
  
-**FIGURE 3**
+**Figure 3**
 Open in figure viewerPowerPoint
-(a) Top biological processes in _Rafflesia_ seed compared with _Anoectochilus_ , _Cuscuta_ , _Striga_ , and _Arabidopsis_. The top three enriched processes in _Rafflesia_ were “protein phosphorylation,” “proteolysis,” and “phosphorylation,” though still relatively lower compared with other taxa. Proportion of _Rafflesia_ seed transcripts was the lowest for “protein ubiquitination,” “regulation of transcription, DNA-templated,” and “DNA repair,” though comparatively higher for “proton transmembrane transport” compared with the other taxa. (b) Top molecular function processes in _Rafflesia_ seed compared with other taxa. _Rafflesia_ seed transcripts were enriched for “ATP binding,” “metal ion binding,” and “ATP hydrolysis activity,” like other taxa. _Rafflesia_ was relatively lower for “DNA binding” and “protein serine/threonine kinase activity” yet higher in “nucleotide binding” and “magnesium ion binding” compared with the other taxa. (c) Top cellular component structures in _Rafflesia_ seed compared with other taxa. _Rafflesia_ transcripts were enriched for “integral component of membrane,” “cytoplasm,” and “nucleus.”
+Daily pattern of air and tissue temperature for three young buds of _Rafflesia tuan-mudae_ from 14 to 24 October 1998. Nights are indicated by grey shadows. (a) Temperature of the air (continuous bold line), interior (continuous thin line) and surface (dotted line). (b) Excess temperature for the interior (continuous line) and surface (dotted line).
+Air temperature fluctuated from 22.1 to 27.5°C while the internal temperature fluctuated between 23.4°C and 26.0°C. Internal temperature lagged behind air temperature, peaking in the early evening (Fig. 3a). The surface temperature closely followed the pattern of air temperature. During the warmer days (days 2, 4 and 9) the interior and surface temperatures were lower than the air with a minimum difference of −2.8 K, suggesting evaporative cooling. During days 6–9 there is evidence of metabolic heating, with excess temperatures (0–2 K) occurring most of the time (Fig. 3b). Here, the term ‘excess temperature’ means the extent to which the tissue is warmer than the air and is expressed in K. In this period, the interior temperatures usually exceed the surface temperatures (Fig. 3b). The maximum excess temperatures were remarkably consistent between buds, usually varying by ± 0.04 K. Net radiation was usually less than 15 W m−2 and PPFD was usually less than 10 µmol m−2 s−1, with a maximum of 27 µmol m−2 s−1 on day 2 as a result of a sunfleck (data not shown).
+ ∖Figure 4a–d represents a 5-d course of temperature and microclimate for a blooming female flower in October 1998. The diameter of this flower was 49.5 cm. The patterns presented in this figure were similar for the five blooming flowers of this study regardless of the sex, but only one is shown for simplicity of presentation (some differences between individual flowers will be noted below).
  
-**FIGURE 4**
+**Figure 4**
 Open in figure viewerPowerPoint
-Top Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways in _Rafflesia_ seed transcriptome compared with _Anoectochilus_ , _Cuscuta_ , _Striga_ , and _Arabidopsis_. _Rafflesia_ seed transcripts were relatively higher for the following pathways (indicated with “*” and discussed): mRNA surveillance pathway, glycolysis/gluconeogenesis, pyruvate metabolism, oxidative phosphorylation, proteasome, fatty acid degradation, and beta-alanine metabolism compared with other taxa.
+Temperature and microclimate of a female flower of _Rafflesia tuan-mudae_ during a 5-d period from 3 to 7 October 1998. The flower stages are indicated by horizontal arrow-lines; from the day of anthesis (2), fresh flower (3) and decaying flower (4). Nights are indicated by grey shadows. (a) Temperature of air and tissue: lines represent column (dotted line), stigmatic area (continuous thin line), and air (thick continuous line). (b) Excess temperature of the tissue: lines are stigmatic area (continuous line), column (dotted line) and the air inside the diaphragm (continuous line and open circle). (c) Vapour pressure deficit (VPD, continuous line) and wind velocity (_u_ , dotted line). (d) Measured net radiation (_R_ n, continuous line) and photosynthetic photon flux density (PPFD) (dotted line).
+The internal tissue was usually higher than air temperature. In this flower, the column was the warmer part with a maxima of about 34°C on the second day in the early afternoon (Fig. 4a). There was a trend in which the excess temperature increases in the early evening reaching a maximum of 4.2 K in the stigmatic area and 5.8 K in the column (Fig. 4b). There was no significant difference in excess temperature between the column of female and male flowers (_F_ = 11, _P_ < 0.001) nor between the anther and the stigmatic area (_F_ = 26.5, _P_ < 0.0001), suggesting that the visit of the pollinating flies to female and male flowers is performed in the same way. The excess temperature of the tissue was sometimes negative (−0.5 to −1.5 K) during the day (days 4 and 5), usually when there was rain. The air temperature inside the diaphragm of the flowers sometimes exceeded that of the external air, reaching a maximum excess of 1 K (Fig. 4b). There were some differences in the maximum excess between flowers. For example, one bigger female flower (78 cm in diameter) had an excess temperature of about 2.2 K in the column (data not shown). Wind velocity at the flower level never exceeded 0.6 m s−1 and vapour pressure deficit (VPD) was less than 0.6 kPa during the whole period, so evaporation is unlikely to have contributed substantially to the heat balance of the flower(s) except at midday (Fig. 4c). Net radiation never exceeded 30 W m−2. There were no sunflecks and the maximum PPFD was about 25 µmol m−2 s−1 (Fig. 4d).
+Figure 5 shows a schematic representation of tissue temperature for a female flower during the day. The day is divided into four 6-h periods. Each temperature represents the mean of 2-d fresh flower measurements for each period. The measured net radiation (_R_ n) is also shown. The maximum temperatures were attained in the column and stigmatic area between 15 : 00 h and 21 : 00 h (Fig. 5c) with the column reaching 31.7°C, the stigmatic area reaching 29.7°C while the air temperature was only 26.9°C and the soil temperature was 26.1°C. The coldest period inside the flower was the early morning (from 03 : 00 h to 09 : 00 h, Fig. 5a) with the column reaching 27°C and the stigmatic area 27.3°C while the mean air temperature in this period was 24.6°C. For all the flowers the column showed the most warming with maximum values normally fluctuating between 33.6°C and 27.0°C (data not shown) while the air temperature fluctuated between 24.6°C and 29.1°C.
  
-**FIGURE 5**
+**Figure 5**
 Open in figure viewerPowerPoint
-Heatmap of oil metabolism genes involved in seed germination. _Rafflesia_ seed transcriptome was proportionally higher for fatty acid metabolism (cf. Figure 4) compared with the seed transcriptomes of the other taxa studied (_Anoectochilus_ , _Cuscuta_ , _Striga_ , and _Arabidopsis_).
-Sixty-seven percent (67%) of _Rafflesia_ transcripts were annotated as enzymes. Similar proportional trends for various enzyme classes were apparent across taxa (Figure 6) with transferases as the most abundant enzyme class in all seed transcriptomes examined (>35%), and “transferring phosphorus-containing groups” is the top function in all taxa (results not shown). Hydrolases composed about 30% of the enzymes present in all seed transcriptomes. Oxidoreductases made up over 10% of seed transcripts.
+Schematic representation of tissue temperature of a female flower during the day. The day is divided into four periods of 6 h each. Each temperature value represents the mean temperature of 2-d measurements for the fresh flower (stage 3). (a) Period from 03 : 00 h to 09 : 00 h; (b) from 09 : 00 h to 15 : 00 h; (c) from 15 : 00 h to 21 : 00 h; (d) from 21 : 00 h to 03 : 00 h. The numbers inside ovals are the mean values of temperature in °C. Net radiation (_R_ n) is given in W m−2.
+###  Heat balance models
+The possibility that the energy for heating the tissue by up to 6 K is not derived from metabolism but from radiation was explored (Fig. 6). According to both the models the heat supply necessary to produce an excess temperature of 3–6 K in a dry flower at an air flow of 2.4 × 10−4 m s−1 inside the diaphragm would be about 50–60 W m−2. Given some evaporative cooling, the heat supply would need to be more than this. As the net radiation was usually less than 15 W m−2, we conclude that metabolic heat must have been an important part of the heat supply.
  
-**FIGURE 6**
+**Figure 6**
 Open in figure viewerPowerPoint
-Enzyme classes in _Rafflesia_ seed compared with _Anoectochilus_ , _Cuscuta_ , _Striga_ , and _Arabidopsis_. Sixty-seven percent (4732/7025) of _Rafflesia_ transcripts were annotated as enzymes.
-Figure 7, which was adapted from Carrera-Castano et al. (2020), depicts the interplay of various phytohormones in germination and dormancy. We discuss below potential interaction of phytohormonal response proteins and germination-dormancy molecular regulators detected in the _Rafflesia_ seed, as shown in Figure 8, in regulating its development. The _Rafflesia_ seed had transcriptionally active genes for GA, brassinosteroid, and salicylic acid, which were all active in _Striga_ and _Arabidopsis_ , the latter having additional hormone biosynthesis genes present. Interestingly, the _Rafflesia_ seed had higher proportion of GA synthesis genes compared with other taxa (Figure 9).
+Calculation of the heat supply needed to raise the temperature of the flowers to the range observed for different wind speeds (_u_ , m s−1) inside the diaphragm. The symbols indicate the calculated heat supply made by method one using the observed temperature of the flower surface in the understory of the forest. The calculated heat supply by method two using fluent software is represented by diamonds and _u_. The air flow inside the diaphragm was calculated with fluent. An air flow of 2.4 × 10−4 m s−1 inside the diaphragm corresponds to a wind speed of 0.2 m s−2 in the understory and an air flow of 1.7 m s−2 corresponds to a wind speed of 1 m s−1 in the understory.
+The concentration of CO2 obtained with fluent in the stigmatic area is about four to 17 times higher than near the surface of the diaphragm, 76 times higher than at the surface of the flower and approximately 76 times compared with the understory concentration (Fig. 7). For example, the CO2 concentration in the understory (1 m above the ground) in the Amazonian rain forest at the Reserva Jaru, Brazil varied from 360 ppm in the evening to 570 ppm early in the morning (Kruijt _et al_., 1996)
  
-**FIGURE 7**
+**Figure 7**
 Open in figure viewerPowerPoint
-Regulatory network of phytohormones involved in germination and dormancy. Figure was adapted from Carrera-Castano et al. (2020). The interaction of auxins (AUX), cytokinins (CKs), gibberellic acids/gibberellins (GA), abscisic acids (ABA), ethylene (ETH), brassinosteroid (BR), and karrikin (KR) controls seed development. Colored outlines are used to distinguish each hormone.
- 
-**FIGURE 8**
-Open in figure viewerPowerPoint
-Heatmap of phytohormonal response proteins and germination-dormancy molecular regulators, showing the proportion of seed transcripts for each species. Levels of auxin response factor were similarly higher across taxa investigated (_Anoectochilus_ , _Cuscuta_ , _Rafflesia_ , _Striga_ , and _Arabidopsis_).
- 
-**FIGURE 9**
-Open in figure viewerPowerPoint
-Gene ontology count heatmap of phytohormone biosynthesis genes in _Anoectochilus_ , _Cuscuta_ , _Striga_ , and _Arabidopsis_. The _Rafflesia_ seed had transcriptionally active genes for gibberellic acids/gibberellins, brassinosteroid, and salicylic acid, with higher proportion of gibberellic acids/gibberellins synthesis genes compared with the other taxa.
-The transcripts of regulatory factors such as TRANSPARENT TESTA GLABRA1 (TTG1), HOMEODOMAIN GLABRA2, and GLABRA2-EXPRESSION MODULATOR, as well as other metabolic genes that are involved in phenylpropanoid synthesis pathway, were identified in the _Rafflesia_ seed transcriptome (Table 3), including cinnamoyl-CoA reductase—a key enzyme in lignin biosynthesis (Table 3). Our results also corroborate previous studies on the absence of a plastome (Cai et al., 2021; Molina et al., 2014). We did not detect any plastid-encoded mRNA in _Rafflesia_ seeds. However, _psbA_ , which encodes for the D1 protein of Photosystem II, was present in the other four taxa studied including the plant parasites _Striga_ and _Cuscuta_ as well as the mycorrhizae-dependent seed _Anoectochilus_ (Figure 10). Over 2% of the transcripts had _Vitis_ as the top hit (vs. a member of Malpighiales) and were presumably horizontally transferred (HT; Table 4). Many transcripts are involved in “DNA integration” including transposon integration perhaps mediated by “nucleic acid phosphodiester bond hydrolysis,” another enriched GO. Gene trees for SERK, RHM1, thiC, and glutamyl-tRNA (Gln) amidotransferase subunit A demonstrate putative horizontal transfers from the host family (Figure 11).
-TABLE 3. Transcripts that are involved in phenylpropanoid synthesis in _Rafflesia_ seed transcriptome.
-Identified transcripts | Gene name |  _Rafflesia_ contig | Expect value | Species of identified homolog  
----|---|---|---|---  
-Regulatory factors |  |  |  |   
-TRANSPARENT TESTA GLABRA1 | _TTG1_ | 41185 | 9.73E−116 | _Manihot esculenta_  
-GLABRA2-EXPRESSION MODULATOR | _GEM_ | 86527 | 2.30E−119 | _M. esculenta_  
-GLABRA2-EXPRESSION MODULATOR | _GEM_ | 86534 | 6.34E−119 | _M. esculenta_  
-GLABRA2-EXPRESSION MODULATOR | _GEM_ | 35727 | 1.31E−116 | _Ricinus communis_  
-HOMEODOMAIN GLABRA2 | _HDG2_ | 19125 | 1.03E−159 | _Populus alba_  
-Phenylpropanoid pathway enzymes |  |  |  |   
-Phenylalanine ammonia-lyase | _PAL_ | 73687 | 0.00E+00 | _R. communis_  
-Phenylalanine ammonia-lyase | _PAL_ | 73688 | 0.00E+00 | _R. communis_  
-4-Coumarate-CoA ligase | _4CL3_ | 86494 | 0.00E+00 | _Jatropha curcas_  
-Chalcone synthase | _CHS_ | 53706 | 0.00E+00 | _Actinidia chinensis_  
-Flavonoid 3′-monooxygenase | _F3'H, TT7_ | 86571 | 0.00E+00 | _P. alba_  
-Dihydroflavonol 4-reductase | _DFR, TT3_ | 30307 | 5.14E−135 | _M. esculenta_  
-Leucoanthocyanidin reductase | _LAR_ | 60680 | 2.96E−167 | _Quercus suber_  
-Cinnamoyl-CoA reductase | _CCR_ | 76321 | 5.01E−108 | _Populus euphratica_  
-Cinnamoyl-CoA reductase | _CCR_ | 46001 | 3.55E−116 | _Salix brachista_  
-Anthocyanidin 3-O-glucosyltransferase | _UGT_ | 10343 | 1.94E−168 | _Herrania umbratica_  
-Anthocyanidin 3-O-glucosyltransferase | _UGT_ | 10348 | 2.49E−170 | _H. umbratica_  
-Anthocyanin 5-aromatic acyltransferase | _AACT1, ACT_ | 37598 | 1.21E−134 | _R. communis_  
-Anthocyanin 5-aromatic acyltransferase | _AACT1, ACT_ | 37594 | 8.33E−137 | _R. communis_  
-Flavonoid transporter |  |  |  |   
-TRANSPARENT TESTA9 | _TT9_ | 74015 | 7.14E−114 | _R. communis_  
-TRANSPARENT TESTA9 | _TT9_ | 74018 | 3.24E−126 | _R. communis_  
- 
-**FIGURE 10**
-Open in figure viewerPowerPoint
-Heatmap of plastid-related genes across the five taxa (_Rafflesia_ , _Anoectochilus_ , _Cuscuta_ , _Striga_ , and _Arabidopsis_)_._ Genes for light-dependent reaction (a), C3 carbon fixation (b), C4-CAM carbon fixation (c), starch synthesis process (d), and carotene synthesis (e). All enzymes are noted with their respective Kyoto Encyclopedia of Genes and Genomes enzyme IDs (except for the light dependent because some are composed of multiple proteins).
-TABLE 4. _Rafflesia_ seed transcripts by GO biological process with top blastx hits to _Vitis_ (vs. members of Malpighiales) which may indicate putatively horizontally transferred transcripts.
-GO biological process | Transcript count  
----|---  
-DNA integration | 36  
-Proteolysis | 21  
-RNA-templated DNA biosynthetic process | 13  
-Nucleic acid phosphodiester bond hydrolysis | 10  
-Glutathione metabolic process | 7  
-Protein phosphorylation | 5  
-Peptide catabolic process | 4  
-Others | 96  
-  * Abbreviation: GO, gene ontology.
-
-
- 
-**FIGURE 11**
-Open in figure viewerPowerPoint
-Gene trees of _Rafflesia_ seed transcripts showing evidence of horizontal gene transfer from the host family (Vitaceae). (a) SERK; (b) RHM1 (rhamnose biosynthesis 1); (c) thiC (phosphomethylpyrimidine synthase gene); and (d) glutamyl-tRNA (Gln) amidotransferase subunit A. BlastX (NCBI) was performed on the _Rafflesia_ seed transcripts against the taxa shown in the phylogenies including _Vitis_ (representative of the host family, Vitaceae) and Euphorbiaceae (the closest photosynthetic relative of _Rafflesia_ , represented by _Manihot_ and _Hevea_). Multiple sequence alignment was performed using MAFFT v 7.490, followed by phylogeny reconstruction using PhyML 3.3.20180621 (with LG substitution model and SH-branch like supports), as implemented in Geneious Prime 2022.2.1 (Biomatters, Ltd).
-## 4 DISCUSSION
-### 4.1 Seed comparison
-To better understand the genetics of the _Rafflesia_ seed, we generated its transcriptome and compared it with de novo assembled seed transcriptomes from the plant parasites, _Cuscuta_ and _Striga_ ; the mycorrhizal orchid, _Anoectochilus_ ; and the model photosynthetic plant, _Arabidopsis_ (Table 1). The seeds of the different taxa compared here are all tiny with an embryo and scant endosperm surrounded by a seed coat (Figure 1). _Rafflesia_ seed has a distinctive bilobed shape with tiny crevices all over its woody seed coat. Within the seed, the oily endosperm is one layered and envelopes the tiny embryo, with 14–22 cells and undifferentiated cotyledons (Baskin & Baskin, 2022). The mycorrhizal-dependent _Anoectochilus roxburgii_ seed is twice the length (~2 mm) of the _Rafflesia_ seed. Proteins and lipids are stored within the embryo proper. There is some lignin in the seed coat (Li et al., 2019). _Striga_ seed is even more miniscule, at 0.2–0.35 mm in length, with an endosperm that can only support the embryo for a few days (Runo & Kuria, 2018). _Cuscuta_ seed size (length) ranges from 0.7 to 3 mm with an embryo surrounded by hard endosperm but no cotyledons (Olszewski et al., 2020). Both _Cuscuta_ and _Striga_ can germinate in soil until they exhaust their nutritive reserves, at which point, they need to have colonized their hosts. The nonparasitic _Arabidopsis_ also has a very small seed, ~0.2 mm, composed entirely of embryo filled with lipid and protein and enclosed with one layer of endosperm (Haughn & Chaudhury, 2005).
-We were able to assemble >7K contigs from the _Rafflesia_ seed transcriptome, with 4011 (57.1%) contigs 1001–2000 bp in length (Table 2). Forty-nine percent (49%) of the assembled _Rafflesia_ seed transcripts were most similar to Malpighiales taxa to which _Rafflesia_ belongs, as expected (Figure 2). At least 2% transcripts were most similar to _Vitis_ of the grape family, Vitaceae, the host family, which may be a consequence of the rampant horizontal gene transfer between host and parasite given their intimate connection (Cai et al., 2021; Molina et al., 2014; Xi et al., 2012, 2013).
-### 4.2 GOs and KEGG pathways
-We compared the assembled seed transcriptome of _Rafflesia_ to those of other taxa including _Arabidopsis_ as well as other parasitic plants to determine potential overlap in seed genetic pathways. When the _Rafflesia_ seeds were collected, they were damp from rain and then air-dried for transport. This may have begun the process of water uptake in the seeds. Generally, to break dormancy, a seed has to imbibe water initiating a series of metabolic changes including energy metabolism, repair of DNA, degradation of dormancy-associated mRNAs, and restoration of cellular integrity including mitochondrial repair to begin cell respiration (Nelson et al., 2017). As the seed breaks dormancy, energy metabolism is increased which explains the increased cytoplasm-associated “glycolysis/gluconeogenesis” activity (Figure 3) and the high levels for the KEGG pathway “fatty acid degradation” that occurs in the “peroxisome” (Figures 4 and 5). Oxygen consumption also increases due to increased cell respiration, which may explain why “pyruvate metabolism” and “oxidative phosphorylation” were high in the _Rafflesia_ seed. It is conceivable that the transported fatty acids are converted to sugars (e.g., sucrose, trehalose, xylose, fructose, and glucose) in the _Rafflesia_ seed to fuel the growing embryo (Song & Zhu, 2019). Transcripts associated with the synthesis of these sugars were observed in the _Rafflesia_ seed transcriptome (Data S1). There were also multiple transcripts for pyruvate dehydrogenase (PDHA; Data S1). PDHA converts glucose to acetyl-coA for the tricarboxylic acid cycle (Bao et al., 2017). PDHA expression was found to be significantly upregulated in conditioned and strigol-stimulated _Phelipanche_ seeds of Orobanchaceae (Bao et al., 2017). Metabolism of the nonproteinogenic amino acid beta-alanine was also relatively increased in the _Rafflesia_ seed which may be due to its precursor role in the synthesis of acetyl Co-A (Parthasarathy et al., 2019). It seems that even in the absence of its host, high levels of carbohydrate and lipid metabolism do occur in the _Rafflesia_ seed following imbibition.
-Synthesis of proteins involved in cell signaling using the seed-stored mRNAs is also increased (Nelson et al., 2017). The KEGG pathway “mRNA surveillance,” a quality control mechanism that degrades abnormal mRNAs (Kanehisa et al., 2016), was higher in the _Rafflesia_ seed (Figure 4). mRNAs accumulate in seeds during development and are called stored mRNAs/long-lived mRNAs retaining their function as long as the seed is viable and serve as templates for protein synthesis during the germination process. Long-lived mRNAs occur in all plant seeds, even conserved between the dicot _Arabidopsis_ and the monocot barley suggesting functional importance in their role to kickstart protein synthesis in early germination (Zhao et al., 2019). Degradation of certain stored seed mRNAs has been shown to promote seed germination (Nelson et al., 2017), resulting in a more “germination-friendly” transcriptome (Carrera-Castano et al., 2020), which may explain the increased “mRNA surveillance” pathway observed in the _Rafflesia_ seed.
-More than two thirds of _Rafflesia_ seed transcripts were annotated as enzymes. Similar proportional trends for various enzyme classes were apparent across taxa (Figure 6), with transferases, hydrolases, and oxidoreductases together making up at least 75% the enzymes. These enzyme classes were also the most abundant types in the _Cuscuta_ whole plant transcriptome (Ranjan et al., 2014). The abundance of hydrolase genes in _Rafflesia_ seed may be explained by the role of hydrolases in cell wall loosening and seed reserve mobilization during seed germination (Cao et al., 2021). Oxidoreductases catalyze redox reactions that produce reactive oxygen species (ROS), and in parasitic plants, development of the haustoria begins with ROS from the parasite converting host cell wall phenols to benzoquinones stimulating haustorium formation (Cui et al., 2018). It is suspected that oxidoreductase-mediated production of ROS may also be involved in _Rafflesia_ seed germination and host infection.
-### 4.3 Phytohormone signaling during seed development
-In general, two hormones, GA and ABA, play antagonistic roles in seed development, with GA promoting seed germination whereas ABA maintaining seed dormancy. The ratio of GA/ABA is also regulated by other hormones such as AUX, KR, ETH, and BR (Figure 7). At e-val < 0.001, homologs of DELLA and DOG1 (delay of germination), which increase ABA sensitivity, were not observed in the _Rafflesia_ seed transcriptome, though ABI homologs were recovered, along with WRKY (Figure 8; Data S1). WRKY is a transcription factor induced by ABA and may function as a negative growth regulator. Levels of auxin response factors were similarly high across all taxa (Figure 8), as expected, given that this gene family is greatly involved in regulating the development of seeds. Additionally, transcripts for ETR1, which acts as a negative regulator of response to ethylene (The Uniprot Consortium, 2021), a germination stimulant by DOG1 repression, were also detected. Detection of ABI, WRKY, and ETR1 transcripts may indicate that the _Rafflesia_ seeds sampled, though transcriptionally active in the KEGG pathways described above, have yet to actually germinate sensu stricto, that is, when the embryo radicle protrudes from the seed (Carrera-Castano et al., 2020), which in _Rafflesia_ conceivably happens in the presence of its host.
-Though transcripts for _ent_ -kaurene synthetase A and _ent-_ kaurenoic acid oxidase, which are vital in GA synthesis, were recovered in the _Rafflesia_ seed (Figure 9), such enzymes are also involved in production of secondary metabolites like terpenoids, which _Rafflesia_ is known to produce (Ng et al., 2018). Homologs of genes for synthesis of carotenoids were not detected at all in the developmental stage of _Rafflesia_ seed sampled, though relevant transcripts were detected in the other seed transcriptomes studied here (Data S1). Chemical inhibition of carotenoid synthesis using fluridone in _Orobanche_ and _Phelipanche_ (Orobanchaceae) has been found to promote their seed germination (Bao et al., 2017) which may suggest that fluridone may not work in inducing _Rafflesia_ germination because carotenoid synthesis genes were not detected. The strigolactone responsive gene D14 (Wang et al., 2017) was also not found in _Rafflesia_ seed which may explain the lack of morphological development in the _Rafflesia_ seed when exposed to the synthetic strigol GR24 (Molina et al., 2017), though KAI2, which is important in perception of karrikins—fire-related compounds that can stimulate seed germination (Wang et al., 2017), was observed. In addition, the F-box protein MAX2, another key component in karrikin (and strigolactone) signaling, was also recovered (Wang et al., 2017). However, in previous germination experiments of _R. speciosa_ seeds, karrikin did not seem to stimulate germination—no protrusion was seen developing on the seeds (Molina et al., 2017), though it could be possible that tested seeds were agamospermous (Nais, 2001). Thus, hand-pollination has been recommended to produce viable seeds (Bänziger, 2004).
-### 4.4 Proanthocyanidin synthesis in _Rafflesia_ seed coat
-In mature seeds, proanthocyanidins, produced in the phenylpropanoid pathway, accumulate in the innermost layer of the seed coat, oxidizing to a brown color and are known to protect the seed from environmental stresses and improve the longevity of seeds (Debeaujon et al., 2003). Transcripts involved in this pathway were detected in the _Rafflesia_ seed including TTG1. In _A. thaliana_ , TTG1 activates the transcription of downstream transcription factors such as GL2 and HOMEODOMAIN GLABRA2, which then regulate the expression of metabolic genes involved in phenylpropanoid synthesis (Li et al., 2020). It is also possible for the _Rafflesia_ TTG1 to function in trichome development or other cell fate determination processes because TTG1 is also involved in trichome development and root epidermal pattern formation in _A. thaliana_ (Wang et al., 2010). In the unrelated holoparasite, _Balanophora abbreviata_ (Balanophoraceae), trichomes originating from endosperm cells, facilitated host attachment (Arekal & Shivamurthy, 1976). Whether the TTG1 gene is involved in the development of a similar root-like structure in the _Rafflesia_ seed as it germinates waits to be seen. Other metabolic genes involved in phenylpropanoid synthesis pathway, such as cinnamoyl-CoA reductase—a key enzyme in lignin biosynthesis (Kawasaki et al., 2006), were also identified in the _Rafflesia_ seed transcriptome (Table 3).
-The presence of the key transcriptional regulator, TTG1, anthocyanidin, and lignin metabolic genes in the _Rafflesia_ seed transcriptome suggests that proanthocyanidins accumulate via phenylpropanoid synthesis pathway in the lignified seed coat of _Rafflesia_ , which explains the brown color of _Rafflesia_ seeds. _Rafflesia_ 's lignified seed coat conceivably protects the seed during its long dormancy (Wicaksono et al., 2021) until a suitable host is found. Proanthocyanidins have also been demonstrated to inhibit seed germination in _Arabidopsis_ (Jia et al., 2012). As mentioned above, though the _Rafflesia_ seeds were transcriptionally active in energy metabolism, detection of the proanthocyanidin-related transcripts may suggest that when the seeds were sampled, germination was still inhibited, pending host stimulation.
-### 4.5 Plastid processes
-Dry seeds of _Arabidopsis_ already possess a substantial portion of their plastid-encoded mRNA as stored/long-lived mRNA with de novo mRNA synthesis commencing during imbibition (Demarsy et al., 2012). However, none of the genes in the KEGG light-dependent reactions of photosynthesis (Kanehisa et al., 2016) were present in the _Rafflesia_ seed, yet _psbA_ was present in the other four taxa studied including _Striga_ and _Cuscuta_ as well as the mycorrhizae-dependent seed _Anoectochilus_ suggesting the importance of the presence of this gene even in dry seeds (Figure 10). _psbA_ encodes for the D1 protein of Photosystem II that splits water in the presence of light energy and converts this to ATP to fuel subsequent carbon fixation. It seems that even in the plant parasites, _Striga_ (Tuquet et al., 1990) and _Cuscuta_ (Dinelli et al., 1993), light-mediated reactions occur to some extent until they are established in their hosts, and this is especially true in _Cuscuta_ , which is initially photosynthetic. The endophytic nature of _Rafflesia_ may explain _psbA_ loss.
-Transcripts for _rpl32_ (35223–35225; Data S1), a ribosomal plastid protein typically encoded in the chloroplast genome, were also observed in the _Rafflesia_ seed transcriptome and, if shown to be indeed localized in the plastome, would contradict the purported unprecedented loss of a plastome in plants (Cai et al., 2021; Molina et al., 2014). The _Rafflesia_ seed _rpl32_ copy was also phylogenetically allied with Euphorbiaceae (results not shown), thus a native copy and not HT. However, it is possible that this gene has moved from the plastome and is now nucleus encoded, as was discovered in _Rafflesia's_ distantly related Malpighiales photosynthetic relative, _Populus_ (Ueda et al., 2007).
-The _Rafflesia_ seed transcriptome had multiple transcripts present in all three carbon fixation pathways comparable with the seed transcriptomes of the other taxa examined (Figure 10). Despite the absence of the light-dependent reactions of photosynthesis, carbon fixation does occur in the _Rafflesia_ seed. However, ribulose-1,5-bisphosphate carboxylase-oxygenase gene (EC 4.1.1.39) was not detected in the _Rafflesia_ seed transcriptome, unlike the other four taxa examined. However, _rbcL_ subunit binding proteins alpha and beta, also known as chaperonin 60α and 60β, respectively, were detected in _Rafflesia_ seed and had intact open reading frames, suggesting they are functional. They also strongly phylogenetically cluster with Euphorbiaceae taxa (results not shown), thus are not HT. Both chaperone proteins are nuclear encoded and essential in _rbcL_ folding and binding the subunits of ribulose-1,5-bisphosphate carboxylase-oxygenase, but in _Rafflesia_ , the absence of _rbcL_ may indicate other functions for the chaperone proteins perhaps related to embryogenesis. In _Arabidopsis_ , alpha mutation arrested embryo development (AT2G28000.1, TAIR, 2022), whereas beta mutants, on the other hand, show accelerated cell death to heat shock stress (AT1G55490.1, TAIR, 2022).
-### 4.6 Horizontal transfer
-Over 2% of the transcripts had _Vitis_ as the top hit (vs. a member of Malpighiales) and presumably HT. Table 4 shows that many transcripts are involved in “DNA integration” including transposon integration perhaps mediated by “nucleic acid phosphodiester bond hydrolysis,” another enriched GO. Multiple _Rafflesia_ seed HT transcripts were annotated as “transposon polyproteins” (Data S1), and an abundance of these was also observed among _Sapria_ HT orthogroups (Cai et al., 2021). “RNA-dependent DNA biosynthetic process” was enriched due to the presence of multiple retrotransposon transcripts (Data S1). Horizontal gene transfer is disproportionately increased in parasitic plants with these host-derived genes being co-opted by the parasite in haustorial function, playing a role in its adaptive evolution (Yang et al., 2016).
-Interestingly, in _Rafflesia_ seed, among putatively HT genes, one notable transcript (60334) was annotated as SERK1 and phylogenetically allied to _Vitis_ (Figure 11). SERK family members interact with R (resistance) proteins to activate the hypersensitive immune response (Su et al., 2020). The rice homolog OsSERK1 has been shown to be involved in defense response against the rice blast fungus (Hu et al., 2005). Cowpea _Vigna unguiculata_ possesses RSG-301, which interacts with SERK upon infection by _Striga_. However, resistant _Striga_ strains subvert RSG-301 by secreting the effector Suppressor of Host Resistance 4z that has homology to a region of SERK. This inhibits VuPOB1 necessary for the hypersensitive response. Thus, Suppressor of Host Resistance 4z in _Striga_ acts as a decoy to circumvent host immune responses (Su et al., 2020). Could it be that _Rafflesia_ seed 60334, which is 96% similar to _Vitis_ SERK1, is acting similarly to enable _Rafflesia_ to undermine _Tetrastigma_ host defenses?
-Another _Rafflesia_ seed transcript 29691 annotated as RHM1 (rhamnose biosynthesis 1), which converts UDP-D-glucose to UDP-L-rhamnose (The Uniprot Consortium, 2021), was also phylogenetically allied to _Vitis_ (Figure 11), again suggesting HT. We find this interesting because rhamnose is a precursor of primary cell wall components, and it is tempting to speculate that this could be a mechanism of _Rafflesia_ to mimic host cell wall components to avoid host immune response and/or allow _Rafflesia_ to colonize host tissue, as rhamnose synthase genes were demonstrated to be crucial for host attachment and penetration and fungal pathogenicity of _Verticillium dahliae_ (Santhanam et al., 2017).
-In Cai et al. (2021), phosphomethylpyrimidine synthase gene, thiC, involved in biosynthesis of pyrimidine was shown to be HT. Analyzing this gene in _Rafflesia_ phylogenetically also showed support for this (transcript 10612; Figure 11), as well as _Rafflesia_ seed transcript 27956 annotated as “glutamyl-tRNA (Gln) amidotransferase subunit A” (Figure 11) which was also shown to be HT in _Rafflesia_ in Xi et al. (2012). Cai et al. (2021) suggested that host-derived HT genes in Rafflesiaceae may substitute for its genes lost during parasitic evolution.
-### 4.7 Convergent evolution
-Among flowering plants, parasitism has independently evolved at least 12 times, with 1% of all angiosperms parasitic (Nickrent, 2020). There seem to be conserved molecular mechanisms underlying this heterotrophic life history. Across the 12 lineages, parasitic plants similarly secrete cell-wall degrading enzymes and proteolytic enzymes when attached to host plant tissues. Such enzymes have been detected in the haustoria of Orobanchaceae parasites and even in the unrelated stem parasite, _Cuscuta reflexa_ (Convolvulaceae; Ranjan et al., 2014). Yang et al. (2015) termed these “core parasitism genes” in Orobanchaceae, including genes for cell-wall modifying enzymes (cellulase, etc.), pectinolytic enzymes (pectin methylesterase and pectate lyase), and for phytohormone synthesis—genes for auxin, gibberellin, brassinesteroid, ethylene, and strigolactone biosynthesis. These genes were also upregulated in _Cuscuta_ (Ranjan et al., 2014). Here, in the _Rafflesia_ seed transcriptome, we found annotated terms enriched for host-degrading enzymes similar to the “core parasitism genes” of Orobanchaceae (Yang et al., 2015) including cellulases, pectate lyases, and pectin methylesterase, hinting at an evolutionary convergence among disparate lineages of parasitic plants. The homolog of cuscutain gene, a cysteine protease upregulated in the haustoria of the stem parasite _C. reflexa_ important for host infection (Bleischwitz et al., 2010), was also detected in the root parasite _P. aegyptiaca_ (Rehker et al., 2012) and in the _Rafflesia_ seed transcriptome in this study (Data S1; _Rafflesia_ contig 4146). Whether this transcript is involved in _Tetrastigma_ host infection remains to be seen.
-Laccase enzyme transcripts were also recovered in both _Striga_ and _Rafflesia_ seed transcriptomes (Data S1). Interestingly, laccases are enzymes that can degrade host lignin, producing haustorium-inducing factors that promoted haustorium formation in _Striga_ and the confamilial _Phtheirospermum_ (Cui et al., 2018). It will be interesting to know if laccase genes in _Rafflesia_ function similarly. Metabolic profiling of _Tetrastigma loheri_ , host of _Rafflesia lagascae_ (Molina et al., 2021), showed the presence of sinapaldehyde, sinapyl alcohol, syringic acid, and acetosyringone, which are molecules that induced haustoria in both _S. hermonthica_ and _Phtheirospermum japonicum_ (Cui et al., 2018). Testing these compounds in germination experiments of _Rafflesia_ seeds may be worthwhile in the future.
-During the conditioning of seeds of the parasitic plant _Phelipanche_ , the gene gibberellin 20-oxidase (GA20OX1) was upregulated resulting in increased GA3 levels. However, in the _Rafflesia_ seed, this GA20OX1 was not detected, though present in the seed transcriptome of _Striga_ , which was obtained from imbibed seeds (Yang et al., 2015). Gibberellin 2-oxidase (GA2OX2), which in _Arabidopsis_ deactivates GA and promotes seed dormancy, was detected in the _Rafflesia_ seed instead. Transcripts for methionine adenosyltransferase, aminocyclopropane-carboxylate synthase, and aminocyclopropanecarboxylate oxidase, which are three key enzymes of ethylene biosynthesis, were also detected in _Rafflesia_ seed, and these corresponding genes were upregulated significantly in _Phelipanche_ after GR24/strigol treatment. Taken together, the _Rafflesia_ seed sampled here may have been imbibed, kickstarting the transcription of the early seed processes detected so far but still need to undergo host stimulation. The increased fatty acid breakdown seen in the _Rafflesia_ seed transcriptome may be associated with lipid mobilization and increased gluconeogenesis in the _Rafflesia_ seed to supply sugars to the embryo, as it awaits host stimulation.
-In the previously published _Cuscuta_ seed transcriptome (Ranjan et al., 2014, Supplement 13), transcripts involved in “fructose metabolic process,” “mannose metabolic process,” “glucose 6-phosphate,” “glucokinase activity,” “response to heat,” and “hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides” were enriched and were also detected in _Rafflesia_ seed. Moreover, _Rafflesia_ and _Striga_ were similar proportionally for certain pathways such as “galactose metabolism” and “phenylpropanoid metabolism,” in contrast to _Arabidopsis_. In Orobanchaceae, planteose, a galactose-derived molecule, was found as a storage carbohydrate required for early-stage germination (Wakabayashi et al., 2015). Perhaps, a similar carbohydrate is required by the _Rafflesia_ seed during germination which may be causing the uptick in “galactose metabolism.” The similar proportion in “phenylpropanoid metabolism” for _Striga_ and _Rafflesia_ seeds may be due to the synthesis of the lignin components in their seed coats and other proanthocyanidins (Table 3). This woody seed coat perhaps allows _Striga_ seeds to survive for prolonged periods of time (>10 years) in the seed bank prior to germination (Atera et al., 2011), which may also be the case for _Rafflesia_ seeds.
-Comparing _Rafflesia_ seed with the mycoheterotrophic seeds of _Anoectochilus_ , we were unable to find in _Rafflesia_ the homolog of the lipid biosynthetic enzyme, RAM2, which promotes arbuscular mycorrhizal symbiosis (Bravo et al., 2017). However, RAM2 was found in mycorrhizal _Anoectochilus_ , as expected, annotated as “glycerol-3-phosphate 2-O-acyltransferase.” The absence of RAM2 in _Rafflesia_ seed may indicate that _Rafflesia_ is not dependent on arbuscular mycorrhiza or that this gene is not yet expressed in the seed developmental stage we sampled.
-## 5 CONCLUSIONS AND IMPLICATIONS FOR _RAFFLESIA_ CONSERVATION
-In this study, we produced the first _Rafflesia_ seed transcriptome and compared it with seed transcriptomes of a variety of plant species across the phylogenetic tree. We were particularly interested in explaining the difficulty of germinating _Rafflesia_ seeds in the laboratory as well as elucidating metabolic pathways that could be involved in seed development of _Rafflesia_. Overall, metabolic pathways of _Rafflesia_ are similar to the other plant species we compared it to; however, there are notable findings. Our data suggest that following imbibition, the _Rafflesia_ seed is already transcriptionally active, showing increased energy metabolism, preparing the seed for germination upon host stimulation. Our transcriptome results provide further evidence that the plastome is absent in _Rafflesia_ yet rife in multiple transposable elements, many apparently HT from the host, similar to its confamilial relative _Sapria_. Furthermore, we found evidence of genes in the _Rafflesia_ seed putatively HT from the host. _Rafflesia_ could have co-opted these HT genes to potentially inhibit host immune response during infection.
-The _Rafflesia_ seed transcriptome is also enriched for many classes of the “core parasitism genes” found in Orobanchaceae. The lack of carotenoid synthesis genes in _Rafflesia_ seed suggests that fluridone may not induce germination as it does in parasitic Orobanchaceae. Similarly, lack of strigolactone responsive genes may explain the absence of morphological development when _Rafflesia_ seeds were exposed to synthetic strigol. However, detection of karrikin response transcripts in _Rafflesia_ seed suggests that karrikin may stimulate _Rafflesia_ seed germination especially if they were collected from fruits produced by hand-pollination. It is also worthwhile inoculating _Rafflesia_ seeds in sinapaldehyde, sinapyl alcohol, syringic acid, and acetosyringone, which are molecules that induced haustoria in Orobanchaceae parasites and are also present in _Tetrastigma_ hosts. Transcripts for host-degrading laccase enzymes implicated in haustorium formation in Orobanchaceae were also detected in _Rafflesia_ , which may suggest that _Rafflesia_ seed inoculation in _Tetrastigma_ may benefit from laccase application. It is also possible that _Rafflesia_ seeds, like _Striga_ seeds, can survive for prolonged periods, given its thick woody seed coat and accumulation of phenylpropanoids. Additionally, we discovered the homolog of the cuscutain gene, important for host infection by _Cuscuta_ , in the _Rafflesia_ seed. The present study thus provides strong evidence for a theory of generalized convergent evolution among disparate lineages of parasitic plants. We were unable to find homologs of genes involved in mycorrhizal symbiosis in orchids, suggesting that mycoheterotrophy may not be a feature of _Rafflesia_ nor required for its germination/infection.
-With this research, we take one step closer to understanding the seed biology of _Rafflesia_ and recalcitrant parasitic plants in general. Developing the toolbox and skillsets necessary for propagating endangered parasitic plants is required to successfully develop conservation and management strategies for these species and their ecosystems. This research provides several tactical guidelines for continuing ongoing efforts to propagate _Rafflesia_. For example, future germination experiments can deprioritize searching for elicitors that are typical of mycoheterotrophy. However, we should prioritize experiments applying laccase and karrikin on conditioned _Rafflesia_ seeds produced from manual pollination. If successful, this approach can also be applied to other difficult to propagate plant species with unique life history traits.
-Our research group is dedicated to increase the public's awareness so as to engender engagement in plant and habitat conservation. People are awed every time an _Amorphophallus titanum_ blooms at a public garden because of its remarkable size, appearance, and unpleasant smell. It is a charismatic species that can help people connect with and support the natural world. We believe that _Rafflesia_ has significant untapped engagement potential. We hope this seed transcriptome study brings us closer to a reality in which botanic gardens all over the world grow _Rafflesia_ for conservation, while increasing public awareness and appreciation of an evolutionary marvel—the world's largest flower.
-##  AUTHOR CONTRIBUTIONS
-Jeanmaire Molina conceived the project, collected samples, and conducted the experiments. Ronniel D. Pedales, Danilo Tandang, and William McLaughlin collected samples with Jeanmaire Molina. Zoé Joly-Lopez performed experiments. Adhityo Wicaksono, Todd P. Michael, Su-Hwan Kwak, Ronniel D. Pedales, Semar Petrus, Allen Mamerto, Brian Tomek, Sumaya Ahmed, Venkatasivasankar Maddu, Kristina Yakubova, and Jeanmaire Molina analyzed the data. Jeanmaire Molina wrote the manuscript with help from Adhityo Wicaksono, Todd P. Michael, Su-Hwan Kwak, Zoé Joly-Lopez, Joseph W. Morin, So-Yon Park, Hyun-Oh Lee, Kyle Wallick, James Adams, Ari Novy, Susan Pell, and Michael D. Purugganan.
-##  ACKNOWLEDGMENTS
-We are most grateful to our collaborators in the Philippines, to our field guides and assistants, to the Miagao municipality headed by Richard Garin and Macario Napulan, and to their very helpful staff: Jane Branton, Mark Moruga, Isidro Mosura, and so forth. We thank Julie Barcelona, Marites Muyong and family, Auring Nopat and family, Tigmalapad Brgy. Cap. Janette Momay, Kagawad Raymond Nugara, DENR's Nermalie Lita, Josefina de Leon, Anson Tagtag, Giselle Garcia, Nato Andraje, Hector Garrido, Llane Orale, Edgardo Ferrer, Livino Duran, Raul Lorilla, Faith of R6 Penro, Pola Bumanglag, Teresita Paderna, Jojie Gereza, Hiro Masuda, Maricar Escuela, former RD Jim Sampulna, former BMB director Mundita Lim, BPI's Lea Gella Blancaflor, PNM's Ana Labrador, Tito Evangelista, JohnRey Callado, Mike Galindon, Jhaydee Pascual, LIU's Lynn Cabralis, Marni Goldner, Angela Stark, Rick Nader, Randy Burd, Michael Marino, Barbara Neal, Jared Littman, USBG's Stephen Jones, and Mick Erickson, the very helpful USDA staff, and the Bio faculty of University of the Philippines-Diliman with special mention to RDP's mentor, Ian Fontanilla, UP scientists Gisela Concepcion, Arturo Lluisma, and to all who have contributed one way or another. Sofi Mursidawati and Hans Bänziger have been a constant source of inspiration to JM and AW in _Rafflesia_ conservation. We also thank James Westwood and the reviewers for their helpful comments. JM's Indiegogo funders in 2014 have seeded this project (pun intended). Some of this work was also funded by National Science Foundation PBI award #2204938 to JM. This paper is dedicated to the memory of eminent Filipino botanist, Leonard Co.
-##  CONFLICT OF INTEREST STATEMENT
-The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
-## Open Research
-# DATA AVAILABILITY STATEMENT
-The datasets generated for this study can be found in NCBI SRA under BioProject PRJNA879908.
-##  Supporting Information
-Filename | Description  
----|---  
-ppp310370-sup-0001-Dataset S1.xlsxExcel 2007 spreadsheet , 3 MB |  **Data S1.** Supporting Information  
-Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article.
+Map of CO2 concentration inside the flower. The CO2 concentration is estimated by fluent software, on the basis of the observed rise in temperature. Respiratory activity was assumed to be confined to the central column where the cavity with the reproductive parts is located.
+##  Discussion
+In this study we conclude that _R. tuan-mudae_ is an endothermic flower, showing a maximum of 6 K of excess tissue temperature in one flower. Endothermy in _Rafflesia_ has been suggested previously (Meeuse, 1978; Beaman _et al._ , 1988) and efforts to detect heating were made (Nais, 1997). Nais’s studies on _R. keithii_ in Sabah, Malaysia, did not reveal any significant excess tissue temperature. There were important differences in the methodology of the two studies. In the present study, we inserted thermocouples inside the tissue and measured every 6 or 20 s and recorded as means of 10 or 15 readings once per 1 or 5 min during the whole period of blooming (5–8 d). We detected 1.5–6.0 K excess temperatures in the internal parts of the flower. In Nais’s study, only the surface temperatures were measured, as spot readings, with a probe that was held against the surface.
+During the day, the buds were cooler than the air (Fig. 3b), suggesting that evaporative heat transfer may be significant, and may affect the thermal balance of the buds cooling down the surface when the radiation load from the surroundings is higher and VPD increases. In the present study it was not possible to measure the stomatal conductance or transpiration rate of the floral surface, but stomata are present in the adaxial surface of the perigone lobe (Cammerloher, 1920). Consequently, we have not been able to construct the complete energy budget of the flower.
+Further evidence that radiation is not the most important component of the heat supply comes from comparison of the time courses of the flux of radiant energy and (calculated) convection. When net radiation was maximum, convective heat loss was at a minimum (Fig. 7), suggesting that the energy is produced internally and is not derived from the net radiation in the forest understory.
+###  The role of endothermy in flowers of _R. tuan-mudae_ and _R. lowii_ of the parasitic family Rafflesiaceae
+The question posed was: is endothermy part of the mimicry of the flower to attract the pollinating flies? Endothermy was detected in young buds and mature buds of _R. lowii_ and remained during blooming. This flower showed signs of thermoregulation by maintaining fairly constant temperature during and after anthesis (Patiño _et al_., 2000). Similarly, young buds of _R. tuan-mudae_ showed some endothermy (mature buds were not studied for the reasons stated previously), but the flowers were shown to have only a weak pattern of endothermy and there was no sign of thermoregulation. Therefore, the mechanism for endothermy in these two flowers is present at the early stages of floral development. The photosynthetic products that provide the respiratory substrate for endothermy are available ‘free of charge’ from the vine host. There would, of course, be a certain limit imposed by the productivity of the host and the translocation rates: the vine might not have unlimited photosynthates for its parasites.
+It has been demonstrated that many flowers increase their temperature above ambient as a consequence of endothermy, the heat being produced by the cyanide-insensitive respiration (Meeuse & Raskin, 1988; Skubatz _et al_., 1990). It is possible that endothermy is a facultative characteristic in most plants and perhaps all flowers. This assumption is supported by the fact that most plant mitochondria contain a cyanide and antimycin-insensitive alternative terminal oxidase (Lambers, 1980; Moreau & Romani, 1982). The alternative respiratory pathway has been detected in different tissues of many plants belonging to different taxa, for example ripening fruits (Cruzhernandez & Gomezlim, 1995), roots and cotyledons of soybean, potato, sweet potato and cassava (Day _et al_., 1994; Millar _et al_., 1994; Ribascarbo _et al_., 1995), sugar beet callus (Shugaev _et al_., 1998), _Acer pseudoplatanus_ (Aubert _et al_., 1997), rootstocks of pears (Wagner _et al_., 1992; Tamura _et al_., 1996), nongreen tissues of _Petunia hybrida_ (Wagner & Wagner, 1995), water-stressed plants of sorghum (Kumar & Sinha, 1994), shoot tips of Douglas fir (Fielder & Owens, 1992), roots of white spruce (Weger & Guy, 1991), _Convolvulus_ (Van der Plas _et al_., 1977), wheat (Lundegårdh, 2001) and beans (Rychter _et al_., 1992).
+As the tropical environment is rarely cold, it seems likely that endothermy in _R. tuan-mudae_ and _R. lowii_ is present as the result of alternative respiration that is not coupled to energy conservation. High rates of respiration are assumed to occur owing to the nature of the flowers: nonphotosynthetic and parasitic on the roots of the host (where they can easily can obtain the substrate of respiration). Therefore, endothermy may have evolved not merely to maintain the tissue at a high temperature, but to ensure pollination. The suggestion from this present work is that the production of CO2, and possibly other volatiles is important. The flowers in this case are conspicuous by virtue of the CO2 and/or volatiles they produce. The poorly mixed air at the forest floor may contain the olfactory signal to pollinators, but an important question is whether or not CO2 plays a role in the pollination of _R. lowii_ and _R. tuan-mudae_. Further studies are now needed to prove the relationship between the high respiration rate of parasitic plants and attraction of pollinators.
+In support of the role of CO2 as an insect attractant, it has been shown, for example, that CO2 is the only attractant volatile of the larvae of western corn rootworm (_Diabrotica virgifera virgifera_) to corn roots (Bernklau & Bjostad, 1998). The detection of CO2 by identified peripheral sensory organs of some terrestrial arthropods (e.g. nematodes, larva and adult beetles, centipedes, ants, termites, fig pollinators, honey bees, mosquitoes, flies, bugs, ticks and moths) is now well established, and the resulting coordinated behavioural responses at concentrations that occur naturally in the habitats of these organism has been well documented (Stange & Wong, 1993; Stange, 1996). Furthermore, there is evidence that the blowfly has CO2-specific sensory receptors (Stange, 1975). It has also been demonstrated that CO2 has an anaesthetic effect in blowflies and that they are considerably more sensitive to CO2 than to other anaesthetics (Diesendorf, 1975). It is therefore possible that the CO2 produced by the flowers of _R. tuan-mudae_ and _R. lowii_ plays a role on the pollination by the blowflies.
+The signals emitted by _R. tuan-mudae_ and _R. lowii_ may be different. Despite _Rhizanthes_ and _Rafflesia_ attracting blowflies of the same genera _Lucilia_ , _Chrysomya_ and _Hypopygiopsis_ (Beaman _et al_., 1988; Bänziger, 1991, 1996; Hidayati _et al_., 2000), it has been observed that _R. lowii_ stimulated oviposition in the flies, suggesting that _R. lowii_ is releasing specific volatiles that trick female flies. Oviposition by the blowflies on _R. tuan-mudae_ was not observed in this study and has not been observed in other _Rafflesia_ species (Bänziger, 1991; Beaman _et al_., 1988; Bänziger, 1996).
+Further work is required to determine whether the olfactory signal is more complex than simply CO2. The volatiles identified in the headspace of _R. lowii_ – 3-hydroxy-2-butanone, 2-ethyl-1-hexanol and _N_ ,_N_ -diethyl-3-methyl-benzamide (S. Patiño, A. A. Edwards and J. Grace, unpublished) – have been found in other flowers (Knudsen _et al_., 1993). The volatiles identified in _R. tuan-mudae_ – dimethyl disulphide and dimethyl trisulphide (S. Patiño, A. A. Edwards and J. Grace, unpublished) – have been found in various flowers from the family Araceae such as _Amorphophallus_ , _Pseudodracontium_ (Stransky & Valterova, 1999) and _Hydrosme_ (Kite & Hetterschieid, 1997), in one _Hydnoraceae_ (_Hydnora_) (Burger & Munro, 1988) and in bat-pollinated flowers (Knudsen & Tollsten, 1995), with dimethyl disulphide being the component preferred by the bats (von Helversen _et al_., 2000). Dimethyl disulphide and dimethyl trisulphide are compounds commonly related to bacterial growth on meat (Senter _et al_., 2000) and dimethyl disulphide is the compound that gives the characteristic taste to Camembert cheese (Demarigny _et al_., 2000). It has been found that the antennae of the female blowfly have a specific receptor neurone tuned to dimethyl disulphide (Park & Cork, 1999) and it has been suggested that dimethyl trisulphide may be one of the major cues for host location by calliphorid flies (Nilssen _et al_., 1996). Location of the flower by the flies may follow the classical downwind model (Stange, 1996) and once the flies have landed on the flower, mechanical and contact chemical inputs may guide them into the diaphragm and to the gynoecium. Although, _Rafflesia_ is not a ‘trap’ flower, as defined by Dafni (1984), it has been observed that a few flies remain inside the _R. tuan-mudae_ diaphragm for some hours (pers. obs.), perhaps because of the CO2 anaesthetic effect, as suggested by Dafni (1984).
+Further work is now needed on the behaviour of the pollinating flies and identification of the species visiting the flowers.
+A further step in elucidating the role of carbon dioxide in the pollination syndrome of _Rafflesia tuan-mudae_ and _Rhizanthes lowii_ would be to perform direct measurements of gas exchange, and careful identification of the volatiles that compose the odour, with bioassays of the substances using the pollinating flies and other species of _Rafflesia_ and _Rhizanthes_. Experiments with model flowers, in which the odours are experimentally emitted, would enable identification of the role of specific gases as well as the importance of size, shape and colour of the flower.
+##  Acknowledgements
+Sandra Patiño was funded from Colombia by a Colciencias scholarship and supported by the Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. We acknowledge financial support from the Davies Expedition Fund and Development Trust of the University of Edinburgh. We thank Ernest Chai and the staff at Taman Negara Gunung Gading in Sarawak and Sem Pasam, Jamel. We thank Batien and John Reky for locating the sites where _R. tuan-mudaei_ grows and Dr Jamili Nais in Sabah for assistance and providing access to his thesis and bibliography. We also thank Laure Grison and Emmanuelle Jousselin for help in the field during the last trip to Sarawak. We thank Dr Timo Vesala from the Physics Department at the University of Helsinki for his kind collaboration and the Finnish Centre of Scientific Computing for providing computational resources. We especially thank Dr Hans Bänziger and Dr E. Allen Herre for useful comments and criticism that improved substantially the final version of this manuscript.
 ## 
-REFERENCES
-  * Arekal, G. D., & Shivamurthy, G. R. (1976). Seed germination in _Balanophora abbreviata_. _Phytomorphology_ , 26(2), 135–138. 
-Web of Science® Google Scholar
-  * Atera, E. A., Itoh, K., & Onyango, J. C. (2011). Evaluation of ecologies and severity of Striga weed on rice in sub-Saharan Africa. _Agriculture and Biology Journal of North America_ , 2(5), 752–760. <https://doi.org/10.5251/abjna.2011.2.5.752.760>
-10.5251/abjna.2011.2.5.752.760Google Scholar
-  * Bänziger, H. (2004). Studies on hitherto unknown fruits and seeds of some Rafflesiaceae, and a method to manually pollinate their flowers for research and conservation. _Linzer Biologische Beitraege_ , 36, 1175–1198. 
+References
+  * Aubert S, Bligny R, Day DA, Whelan J, Douce R. 1997. Induction of alternative oxidase synthesis by herbicides inhibiting branched-chain amino acid synthesis. _Plant Journal_ 154: 649 – 657. 
+10.1046/j.1365-313X.1997.11040649.xWeb of Science® Google Scholar
+  * Bahr JT, Bonner WD Jr. 1973. Cyanide-insensitive respiration. _Journal of Biological Chemistry_ 248: 3441 – 3445.
+10.1016/S0021-9258(19)43948-3CAS PubMed Web of Science® Google Scholar
+  * Bänziger H. 1991. Stench and fragrance: unique pollination lure of Thailand’s largest flower, _Rafflesia kerrii_ Meijer. _Natural History Bulletin of the Siam Society_ 39: 19 – 52. 
 Google Scholar
-  * Bao, Y. Z., Yao, Z. Q., Cao, X. L., Peng, J. F., Xu, Y., Chen, M. X., & Zhao, S. F. (2017). Transcriptome analysis of _Phelipanche aegyptiaca_ seed germination mechanisms stimulated by fluridone, TIS108, and GR24. _PLoS ONE_ , 12(11), e0187539. <https://doi.org/10.1371/journal.pone.0187539>
-10.1371/journal.pone.0187539PubMed Web of Science® Google Scholar
-  * Barcelona, J. F., Pelser, P. B., Balete, D. S., & Co, L. L. (2009). Taxonomy, ecology, and conservation status of Philippine _Rafflesia_ (Rafflesiaceae). _Blumea_ , 54(1–3), 77–93. <https://doi.org/10.3767/000651909x474122>
-10.3767/000651909X474122Web of Science® Google Scholar
-  * Bascos, E. M. A., Fernando, E. S., Duya, M. V., & Rodriguez, L. J. V. (2021). Beginnings of a plant parasite: Early development of _Rafflesia consueloae_ inside its Tetrastigma host. _Planta_ , 254(3), 61. <https://doi.org/10.1007/s00425-021-03710-4>
-10.1007/s00425-021-03710-4CAS PubMed Web of Science® Google Scholar
-  * Baskin, J. M., & Baskin, C. C. (2022). Germination and seed/embryo size in holoparasitic flowering plants with “dust seeds” and an undifferentiated embryo. _Botanical Review_ , 88(1), 1–49. <https://doi.org/10.1007/s12229-020-09242-y>
-10.1007/s12229-020-09242-yWeb of Science® Google Scholar
-  * Bleischwitz, M., Albert, M., Fuchsbauer, H.-L., & Kaldenhoff, R. (2010). Significance of Cuscutain, a cysteine protease from _Cuscuta reflexa_ , in host-parasite interactions. _BMC Plant Biology_ , 10(1), 227. <https://doi.org/10.1186/1471-2229-10-227>
-10.1186/1471-2229-10-227PubMed Web of Science® Google Scholar
-  * Bouman, F., & Meijer, W. (1994). Comparative structure of ovules and seeds in Rafflesiaceae. _Plant Systematics and Evolution_ , 193(1), 187–212. <https://doi.org/10.1007/BF00983550>
-10.1007/BF00983550Web of Science® Google Scholar
-  * Bravo, A., Brands, M., Wewer, V., Dörmann, P., & Harrison, M. J. (2017). Arbuscular mycorrhiza-specific enzymes FatM and RAM2 fine-tune lipid biosynthesis to promote development of arbuscular mycorrhiza. _New Phytologist_ , 214(4), 1631–1645. <https://doi.org/10.1111/nph.14533>
-10.1111/nph.14533CAS PubMed Web of Science® Google Scholar
-  * Cai, L., Arnold, B. J., Xi, Z., Khost, D. E., Patel, N., Hartmann, C. B., Manickam, S., Sasirat, S., Nikolov, L. A., Mathews, S., Sackton, T. B., & Davis, C. C. (2021). Deeply altered genome architecture in the endoparasitic flowering plant _Sapria himalayana_ Griff. (Rafflesiaceae). _Current Biology_ , 31(5), 1002–1011.e9. <https://doi.org/10.1016/j.cub.2020.12.045>
-10.1016/j.cub.2020.12.045CAS PubMed Web of Science® Google Scholar
-  * Cao, X. L., Li, M. L., Li, J., Song, Y. X., Zhang, X. N., Yang, D. L., Li, M., & Wei, J. (2021). Co-expression of hydrolase genes improves seed germination of _Sinopodophyllum hexandrum_. _Industrial Crops and Products_ , 164, 113414. <https://doi.org/10.1016/j.indcrop.2021.113414>
-10.1016/j.indcrop.2021.113414CAS Web of Science® Google Scholar
-  * Carrera-Castano, G., Calleja-Cabrera, J., Pernas, M., Gomez, L., & Onate-Sanchez, L. (2020). An updated overview on the regulation of seed germination. _Plants (Basel)_ , 9(6), 703. <https://doi.org/10.3390/plants9060703>
-10.3390/plants9060703CAS PubMed Web of Science® Google Scholar
-  * Cui, S., Wada, S., Tobimatsu, Y., Takeda, Y., Saucet, S. B., Takano, T., Umezawa, T., Shirasu, K., & Yoshida, S. (2018). Host lignin composition affects haustorium induction in the parasitic plants _Phtheirospermum japonicum_ and _Striga hermonthica_. _New Phytologist_ , 218(2), 710–723. <https://doi.org/10.1111/nph.15033>
-10.1111/nph.15033CAS PubMed Web of Science® Google Scholar
-  * Davis, C. C., Latvis, M., Nickrent, D. L., Wurdack, K. J., & Baum, D. A. (2007). Floral gigantism in Rafflesiaceae. _Science_ , 315(5820), 1812. <https://doi.org/10.1126/science.1135260>
-10.1126/science.1135260CAS PubMed Web of Science® Google Scholar
-  * Debeaujon, I., Nesi, N., Perez, P., Devic, M., Grandjean, O., Caboche, M., & Lepiniec, L. (2003). Proanthocyanidin-accumulating cells in Arabidopsis testa: Regulation of differentiation and role in seed development. _Plant Cell_ , 15(11), 2514–2531. <https://doi.org/10.1105/tpc.014043>
-10.1105/tpc.014043CAS PubMed Web of Science® Google Scholar
-  * Demarsy, E., Buhr, F., Lambert, E., & Lerbs-Mache, S. (2012). Characterization of the plastid-specific germination and seedling establishment transcriptional programme. _Journal of Experimental Botany_ , 63(2), 925–939. <https://doi.org/10.1093/jxb/err322>
-10.1093/jxb/err322CAS PubMed Web of Science® Google Scholar
-  * Dinelli, G., Bonetti, A., & Tibiletti, E. (1993). Photosynthetic and accessory pigments in _Cuscuta campestris_ Yuncker and some host species. _Weed Research_ , 33(3), 253–260. <https://doi.org/10.1111/j.1365-3180.1993.tb01939.x>
-10.1111/j.1365-3180.1993.tb01939.xCAS Web of Science® Google Scholar
-  * Dorone, Y., Boeynaems, S., Jin, B., Bossi, F., Flores, E., Lazarus, E., Michiels, E., De Decker, M., Baatsen, P., Holehouse, A. S., & Sukenik, S. (2020). Hydration-dependent phase separation of a prion-like protein regulates seed germination during water stress. SSRN Electronic Journal. <https://doi.org/10.2139/ssrn.3680875>
-10.2139/ssrn.3680875Google Scholar
-  * Götz, S., Garcia-Gomez, J. M., Terol, J., Williams, T. D., Nagaraj, S. H., Nueda, M. J., Robles, M., Talón, M., Dopazo, J., & Conesa, A. (2008). High-throughput functional annotation and data mining with the Blast2GO suite. _Nucleic Acids Research_ , 36(10), 3420–3435. <https://doi.org/10.1093/nar/gkn176>
-10.1093/nar/gkn176CAS PubMed Web of Science® Google Scholar
-  * Haughn, G., & Chaudhury, A. (2005). Genetic analysis of seed coat development in _Arabidopsis_. _Trends in Plant Science_ , 10(10), 472–477. <https://doi.org/10.1016/j.tplants.2005.08.005>
-10.1016/j.tplants.2005.08.005CAS PubMed Web of Science® Google Scholar
-  * Hu, H., Xiong, L., & Yang, Y. (2005). Rice _SERK1_ gene positively regulates somatic embryogenesis of cultured cell and host defense response against fungal infection. _Planta_ , 222(1), 107–117. <https://doi.org/10.1007/s00425-005-1534-4>
-10.1007/s00425-005-1534-4CAS PubMed Web of Science® Google Scholar
-  * Jia, L., Wu, Q., Ye, N., Liu, R., Shi, L., Xu, W., Zhi, H., Rahman, A. R. B., Xia, Y., & Zhang, J. (2012). Proanthocyanidins inhibit seed germination by maintaining a high level of abscisic acid in _Arabidopsis thaliana_. _Journal of Integrative Plant Biology_ , 54(9), 663–673. <https://doi.org/10.1111/j.1744-7909.2012.01142.x>
-10.1111/j.1744-7909.2012.01142.xCAS PubMed Web of Science® Google Scholar
-  * Kanehisa, M., Sato, Y., Kawashima, M., Furumichi, M., & Tanabe, M. (2016). KEGG as a reference resource for gene and protein annotation. _Nucleic Acids Research_ , 44, D457–D462. <https://doi.org/10.1093/nar/gkv1070>
-10.1093/nar/gkv1070CAS PubMed Web of Science® Google Scholar
-  * Kawasaki, T., Koita, H., Nakatsubo, T., Hasegawa, K., Wakabayashi, K., Takahashi, H., Umemura, K., Umezawa, T., & Shimamoto, K. (2006). Cinnamoyl-CoA reductase, a key enzyme in lignin biosynthesis, is an effector of small GTPase Rac in defense signaling in rice. _Proceedings of the National Academy of Sciences of the United States of America_ , 103(1), 230–235. <https://doi.org/10.1073/pnas.0509875103>
-10.1073/pnas.0509875103CAS PubMed Web of Science® Google Scholar
-  * Khalaf, E. M., & Raizada, M. N. (2016). Taxonomic and functional diversity of cultured seed associated microbes of the cucurbit family. _BMC Microbiology_ , 16(1), 131. <https://doi.org/10.1186/s12866-016-0743-2>
-10.1186/s12866-016-0743-2PubMed Web of Science® Google Scholar
-  * Li, S. F., Allen, P. J., Napoli, R. S., Browne, R. G., Pham, H., & Parish, R. W. (2020). MYB-bHLH-TTG1 regulates _Arabidopsis_ seed coat biosynthesis pathways directly and indirectly via multiple tiers of transcription factors. _Plant and Cell Physiology_ , 61(5), 1005–1018. <https://doi.org/10.1093/pcp/pcaa027>
-10.1093/pcp/pcaa027CAS PubMed Web of Science® Google Scholar
-  * Li, Y. Y., Meng, Z. X., Zhang, Y., Guo, S. X., & Lee, Y. I. (2019). Embryology of _Anoectochilus roxburghii_ : Seed and embryo development. _Botanical Studies_ , 60(1), 6. <https://doi.org/10.1186/s40529-019-0254-1>
-10.1186/s40529-019-0254-1PubMed Web of Science® Google Scholar
-  * Liu, S. S., Chen, J., Li, S. C., Zeng, X., Meng, Z. X., & Guo, S. X. (2015). Comparative transcriptome analysis of genes involved in GA-GID1-DELLA regulatory module in symbiotic and asymbiotic seed germination of _Anoectochilus roxburghii_ (Wall.) Lindl. (Orchidaceae). _International Journal of Molecular Sciences_ , 16(12), 30190–30203. <https://doi.org/10.3390/ijms161226224>
-10.3390/ijms161226224CAS PubMed Web of Science® Google Scholar
-  * Miray, R., Kazaz, S., To, A., & Baud, S. (2021). Molecular control of oil metabolism in the endosperm of seeds. _International Journal of Molecular Sciences_ , 22(4), 1621. <https://doi.org/10.3390/ijms22041621>
-10.3390/ijms22041621CAS PubMed Web of Science® Google Scholar
-  * Molina, J., Hazzouri, K. M., Nickrent, D., Geisler, M., Meyer, R. S., Pentony, M. M., Flowers, J. M., Pelser, P., Barcelona, J., Inovejas, S. A., & Uy, I. (2014). Possible loss of the chloroplast genome in the parasitic flowering plant _Rafflesia lagascae_ (Rafflesiaceae). _Molecular Biology and Evolution_ , 31(4), 793–803. <https://doi.org/10.1093/molbev/msu051>
-10.1093/molbev/msu051CAS PubMed Web of Science® Google Scholar
-  * Molina, J., McLaughlin, W., Wallick, K., Pedales, R., Marius, V. M., Tandang, D. N., Damatac, A., Stuhr, N., Pell, S. K., Lim, T. M., & Novy, A. (2017). Ex situ propagation of Philippine _Rafflesia_ in the United States: Challenges and prospects. _Sibbaldia_ , 15, 77–96. <https://doi.org/10.24823/Sibbaldia.2017.224>
-10.24823/Sibbaldia.2017.224Google Scholar
-  * Molina, J., Nikolic, D., Jeevarathanam, J. R., Abzalimov, R., Park, E.-J., Pedales, R., Mojica, E. R. E., Tandang, D., McLaughlin, W., Wallick, K., Adams, J., Novy, A., Pell, S. K., van Breemen, R., & Pezzuto, J. M. (2021). Living with a giant, flowering parasite: Metabolic differences between _Tetrastigma loheri_ Gagnep.(Vitaceae) shoots uninfected and infected with _Rafflesia_ (Rafflesiaceae) and potential applications for propagation. _Planta_ , 255(1), 4–12. <https://doi.org/10.1007/s00425-021-03787-x>
-10.1007/s00425-021-03787-xPubMed Web of Science® Google Scholar
-  * Mursidawati, S., Ngatari, N., Irawati, I., Cardinal, S., & Kusumawati, R. (2015). Ex situ conservation of _Rafflesia patma_ blume (Rafflesiaceae): An endangered emblematic parasitic species from Indonesia. _Sibbaldia_ , 13, 99–110. <https://doi.org/10.24823/Sibbaldia.2015.77>
-10.24823/Sibbaldia.2015.77Google Scholar
-  * Nais, J. (2001). Rafflesia of the world. Sabah Parks. 
+  * Bänziger H. 1996. Pollination of a flowering oddity: _Rhizanthes zippelii_ (Blume) Spach (Rafflesiaceae). _Natural History Bulletin of the Siam Society_ 44: 113 – 142. 
 Google Scholar
-  * Nelson, S. K., Ariizumi, T., & Steber, C. M. (2017). Biology in the dry seed: Transcriptome changes associated with dry seed dormancy and dormancy loss in the _Arabidopsis_ GA-insensitive sleepy1-2 mutant. _Frontiers in Plant Science_ , 8, 2158. <https://doi.org/10.3389/fpls.2017.02158>
-10.3389/fpls.2017.02158PubMed Web of Science® Google Scholar
-  * Ng, S. M., Lee, X. W., Mat-Isa, M. N., Aizat-Juhari, M. A., Adam, J. H., Mohamed, R., Wan, K. L., & Firdaus-Raih, M. (2018). Comparative analysis of nucleus-encoded plastid-targeting proteins in _Rafflesia cantleyi_ against photosynthetic and non-photosynthetic representatives reveals orthologous systems with potentially divergent functions. _Scientific Reports_ , 8(1), 17258. <https://doi.org/10.1038/s41598-018-35173-1>
-10.1038/s41598-018-35173-1PubMed Web of Science® Google Scholar
-  * Nickrent, D. L. (2020). Parasitic angiosperms: How often and how many? _Taxon_ , 69(1), 5–27. <https://doi.org/10.1002/tax.12195>
-10.1002/tax.12195Web of Science® Google Scholar
-  * Olszewski, M., Dilliott, M., Garcia-Ruiz, I., Bendarvandi, B., & Costea, M. (2020). _Cuscuta_ seeds: Diversity and evolution, value for systematics/identification and exploration of allometric relationships. _PLoS ONE_ , 15(6), e0234627. <https://doi.org/10.1371/journal.pone.0234627>
-10.1371/journal.pone.0234627 updates 
-This document has been updated
-Click for further information.
+  * Beaman RS, Decker PJ, Beaman JH. 1988. Pollination of _Rafflesia_ (Rafflesiaceae). _American Journal of Botany_ 75: 1148 – 1162. 
+10.1002/j.1537-2197.1988.tb08828.xWeb of Science® Google Scholar
+  * Beccari O. 1868. Descrizione di tre nuove specie di piante Bornensi. _Atti Societa Italiana di Scienze Naturali Museo Civile di Storia Naturale_ 11:  197 – 198. 
+Google Scholar
+  * Bernklau EJ, Bjostad LB. 1998. Reinvestigation of host location by western corn rootworm larvae (Coleoptera: Chrysomelidae): CO2 is the only volatile attractant. _Journal of Economic Entomology_ 91:  1331 – 1340. 
+10.1093/jee/91.6.1331Web of Science® Google Scholar
+  * Buggeln RG, Meeuse BJD, Klima JR. 1971. The control of blooming in _Sauromatum guttatum_ (Araceae) by darkness. _Canadian Journal of Botany_ 49: 1025 – 1031. 
+10.1139/b71-143Web of Science® Google Scholar
+  * Burger BV, Munro ZM. 1988. Determination of plant volatiles 1: analysis of the insect-attracting allomone of the parasitic plant _Hydnora africana_ using grob-habich activated charcoal traps. _Journal of High Resolution Chromatography and Chromatography Communications_ 11: 496 – 499. 
+10.1002/jhrc.1240110613CAS Web of Science® Google Scholar
+  * Cammerloher H. 1920. Der Spaltöffnungsapparat von _Brugmansia_ und _Rafflesia_. _Botanische Zeitschrift_ 69: 153 – 164. 
+10.1007/BF01650179Google Scholar
+  * Cruzhernandez A, Gomezlim MA. 1995. Alternative oxidase from mango (_Mangifera indica_ L.) is differentially regulated during fruit ripening. _Planta_ 197: 569 – 576.
 CAS PubMed Web of Science® Google Scholar
-  * Parthasarathy, A., Savka, M. A., & Hudson, A. O. (2019). The synthesis and role of beta-alanine in plants. _Frontiers in Plant Science_ , 10, 921. <https://doi.org/10.3389/fpls.2019.00921>
-10.3389/fpls.2019.00921PubMed Web of Science® Google Scholar
-  * Pelser, P. B., Nickrent, D. L., & Barcelona, J. F. (2016). Untangling a vine and its parasite: Host specificity of Philippine _Rafflesia_ (Rafflesiaceae). _Taxon_ , 65(4), 739–758. <https://doi.org/10.12705/654.4>
-10.12705/654.4Web of Science® Google Scholar
-  * Pelser, P. B., Nickrent, D. L., Callado, J. R. C., & Barcelona, J. F. (2013). Mt. Banahaw reveals: The resurrection and neotypification of the name _Rafflesia lagascae_ (Rafflesiaceae) and clues to the dispersal of _Rafflesia_ seeds. _Phytotaxa_ , 131(1), 35–40. <https://doi.org/10.11646/phytotaxa.131.1.6>
-10.11646/phytotaxa.131.1.6Web of Science® Google Scholar
-  * Pelser, P. B., Nickrent, D. L., van Ee, B. W., & Barcelona, J. F. (2019). A phylogenetic and biogeographic study of _Rafflesia_ (Rafflesiaceae) in the Philippines: Limited dispersal and high island endemism. _Molecular Phylogenetics and Evolution_ , 139, 106555. <https://doi.org/10.1016/j.ympev.2019.106555>
-10.1016/j.ympev.2019.106555PubMed Web of Science® Google Scholar
-  * Pennisi, E. (2014). When is a plant no longer a plant? <https://www.science.org/content/article/scienceshot-when-plant-no-longer-plant> [Accessed 11 February 2023]. 
+  * Dafni A. 1984. Mimicry and deception in pollination. _Annual Review of Ecology and Systematics_ 15: 259 – 278. 
+10.1146/annurev.es.15.110184.001355Web of Science® Google Scholar
+  * Day DA, Millar AH, Wiskich JT, Whelan J. 1994. Regulation of alternative oxidase activity by pyruvate in soybean mitochondria. _Plant Physiology_ 106: 1421 – 1427. 
+10.1104/pp.106.4.1421CAS PubMed Web of Science® Google Scholar
+  * Demarigny Y, Berger C, Desmasures N, Gueguen M, Spinnler HE. 2000. Flavour sulphides are produced from methionine by two different pathways by _Geotrichum candidum_. _Journal of Dairy Research_ 67: 371 – 380.
+10.1017/S0022029900004209CAS PubMed Web of Science® Google Scholar
+  * Diesendorf M. 1975. General anaesthetic excitation and inhibition of insect CO2-receptors: an interpretation. In: DA Denton, JP Coghlan, eds. Olfaction and taste V. Proceedings of the fifth international symposium. London, UK: Academic Press, 195 – 198. 
+10.1016/B978-0-12-209750-8.50038-XGoogle Scholar
+  * Fielder P, Owens JN. 1992. Shoot-tip respiration of 1st-year interior and coastal Douglas fir seedlings during bud development. _Canadian Journal of Forest Research–Revue Canadienne de Recherche Forestiere_ 22: 765 – 768. 
+10.1139/x92-104Web of Science® Google Scholar
+  * Van Gardingen P, Grace J. 1991. Plants and wind. _Advances in Botanical Research_ 18: 189 – 253. 
+10.1016/S0065-2296(08)60023-3Web of Science® Google Scholar
+  * Von Helversen O, Winkler L, Bestmann HJ. 2000. Sulphur-containing ‘perfumes’ attract flower-visiting bats. _Journal of Comparative Physiology A – Sensory Neural and Behavioural Physiology_ 186: 143 – 153. 
+10.1007/s003590050014CAS PubMed Web of Science® Google Scholar
+  * Hidayati SN, Meijer W, Baskin JM, Walck JL. 2000. A contribution to the life history of the rare Indonesian holoparasite _Rafflesia patma_ (Rafflesiaceae). _Biotropica_ 32: 408 – 414. 
+10.1111/j.1744-7429.2000.tb00487.xWeb of Science® Google Scholar
+  * Ismail G. 1988. Conservation of the giant _Rafflesia_ , Sabah, Malaysia. _Tree_ 3: 316 – 317. 
+10.1016/0169-5347(88)90084-5Web of Science® Google Scholar
+  * Kim SE, Choudhury D, Patel B. 1997. Computations of complex turbulent flows using the commercial code fluent. In: MD Salas, JN Hefner, L Sakell, eds. Modeling complex turbulent flows. Book series: ICASE/LaRC. Interdisciplinary Series in Science and Engineering. Hampton, VA, USA: Kluwer Academic Publishers, 396. 
 Google Scholar
-  * Ranjan, A., Ichihashi, Y., Farhi, M., Zumstein, K., Townsley, B., David-Schwartz, R., & Sinha, N. R. (2014). De novo assembly and characterization of the transcriptome of the parasitic weed dodder identifies genes associated with plant parasitism. _Plant Physiology_ , 166(3), 1186–1199. <https://doi.org/10.1104/pp.113.234864>
-10.1104/pp.113.234864PubMed Web of Science® Google Scholar
-  * Rehker, J., Lachnit, M., & Kaldenhoff, R. (2012). Molecular convergence of the parasitic plant species _Cuscuta reflexa_ and _Phelipanche aegyptiaca_. _Planta_ , 236(2), 557–566. <https://doi.org/10.1007/s00425-012-1626-x>
-10.1007/s00425-012-1626-xCAS PubMed Web of Science® Google Scholar
-  * Runo, S., & Kuria, E. K. (2018). Habits of a highly successful cereal killer, Striga. _PLoS Pathogens_ , 14(1), e1006731. <https://doi.org/10.1371/journal.ppat.1006731>
-10.1371/journal.ppat.1006731PubMed Web of Science® Google Scholar
-  * Santhanam, P., Boshoven, J. C., Salas, O., Bowler, K., Islam, M. T., Saber, M. K., van den Berg, G. C., Bar-Peled, M., & Thomma, B. P. (2017). Rhamnose synthase activity is required for pathogenicity of the vascular wilt fungus _Verticillium dahliae_. _Molecular Plant Pathology_ , 18(3), 347–362. <https://doi.org/10.1111/mpp.12401>
-10.1111/mpp.12401CAS PubMed Web of Science® Google Scholar
-  * Seed Identification Guide. (2018). www.idseed.org [Accessed June 1, 2022]. 
+  * Kite GC, Hetterschieid WLA. 1997. Inflorescence odours of _Amorphophalus_ and _Pseudodracontium_ (Araceae). _Phytochemistry_ 46: 71 – 75. 
+10.1016/S0031-9422(97)00221-5CAS Web of Science® Google Scholar
+  * Knudsen JT, Tollsten L. 1995. Floral scent in bat-pollinated plants: a case of convergent evolution. _Botanical Journal of the Linnean Society_ 119: 45 – 57. 
+10.1111/j.1095-8339.1995.tb00728.xWeb of Science® Google Scholar
+  * Knudsen JT, Tollsten L, Bergstrom LG. 1993. Floral scents-a checklist of volatile compounds isolated by head-space techniques. _Phytochemistry_ 33: 253 – 280. 
+10.1016/0031-9422(93)85502-ICAS Web of Science® Google Scholar
+  * Kruijt B, Lloyd J, Grace J, McIntyre JA, Farquhar GD, Miranda AC, McCracken JI. 1996. In: JHC Gash, CA Nobre, JM Roberts, R Victoria, eds. Sources and sinks of CO2 in Rondônia tropical rainforest Amazonian deforestation and climate. Chichester, UK: John Wiley & Sons, 331 – 351. 
 Google Scholar
-  * Song, Y., & Zhu, J. (2019). The roles of metabolic pathways in maintaining primary dormancy of _Pinus koraiensis_ seeds. _BMC Plant Biology_ , 19(1), 550. <https://doi.org/10.1186/s12870-019-2167-2>
-10.1186/s12870-019-2167-2CAS PubMed Web of Science® Google Scholar
-  * Su, C., Liu, H., Wafula, E. K., Honaas, L., de Pamphilis, C. W., & Timko, M. P. (2020). SHR4z, a novel decoy effector from the haustorium of the parasitic weed _Striga gesnerioides_ , suppresses host plant immunity. _New Phytologist_ , 226(3), 891–908. <https://doi.org/10.1111/nph.16351>
-10.1111/nph.16351CAS PubMed Web of Science® Google Scholar
-  * Teixeira-Costa, L. (2021). A living bridge between two enemies: Haustorium structure and evolution across parasitic flowering plants. _Brazilian Journal of Botany_ , 44, 165–178. <https://doi.org/10.1007/s40415-021-00704-0>
-10.1007/s40415-021-00704-0Web of Science® Google Scholar
-  * The Arabidopsis Information Resource (TAIR). (2022). www.arabidopsis.org [Accessed multiple times Jan 2021-Sept 2022]. 
+  * Kumar S, Sinha SK. 1994. Possible role of alternative respiration in temperature rise of water stressed plants. _Journal of Biosciences_ 19: 331 – 338. 
+10.1007/BF02716823Web of Science® Google Scholar
+  * Lambers H. 1980. The physiological significance of cyanide-resistant respiration in higher plants. _Plant, Cell & Environment_ 3: 293 – 302. 
+10.1111/1365-3040.ep11581846CAS Web of Science® Google Scholar
+  * Lundegårdh H. 2001. Enzyme systems conducting the aerobic respiration of roots of wheat and rye. _Arkiv För Kemi_ 7: 451 – 478. 
 Google Scholar
-  * The UniProt Consortium. (2021). UniProt: The universal protein knowledgebase in 2021. _Nucleic Acids Research_ , 49, D480–D489. <https://doi.org/10.1093/nar/gkaa1100>
-10.1093/nar/gkaa1100PubMed Web of Science® Google Scholar
-  * Thorogood, C., Witono, J. R., Mursidawati, S., & Fleischmann, A. (2021). Parasitic plant cultivation: Examples, lessons learned and future directions. _Sibbaldia_ , 21, 109–136. <https://doi.org/10.24823/Sibbaldia.2022.1892>
-10.24823/Sibbaldia.2022.1892Google Scholar
-  * Tuquet, C., Farineau, N., & Salé, G. (1990). Biochemical composition and photosynthetic activity of chloroplasts from _Striga hermonthica_ and _Striga aspera_ , root parasites of field-grown cereals. _Physiolia Plantarum_ , 78(4), 574–582. <https://doi.org/10.1111/j.1399-3054.1990.tb05244.x>
-10.1111/j.1399-3054.1990.tb05244.xCAS Web of Science® Google Scholar
-  * Ueda, M., Fujimoto, M., Arimura, S., Murata, J., Tsutsumi, N., & Kadowaki, K. (2007). Loss of the rpl32 gene from the chloroplast genome and subsequent acquisition of a preexisting transit peptide within the nuclear gene in _Populus_. _Gene_ , 402(1–2), 51–56. <https://doi.org/10.1016/j.gene.2007.07.019>
-10.1016/j.gene.2007.07.019CAS PubMed Web of Science® Google Scholar
-  * Wakabayashi, T., Joseph, B., Yasumoto, S., Akashi, T., Aoki, T., Harada, K., Muranaka, S., Bamba, T., Fukusaki, E., Takeuchi, Y., Yoneyama, K., Muranaka, T., Sugimoto, Y., & Okazawa, A. (2015). Planteose as a storage carbohydrate required for early stage of germination of _Orobanche minor_ and its metabolism as a possible target for selective control. _Journal of Experimental Botany_ , 66(11), 3085–3097. <https://doi.org/10.1093/jxb/erv116>
-10.1093/jxb/erv116CAS PubMed Web of Science® Google Scholar
-  * Wang, B., Wang, Y., & Li, J. (2017). Strigolactones. In J. Li, C. Li, & S. M. Smith (Eds.), Hormone metabolism and signaling in plants (pp. 327–359). Elsevier. 
-10.1016/B978-0-12-811562-6.00010-4Google Scholar
-  * Wang, S., Barron, C., Schiefelbein, J., & Chen, J.-G. (2010). Distinct relationships between GLABRA2 and single-repeat R3 MYB transcription factors in the regulation of trichome and root hair patterning in _Arabidopsis_. _New Phytologist_ , 185, 387–400. <https://doi.org/10.1111/j.1469-8137.2009.03067.x>
-10.1111/j.1469-8137.2009.03067.xCAS PubMed Web of Science® Google Scholar
-  * Wicaksono, A., Mursidawati, S., & Molina, J. (2021). A plant within a plant: Insights on the development of the _Rafflesia_ endophyte within its host. _Botanical Review_ , 87(2), 233–242. <https://doi.org/10.1007/s12229-020-09236-w>
-10.1007/s12229-020-09236-wWeb of Science® Google Scholar
-  * Wicaksono, A., Mursidawati, S., Sukamto, L. A., & Teixeira da Silva, J. A. (2016). _Rafflesia_ spp.: Propagation and conservation. _Planta_ , 244(2), 289–296. <https://doi.org/10.1007/s00425-016-2512-8>
-10.1007/s00425-016-2512-8CAS PubMed Web of Science® Google Scholar
-  * Xi, Z., Bradley, R. K., Wurdack, K. J., Wong, K., Sugumaran, M., Bomblies, K., Rest, J. S., & Davis, C. C. (2012). Horizontal transfer of expressed genes in a parasitic flowering plant. _BMC Genomics_ , 13(1), 227. <https://doi.org/10.1186/1471-2164-13-227>
-10.1186/1471-2164-13-227CAS PubMed Web of Science® Google Scholar
-  * Xi, Z., Wang, Y., Bradley, R. K., Sugumaran, M., Marx, C. J., Rest, J. S., & Davis, C. C. (2013). Massive mitochondrial gene transfer in a parasitic flowering plant clade. _PLoS Genetics_ , 9(2), e1003265. <https://doi.org/10.1371/journal.pgen.1003265>
-10.1371/journal.pgen.1003265CAS PubMed Web of Science® Google Scholar
-  * Yang, Z., Zhang, Y., Wafula, E. K., Honaas, L. A., Ralph, P. E., Jones, S., Clarke, C. R., Liu, S., Su, C., Zhang, H., Altman, N. S., Schuster, S. C., Timko, M. P., Yoder, J. I., Westwood, J. H., & dePamphilis, C. W. (2016). Horizontal gene transfer is more frequent with increased heterotrophy and contributes to parasite adaptation. _Proceedings of the National Academy of Sciences of the United States of America_ , 113(45), E7010–E7019. <https://doi.org/10.1073/pnas.1608765113>
-10.1073/pnas.1608765113CAS PubMed Web of Science® Google Scholar
-  * Yang, Z. Z., Wafula, E. K., Honaas, L. A., Zhang, H. T., das, M., Fernandez-Aparicio, M., Huang, K., Bandaranayake, P. C., Wu, B., der, J. P., Clarke, C. R., Ralph, P. E., Landherr, L., Altman, N. S., Timko, M. P., Yoder, J. I., Westwood, J. H., & dePamphilis, C. W. (2015). Comparative transcriptome analyses reveal core parasitism genes and suggest gene duplication and repurposing as sources of structural novelty. _Molecular Biology and Evolution_ , 32(3), 767–790. <https://doi.org/10.1093/molbev/msu343>
-10.1093/molbev/msu343CAS PubMed Web of Science® Google Scholar
-  * Yao, Z., Tian, F., Cao, X., Xu, Y., Chen, M., Xiang, B., & Zhao, S. (2016). Global transcriptomic analysis reveals the mechanism of _Phelipanche aegyptiaca_ seed germination. _International Journal of Molecular Sciences_ , 17(7), 1139. <https://doi.org/10.3390/ijms17071139>
-10.3390/ijms17071139PubMed Web of Science® Google Scholar
-  * Ye, S., Shao, Q., & Zhang, A. (2017). Anoectochilus roxburghii: A review of its phytochemistry, pharmacology, and clinical applications. _Journal of Ethnopharmacology_ , 209, 184–202. <https://doi.org/10.1016/j.jep.2017.07.032>
-10.1016/j.jep.2017.07.032CAS PubMed Web of Science® Google Scholar
-  * Zhao, L., Wang, S., Fu, Y. B., & Wang, H. (2019). _Arabidopsis_ seed stored mRNAs are degraded constantly over aging time, as revealed by new quantification methods. _Frontiers in Plant Science_ , 10, 1764. <https://doi.org/10.3389/fpls.2019.01764>
-10.3389/fpls.2019.01764PubMed Web of Science® Google Scholar
+  * McCaig TN, Hill RD. 1977. Cyanide-insensitive respiration in wheat: cultivar differences and effects of temperature, carbon dioxide, and oxygen. _Canadian Journal of Botany_ 55: 549 – 555. 
+10.1139/b77-065CAS Web of Science® Google Scholar
+  * McNulty AK, Cummins WR. 1987. The relationship between respiration and temperature in leaves of the arctic plant _Saxifraga cernua_. _Plant, Cell & Environment_ 10: 319 – 325. 
+10.1111/j.1365-3040.1987.tb01612.xWeb of Science® Google Scholar
+  * Meeuse BJD. 1966. The voodoo lily. _Scientific American_ 215: 80 – 88.
+10.1038/scientificamerican0766-80PubMed Web of Science® Google Scholar
+  * Meeuse BJD. 1975. Thermogenic respiration in aroids. _Annual Review of Plant Physiology and Molecular Biology_ 26: 117 – 126. 
+10.1146/annurev.pp.26.060175.001001CAS Web of Science® Google Scholar
+  * Meeuse BJD. 1978. The physiology of some sapromyophilous flowers. In: AJ Richards, ed. The pollination of flowers by insects. London, UK: Academic Press, 97 – 104. 
+Google Scholar
+  * Meeuse BJD, Raskin I. 1988. Sexual reproduction in the arum lily family, with emphasis on thermogenicity. _Sexual Plant Reproduction_ 1: 3 – 15. 
+10.1007/BF00227016Google Scholar
+  * Meijer W. 1984. New species of _Rafflesia_ (Rafflesiaceae). _Blumea_ 30: 209 – 215. 
+Web of Science® Google Scholar
+  * Meijer W. 1985. Saving the world’s largest flower. _National Geographic_ 168: 136 – 140. 
+Google Scholar
+  * Meijer W. 1997. Rafflesiaceae. _Flora Malesiana. Series I_. _Spermatophyta_ 13: 1 – 42. 
+Google Scholar
+  * Millar AH, Bergersen FJ, Day DA. 1994. Oxygen affinity of terminal oxidases in soybean mitochondria. _Plant Physiology and Biochemistry_ 32: 847 – 852. 
+CAS Web of Science® Google Scholar
+  * Moreau F, Romani R. 1982. Malate oxidation and cyanide-insensitive respiration in avocado mitochondria during the climacteric cycle. _Plant Physiology_ 70: 1385 – 1390. 
+10.1104/pp.70.5.1385CAS PubMed Web of Science® Google Scholar
+  * Nais J. 1997. Distribution, reproductive ecology and conservation of _Rafflesia_ in Sabah, Malaysia.  PhD thesis, The University of Aberdeen, Aberdeen, UK. 
+Google Scholar
+  * Nais J, Wilcock CC. 1998. The _Rafflesia_ conservation incentive scheme in Sabah, Malaysian Borneo. _Sabah Parks Nature Journal_ 1: 9 – 17. 
+Google Scholar
+  * Nilssen AC, Tommeras BA, Schmid R, Evensen SB. 1996. Dimethyl trisulphide is a strong attractant for some calliphorids and a muscid but not for the reindeer oestrids _Hypoderma tarandi_ and _Cephenemyia trompe_. _Entomologia Experimentalis et Applicata_ 79: 211 – 218. 
+10.1111/j.1570-7458.1996.tb00828.xCAS Web of Science® Google Scholar
+  * Park KC, Cork A. 1999. Electrophysiological responses of antennal receptor neurons in female Australian sheep blowflies, Lucilia cuprina, to host odours. _Journal of Insect Physiology_ 45: 85 – 91. 
+10.1016/S0022-1910(98)00102-4CAS PubMed Web of Science® Google Scholar
+  * Patiño S, Grace J, Bänziger H. 2000. Endothermy by flowers of _Rhizanthes lowii_ (Rafflesiaceae). _Oecologia_ 124: 149 – 165. 
+10.1007/s004420050001CAS PubMed Web of Science® Google Scholar
+  * Penning de Vries FWT, Brunsting AHM, Van Laar HH. 1974. Products, requirements and efficiency of biosynthetic processes: a quantitative approach. _Journal of Theoretical Biology_ 45: 339 – 377.
+10.1016/0022-5193(74)90119-2CAS PubMed Web of Science® Google Scholar
+  * Raskin I, Turner IM, Melander WR. 1989. Regulation of heat production in the inflorescences of an arum lily by endogenous salicylic acid. _Proceedings of the National Academy of Sciences, USA_ 86: 2214 – 2218. 
+10.1073/pnas.86.7.2214CAS PubMed Web of Science® Google Scholar
+  * Ribascarbo M, Berry JA, Yakir D, Giles L, Robinson SA, Lennon AM, Siedow JN. 1995. Electron partitioning between the cytochrome and alternative pathways in plant mitochondria. _Plant Physiology_ 109: 829 – 837. 
+10.1104/pp.109.3.829CAS PubMed Web of Science® Google Scholar
+  * Rychter AM, Chauveau M, Bomsel JL, Lance C. 1992. The effect of phosphate deficiency on mitochondrial activity and adenylate levels in bean roots. _Physiologia Plantarum_ 84: 80 – 86. 
+10.1111/j.1399-3054.1992.tb08768.xCAS Web of Science® Google Scholar
+  * Salleh KM. 1991. Rafflesia Magnificent Flower of Sabah. Kota Kinabalu, Borneo: Borneo Publishing Co. 
+Google Scholar
+  * Senter SD, Arnold JW, Chew V. 2000. APC values and volatile compounds formed in commercially processed, raw chicken parts during storage at 4 and 13 degrees C and under simulated temperature abuse conditions. _Journal of the Science of Food and Agriculture_ 80: 1559 – 1564. 
+10.1002/1097-0010(200008)80:10<1559::AID-JSFA686>3.0.CO;2-8CAS Web of Science® Google Scholar
+  * Shugaev AG, Vyskrebentseva EI, Shugaeva NA. 1998. Seasonal changes in the activity of mitochondrial oxidases detected by the traditional inhibitor analysis in disks cut from mature sugar beet leaves. _Russian Journal of Plant Physiology_ 45: 574 – 581. 
+CAS Web of Science® Google Scholar
+  * Skubatz H, Williamson PS, Schneider EL, Meeuse BJD. 1990. Cyanide-insensitive respiration in thermogenic flowers of Victoria and Nelumbo. _Journal of Experimental Botany_ 41: 1335 – 1339. 
+10.1093/jxb/41.10.1335CAS Web of Science® Google Scholar
+  * Stange G. 1975. Linear relation between stimulus concentration and primary transduction process in insects. In: DA Denton, JP Coghlan, eds. Olfaction and taste V. Proceedings of the fifth international symposium. London, UK: Academic Press, 207 – 210. 
+10.1016/B978-0-12-209750-8.50041-XGoogle Scholar
+  * Stange G. 1996. Sensory and behavioural responses of terrestrial invertebrates to biogenic carbon dioxide gradients. In: G Stanhill, ed. Advances in bioclimatology – 4. London, UK: Springer, 223 – 253. 
+10.1007/978-3-642-61132-2_5Google Scholar
+  * Stange G, Wong C. 1993. Moth response to climate. _Nature_ 365:  699 – 700. 
+10.1038/365699a0Web of Science® Google Scholar
+  * Stransky K, Valterova I. 1999. Release of volatiles during the flowering period of _Hydrosme rivieri_ (Araceae). _Phytochemistry_ 52: 1387 – 1390. 
+10.1016/S0031-9422(99)00247-2CAS Web of Science® Google Scholar
+  * Tamura F, Tanabe KJ, Katayama M. 1996. Characteristics of mitochondrial particles in relation to flooding tolerance in pear rootstocks. _Journal of the Japanese Society for Horticultural Science_ 65: 1 – 5. 
+10.2503/jjshs.65.1CAS Web of Science® Google Scholar
+  * Van der Plas LHW, Schoenmaker GS, Gerbrandy SJ. 1977. CN-resistant respiration in _Convolvulus arvensis_ L. cell culture. _Plant Science Letters_ 8: 31 – 33. 
+10.1016/0304-4211(77)90168-7CAS Web of Science® Google Scholar
+  * Wagner AM, Vandenbergen CWM, Krab K. 1992. Modulation of the access of exogenous NAD (P) H to the alternative pathway in potato tuber callus mitochondria with triton X-100. _Plant Physiology_ 100: 1259 – 1262. 
+10.1104/pp.100.3.1259CAS PubMed Web of Science® Google Scholar
+  * Wagner AM, Wagner MJ. 1995. Measurements of _in-vivo_ ubiquinone reduction levels in plant cells. _Plant Physiology_ 108: 277 – 283. 
+10.1104/pp.108.1.277CAS PubMed Web of Science® Google Scholar
+  * Weger HG, Guy RD. 1991. Cytochrome and alternative pathway respiration in white spruce (_Picea glauca_) _roots. Physiologia Plantarum_ 83: 675 – 681. 
+10.1111/j.1399-3054.1991.tb02486.xCAS Web of Science® Google Scholar
 
 
 ## 
 Citing Literature
-[](https://nph.onlinelibrary.wiley.com/toc/25722611/2025/7/2 "View Parasitic plants, people and planet")
-Volume7, Issue2
-Parasitic plants, people and planet
-March 2025
-Pages 448-466
+
+Volume154, Issue2
+May 2002
+Pages 429-437
   * ## Figures
   * ## References
   * ## Related
@@ -690,8 +335,7 @@ Pages 448-466
 Close Figure Viewer
 Previous FigureNext Figure
 Caption
-Download PDF
-[](https://nph.onlinelibrary.wiley.com/)
+
      
 © 2025 New Phytologist Foundation 
 © 2025 New Phytologist Foundation 
@@ -709,6 +353,7 @@ Download PDF
   * Contact Us
   * Training and Support
   * DMCA & Reporting Piracy
+  * Sitemap
 
 
 ### Opportunities
@@ -722,15 +367,15 @@ Download PDF
 
 
 Copyright © 1999-2025 John Wiley & Sons, Inc or related companies. All rights reserved, including rights for text and data mining and training of artificial intelligence technologies or similar technologies.
-[](https://www.wiley.com "Wiley Home Page")
+
  
 
 ## Log in to Wiley Online Library
 Email or Customer ID
 Password
  Forgot password? 
- NEW USER >   INSTITUTIONAL LOGIN > [](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10370)
-[](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10370)
+ NEW USER >   INSTITUTIONAL LOGIN > 
+
 
 ## Change Password
 Old Password
@@ -743,20 +388,20 @@ Too Short Weak Medium Strong Very Strong Too Long
   * or a digit
 
 Too Short
-[](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10370)[](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10370)
+
 ## Password Changed Successfully
 Your password has been changed
-[](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10370)
+
 ## Create a new account
 Email
- Returning user [](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10370)
-[](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10370)
+ Returning user 
+
 
 ## Forgot your password?
 Enter your email address below. 
 Email
 Please check your email for instructions on resetting your password. If you do not receive an email within 10 minutes, your email address may not be registered, and you may need to create a new Wiley Online Library account.
-[](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10370)
+
 ## Request Username
 Can't sign in? Forgot your username?
 Enter your email address below and we will send you your username

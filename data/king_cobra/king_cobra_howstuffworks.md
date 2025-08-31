@@ -137,7 +137,7 @@ Cite This!
 Please copy/paste the following text to properly cite this HowStuffWorks.com article:
 Copy
 Desiree Bowie "King Cobra: A Venomous Snake's Diet and Mating Rituals" 7 December 2023.  
-HowStuffWorks.com. <https://animals.howstuffworks.com/snakes/king-cobra.htm> 18 July 2025 
+HowStuffWorks.com. <https://animals.howstuffworks.com/snakes/king-cobra.htm> 29 August 2025 
 Close 
 Citation
 Related Links
@@ -179,7 +179,7 @@ Information
   * Reprints
   * Privacy Policy
   * For Advertisers
-  * Do Not Sell My Info
+  * Cookie Settings
 
 
 Explore
@@ -188,5 +188,5 @@ Explore
 
 
 Privacy Policy Terms
-Do Not Sell My Info
+Cookie Settings
 Copyright © 2025 HowStuffWorks, a System1 Property

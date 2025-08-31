@@ -272,6 +272,11 @@ Id
 3114346
 Type
 landing_page
+    * Media Releases
+Id
+5302186
+Type
+landing_page
     * Weather
 Type
 external
@@ -352,7 +357,7 @@ Singapore
 
 ####  Search 
 ####  Trending Topics 
- Cambodia-Thailand tensions   CNA Explains   China   Indonesia   Malaysia   artificial intelligence   Israel-Hamas war   Trump   podcasts   Wellness 
+ CNA Explains   China   Indonesia   Malaysia   artificial intelligence   Israel-Hamas war   Trump   podcasts   Wellness 
 ####  Follow CNA 
 Follow our news 
   *  Facebook 
@@ -366,7 +371,7 @@ Follow our news
   
 ####  Recent Searches 
 ####  Trending Topics 
- Cambodia-Thailand tensions   CNA Explains   China   Indonesia   Malaysia   artificial intelligence   Israel-Hamas war   Trump   podcasts   Wellness 
+ CNA Explains   China   Indonesia   Malaysia   artificial intelligence   Israel-Hamas war   Trump   podcasts   Wellness 
 ## CNAR Primary Menu
   * Top Stories
 Id
@@ -667,6 +672,11 @@ Id
 3114346
 Type
 landing_page
+    * Media Releases
+Id
+5302186
+Type
+landing_page
     * Weather
 Type
 external
@@ -756,7 +766,7 @@ Singapore
 
 ####  Search 
 ####  Trending Topics 
- Cambodia-Thailand tensions   CNA Explains   China   Indonesia   Malaysia   artificial intelligence   Israel-Hamas war   Trump   podcasts   Wellness 
+ CNA Explains   China   Indonesia   Malaysia   artificial intelligence   Israel-Hamas war   Trump   podcasts   Wellness 
 ####  Follow CNA 
 Follow our news 
   *  Facebook 
@@ -770,7 +780,7 @@ Follow our news
   
 ####  Recent Searches 
 ####  Trending Topics 
- Cambodia-Thailand tensions   CNA Explains   China   Indonesia   Malaysia   artificial intelligence   Israel-Hamas war   Trump   podcasts   Wellness 
+ CNA Explains   China   Indonesia   Malaysia   artificial intelligence   Israel-Hamas war   Trump   podcasts   Wellness 
 Advertisement
 Advertisement
  Singapore 
@@ -867,18 +877,18 @@ Join here
 Advertisement
 ##  Also worth reading 
   
+######  Jail for women who swapped seats near roadblock because one of them was driving without licence
+  
 ######  Chinese actress Zhao Lusi calls out management agency for breach of contract, accuses company of taking money
   
-######  25 months' jail for woman who worked with her husband to cheat her lover of S$220,000
+######  Clerk pocketed more than S$38,000 from recycling firm to donate to 'Chinese idols' on Douyin
   
-######  Teenage couple charged with murder of Malaysian university student in campus housing 
-  
-######  Former Senior Minister Teo Chee Hean resigns from GIC board of directors
+######  Woman who put feet up in bus hauled to court for 'hitting' driver, says she was set up
 Partner Recommendations
-  Shaping Tomorrow - Building futures and transforming lives through real estate. 
-  What if Bangalore’s fastest-growing location had a home just for you? Birla Trimaya 
-  Tired of Mess? Try Pro House Cleaning in Singapore! caffeinecommons.com 
-  This Couple Broke The Price Record With Their Bishan HDB Sale Propseller 
+  Real Madrid rally to beat Mallorca 2-1 despite VAR woes 
+  Skip the overpriced latte. Here's how you can enjoy cafe-style coffee at home from under $1. Nespresso 
+  Currency Shifts: Why Your Business Can't Ignore Hedging Right Now Wallex 
+  Building a healthy self-esteem mindline.sg 
 Advertisement
 [ Expand to read the full story ](javascript:;)
 Get bite-sized news via a new  
@@ -920,9 +930,9 @@ Follow our news
         
 Copyright© Mediacorp 2025. Mediacorp Pte Ltd. All rights reserved.
 Official Domain | Terms & Conditions | Privacy Policy | Report Vulnerability | Online Links Policy
-[](javascript:;)
+
 [ ](javascript:;)
-[](javascript:;)
+
 [ ](javascript:;)
   
 This browser is no longer supported 
@@ -934,6 +944,6 @@ Copy link
 ✓
 Thanks for sharing!
 Find any service
-[](https://www.addtoany.com "Share Buttons")
+
 More…
-%20AppleWebKit%2F537.36%20Chrome%2F116.0.0.0%20Safari%2F537.36&date=1754696756035&response_time=146&recs=cna-5275491%7Cccr_cbf_usr_context_v1_2%7C%7C%7CSlot%20Group%201%2Ccna-5255886%7Cccr_cbf_usr_context_v1_2%7C%7C%7CSlot%20Group%201%2Ccna-5231056%7Cccr_cbf_usr_context_v1_2%7C%7C%7CSlot%20Group%201%2Ccna-5172461%7Cccr_cbf_usr_context_v1_2%7C%7C%7CSlot%20Group%201)
+%20AppleWebKit%2F537.36%20Chrome%2F116.0.0.0%20Safari%2F537.36&date=1756613686861&response_time=100&recs=cna-5279771%7Ccna_lightfm_v1_web_all%20%2B%20contextual_mab%7C%7C%7CSlot%20Group%201%2Ccna-5275491%7Ccna_lightfm_v1_web_all%20%2B%20contextual_mab%7C%7C%7CSlot%20Group%201%2Ccna-5230651%7Ccna_lightfm_v1_web_all%20%2B%20contextual_mab%7C%7C%7CSlot%20Group%201%2Ccna-5225856%7Ccna_lightfm_v1_web_all%20%2B%20contextual_mab%7C%7C%7CSlot%20Group%201)

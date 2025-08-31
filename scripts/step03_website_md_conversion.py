@@ -23,17 +23,21 @@ def get_markdown_filename(species, url):
 
 
 ## Remove images from markdowns
-def remove_images_from_markdown(markdown_text):
+def remove_images_and_citations(markdown_text):
     # Remove image markdown ![alt text](url)
     cleaned = re.sub(r'!\[.*?\]\(.*?\)', '', markdown_text)
+    # Remove empty link references [](url) - often images without alt text
+    cleaned = re.sub(r'\[\]\([^)]*\)', '', cleaned)
+    # Remove citation links [[xx]](url) - THIS IS THE KEY ONE
+    cleaned = re.sub(r'\[\[\d+\]\]\(https?:\/\/[^\s\)]+(\s+"[^"]*")?\)', '', cleaned)
     return cleaned.strip()
 
 
-# def strip_links_keep_text(markdown_text):
-#     """
-#     Replaces [text](url) with just 'text'
-#     """
-#     return re.sub(r'\[([^\]]+)\]\((https?:\/\/[^\s\)]+)\)', r'\1', markdown_text)
+# # def strip_links_keep_text(markdown_text):
+# #     """
+# #     Replaces [text](url) with just 'text'
+# #     """
+# #     return re.sub(r'\[([^\]]+)\]\((https?:\/\/[^\s\)]+)\)', r'\1', markdown_text)
 
 
 def strip_links_keep_text(markdown: str) -> str:
@@ -66,7 +70,7 @@ async def scrape_species_page(species_name, urls):
 
             try:
                 result = await crawler.arun(url=url)
-                cleaned_md = remove_images_from_markdown(result.markdown)
+                cleaned_md = remove_images_and_citations(result.markdown)
                 cleaned_md = strip_links_keep_text(cleaned_md)
 
                 with open(filepath, "w", encoding="utf-8") as f:
@@ -94,12 +98,12 @@ if __name__ == "__main__":
 # async def main():
 #     async with AsyncWebCrawler() as crawler:
 #         result = await crawler.arun(
-#             url="https://www.nparks.gov.sg/avs/animals/wildlife-in-singapore/asian-koels",
+#             url="https://en.wikipedia.org/wiki/Sperm_whale",
 #         )
-        
+#         print(result.html)
 #         cleaned_markdown = remove_images_from_markdown(result.markdown)
 #         cleaned_markdown = strip_links_keep_text(cleaned_markdown)
-#         print(cleaned_markdown)
+#         # print(cleaned_markdown)
 
 # if __name__ == "__main__":
 #     asyncio.run(main())

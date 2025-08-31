@@ -1,4 +1,3 @@
-[](https://datazone.birdlife.org/)
 See All results
 Insights
 Resources
@@ -290,13 +289,15 @@ Loading...
 ## Other resources
 #### eBird Status Map
 
+#### eBird Weekly Abundance Map
+Your browser does not support the video tag.
 #### eBird Trend Map
 
 ## Citations
 #### Recommended citation:
-BirdLife International (). Species factsheet:  Downloaded from <https://datazone.birdlife.org/species/factsheet/oriental-pied-hornbill-anthracoceros-albirostris> on 20/07/2025
+BirdLife International (). Species factsheet:  Downloaded from <https://datazone.birdlife.org/species/factsheet/oriental-pied-hornbill-anthracoceros-albirostris> on 31/08/2025
 #### Recommended citation for assessments for more than one species:
-BirdLife International (2025) IUCN Red List for birds. Downloaded from <https://datazone.birdlife.org> on 20/07/2025
+BirdLife International (2025) IUCN Red List for birds. Downloaded from <https://datazone.birdlife.org> on 31/08/2025
 ## Support our science
 We rely on donations to keep this service running and help birds thrive around the world. Please consider donating today.
 Donate now
@@ -367,7 +368,7 @@ Donate now
 
 
 Registered charity 1042125
-[](https://www.facebook.com/BirdLifeInternational)[](https://bsky.app/profile/birdlifeglobal.bsky.social)[](https://www.instagram.com/birdlife.international/)[](https://www.linkedin.com/company/birdlife-international)
+
 Funded by the Garfield Weston Foundation & the Aage V. Jensen Charity Foundation
 Copyright © 2024—2025 BirdLife International. All Rights Reserved.
 Website byHex Digital/Trifork

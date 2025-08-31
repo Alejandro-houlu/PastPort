@@ -9,11 +9,9 @@ A **.gov** website belongs to an official government organization in the United 
 
 **Secure .gov websites use HTTPS**   
 A **lock** (  Lock Locked padlock icon  ) or **https://** means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. 
-### Service Alert: Planned Maintenance beginning July 25th
-Most services will be unavailable for 24+ hours starting 9 PM EDT. Learn more about the maintenance.
- ![
-                                  NCBI home page
-                               ](https://www.ncbi.nlm.nih.gov/)
+### PMC Search Update
+PMC Beta search will replace the current PMC search the week of September 7, 2025. Try out PMC Beta search now and give us your feedback. Learn more
+  
 Log in
   *  Dashboard 
   *  Publications 
@@ -31,9 +29,8 @@ Logged in as:
 
 
 Log in
-[](https://pmc.ncbi.nlm.nih.gov/ "Home")
+
 Search PMC Full-Text Archive Search in PMC 
-  *  Advanced Search 
   *  Journal List 
   *  User Guide 
 
@@ -87,7 +84,7 @@ Polished pebbles occasionally found within skeletons of giant herbivorous saurop
 Sauropod dinosaurs of the Jurassic and Cretaceous periods were the largest herbivores ever to have evolved, commonly exceeding body masses of 30 tons or more (Seebacher 2001). In many forms, the small head and weak dentition appear ill suited for oral processing of the enormous quantity of plant matter required to support their high growth rates (Sander 2000; Erickson _et al_. 2001), if not endothermic metabolism (Padian & Horner 2004).
 Polished pebbles occasionally found with sauropod skeletons are generally interpreted as gastroliths or stomach stones, i.e. stones ingested voluntarily by the animal and retained in its digestive tract (Janensch 1929; Christiansen 1996; Ratkevich 1998; Bonaparte & Mateus 1999; Sanders _et al_. 2001). Polish of stones found in association with sauropods ranges from dull to fatty or waxy to a silky or even a highly reflective surface (figure 1 _a_ ,_b_ ; Gillette 1994; Wings 2004). The pebbles are also believed to have comprised a gastric mill of the kind employed by modern birds (Galton 1986; Christiansen 1996; Upchurch & Barrett 2000; Barrett & Upchurch 2005; Fastovsky & Weishampel 2005). Although our taphonomic and sedimentological research (Wings 2004) supports the view that these pebbles are gastroliths and not just a sedimentological phenomenon as proposed by some authors (Calvo 1994; Lucas 2000), we here provide evidence that sauropods lacked a gastric mill.
 ### Figure 1.
-[](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=2197205_rspb20063763f01.jpg)
+
 Open in a new tab
 Genuine and alleged gastroliths from sauropods and ostriches. All images have the same scale. (_a_) Sauropod gastroliths from _Cedarosaurus_ (Denver Museum of Natural History 39045). Note that some pebbles are composed of relatively soft sandstone and that even the quartz pebbles exhibit a dull surface, except where covered by diagenetic hematite coating. (_b_) Typical alleged sauropod gastroliths, composed of quartz and exhibiting a high polish (Yale Peabody Museum 1782). (_c_) Natural ostrich gastrolith composed of white vein quartz (Institute of Palaeontology, University Bonn (IPB) R563). (_d_) Black chert pebbles before and after abrasion experiment (IPB R564). (_e_) Abrasion sequence of experimental granite samples (IPB R565) in the ostrich gizzards. Samples are from experiment illustrated in figure 2. Note that the general shape of the stones remained intact during the experiment and that the experimental gastroliths did not develop any polish. Numbers below specimens in (_c_), (_d_) and (_e_) indicate residence time in gizzard in days.
 Herbivorous and granivorous birds, lacking oral processing capabilities, must rely on their gastric mill in the gizzard to efficiently triturate food stuff for hind gut fermentation (Gionfriddo & Best 1999). Other components of the avian gastric mill are strong, paired stomach muscles and a tough lining of the stomach consisting of a keratin-like substance forming a specialized tissue, koilin (Duke 1986). The number and mass of rocks in a gastric mill are important variables in the system. None of the components of the gastric mill except for gastroliths have the potential to fossilize, however.
@@ -98,7 +95,7 @@ Ostriches, like all ratites, lack a crop. Instead, foodstuff is stored and mixed
 ### (a) Feeding experiments with ostriches
 Different rock types were offered to German farm ostriches and recovered after residence times from 1 to 60 days (figures 1 and 2). In November 2002, cubes of 2 cm side length of three rock types (limestone, granite and rose quartz) were presented to three groups of 1-year-old ostriches on the farm ‘Gemarkenhof’ near Remagen (western Germany), with each group being offered one rock type only. Since stones are a normal part of their dietary uptake, the birds swallowed the stones deliberately. Each of the ostriches swallowed at least three stones of its designated rock type. Rose quartz was chosen because it has the same physical properties as the white vein quartz (of which most of the naturally acquired gastroliths consist), but can be separated from these by colour. In addition, polished black chert pebbles were offered to a fourth group of ostriches. Since all birds were later slaughtered during normal farm operations, the stones were retrieved at irregular intervals. Once the stomachs (proventriculus and gizzard) were removed, the stomach contents were collected, washed and screened, and the experimental rocks were separated and examined for mass loss, surface modifications and shape change.
 #### Figure 2.
-[](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=2197205_rspb20063763f02.jpg)
+
 Open in a new tab
 Results of the gastrolith-feeding experiments with German farm ostriches (_Struthio camelus_) using three different rock types: limestone; granite; and rose quartz. The mass of the fed stones is plotted against the number of days of residence in the stomach. Each data point represents one slaughtered animal that contained a sample of known residence time. Rose quartz was by far the most resistant rock type, followed by granite, limestone being destroyed almost immediately. Number of days between intake of experimentally prepared gastroliths and eventual slaughter was decided independently by the farmer. Hence, duration of the interval between samples is not of equal length.
 ### (b) Amounts of gastroliths in ostriches, other birds and sauropod dinosaurs
@@ -114,11 +111,11 @@ The dull surface of sample gastroliths is in accordance with natural ostrich gas
 ### (b) Amounts of gastroliths
 In both sample groups of ostriches, gastrolith mass correlated closely with body mass, and relative gastrolith mass showed a tight normal distribution around a mean gastrolith mass of 1.05% of body mass (figure 3). In the data from other bird taxa, there is also a clear relationship between body mass and gastrolith mass (figure 4). Herbivorous species have the highest proportion of gastroliths in the stomach, repeatedly reaching 1% of body mass, independently of size which spans four orders of magnitude (figure 4).
 #### Figure 3.
-[](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=2197205_rspb20063763f03.jpg)
+
 Open in a new tab
 Gastrolith masses of South African and German free-ranging farm ostriches. Both groups exhibit a normal distribution of data. The Kolmogorov–Smirnov test gave an asymptotic significance of 0.414 for German ostrich gastrolith mass and an asymptotic significance of 0.084 for South African ostrich gastrolith mass. While the South African birds were two to four months younger at slaughter, and therefore had a lower mean body mass, the proportions of gastrolith and body mass is almost identical in both groups.
 #### Figure 4.
-[](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=2197205_rspb20063763f04.jpg)
+
 Open in a new tab
 Relationship of body mass to gastrolith mass in birds and dinosaurs. Data were compiled for 27 bird species of several families (ostriches, wild birds and domesticated; see electronic supplementary material) as well as for the theropod _Caudipteryx_ and the three sauropod finds with the highest mass of associated gastroliths (type specimens of _Seismosaurus_ , _Cedarosaurus_ and _Dinheirosaurus_). Note that values of relative gastrolith mass in sauropods lie well below the regression line for birds and the _Caudipteryx_ data.
 Allometric comparison of sauropod gastrolith data with that of living birds indicates that sauropod relative gastrolith mass was at least one order of magnitude lower than in herbivorous birds (figure 4). The highest gastrolith mass recorded for any sauropod is _ca_ 15 kg of gastroliths found associated with the skeleton of _Seismosaurus_. These compare with a body mass estimate of approximately 50 000 kg (Seebacher 2001) and thus account for only 0.03% of body mass (figure 4). Based on the ratio derived from extant ostriches, a gastrolith mass in excess of 500 kg would be predicted for _Seismosaurus_. Even if a very conservative mass estimate of 30 000 kg is used, a prediction of 300 kg of gastroliths would result.

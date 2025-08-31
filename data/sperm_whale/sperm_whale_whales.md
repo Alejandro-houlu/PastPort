@@ -48,7 +48,7 @@ Skip to content
     * Press & media
     * Website feedback
     * Enewsletter
-  * [](https://uk.whales.org/search-results/)
+  * 
   * News & Insights
 
 
@@ -92,7 +92,7 @@ Skip to content
     * Charitable trusts and foundations
     * Volunteering
   * Shop
-  * [](https://uk.whales.org/search-results/)
+  * 
 
 
  Donate 
@@ -205,10 +205,10 @@ Registered Charity (England and Wales) No. 1014705
 Registered Charity (Scotland) No. SC040231
 Whale and Dolphin Conservation is a company registered in England and Wales with company number 2737421
 Website by BoldLight
-[](https://www.fundraisingregulator.org.uk/validate?registrant=WHALE+AND+DOLPHIN+CONSERVATION)
+
   *  Donate
   * Share
-  * Bluesky
+  * Share
   * Share
   * [Share](whatsapp://send?text=Sperm%20whale%20%7C%20Whale%20and%20Dolphin%20Conservation%20https%3A%2F%2Fuk.whales.org%2Fwhales-dolphins%2Fspecies-guide%2Fsperm-whale%2F)
   * OpenAI iconChatGPT
@@ -216,12 +216,12 @@ Website by BoldLight
 
 
   *  
-  * [](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fuk.whales.org%2Fwhales-dolphins%2Fspecies-guide%2Fsperm-whale%2F&t=Sperm+whale+%7C+Whale+and+Dolphin+Conservation)
-  * [](https://bsky.app/intent/compose?text=Sperm+whale+%7C+Whale+and+Dolphin+Conservation%20https%3A%2F%2Fuk.whales.org%2Fwhales-dolphins%2Fspecies-guide%2Fsperm-whale%2F)
-  * [](https://www.linkedin.com/shareArticle?mini=true&ro=true&trk=EasySocialShareButtons&title=Sperm+whale+%7C+Whale+and+Dolphin+Conservation&url=https%3A%2F%2Fuk.whales.org%2Fwhales-dolphins%2Fspecies-guide%2Fsperm-whale%2F)
-  * [](whatsapp://send?text=Sperm%20whale%20%7C%20Whale%20and%20Dolphin%20Conservation%20https%3A%2F%2Fuk.whales.org%2Fwhales-dolphins%2Fspecies-guide%2Fsperm-whale%2F)
+  * 
+  * 
+  * 
+  * 
   * OpenAI icon
-  * [](https://uk.whales.org/newsletter/)
+  * 
 
 
 We use cookies on our website to give you the best possible experience and help with our efforts to save whales and dolphins. They are also used to personalise advertising and analyse site traffic.  

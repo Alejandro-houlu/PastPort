@@ -291,4 +291,3 @@ checkbox label label
 checkbox label label
 checkbox label label
 Reject All Confirm My Choices
-[](https://www.onetrust.com/products/cookie-consent/)

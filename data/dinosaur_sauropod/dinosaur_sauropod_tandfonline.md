@@ -155,9 +155,9 @@ Advanced search
 
  Historical Biology 
 An International Journal of Paleobiology 
-Volume 28, 2016 - Issue 4
+Volume 28, 2016 -  Issue 4 
 Submit an article Journal homepage
-365 
+367 
 Views 
 9 
 CrossRef citations to date 
@@ -171,7 +171,7 @@ View further author information
 J.R. FosterMuseum of Moab, 118 East Center Street, Moab, UT84532, USAView further author information
 Pages 470-478 | Received 02 Sep 2014, Accepted 12 Oct 2014, Published online: 17 Nov 2014
   *  
-  * [](https://doi.org/10.1080/08912963.2014.976817)
+  * 
   *   CrossMark 
 
 
@@ -183,6 +183,7 @@ Pages 470-478 | Received 02 Sep 2014, Accepted 12 Oct 2014, Published online: 17
   *  Metrics 
   * Reprints & Permissions 
   *  Read this article  /doi/full/10.1080/08912963.2014.976817?needAccess=true  
+ Share 
 
 
 ## Abstract
@@ -210,7 +211,6 @@ Please note: Selecting permissions **does not** provide access to the full text 
 Obtain permissions instantly via Rightslink by clicking on the button below:
 Request Academic Permissions
 If you are unable to obtain permissions via Rightslink, please complete and submit this Permissions form. For more information, please visit our Permissions help page.
-  *  Share 
   *  Back to Top 
 
 
@@ -221,7 +221,8 @@ If you are unable to obtain permissions via Rightslink, please complete and subm
 Articles with the Crossref icon will open in a new tab.
   * People also read
   * Recommended articles
-  * Cited by
+  * Cited by  
+9
 
 
 ## To cite this article:
@@ -231,7 +232,7 @@ _Reference styles above use APA (6th edition), Chicago (16th edition) & Harvard 
 Download a citation file in RIS format that can be imported by citation management software including EndNote, ProCite, RefWorks and Reference Manager. 
 Choose format: RIS BibTex RefWorks Direct Export
 Choose options: Citation Citation & abstract Citation & references
-[](https://www.tandfonline.com/action/showCitFormats?doi=10.1080/08912963.2014.976817)
+
 ### Information for
   * Authors
   * R&D professionals
@@ -264,7 +265,7 @@ Choose options: Citation Citation & abstract Citation & references
 
 ### Keep up to date
 Register to receive personalised research and resources by email
-[](https://taylorandfrancis.formstack.com/forms/tfoguest_signup)
+
  Taylor and Francis Group Facebook page 
  Taylor and Francis Group X Twitter page 
  Taylor and Francis Group Linkedin page 
@@ -275,3 +276,11 @@ Copyright © 2025**Informa UK Limited** Privacy policy Cookies Terms & condition
 Registered in England & Wales No. 01072954  
 5 Howick Place | London | SW1P 1WG
   
+
+Copy link
+✓
+Thanks for sharing!
+×
+Find any service
+
+More…

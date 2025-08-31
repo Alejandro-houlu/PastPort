@@ -1,7 +1,7 @@
 # Have you checked out our new online shop?
 **Clickhere to explore our brand-new merchandise collection! Sales close on 29 September.**
 
-[](https://singaporebirds.com)
+
 Menu
   * BirdSoc SG
   * About
@@ -79,7 +79,7 @@ eBird Species page: eBird (Oriental Pied-Hornbill)
 BirdLife International. (2020). _Anthracoceros albirostris_. _The IUCN Red List of Threatened Species 2020_. https://dx.doi.org/10.2305/IUCN.UK.2020-3.RLTS.T22682437A184925767.en. Accessed on 1 January 2023
 Robson, C. (2014). _Field guide to the birds of South-East Asia_(Second Edition). Bloomsbury Publishing, London.
 **RECOMMENDED CITATION**
-Bird Society of Singapore. (n.d.). Oriental Pied Hornbill. Retrieved on July 20, 2025 from <https://singaporebirds.com/species/oriental-pied-hornbill>. 
+Bird Society of Singapore. (n.d.). Oriental Pied Hornbill. Retrieved on August 31, 2025 from <https://singaporebirds.com/species/oriental-pied-hornbill>. 
 ### Share this:
   * Twitter
   * Facebook

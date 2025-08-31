@@ -3,11 +3,11 @@ ScienceDirect
   * Journals & Books
 
 
-  *   * [](https://www.sciencedirect.com/search "Search")
+  *   * 
 
 
-[](https://www.sciencedirect.com/user/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS0367253024001233&from=globalheader "My account")
-[](https://www.sciencedirect.com/user/institution/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS0367253024001233 "Sign In")
+
+
   * Access through **your organization**
   * Purchase PDF
 
@@ -20,10 +20,10 @@ Search ScienceDirect
   * References (52)
 
 
-[](https://www.sciencedirect.com/journal/flora "Go to Flora on ScienceDirect")
+
 ## Flora
 Volume 318, September 2024, 152571
-[](https://www.sciencedirect.com/journal/flora/vol/318/suppl/C)
+
 # What's that smell? The putrid scent of _Rafflesia consueloae_ , its origin and developmental regulation
 Author links open overlay panelErika Marie A. Bascos a, Edwino S. Fernando a b c, Melizar V. Duya a b, Lillian Jennifer V. Rodriguez a
 Show more
@@ -33,7 +33,7 @@ Cite
 https://doi.org/10.1016/j.flora.2024.152571Get rights and content
 ## Highlights
   * •
-_Rafflesia consueloae_ floral scent composition is characterized for the first time.
+_Rafflesia_ _consueloae_ floral scent composition is characterized for the first time.
   * •
 Floral volatile synthesis in _Rafflesia consuelaoe_ is developmentally regulated.
   * •
@@ -174,36 +174,34 @@ View more references
 View full text
 © 2024 Elsevier GmbH. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
 ## Recommended articles
+  * ### Bat or bee pollination? Floral biology of two sympatric _Cayaponia_ species (Cucurbitaceae) in Southeast Brazil
+Flora, Volume 319, 2024, Article 152594
+Renan Oliveira Alves Cardoso Kobal, …, Isabel Alves-dos-Santos
   * ### DNA barcoding of common freshwater eleotrids (Gobiiformes: Eleotridae) in the Philippines, with a global comparison and notes on their conservation and management
 Global Ecology and Conservation, Volume 53, 2024, Article e03014
 Onaya P. Abdulmalik-Labe, Jonas P. Quilang
-  * ### Increased UV intensity reduces pollen viability in _Brassica rapa_
-Flora, Volume 319, 2024, Article 152582
-Liberty A. Gray, …, Carl D. Soulsbury
-  * ### Ecological inferences in Orchidaceae species from the Brazilian subtropical Atlantic Forest based on morphological and functional anatomical traits
-Flora, Volume 317, 2024, Article 152558
-Débora Marcília Moreira, …, Shirley Martins Silva
   * ### Unlocking the secrets of parasitic plants: A comparative study of the development and floral morphoanatomy of _Pholisma_ (Lennoaceae)
 Flora, Volume 317, 2024, Article 152567
 Gabriela Delgado-Pérez, …, Sonia Vázquez-Santana
-  * ### _Peliosanthes meghalayensis_ (Asparagaceae), a new species from Meghalaya, NE India, and synonymization of _P. bipiniana_ with _P. subspicata_
-Flora, Volume 317, 2024, Article 152569
-Dipankar Borah, Noriyuki Tanaka
-  * ### Two pathways to fleshiness: fruit ontogeny in Bromelioideae species (Bromeliaceae Juss.)
-Flora, Volume 317, 2024, Article 152565
-Tainá Schürer, …, Sofia Aumond Kuhn
+  * ### Comparative fruit morphology of nine _Psittacanthus_ Mart. (Santalales: Loranthaceae) mistletoe species occurring in Mexico
+Flora, Volume 319, 2024, Article 152585
+Juan Francisco Ornelas, …, Victoria Sosa
+  * ### Morphoanatomical alterations in extrafloral nectaries of _Cedrela fissilis_ Vell. (Meliaceae), a native species of the Atlantic Forest, in response to simulated acid rain
+Flora, Volume 319, 2024, Article 152586
+Franklin Patrocínio Rezende, Luzimar Campos da Silva
+  * ### Taxonomical implications of foliar epidermal anatomy of _Impatiens_ L. species (Balsaminaceae) in the Nilgiris, Southern Western Ghats, India
+Flora, Volume 318, 2024, Article 152573
+Muthulakshmipechiammal Pechimuthu, …, Muthukumar Thangavelu
 
 
 Show 3 more articles
-[](https://www.elsevier.com/)
+
   * About ScienceDirect
   * Remote access
-  * Advertise
   * Contact and support
   * Terms and conditions
   * Privacy policy
 
 
-Cookies are used by this site.  **Cookie Settings**
+Cookies are used by this site. **Cookie Settings**
 All content on this site: Copyright © 2025 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.
-[](https://www.relx.com/)

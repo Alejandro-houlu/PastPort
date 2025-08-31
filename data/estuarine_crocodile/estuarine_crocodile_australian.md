@@ -32,7 +32,7 @@ In this section, find out everything you need to know about visiting the Austral
       *  School programs and excursions  
 Close Navigation
     *  Admission information  
-    *  
+    *  Accessibility and inclusion  
     *  Membership  
     *  Location and access  
     *  Parking and public transport  
@@ -302,6 +302,7 @@ Read time
  Click to enlarge image  Toggle Caption
 Saltwater Crocodile, Crocodylus porosus  Image: Chris Hosking  
 © Australian Museum
+###  Fast Facts 
   * 
 
 IUCN Conservation Status
@@ -349,7 +350,7 @@ In Australia, Estuarine Crocodiles are found in northern coastal areas and drain
 * * *
 
 +−
-[](https://australian.museum/learn/animals/reptiles/estuarine-crocodile/ "View Fullscreen")
+
 Leaflet | © OpenStreetMap contributors
 Distribution data sourced from the Atlas of Living Australia
 * * *
@@ -412,46 +413,46 @@ Back to top of main content
 Go back to top of page
 * * *
 ### Also in this section
-  *  **Cunningham's Skink** 
-  *  **Shingleback Lizard** 
-  *  **Small-eyed Snake** Rhinoplocephalus nigrescens 
-  *  **Snakes, lizards and other reptiles** 
-  *  **Pale-headed Snake** 
-  *  **Inland Taipan** 
-  *  **Eastern Water Skink** 
-  *  **Eastern Brown Snake** 
-  *  **Southern Leaf-tailed Gecko** 
-  *  **Mulga Snake** 
   *  **Northern Snake-necked Turtle** 
-  *  **Diamond Python** 
+  *  **Coastal Taipan** 
+  *  **Freshwater Crocodile** 
+  *  **Copperhead Snake** 
+  *  **Australian Goannas - Evolution and Radiation** 
+  *  **Inland Taipan** 
+  *  **Rough-scaled Snake** Tropidechis carinatus 
+  *  **Reptiles as Pets** 
+  *  **Golden-crowned Snake** 
+  *  **Small-eyed Snake** Rhinoplocephalus nigrescens 
+  *  **Mary River Turtle** Elusor macrurus 
+  *  **Central Bearded Dragon** Pogona vitticeps 
 
 
 ### You may also be interested in...
+#### Yellowspotted Triggerfish, _Pseudobalistes fuscus_ (Bloch & Schneider, 1801) Yellowspotted Triggerfish, Pseudobalistes fuscus (Bloch & Schneider, 1801) Discover more 
+* * *
+#### Black Snoek, _Thyrsitoides marleyi_ Fowler, 1929 Black Snoek, Thyrsitoides marleyi Fowler, 1929 Discover more 
+* * *
+#### Sharptail Sunfish, _Masturus lanceolatus_ (Lienard, 1840) Sharptail Sunfish, Masturus lanceolatus (Lienard, 1840) Discover more 
+* * *
+#### Violetline Maori Wrasse, _Oxycheilinus digrammus_ (Lacepède, 1801) Violetline Maori Wrasse, Oxycheilinus digrammus (Lacepède, 1801) Discover more 
+* * *
 #### Dangerous Australian animals Meet some of Australia's most dangerous animals and learn about the different ways they poison and catch their prey. The Australian Museum has an extensive collection of Australia's deadliest animals to find out more about why they are so dangerous to humans. Learn more 
-* * *
-#### Seram Blenny, _Salarias ceramensis_ Bleeker, 1852 Seram Blenny, Salarias ceramensis Bleeker, 1852 Discover more 
-* * *
-#### Scissortail, _Psenes pellucidus_ (Lütken, 1880) Scissortail, Psenes pellucidus (Lütken, 1880) Discover more 
 * * *
 #### Reptiles Discover a diverse group of animals including turtles, lizards, snakes and crocodiles, including the largest living reptile in the world: the Australian Crocodile! Herpetology Find out more 
 * * *
 #### Steephead Parrotfish, _Chlorurus microrhinos_ (Bleeker, 1854) Steephead Parrotfish, Chlorurus microrhinos (Bleeker, 1854) Discover more 
 * * *
+#### Lyretail Grubfish, _Parapercis schauinslandii_ (Steindachner, 1900) Lyretail Grubfish, Parapercis schauinslandii (Steindachner, 1900) Discover more 
+* * *
 #### Snake Mackerel, _Gempylus serpens_ Cuvier, 1829 Snake Mackerel, Gempylus serpens Cuvier, 1829 Discover more 
-* * *
-#### Tasselled Leatherjacket, _Chaetodermis penicilligera_ (Cuvier, 1817) Tasselled Leatherjacket, Chaetodermis penicilligera (Cuvier, 1817) Discover more 
-* * *
-#### Black Snoek, _Thyrsitoides marleyi_ Fowler, 1929 Black Snoek, Thyrsitoides marleyi Fowler, 1929 Discover more 
-* * *
-#### Violetline Maori Wrasse, _Oxycheilinus digrammus_ (Lacepède, 1801) Violetline Maori Wrasse, Oxycheilinus digrammus (Lacepède, 1801) Discover more 
 * * *
 #### Bearded Leatherjacket, _Anacanthus barbatus_ Gray, 1830 Bearded Leatherjacket, Anacanthus barbatus Gray, 1830 Discover more 
 * * *
+  Ridge-headed Crocodile The Ridge-headed Crocodile has been nicknamed the 'Drop Croc' because it may have climbed trees and dropped onto animals passing below. Discover more 
+* * *
 #### Freshwater Crocodile Freshwater Crocodile Discover more 
 * * *
-#### Lyretail Grubfish, _Parapercis schauinslandii_ (Steindachner, 1900) Lyretail Grubfish, Parapercis schauinslandii (Steindachner, 1900) Discover more 
-* * *
-[](https://australian.museum/learn/animals/reptiles/estuarine-crocodile/)[](https://australian.museum/learn/animals/reptiles/estuarine-crocodile/)
+
 You have reached the end of the main content.  
 Go back to start of main content  
 Go back to top of page
@@ -459,7 +460,7 @@ Go back to top of page
 The Australian Museum acknowledges that it operates on the unceded lands, waters and skies of many First Nations Peoples. These lands have been maintained and protected through time. As Australia's first museum, we share the responsibility for advocating for Country honouring the sovereignty of the First Nations peoples. This website may contain names, images and voices of deceased Aboriginal and Torres Strait Islander peoples.
 Go back to top of page
 * * *
-[](https://australian.museum/ "Go to Homepage")
+
 **Opening Hours**  
 Open Daily 10am - 5pm  
 Closed Christmas Day  
@@ -481,7 +482,7 @@ Skip Footer Navigation
   * #####  Visit & Book Toggle Visit & Book submenu
     *  What's on at the Australian Museum 
     *  Admission information 
-    *  
+    *  Accessibility and inclusion 
     *  Membership 
     *  Location and access 
     *  Parking and public transport 
@@ -554,7 +555,7 @@ Subscribe Today!
 
 The Australian Museum is a New South Wales Government funded cultural institution. 
 * * *
-[](https://www.nsw.gov.au/ "NSW Government website") [](https://australian.museum/ "The Australian Museum website")
+ 
 Back to top
 * * *
 You have reached the end of the page. Thank you for reading.

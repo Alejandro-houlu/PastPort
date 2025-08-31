@@ -1,4 +1,3 @@
-[](https://www.facebook.com/crocodilesoftheworld)[](https://www.instagram.com/crocodilesoftheworlduk/?hl=en)[](https://www.youtube.com/channel/UC5WRC7OLopcJbe3z4hWT28g)[](http://www.tripadvisor.com/Attraction_Review-g1657768-d2514999-Reviews-Crocodiles_of_the_World-Brize_Norton_Oxfordshire_England.html)
 info@crocodilesoftheworld.co.uk
 01993 846353
 Adoptions Donate
@@ -105,7 +104,7 @@ It is listed on CITES Appendix I (except the populations of Australia, Indonesia
 **Red List Category & Criteria:** Lower Risk/least concern ver 2.3  
 **Year Published:** 1996  
 **Date Assessed:** 1996-08-01
-[](https://www.crocodilesoftheworld.co.uk/wp-content/uploads/2015/11/saltwater-status.png)
+
 **Countries:** Australia; Bangladesh; Brunei Darussalam; Cambodia; India; Indonesia; Malaysia; Myanmar; Palau; Papua New Guinea; Philippines; Solomon Islands; Sri Lanka; Vanuatu; Viet Nam
 
 The saltwater crocodile inhabits large shallow bodies of freshwater or saltwater. The species prefers warm, tropical regions of the earth. It usually spends the wet season in freshwater rivers, streams and swamps and before migrating downstream as water becomes more and more scarce with the onset of the dry season.
@@ -168,13 +167,13 @@ If you have any questions, please read our FAQ page which may have the informati
            
 ### Get Your Croc Goodies
 The only place online where you can buy official Crocodiles of the World souvenirs.
-[](https://crocshopltd.co.uk/)
-  * [](http://www.tripadvisor.com/Attraction_Review-g1657768-d2514999-Reviews-Crocodiles_of_the_World-Brize_Norton_Oxfordshire_England.html)
+
+  * 
 
 
-[](https://biaza.org.uk) 
+ 
 ### Latest News
-To honour St George’s Day 2025, we caught up with Jamie Gilks, Section Leader for Lizards & Invertebrates here at Crocodiles of the World, who has ans...
+Keep a look out for baby Siamese crocs when you next visit, as we’re delighted to share that we have reintroduced three Siamese crocodile hatchlings to th...
 Crocodiles of the World Ltd. Company Number 07183219. Registered in England and Wales.  
 Crocodiles of the World Foundation. Registered Charity Number 1153303. Registered in England and Wales.
 Another site by XIST2
@@ -229,4 +228,4 @@ CONSENT | 16 years 5 months 24 days 10 hours | No description
 yt-remote-connected-devices | never | No description available.  
 yt-remote-device-id | never | No description available.  
 Save & Accept
-Powered by [](https://www.webtoffee.com/)
+Powered by

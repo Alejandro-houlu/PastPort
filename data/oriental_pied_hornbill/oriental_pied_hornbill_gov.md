@@ -1,5 +1,5 @@
   A Singapore Government Agency Website 
-[](https://www.nparks.gov.sg/ "National Parks Board Logo") FLORA &   
+ FLORA &   
 FAUNA   
 WEB
 #  _Anthracoceros_ _albirostris_
@@ -39,10 +39,10 @@ Family Name: | Bucerotidae
 Taxonomic Group: | Vertebrates (Bird)  
 Common Name: | Oriental Pied Hornbill  
 The Oriental Pied Hornbill is a large bird with black plumage and white patches. It's distinctive large bill is pale yellow. They nest in suitable holes in trees, sealing most of the hole up using a plaster made of mud and plant fibres. Their diet mostly consists of fruits, but they also feed on small animals such as reptiles, birds and mammals.
-[](https://www.nparks.gov.sg/-/media/ffw/migrated/round2/fauna/174/fff305124ec94947ba6e5a484c2e7436.jpg)
-[](https://www.nparks.gov.sg/-/media/ffw/migrated/round2/fauna/174/95e8feeba1c84cc7b45d7bc9f86b8f85.jpg)
-[](https://www.nparks.gov.sg/-/media/ffw/migrated/round2/fauna/174/9c1467d3d94943bea5f771a8d3000206.jpg)
-[](https://www.nparks.gov.sg/-/media/ffw/migrated/round2/fauna/174/48ddf923511f4b86a75fd201994d56a7.jpg)
+
+
+
+
 
 
 
@@ -58,7 +58,7 @@ Explore more topics
 
 
 ### What's New:
-_Strobilanthes_ _auriculata_ var. _dyeriana_
+_Tabebuia_ _rosea_
   
   
   
@@ -150,10 +150,10 @@ Species record last updated on: 16 July 2024.
 
 
 © 2025 National Parks Board.
-Last updated on 10 July 2025 
+Last updated on 14 August 2025 
 Share
-  * [](https://www.facebook.com/sharer.php?u=https://www.nparks.gov.sg/florafaunaweb/fauna/1/7/174)
-  * [](https://twitter.com/intent/tweet?url=https://www.nparks.gov.sg/florafaunaweb/fauna/1/7/174&amp;text=&amp;hashtags=)
+  * 
+  * 
   *  
   *  
   * Top

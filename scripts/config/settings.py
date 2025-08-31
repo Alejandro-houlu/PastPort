@@ -13,16 +13,16 @@ class Config:
     CHUNK_OVERLAP = 100
 
     # MULTIQUERY MODEL
-    MULTIQ_MODEL = "mistral"
+    MULTIQ_MODEL = "mistral:7b"
     
     # Embedding settings
     EMBEDDING_MODEL = "mxbai-embed-large:335m"
     # OR "nomic-embed-text"
     
     # LLM settings
-    LLM_MODEL = "mistral"
+    LLM_MODEL = "mistral:7b"
     # OR llama3.1:8b
-    # OR mistral
+    # OR mistral:7b
     # OR deepseek-r1:8b
     
     # File types to process

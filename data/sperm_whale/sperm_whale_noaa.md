@@ -8,11 +8,10 @@ A **.gov** website belongs to an official government organization in the United 
 
 **Secure .gov websites use HTTPS**
 A **lock** (  Lock Locked padlock icon ) or **https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. 
-Close Promo Banner    
      
 
 Search NOAA Fisheries Search
-[](https://www.fisheries.noaa.gov/species/sperm-whale)
+
   * Find A Species
     * Find a Species   
 
@@ -208,7 +207,6 @@ Search NOAA Fisheries Search
     * Careers & More   
 
       * Career Paths
-      * Inflation Reduction Act Opportunities
       * Internships
       * Citizen Science and Volunteering
     * Contact Us   
@@ -406,7 +404,6 @@ News & Media
       * Photo Gallery
 Careers & More
       * Career Paths
-      * Inflation Reduction Act Opportunities
       * Internships
       * Citizen Science and Volunteering
 Contact Us
@@ -777,6 +774,10 @@ View More
 
 ## Recent Science Blogs
 Survey
+####  A Day in the Life of a Scientist Tagging Sperm Whales 
+Survey
+  A sperm whale resting at the surface after a deep dive with NOAA Ship Gordon Gunter in the background. Credit: NOAA Fisheries/Jonathan Reid (Permit #27867) 
+Survey
 ####  A Shift in Our Mission and an Unexpected Visitor  
 Survey
   Nazca booby bill closeup. Credit: Terra Mar Applied Sciences/Kate Sutherland 
@@ -784,28 +785,24 @@ Survey
 ####  In Search of Atlantic Northern Shrimp 
 Survey
   
-Research
-####  EcoFOCI Cruise - Post 4 
-Research
-  
 View More
 Last updated by NOAA Fisheries on 05/27/2025
 ## Documents
 Document
-###   Biological Opinion National Marine Fisheries Service Permits Division Hoonah Marine Industrial Dock, Hoonah, Alaska 
-This opinion considers the effects of in-water pile driving of steel piles and the placement of…
+###   Biological Opinion (NMFS), Bureau of Land Management National Petroleum Reserve-Alaska Integrated Activity Plan and Arctic National Wildlife Refuge Coastal Plain Oil and Gas Lease Program, North Slope, Alaska 
+The proposed action would make available specific areas of the NPR-A and Coastal Plain for lease…
 Alaska
 Document
-###   Biological Opinion National Marine Fisheries Service, Alaska Region, Sustainable Fisheries Division Fishery Management Plan for the Groundfish Fisheries of the Gulf of Alaska 
-Endangered Species Act (ESA) Section 7(a)(2) Biological Opinion for Biological Opinion National…
+###   Biological Opinion (NMFS), US Army Corps of Engineers, Turnagain Marine Construction, Seward Cruise Ship Passenger Dock Expansion, Seward, Alaska 
+This opinion considers the effects of in-water pile driving of steel piles, dredging and the…
 Alaska
 Document
-###   Biological Opinion National Marine Fisheries Service, Office of Protected Resources, Permits and Conservation Division, USCG Dock Construction, Seward and Sitka, Alaska 
-Endangered Species Act (ESA) Section 7(a)(2) Biological Opinion for National Marine Fisheries…
+###   Biological Opinion NMFS Office of Protected Resources, Permits and Conservation Division, Whittier Small Boat Harbor, Whittier, Alaska 
+This opinion considers the effects of in-water pile driving of steel piles and the removal and…
 Alaska
 Document
-###   Biological Opinion U.S. Army Corps of Engineers Sitka CBS GPIP Vessel Haulout Project, Sitka, Alaska 
-Endangered Species Act (ESA) Section 7(a)(2) Biological Opinion for United States Army Corps of…
+###   Biological Opinion Federal Transit Administration, Angoon Ferry Terminal, Angoon, Alaska 
+This opinion considers the effects of in-water pile driving of steel piles and the removal of…
 Alaska
 More Documents
 * * *
@@ -859,7 +856,7 @@ More Outreach Materials
 More Educational Materials   
 
 Last updated by NOAA Fisheries on 05/27/2025
-[](https://www.fisheries.noaa.gov/species/sperm-whale)
+
 
 Sign up for our newsletters
 Facebook
@@ -890,7 +887,7 @@ Linkedin
 
 
  Send Feedback 
-[](https://www.noaa.gov/)
+
 Science. Service. Stewardship.
 Accessibility
 | 

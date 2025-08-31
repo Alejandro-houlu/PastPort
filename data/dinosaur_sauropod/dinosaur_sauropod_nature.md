@@ -92,7 +92,7 @@ A Gigantic, Exceptionally Complete Titanosaurian Sauropod Dinosaur from Southern
 Show authors
 _Scientific Reports_ **volume 4**, Article number: 6196 (2014) Cite this article
   * 50k Accesses
-  * 138 Citations
+  * 141 Citations
   * 1126 Altmetric
   * Metrics details
 
@@ -113,17 +113,17 @@ Article Open access 11 January 2024
 The sauropod dinosaur clade Titanosauria includes the most massive terrestrial animals yet discovered1,2. Nevertheless, with the exception of _Futalognkosaurus_ —known from much of the vertebral column and pelvis3—all truly gigantic titanosaurs (_sensu_ Sander et al.4; i.e., those with an adult body mass exceeding 40 metric tons) are represented by very fragmentary fossils5,6,7,8,9. The incomplete understanding of the anatomies of colossal titanosaurs has frustrated attempts to characterize important aspects of their evolutionary history and palaeobiology. For example, it is presently uncertain whether extreme gigantism evolved multiple times or only once within Titanosauria4. Furthermore, it is not even clear how large the largest titanosaurs were, with different studies yielding widely divergent estimates of body dimensions7,10,11,12,13.
 Here we report a new and gigantic titanosaur from Upper Cretaceous (Campanian–Maastrichtian14,15; ~84–66 Ma16) rocks exposed in south-western Patagonia, Argentina (Supplementary Fig. 1), some 1,200 km from the best-known South American dinosaur localities, which occur in northern Patagonia17. Represented by all major skeletal regions (see Supplementary Information), _Dreadnoughtus schrani_ nov. gen. nov. sp. (Figs. 1, 2, Supplementary Figs. 2–18) offers new insight into the skeletal anatomy, bone histology, phylogenetic relationships (Fig. 3, Supplementary Figs. 19, 20) and body shape and mass of an enormous titanosaur. Most bones are exquisitely preserved, with details such as muscle scars and other osteological correlates of soft-tissues clearly discernible.
 **Figure 1**
-[](https://www.nature.com/articles/srep06196/figures/1)
+
 Axial skeletal anatomy of the gigantic titanosaur _Dreadnoughtus schrani_.
 Posterior (~9th) cervical vertebra in (A) left lateral, (B) right lateral, (C) posterior and (D) ventral views. (E) Anterior (~4th) dorsal vertebra in right lateral view. Middle (~6th) dorsal vertebra in (F) left lateral and (G) anterior views. (H) Posterior (~7th) dorsal vertebra in right lateral view. Posterior (~8th) dorsal vertebra in (I) left lateral and (J) posterior views. (K) Partial sacrum in ventral view. (L) Biconvex first caudal vertebra in posterior view. (M) First 32 caudal vertebrae and 18 haemal arches in left lateral view (positions of first 21 caudal vertebrae and haemal arches 4 to 18 known with certainty). All depicted elements definitively pertain to the holotype (MPM-PV 1156), with the possible exceptions of the dorsal vertebrae in (E) and (H) to (J), which belong to either the holotype or the paratype (MPM-PV 3546). Abbreviations: acpl, anterior centroparapophyseal lamina; apcdl, accessory posterior centrodiapophyseal lamina; a-spdl, anterior ramus of spinodiapophyseal lamina; cdf, centrodiapophyseal fossa; cpol, centropostzygapophyseal lamina; dp, diapophysis; nc, neural canal; ns, neural spine; pacdf, parapophyseal centrodiapophyseal fossa; pcdl, posterior centrodiapophyseal lamina; pcdl-f posterior centrodiapophyseal fossa, pcpl, posterior centroparapophyseal lamina; pe, paddle-shaped distal expansion; pocdf, postzygapophyseal centrodiapophyseal fossa; podl, postzygodiapophyseal lamina; posdf, postzygapophyseal spinodiapophyseal fossa; poz, postzygapophysis; pp, parapophysis; ppdl, paradiapophyseal lamina; prdl, prezygodiapophyseal lamina; prsdf, prezygapophyseal spinodiapophyseal fossa; prsl, prespinal lamina; prz, prezygapophysis; p-spdl, posterior ramus of spinodiapophyseal lamina; s6, sixth sacral vertebra; sdf, spinodiapophyseal fossa; spdl, spinodiapophyseal lamina; spof, spinopostzygapophyseal fossa; spol, spinopostzygapophyseal lamina; sprl, spinoprezygapophyseal lamina; sr, sacral rib; sy, sacricostal yoke; tp, transverse process; tpol, intrapostzygapophyseal lamina; tprl, intraprezygapophyseal lamina. Scale bars equal 50 cm.
 Full size image
 **Figure 2**
-[](https://www.nature.com/articles/srep06196/figures/2)
+
 Reconstruction, appendicular skeletal anatomy and bone histology of _Dreadnoughtus schrani_.
 (A) Reconstructed skeleton and body silhouette in left lateral view with preserved elements in white. (B) Left scapula and coracoid in lateral view. (C) Sternal plates in ventral view. (D) Left forelimb (metacarpus reconstructed) in anterior view. (E) Left pelvis (ilium partially reconstructed) in lateral view. (F) Left hind limb in anterior view (metatarsus and pes partially reconstructed and reversed from right). (G) Transverse ground thin section of humeral shaft, showing heavy secondary remodelling (arrow indicates extent of dense osteon formation), a thick layer of well-vascularized fibrolamellar bone and a lack of lines of arrested growth or an external fundamental system. Abbreviations: acet, acetabulum; acf, acromial fossa; acp, acromial process; acr, acromial ridge; ast, astragalus; cc, cnemial crest; cof, coracoid foramen; cor, coracoid; dpc, deltopectoral crest; fem, femur; fhd, femoral head; fib, fibula; flb, fibrolamellar bone; gl, glenoid; hum, humerus; il, ilium; ilp, iliac peduncle; isc, ischium; isp, ischial peduncle; lt, lateral trochanter; mtI, metatarsal I; mtII, metatarsal II; of, obturator foramen; pop, postacetabular process; prp, preacetabular process; pu, pedal ungual; pub, pubis; pup, pubic peduncle; rac, radial condyle; rad, radius; sc, scapula; scb, scapular blade; sr, secondary remodelling; tib, tibia; tpp, tuberosity on preacetabular process; ul, ulna; ulc, ulnar condyle. Scale bars equal 1 m in (A) to (F) and 1 mm in (G). (Skeletal reconstruction by L. Wright, with G. Schultz.)
 Full size image
 **Figure 3**
-[](https://www.nature.com/articles/srep06196/figures/3)
+
 Time-calibrated hypothesis of phylogenetic relationships of _Dreadnoughtus schrani_ (Consistency Index = 0.42, Retention Index = 0.76, Rescaled Consistency Index = 0.32) with relevant clades labelled.
 Geologic timescale after Walker et al.16; stratigraphic ranges (indicated by thick black bars) for most taxa follow Wilson27, D'Emic20 and Mannion et al.30. In instances where these sources disagree on the age of a particular taxon, we follow the most recent source that includes that taxon. Additional age sources are as follows: _Dreadnoughtus_14,15; _Epachthosaurus_70; _Futalognkosaurus_17; _Mendozasaurus_62; _Neuquensaurus_17. Numbers beside nodes are Bremer decay indices. Abbreviations: Br, Brachiosauridae; Lo, Lognkosauria; Mya, million years ago. See Supplementary Fig. 20 for an unabridged version of this tree that presents the entire topology and also includes bootstrap and jack-knife support values.
 Full size image
@@ -402,7 +402,7 @@ Supplementary Information
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder in order to reproduce the material. To view a copy of this license, visit <http://creativecommons.org/licenses/by-nc-sa/4.0/>
 Reprints and permissions
 ## About this article
-[](https://crossmark.crossref.org/dialog/?doi=10.1038/srep06196)
+
 ### Cite this article
 Lacovara, K., Lamanna, M., Ibiricu, L. _et al._ A Gigantic, Exceptionally Complete Titanosaurian Sauropod Dinosaur from Southern Patagonia, Argentina. _Sci Rep_ **4** , 6196 (2014). https://doi.org/10.1038/srep06196
 Download citation
@@ -657,6 +657,7 @@ ISSN 2045-2322 (online)
 
 
 ### Professional development
+  * Nature Awards
   * Nature Careers
   * Nature
 
@@ -665,7 +666,6 @@ ISSN 2045-2322 (online)
   * Nature Africa
   * Nature China
   * Nature India
-  * Nature Italy
   * Nature Japan
   * Nature Middle East
 

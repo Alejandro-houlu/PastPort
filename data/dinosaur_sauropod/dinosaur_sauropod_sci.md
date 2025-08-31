@@ -13,15 +13,15 @@
 
 
 **Top Headlines:**
-  *  Unusual Bonebed in Arizona Reveals North America’s Earliest-Known Pterosaur
-  *  Tree-Dwelling Tuatara Relative Lived in Solnhofen Archipelago 145 Million Years Ago
-  *  Gemini North Telescope Captures New Images of Interstellar Comet 3I/ATLAS
-  *  3.25-Million-Year-Old Fossil Identified as New Mole Species
-  *  Astrophysicists Detect Gravitational Waves from Most Massive Black Hole Merger to Date
-  *  New Neornithischian Dinosaur Unearthed in China
-  *  New Species of Multituberculate Mammal Discovered in UK
-  *  Unusual Bonebed in Arizona Reveals North America’s Earliest-Known Pterosaur
-  *  Tree-Dwelling Tuatara Relative Lived in Solnhofen Archipelago 145 Million Years Ago
+  *  Webb Discovers New Moon around Uranus
+  *  World’s Oldest Ankylosaur Had Uniquely Elaborate Dermal Armor
+  *  Astronomers Spot Growing Protoplanet in Disk Gap around Young Solar Analog
+  *  Archaeologists Find Residues of Aromatic Oils in Phoenicians Bottles
+  *  Newly-Discovered Freshwater Turtle Species Survived Dinosaur Extinction
+  *  Iguanodontian Dinosaur from Early Cretaceous Had Striking Back Sail
+  *  Astronomers Discover One of Brightest Fast Radio Bursts Ever Detected
+  *  Webb Discovers New Moon around Uranus
+  *  World’s Oldest Ankylosaur Had Uniquely Elaborate Dermal Armor
 
 
   1. 1
@@ -33,7 +33,7 @@
   7. 7
 
 
-**[](https://www.sci.news)**
+****
 [ ](javascript:void\(0\);)
 Home Astronomy Space Exploration Archaeology Paleontology Biology Physics Medicine Genetics Geology More
   * Home
@@ -55,7 +55,7 @@ Jul 11, 2025 by  Enrico de Lazaro
 | 
 Next »
 **Paleontologists in China have discovered the skeletal remains of a remarkable new genus and species of huge-sized mamenchisaurid dinosaur from the Late Jurassic epoch.**
-[](https://cdn.sci.news/images/enlarge13/image_14063e-Tongnanlong-zhimingi.jpg)
+
 Fossil remains of _Tongnanlong zhimingi_. Image credit: Wei _et al_., doi: 10.1038/s41598-025-09796-0.
 The newly-described species lived in what is now southwestern China some 147 million years ago (Late Jurassic epoch).
 Scientifically named _Tongnanlong zhimingi_ , this sauropod dinosaur was about 23 to 28 m (75.5-92 feet) long.
@@ -85,99 +85,99 @@ Published in
 Tagged as 
 ChinaDinosaurEast Asian Isolation hypothesisEusauropodaFossilGigantismJurassicMamenchisauridaeSauropodSauropodaSichuan BasinSuining FormationTongnanlongTongnanlong zhimingi
 You Might Like 
-[](https://www.sci.news/paleontology/sphenodraco-scandentis-14078.html)
-### Tree-Dwelling Tuatara Relative Lived in Solnhofen Archipelago 145 Million Years Ago
-[](https://www.sci.news/paleontology/vulcanoscaptor-ninoti-14073.html)
-### 3.25-Million-Year-Old Fossil Identified as New Mole Species
-[](https://www.sci.news/paleontology/pulaosaurus-qinglong-14068.html)
-### New Neornithischian Dinosaur Unearthed in China
-[](https://www.sci.news/paleontology/pisiform-14066.html)
-### Key Wrist Bone Appeared in Bird Ancestors Millions of Years Earlier than Previously Thought
-[](https://www.sci.news/paleontology/ancient-proteins-rhino-family-tree-14060.html)
-### Ancient Protein Analysis Sheds New Light on Rhino Family Tree
-[](https://www.sci.news/paleontology/novaculadon-mirabilis-14058.html)
-### New Species of Multituberculate Mammal Discovered in UK
-[](https://www.sci.news/paleontology/miocene-proteins-mammal-tooth-enamel-14057.html)
-### Paleontologists Find Ancient Proteins in 18-Million-Year-Old Mammal Tooth Enamel
+
+### Paleontologist Discovers First Known Silurian Horseshoe Crab
+
+### 70-Million-Year-Old Fossils of Crocodile-Like Apex Predator Unearthed in Argentina
+
+### World’s Oldest Ankylosaur Had Uniquely Elaborate Dermal Armor
+
+### Ancient Shelducks Colonized Chatham Islands 390,000 Years Ago
+
+### Scientists Reconstruct Mesozoic Carbon Dioxide Levels and Photosynthesis from Dinosaur Tooth Enamel
+
+### Ocean Oxygenation during Mid-Devonian Enabled Expansion of Animals into Deeper-Water Habitats
+
+### Newly-Discovered Freshwater Turtle Species Survived Dinosaur Extinction
 Share This Page
   
 
 Latest News
-[](https://www.sci.news/space/warmer-uranus-14079.html "Uranus May Actually Be Warmer than Previously Expected")
-## Uranus May Actually Be Warmer than Previously Expected
-Jul 18, 2025 | Astronomy
-[](https://www.sci.news/paleontology/sphenodraco-scandentis-14078.html "Tree-Dwelling Tuatara Relative Lived in Solnhofen Archipelago 145 Million Years Ago")
-## Tree-Dwelling Tuatara Relative Lived in Solnhofen Archipelago 145 Million Years Ago
-Jul 18, 2025 | Paleontology
-[](https://www.sci.news/astronomy/trans-neptunian-object-2020-vn40-14077.html "Newly-Discovered Trans-Neptunian Object is Moving in Rhythm with Neptune, Astronomers Say")
-## Newly-Discovered Trans-Neptunian Object is Moving in Rhythm with Neptune, Astronomers Say
-Jul 17, 2025 | Astronomy
-[](https://www.sci.news/archaeology/neanderthals-food-traditions-14076.html "Neanderthals Had Local Food Traditions, New Research Suggests")
-## Neanderthals Had Local Food Traditions, New Research Suggests
-Jul 17, 2025 | Anthropology
-[](https://www.sci.news/medicine/erythritol-14075.html "Study: Common Sweetener Erythritol Can Impact Brain Cells, Boost Stroke Risk")
-## Study: Common Sweetener Erythritol Can Impact Brain Cells, Boost Stroke Risk
-Jul 16, 2025 | Medicine
-[](https://www.sci.news/astronomy/gemini-north-images-interstellar-comet-3i-atlas-14074.html "Gemini North Telescope Captures New Images of Interstellar Comet 3I/ATLAS")
-## Gemini North Telescope Captures New Images of Interstellar Comet 3I/ATLAS
-Jul 16, 2025 | Astronomy
-[](https://www.sci.news/paleontology/vulcanoscaptor-ninoti-14073.html "3.25-Million-Year-Old Fossil Identified as New Mole Species")
-## 3.25-Million-Year-Old Fossil Identified as New Mole Species
-Jul 15, 2025 | Paleontology
-[](https://www.sci.news/astronomy/most-massive-black-hole-merger-14072.html "Astrophysicists Detect Gravitational Waves from Most Massive Black Hole Merger to Date")
-## Astrophysicists Detect Gravitational Waves from Most Massive Black Hole Merger to Date
-Jul 15, 2025 | Astronomy
-[](https://www.sci.news/biology/koala-ground-time-14071.html "Koalas Spend Only 1% of Their Life on Ground, New Study Reveals")
-## Koalas Spend Only 1% of Their Life on Ground, New Study Reveals
-Jul 15, 2025 | Biology
-[](https://www.sci.news/astronomy/tess-exoplanets-14070.html "Hundreds of Exoplanets Discovered by NASA’s TESS Satellite Might Be Larger than We Thought")
-## Hundreds of Exoplanets Discovered by NASA’s TESS Satellite Might Be Larger than We Thought
-Jul 15, 2025 | Astronomy
-[](https://www.sci.news/genetics/dna-age-predictions-14069.html "Accurate Age Predictions are Possible Using as Few as 50 DNA Molecules: Study")
-## Accurate Age Predictions are Possible Using as Few as 50 DNA Molecules: Study
-Jul 15, 2025 | Biology
-[](https://www.sci.news/paleontology/pulaosaurus-qinglong-14068.html "New Neornithischian Dinosaur Unearthed in China")
-## New Neornithischian Dinosaur Unearthed in China
-Jul 14, 2025 | Paleontology
-[](https://www.sci.news/space/noachis-terra-riverbeds-14067.html "Mars was Warm and Wet 3.7 Billion Years Ago, New Study Suggests")
-## Mars was Warm and Wet 3.7 Billion Years Ago, New Study Suggests
-Jul 14, 2025 | Planetary Science
-[](https://www.sci.news/paleontology/pisiform-14066.html "Key Wrist Bone Appeared in Bird Ancestors Millions of Years Earlier than Previously Thought")
-## Key Wrist Bone Appeared in Bird Ancestors Millions of Years Earlier than Previously Thought
-Jul 14, 2025 | Paleontology
-[](https://www.sci.news/biology/ai-venom-antibiotics-14065.html "AI Finds 386 Potential Antibiotics in Animal Venoms")
-## AI Finds 386 Potential Antibiotics in Animal Venoms
-Jul 14, 2025 | Biology
-[](https://www.sci.news/astronomy/hubble-ancient-globular-cluster-ngc-1786-14064.html "Hubble Space Telescope Captures Stunning Shot of Ancient Globular Cluster")
-## Hubble Space Telescope Captures Stunning Shot of Ancient Globular Cluster
-Jul 14, 2025 | Astronomy
-[](https://www.sci.news/paleontology/tongnanlong-zhimingi-14063.html "New Species of Extremely Gigantic Sauropod Dinosaur Found in China")
-## New Species of Extremely Gigantic Sauropod Dinosaur Found in China
-Jul 11, 2025 | Paleontology
-[](https://www.sci.news/astronomy/webb-cats-paw-nebula-14062.html "Webb Celebrates Its 3rd Anniversary with Awesome Photo of Cat’s Paw Nebula")
-## Webb Celebrates Its 3rd Anniversary with Awesome Photo of Cat’s Paw Nebula
-Jul 11, 2025 | Astronomy
-[](https://www.sci.news/astronomy/3i-atlas-milky-way-thick-disk-14061.html "3I/ATLAS May Be Oldest Comet Ever Seen, Astronomers Say")
-## 3I/ATLAS May Be Oldest Comet Ever Seen, Astronomers Say
-Jul 11, 2025 | Astronomy
-[](https://www.sci.news/paleontology/ancient-proteins-rhino-family-tree-14060.html "Ancient Protein Analysis Sheds New Light on Rhino Family Tree")
-## Ancient Protein Analysis Sheds New Light on Rhino Family Tree
-Jul 10, 2025 | Paleontology
-[](https://www.sci.news/space/nwa-16254-meteorite-volcanic-processes-ancient-mars-14059.html "Newly-Discovered Meteorite Offers Insights into Volcanic Processes on Ancient Mars")
-## Newly-Discovered Meteorite Offers Insights into Volcanic Processes on Ancient Mars
-Jul 10, 2025 | Geology
-[](https://www.sci.news/paleontology/novaculadon-mirabilis-14058.html "New Species of Multituberculate Mammal Discovered in UK")
-## New Species of Multituberculate Mammal Discovered in UK
-Jul 10, 2025 | Paleontology
-[](https://www.sci.news/paleontology/miocene-proteins-mammal-tooth-enamel-14057.html "Paleontologists Find Ancient Proteins in 18-Million-Year-Old Mammal Tooth Enamel")
-## Paleontologists Find Ancient Proteins in 18-Million-Year-Old Mammal Tooth Enamel
-Jul 9, 2025 | Paleontology
-[](https://www.sci.news/space/nwa-16286-lunar-meteorite-14056.html "2.35-Billion-Year-Old Lunar Meteorite Fills One-Billion-Year Gap in Volcanic History of the Moon")
-## 2.35-Billion-Year-Old Lunar Meteorite Fills One-Billion-Year Gap in Volcanic History of the Moon
-Jul 9, 2025 | Planetary Science
-[](https://www.sci.news/astronomy/civilian-military-radar-leakage-alien-civilizations-14055.html "Civilian and Military Radar Leakage is Revealing Our Existence to Alien Civilizations, Study Suggests")
-## Civilian and Military Radar Leakage is Revealing Our Existence to Alien Civilizations, Study Suggests
-Jul 8, 2025 | Astrobiology
+
+## Paleontologist Discovers First Known Silurian Horseshoe Crab
+Aug 29, 2025 | Paleontology
+
+## Webb Spots Torus of Cosmic Dust and Organics in Butterfly Nebula
+Aug 29, 2025 | Astronomy
+
+## 70-Million-Year-Old Fossils of Crocodile-Like Apex Predator Unearthed in Argentina
+Aug 28, 2025 | Paleontology
+
+## Martian Mantle Holds Frozen Record of Planet’s Violent Beginnings, Study Suggests
+Aug 28, 2025 | Planetary Science
+
+## World’s Oldest Ankylosaur Had Uniquely Elaborate Dermal Armor
+Aug 27, 2025 | Paleontology
+
+## New Research Reveals How Reshaping Pelvis Helped Human Ancestors Walk Upright
+Aug 27, 2025 | Anatomy
+
+## Astronomers Spot Growing Protoplanet in Disk Gap around Young Solar Analog
+Aug 27, 2025 | Astronomy
+
+## Archaeologists Find Residues of Aromatic Oils in Phoenicians Bottles
+Aug 27, 2025 | Archaeology
+
+## Ancient Shelducks Colonized Chatham Islands 390,000 Years Ago
+Aug 26, 2025 | Paleontology
+
+## Asteroids Bennu and Ryugu are Part of Polana Collisional Family, Webb Observations Suggest
+Aug 26, 2025 | Astronomy
+
+## Scientists Reconstruct Mesozoic Carbon Dioxide Levels and Photosynthesis from Dinosaur Tooth Enamel
+Aug 26, 2025 | Biology
+
+## Elements in Samples from Asteroid Bennu Reflect Composition of Early Solar System, Study Says
+Aug 26, 2025 | Planetary Science
+
+## Ocean Oxygenation during Mid-Devonian Enabled Expansion of Animals into Deeper-Water Habitats
+Aug 26, 2025 | Paleontology
+
+## Newly-Discovered Freshwater Turtle Species Survived Dinosaur Extinction
+Aug 25, 2025 | Paleontology
+
+## Neolithic Cow Tooth Supports Welsh Origin of Stonehenge Stones
+Aug 25, 2025 | Archaeology
+
+## Inouye Solar Telescope Sees Unprecedented Fine Details in Coronal Flare Loops
+Aug 25, 2025 | Astronomy
+
+## Paleoanthropologists Discover Earliest Evidence of Human-Neanderthal Interbreeding
+Aug 25, 2025 | Anthropology
+
+## Hubble Space Telescope Revisits Messier 96
+Aug 25, 2025 | Astronomy
+
+## Iguanodontian Dinosaur from Early Cretaceous Had Striking Back Sail
+Aug 22, 2025 | Paleontology
+
+## Astronomers Discover One of Brightest Fast Radio Bursts Ever Detected
+Aug 22, 2025 | Astronomy
+
+## Denisovan DNA May Have Helped Ancient Humans Survive in Americas
+Aug 21, 2025 | Anthropology
+
+## Earth Will Warm More Than Expected Due to Future Changes in Ozone, Study Suggests
+Aug 21, 2025 | Climatology
+
+## Astronomers Explore How to Improve Our Search for Alien Technosignatures
+Aug 21, 2025 | Astronomy
+
+## Dwarf Planet Ceres May Have Had Lasting Source of Chemical Energy to Fuel Habitability
+Aug 20, 2025 | Astrobiology
+
+## Omega Fatty Acids Could Protect against Alzheimer’s Disease in Women
+Aug 20, 2025 | Medicine
   
 
   * Home

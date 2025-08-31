@@ -15,12 +15,12 @@ Share
 
  October 19, 2010  
 ###  Rafflesia a giant-flowered Poinsettia?* 
-[](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim_STsZnaNzHPbyFc1pLAaWrQzawJBK0sDot93pPbWCkrN-YG5igIWXe908gva4sdpdX9KJhaFgo2bvqxDRRyjbjURC8bMnzr8p_8fnls14T9NfW30_KhuCEubAgZSJLyUNSagxnnId0r1/s1600/IMG_0709+Rafflesia+model.JPG)
+
   
 _*Another Passion for Plants from the Archive. This story was 'hot' in early 2007 but perhaps you missed it? Or is it just that I'll use any excuse to post my pictures from Sabah of two model Rafflesias and the one 'bud' I saw of this magnificent flower in the field..._  
   
 
-[](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0xcQUn0pWZD-kIaGB1-YQyO_MQ6XUawZC66FzB8zaAScN9q-PNpj1nZKW0Ydy-XYjeNMI8ONcGawzvUX5NsdgKv58F9rwzPhzZKEn4_UUaVLNgF1RISk4mMf4Me1UVV3_xX1Rj7YKFr0Z/s1600/Rafflesia+3.jpg)
+
   
   
 Is one of the world’s biggest, and strangest, flowers (_**Rafflesia**_)**Poinsettia** bloom?   
@@ -44,7 +44,7 @@ As Davis puts it, the achievement of the _Rafflesia_ is like humans evolving to 
 _This is the closest I got to seeing a Rafflesia in flower in Sabah back in 2004:_  
   
 
-[](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUD09FeR-KMz0vHqVbdUUEtr9FzRAVXlxczFXQ-JOGyamN8HxLK4upaxOiQzZPk44yvl7GVQTqCx8a81lPbsQGcMnkBfwQzuI7j8rcQXnuI5fudQO_v-rX3emk0YCbyB5Eu0Ej2eXkhBO1/s1600/Rafflesia+4.jpg)
+
 Share 
   * Get link
   * Facebook
@@ -66,16 +66,21 @@ By Tim Entwisle
 ## To follow blog, click below (you can also follow me on Bluesky, Instagram, Facebook - @timentwisle)
 ###  The Sceptical Botanist: Separating Fact from Fiction 
      
-[Due 1 August 2025]
+[click to order] 
+###  To order 'The Sceptical Botanist' outside Australia: 
+  * USA: Stylus Publishing
+  * UK, Europe and elsewhere: CSIRO Publishing
+
+
+###  Evergreen: The Botanical Life of a Plant Punk 
+     
+[Click to order]
 ###  ASA Cultural Tours Leader 
      
 *Click on image for more information about tours to Morocco (April 2026 & 2027), New Zealand (November 2025 & 2026), Western Australia (September 2027))
 ###  Jon Baines Tours Leader 
      
 Botanical Histories in the Kingdom of Flowers (Yunnan, southwest China), June 2026
-###  Evergreen: The Botanical Life of a Plant Punk 
-     
-[Click to order]
 ###  Evergreen media 
      
 [click to view]
@@ -168,14 +173,12 @@ Photo by Fiona Scott (2012)
 
 
 ###  Translate 
-Select Language Abkhaz Acehnese Acholi Afar Afrikaans Albanian Alur Amharic Arabic Armenian Assamese Avar Awadhi Aymara Azerbaijani Balinese Baluchi Bambara Baoulé Bashkir Basque Batak Karo Batak Simalungun Batak Toba Belarusian Bemba Bengali Betawi Bhojpuri Bikol Bosnian Breton Bulgarian Buryat Cantonese Catalan Cebuano Chamorro Chechen Chichewa Chinese (Simplified) Chinese (Traditional) Chuukese Chuvash Corsican Crimean Tatar (Cyrillic) Crimean Tatar (Latin) Croatian Czech Danish Dari Dhivehi Dinka Dogri Dombe Dutch Dyula Dzongkha Esperanto Estonian Ewe Faroese Fijian Filipino Finnish Fon French French (Canada) Frisian Friulian Fulani Ga Galician Georgian German Greek Guarani Gujarati Haitian Creole Hakha Chin Hausa Hawaiian Hebrew Hiligaynon Hindi Hmong Hungarian Hunsrik Iban Icelandic Igbo Ilocano Indonesian Inuktut (Latin) Inuktut (Syllabics) Irish Gaelic Italian Jamaican Patois Japanese Javanese Jingpo Kalaallisut Kannada Kanuri Kapampangan Kazakh Khasi Khmer Kiga Kikongo Kinyarwanda Kituba Kokborok Komi Konkani Korean Krio Kurdish (Kurmanji) Kurdish (Sorani) Kyrgyz Lao Latgalian Latin Latvian Ligurian Limburgish Lingala Lithuanian Lombard Luganda Luo Luxembourgish Macedonian Madurese Maithili Makassar Malagasy Malay Malay (Jawi) Malayalam Maltese Mam Manx Maori Marathi Marshallese Marwadi Mauritian Creole Meadow Mari Meiteilon (Manipuri) Minang Mizo Mongolian Myanmar (Burmese) N'Ko Nahuatl (Eastern Huasteca) Ndau Ndebele (South) Nepal Bhasa (Newari) Nepali Norwegian Nuer Occitan Odia (Oriya) Oromo Ossetian Pangasinan Papiamento Pashto Persian Polish Portuguese (Brazil) Portuguese (Portugal) Punjabi (Gurmukhi) Punjabi (Shahmukhi) Quechua Qʼeqchiʼ Romani Romanian Rundi Russian Sami (North) Samoan Sango Sanskrit Santali (Latin) Santali (Ol Chiki) Scots Gaelic Sepedi Serbian Sesotho Seychellois Creole Shan Shona Sicilian Silesian Sindhi Sinhala Slovak Slovenian Somali Spanish Sundanese Susu Swahili Swati Swedish Tahitian Tajik Tamazight Tamazight (Tifinagh) Tamil Tatar Telugu Tetum Thai Tibetan Tigrinya Tiv Tok Pisin Tongan Tshiluba Tsonga Tswana Tulu Tumbuka Turkish Turkmen Tuvan Twi Udmurt Ukrainian Urdu Uyghur Uzbek Venda Venetian Vietnamese Waray Welsh Wolof Xhosa Yakut Yiddish Yoruba Yucatec Maya Zapotec Zulu
-Powered by Translate
 ###  Archived by National Library of Victoria 
      
 
 ###  Pageviews in the last month 
 ###  Search by month and year 
-  * July 20252
+  * July 20254
   * June 20252
   * April 20251
   * December 20241
@@ -371,7 +374,3 @@ Powered by Translate
 
 Show more Show less
 ###   Report Abuse 
-
-Original text
-Rate this translation
-Your feedback will be used to help improve Google Translate

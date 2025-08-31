@@ -113,8 +113,8 @@ General
   * Cite this page
   * Get shortened URL
   * Download QR code
-  * Expand all
   * Edit interlanguage links
+  * Expand all
 
 
 Print/export 
@@ -132,8 +132,8 @@ From Wikipedia, the free encyclopedia
 Species of sponge
 Neptune's cup   
 ---  
-[](https://en.wikipedia.org/wiki/File:Neptune%27s_Cup.jpg)  
-Scientific classification "Taxonomy \(biology\)") [](https://en.wikipedia.org/wiki/Template:Taxonomy/Cliona "Edit this classification")  
+  
+Scientific classification "Taxonomy \(biology\)")   
 Kingdom:  |  Animalia  
 Phylum:  |  Porifera  
 Class:  |  Demospongiae  
@@ -143,7 +143,7 @@ Genus:  |  _Cliona_
 Species:  |  _**C. patera**_  
 Binomial name  
 **_Cliona patera_**  
-(Hardwicke, 1820)[[1]](https://en.wikipedia.org/wiki/Cliona_patera#cite_note-worms-1)  
+(Hardwicke, 1820)  
 Synonyms "Synonym \(taxonomy\)")  
 showList
   * _Cliona amphitritae_ (Harting, 1870)
@@ -155,8 +155,8 @@ showList
   * _Spongia patera_ Hardwicke, 1820
 
   
-_**Cliona patera**_ , commonly called **Neptune's cup sponge** , is a species of demosponge in the family "Family \(biology\)") Clionaidae.[[1]](https://en.wikipedia.org/wiki/Cliona_patera#cite_note-worms-1)
-Among the larger known sponges at up to a meter in height and width, the common name _Neptune's cup_ refers to its characteristic wine glass shape and the Roman god of the sea "Neptune \(mythology\)"). The species was thought to be extinct since late 1900s due to overharvesting, but live specimens were discovered in 2011 off the coast of Singapore[[2]](https://en.wikipedia.org/wiki/Cliona_patera#cite_note-sciam-2)[[3]](https://en.wikipedia.org/wiki/Cliona_patera#cite_note-wildcity-3) and Thailand. Later they were transported so they can be close enough to reproduce. Another population was later found in Cambodia.[[4]](https://en.wikipedia.org/wiki/Cliona_patera#cite_note-4) In the early 1900s, they were used as baby baths because they grew so large.[[5]](https://en.wikipedia.org/wiki/Cliona_patera#cite_note-5)
+_**Cliona patera**_ , commonly called **Neptune's cup sponge** , is a species of demosponge in the family "Family \(biology\)") Clionaidae.
+Among the larger known sponges at up to a meter in height and width, the common name _Neptune's cup_ refers to its characteristic wine glass shape and the Roman god of the sea "Neptune \(mythology\)"). The species was thought to be extinct since late 1900s due to overharvesting, but live specimens were discovered in 2011 off the coast of Singapore and Thailand. Later they were transported so they can be close enough to reproduce. Another population was later found in Cambodia. In the early 1900s, they were used as baby baths because they grew so large.
 ## References
 [edit]
   1. ^ Jump up to: _**a**_ _**b**_ van Soest, R. (2014). Van Soest RW, Boury-Esnault N, Hooper JN, Rützler K, de Voogd NJ, de Glasby BA, Hajdu E, Pisera AB, Manconi R, Schoenberg C, Janussen D, Tabachnick KR, Klautau M, Picton B, Kelly M, Vacelet J (eds.). "_Cliona patera_ (Hardwicke, 1820)". _World Porifera Database_. World Register of Marine Species. Retrieved 2014-05-22.
@@ -183,7 +183,7 @@ _Cliona patera_ |
   
   
 
-[](https://en.wikipedia.org/wiki/File:Aplysina_archeri_\(Stove-pipe_Sponge-pink_variation\).jpg) | This article about a demosponge is a stub. You can help Wikipedia by expanding it.  
+.jpg) | This article about a demosponge is a stub. You can help Wikipedia by expanding it.  
 ---|---  
   * v
   * t
@@ -220,17 +220,17 @@ Hidden categories:
   * Edit preview settings
 
 
-  * [](https://www.wikimedia.org/)
-  * [](https://www.mediawiki.org/)
+  * 
+  * 
 
 
 Search
 Search
 Toggle the table of contents
 _Cliona patera_
-[](https://en.wikipedia.org/wiki/Cliona_patera) [](https://en.wikipedia.org/wiki/Cliona_patera) [](https://en.wikipedia.org/wiki/Cliona_patera) [](https://en.wikipedia.org/wiki/Cliona_patera) [](https://en.wikipedia.org/wiki/Cliona_patera) [](https://en.wikipedia.org/wiki/Cliona_patera) [](https://en.wikipedia.org/wiki/Cliona_patera)
+       
 14 languages Add topic 
-[](https://en.wikipedia.org/wiki/Cliona_patera?action=edit)
+
   *[v]: View this template
   *[t]: Discuss this template
   *[e]: Edit this template

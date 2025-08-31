@@ -1,5 +1,5 @@
 Skip to Main Content00550-0#page-body-id "Skip to Main Content") Skip to Main Menu00550-0#mega-menu-nav "Skip to Main Menu")
-[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0 "Close login popup")
+00550-0 "Close login popup")
 ## Login to your account
 Email/Username
 Your email address is a required field.
@@ -11,7 +11,7 @@ Forgot password?
 Remember me
 Don’t have an account?
 Create a Free Account
-[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0 "Close reset password popup")
+00550-0 "Close reset password popup")
 If you don't remember your password, you can reset it by entering your email address and clicking the Reset Password button. You will then receive an email that contains a secure link for resetting your password
 Email*
 If the address matches a valid account an email will be sent to __email__ with instructions for resetting your password
@@ -43,9 +43,9 @@ Invalid Ad Sizes |
 
 Science that inspires
 A Cell Press journal
-[](https://www.cell.com/home "Cell Press")
-[](https://www.cell.com/current-biology/home "Current Biology")
-[](https://www.cell.com/open-access?utm_source=oa-label&__hstc=109691226.e4e812b53ff324eccbdbdb2e4fb9a6ab.1644503737405.1644524234622.1644587109507.4&__hssc=109691226.7.1644587109507&__hsfp=3253153019 "This journal offers authors two options \(open access or subscription\) to publish research")
+
+
+ to publish research")
   * Submit
   * Log in
     * Log in
@@ -62,7 +62,7 @@ close links dialog
 Access provided by 
 Main menu
   * [This journal](javascript:void\(0\))
-    * [](https://www.cell.com/issue/S0960-9822\(24\)X0014-7)
+    * X0017-2)
     * #### Read 
       * Online now
       * Current issue
@@ -183,7 +183,7 @@ Go searchAdvanced search
 All content Article title Authors Keywords Abstract Article title, abstract, keywords
 Search within:This journalFull site
 Advanced search
-[](javascript:void\(0\) "Close search options")
+ "Close search options")
 Please enter a term before submitting your search.
  Ok00550-0)
 ArticleVolume 35, Issue 11X0012-3)p2597-2613.e7June 09, 2025
@@ -191,144 +191,7 @@ Download Full Issue
 Download started
 Ok00550-0)
 # Fossilized gut contents elucidate the feeding habits of sauropod dinosaurs
-Stephen F. Poropat00550-0)
-Stephen F. Poropat 0000-0002-4909-1666
-Correspondence
-Corresponding author
-steve.poropat@curtin.edu.au
-Footnotes
-13
-Lead contact
-Affiliations
-Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
-Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
-Search for articles by this author
-1,2,13 steve.poropat@curtin.edu.au ∙ Anne-Marie P. Tosolini00550-0)
-Anne-Marie P. Tosolini
-Affiliations
-School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Melbourne, VIC 3010, Australia
-Search for articles by this author
-3 ∙ Samantha L. Beeston00550-0)
-Samantha L. Beeston
-Affiliations
-Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
-Department of Earth Sciences, University College London, Gower Street, London WC1E 6BT, UK
-Search for articles by this author
-2,4 ∙ …  ∙ Mackenzie J. Enchelmaier00550-0)
-Mackenzie J. Enchelmaier
-Affiliations
-Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
-Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
-Search for articles by this author
-1,2 ∙ Adele H. Pentland00550-0)
-Adele H. Pentland
-Affiliations
-Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
-Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
-Search for articles by this author
-1,2 ∙ Philip D. Mannion00550-0)
-Philip D. Mannion
-Affiliations
-Department of Earth Sciences, University College London, Gower Street, London WC1E 6BT, UK
-Search for articles by this author
-4 ∙ Paul Upchurch00550-0)
-Paul Upchurch
-Affiliations
-Department of Earth Sciences, University College London, Gower Street, London WC1E 6BT, UK
-Search for articles by this author
-4 ∙ Karen Chin00550-0)
-Karen Chin
-Affiliations
-Department of Geological Sciences and Museum of Natural History, University of Colorado Boulder, Boulder, CO 80309, USA
-Search for articles by this author
-5 ∙ Vera A. Korasidis00550-0)
-Vera A. Korasidis
-Affiliations
-School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Melbourne, VIC 3010, Australia
-Search for articles by this author
-3 ∙ Phil R. Bell00550-0)
-Phil R. Bell
-Affiliations
-Palaeoscience Research Centre, School of Environmental and Rural Science, University of New England, Armidale, NSW 2351, Australia
-Search for articles by this author
-6 ∙ Nathan J. Enriquez00550-0)
-Nathan J. Enriquez
-Affiliations
-Palaeoscience Research Centre, School of Environmental and Rural Science, University of New England, Armidale, NSW 2351, Australia
-Search for articles by this author
-6 ∙ Alex I. Holman00550-0)
-Alex I. Holman
-Affiliations
-Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
-Search for articles by this author
-1 ∙ Luke M. Brosnan00550-0)
-Luke M. Brosnan
-Affiliations
-Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
-Search for articles by this author
-1 ∙ Amy L. Elson00550-0)
-Amy L. Elson
-Affiliations
-Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
-Search for articles by this author
-1 ∙ Madison Tripp00550-0)
-Madison Tripp
-Affiliations
-Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
-Swedish Museum of Natural History, Svante Arrhenius v 9, Stockholm 104 05, Sweden
-Search for articles by this author
-1,7 ∙ Alan G. Scarlett00550-0)
-Alan G. Scarlett
-Affiliations
-Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
-Search for articles by this author
-1 ∙ Belinda Godel00550-0)
-Belinda Godel
-Affiliations
-3D Characterisation Laboratory, Mineral Resources, CSIRO, Kensington, WA 6151, Australia
-Search for articles by this author
-8 ∙ Robert H.C. Madden00550-0)
-Robert H.C. Madden
-Affiliations
-Microanalysis Australia, Mount Lawley, WA 6050, Australia
-Search for articles by this author
-9 ∙ William D.A. Rickard00550-0)
-William D.A. Rickard
-Affiliations
-John de Laeter Centre, Curtin University, Bentley, WA 6102, Australia
-Search for articles by this author
-10 ∙ Joseph J. Bevitt00550-0)
-Joseph J. Bevitt
-Affiliations
-Australian Centre for Neutron Scattering, Australian Nuclear Science and Technology Organisation, Lucas Heights, NSW 2234, Australia
-Search for articles by this author
-11 ∙ Travis R. Tischler00550-0)
-Travis R. Tischler
-Affiliations
-travistischler.com, Kuranda, QLD 4881, Australia
-Search for articles by this author
-12 ∙ Tayla L.M. Croxford00550-0)
-Tayla L.M. Croxford
-Affiliations
-travistischler.com, Kuranda, QLD 4881, Australia
-Search for articles by this author
-12 ∙ Trish Sloan00550-0)
-Trish Sloan
-Affiliations
-Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
-Search for articles by this author
-2 ∙ David A. Elliott00550-0)
-David A. Elliott
-Affiliations
-Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
-Search for articles by this author
-2 ∙ Kliti Grice00550-0)
-Kliti Grice
-Affiliations
-Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
-Search for articles by this author
-1 … Show more Show less
-Affiliations & NotesArticle Info
+Stephen F. Poropat00550-0#au1)100550-0#aff1),200550-0#aff2),1300550-0#fn1) steve.poropat@curtin.edu.au ∙ Anne-Marie P. Tosolini00550-0#au2)300550-0#aff3) ∙ Samantha L. Beeston00550-0#au3)200550-0#aff2),400550-0#aff4) ∙ …  ∙ Mackenzie J. Enchelmaier00550-0#au4)100550-0#aff1),200550-0#aff2) ∙ Adele H. Pentland00550-0#au5)100550-0#aff1),200550-0#aff2) ∙ Philip D. Mannion00550-0#au6)400550-0#aff4) ∙ Paul Upchurch00550-0#au7)400550-0#aff4) ∙ Karen Chin00550-0#au8)500550-0#aff5) ∙ Vera A. Korasidis00550-0#au9)300550-0#aff3) ∙ Phil R. Bell00550-0#au10)600550-0#aff6) ∙ Nathan J. Enriquez00550-0#au11)600550-0#aff6) ∙ Alex I. Holman00550-0#au12)100550-0#aff1) ∙ Luke M. Brosnan00550-0#au13)100550-0#aff1) ∙ Amy L. Elson00550-0#au14)100550-0#aff1) ∙ Madison Tripp00550-0#au15)100550-0#aff1),700550-0#aff7) ∙ Alan G. Scarlett00550-0#au16)100550-0#aff1) ∙ Belinda Godel00550-0#au17)800550-0#aff8) ∙ Robert H.C. Madden00550-0#au18)900550-0#aff9) ∙ William D.A. Rickard00550-0#au19)1000550-0#aff10) ∙ Joseph J. Bevitt00550-0#au20)1100550-0#aff11) ∙ Travis R. Tischler00550-0#au21)1200550-0#aff12) ∙ Tayla L.M. Croxford00550-0#au22)1200550-0#aff12) ∙ Trish Sloan00550-0#au23)200550-0#aff2) ∙ David A. Elliott00550-0#au24)200550-0#aff2) ∙ Kliti Grice00550-0#au25)100550-0#aff1) … Show more Show less
 1Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
 2Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
 3School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Melbourne, VIC 3010, Australia
@@ -347,17 +210,14 @@ Publication History:
 Received January 29, 2025; Revised March 27, 2025; Accepted April 22, 2025
 DOI: 10.1016/j.cub.2025.04.053 External LinkAlso available on ScienceDirect External Link
 Copyright: © 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
-[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0 "Check for updates on crossmark")
-[](https://www.cell.com/current-biology/issue?pii=S0960-9822\(24\)X0012-3)
+00550-0 "Check for updates on crossmark")
+X0012-3)
 Get Access
-Outline
 Outline
   * Highlights00550-0#author-highlights-abstract)
   * Summary00550-0#author-abstract)
   * Keywords00550-0#keywords)
   * References00550-0#references)
-  * Article metrics00550-0#core-collateral-metrics)
-  * Related Articles00550-0#core-collateral-relatedArticles)
 
 
 Share
@@ -397,15 +257,6 @@ Download Full Issue
 Download started
 Ok00550-0)
 Previous article00549-4)Next article00556-1)
-Show OutlineHide Outline
-  * Highlights00550-0#author-highlights-abstract)
-  * Summary00550-0#author-abstract)
-  * Keywords00550-0#keywords)
-  * References00550-0#references)
-  * Article metrics00550-0#core-collateral-metrics)
-  * Related Articles00550-0#core-collateral-relatedArticles)
-
-
 ## Highlights
 •
 Gut contents were found in a specimen of the Australian sauropod _Diamantinasaurus_
@@ -430,7 +281,7 @@ Sauropod dinosaurs were abundant and diverse across much of the globe throughout
   10. feeding height
 
 
-[](https://www.cell.com/action/ShowMarlinJournalHome?journalCode=curbio "Current Biology home. Opens in new tab")
+
 ## Get full text access
 Log in, subscribe or purchase for full access.
 Get Access
@@ -1242,19 +1093,121 @@ _Org. Geochem._ 2005; **36** :139-159
 Crossref
 Scopus (317)
 Google Scholar
-## Figures (6)Figure Viewer
-[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0#fig1)[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0#fig2)[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0#fig3)[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0#fig4)
-[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0#fig5)[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0#fig6)
-Show all figuresHide figures
 ## Article metrics
-## Supplemental information (2)
-Download all
-PDF (5.28 MB)
-Document S1. Figures S1–S16 and Tables S1–S4
-PDF (60.19 MB)
-Document S2. Article plus supplemental information
 ## Related Articles
+ Opens in new window  
 
+Stephen F. Poropat 0000-0002-4909-1666
+Correspondence
+Corresponding author
+steve.poropat@curtin.edu.au
+Footnotes
+13
+Lead contact
+Affiliations
+Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
+Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
+Search for articles by this author
+Anne-Marie P. Tosolini
+Affiliations
+School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Melbourne, VIC 3010, Australia
+Search for articles by this author
+Samantha L. Beeston
+Affiliations
+Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
+Department of Earth Sciences, University College London, Gower Street, London WC1E 6BT, UK
+Search for articles by this author
+Mackenzie J. Enchelmaier
+Affiliations
+Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
+Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
+Search for articles by this author
+Adele H. Pentland
+Affiliations
+Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
+Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
+Search for articles by this author
+Philip D. Mannion
+Affiliations
+Department of Earth Sciences, University College London, Gower Street, London WC1E 6BT, UK
+Search for articles by this author
+Paul Upchurch
+Affiliations
+Department of Earth Sciences, University College London, Gower Street, London WC1E 6BT, UK
+Search for articles by this author
+Karen Chin
+Affiliations
+Department of Geological Sciences and Museum of Natural History, University of Colorado Boulder, Boulder, CO 80309, USA
+Search for articles by this author
+Vera A. Korasidis
+Affiliations
+School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Melbourne, VIC 3010, Australia
+Search for articles by this author
+Phil R. Bell
+Affiliations
+Palaeoscience Research Centre, School of Environmental and Rural Science, University of New England, Armidale, NSW 2351, Australia
+Search for articles by this author
+Nathan J. Enriquez
+Affiliations
+Palaeoscience Research Centre, School of Environmental and Rural Science, University of New England, Armidale, NSW 2351, Australia
+Search for articles by this author
+Alex I. Holman
+Affiliations
+Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
+Search for articles by this author
+Luke M. Brosnan
+Affiliations
+Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
+Search for articles by this author
+Amy L. Elson
+Affiliations
+Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
+Search for articles by this author
+Madison Tripp
+Affiliations
+Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
+Swedish Museum of Natural History, Svante Arrhenius v 9, Stockholm 104 05, Sweden
+Search for articles by this author
+Alan G. Scarlett
+Affiliations
+Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
+Search for articles by this author
+Belinda Godel
+Affiliations
+3D Characterisation Laboratory, Mineral Resources, CSIRO, Kensington, WA 6151, Australia
+Search for articles by this author
+Robert H.C. Madden
+Affiliations
+Microanalysis Australia, Mount Lawley, WA 6050, Australia
+Search for articles by this author
+William D.A. Rickard
+Affiliations
+John de Laeter Centre, Curtin University, Bentley, WA 6102, Australia
+Search for articles by this author
+Joseph J. Bevitt
+Affiliations
+Australian Centre for Neutron Scattering, Australian Nuclear Science and Technology Organisation, Lucas Heights, NSW 2234, Australia
+Search for articles by this author
+Travis R. Tischler
+Affiliations
+travistischler.com, Kuranda, QLD 4881, Australia
+Search for articles by this author
+Tayla L.M. Croxford
+Affiliations
+travistischler.com, Kuranda, QLD 4881, Australia
+Search for articles by this author
+Trish Sloan
+Affiliations
+Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
+Search for articles by this author
+David A. Elliott
+Affiliations
+Australian Age of Dinosaurs Museum of Natural History, Winton, QLD 4735, Australia
+Search for articles by this author
+Kliti Grice
+Affiliations
+Western Australian Organic and Isotope Geochemistry Centre, School of Earth and Planetary Sciences, Curtin University, Bentley, WA 6102, Australia
+Search for articles by this author
 
 Figure 1 _Diamantinasaurus matildae_ (AODF 0888) skeleton with gut contents site map and photographs
 Show full caption
@@ -1319,10 +1272,10 @@ PDF (60.19 MB)
 Document S2. Article plus supplemental information
 View full text00550-0)
 Open in viewer00550-0)
-[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0 "Close Figure Viewer")
-[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0 "Previous Frame")[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0 "Next Frame")
+00550-0 "Close Figure Viewer")
+00550-0 "Previous Frame")00550-0 "Next Frame")
 Hide Caption00550-0)Download00550-0)See figure in Article00550-0#figures)
-Toggle Thumbstrip00550-0)[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0 "Previous Thumbnails")[](https://www.cell.com/current-biology/abstract/S0960-9822\(25\)00550-0 "Next Thumbnails")
+Toggle Thumbstrip00550-0)00550-0 "Previous Thumbnails")00550-0 "Next Thumbnails")
   * Download Hi-res image
   *  Download .PPT
 
@@ -1336,13 +1289,13 @@ Expand Table
 Authors Info & Affiliations00550-0#tab-contributors)
 
  
-  * [](http://on.fb.me/1tgHakh "Facebook")
-  * [](https://www.instagram.com/cellpress/ "Instagram")
-  * [](https://www.linkedin.com/company/cell-press/ "LinkedIn")
+  * 
+  * 
+  * 
   *  
-  * [](https://www.cell.com/pb-assets/marketing/WeChat/WeChat-1557753222727.jpg "WeChat")
-  * [](https://www.weibo.com/CellPress "Weibo")
-  * [](https://www.youtube.com/user/cellvideoabstracts "YouTube")
+  * 
+  * 
+  * 
 
 
 ## Life & medical sciences journals
@@ -1488,18 +1441,13 @@ For all open access content, the relevant licensing terms apply.
   * Contact
 
 
-[](https://www.relx.com)
-##  Session Timeout
-(2:00)
-Your session will expire shortly. If you are still working, click the ‘Keep Me Logged In’ button below. If you do not respond within the next minute, you will be automatically logged out.
-Keep Me Logged In
-[](javascript:void\(0\))
+
 Get access
 Log inPurchaseSubscribe
 [Log in](javascript:getIdUrl\('login'\))
 Access through your institution
   * New Subscriber: Claim access with activation code.
-[](javascript:void\(0\))
+)
 New subscribers select Claim to enter your activation code.
 
 
@@ -1527,12 +1475,12 @@ See purchase options
 
 
 View all subscription options and pricing
-[](javascript:void\(0\))
+)
 Copy link
 ✓
 Thanks for sharing!
 Find any service
-[](https://www.addtoany.com "Share Buttons")
+
 More…00550-0#addtoany "Show all")
 We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
 Cookie Settings Accept all cookies
@@ -1574,5 +1522,3 @@ checkbox label label
 checkbox label label
 checkbox label label
 Confirm my choices
-[](https://www.onetrust.com/products/cookie-consent/)
-__("articleCrossmark.closePopup")

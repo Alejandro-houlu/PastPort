@@ -44,7 +44,7 @@ Next
   * 5
 
 
-[](https://tdy.sg/47JGhKL)  
+  
 
 By 
 ######   Neo Chai Chin 
@@ -73,7 +73,7 @@ Read more of the latest in
 YOU MIGHT LIKE TRENDING
 ##  Trending 
 ##  Popular 
-[](https://www.outbrain.com/what-is/default/en)
+
 ## Advertisement
 ##  Stay in the know. Anytime. Anywhere. 
 
@@ -129,9 +129,9 @@ By clicking subscribe, I agree for my personal data to be used to send me TODAY 
 Copyright 2025 © Mediacorp Pte Ltd. All rights reserved.
 Official Domain | Terms & Conditions | Privacy Policy
 Todayonline.com and Today Online domains and apps are now part of 'Channelnewsasia.com' domain
-[](javascript:;)
+
 [ ](javascript:;)
-[](javascript:;)
+
 [ ](javascript:;)
   
 ##  This browser is no longer supported 
@@ -149,5 +149,5 @@ Copy link
 ✓
 Thanks for sharing!
 Find any service
-[](https://www.addtoany.com "Share Buttons")
+
 More…
