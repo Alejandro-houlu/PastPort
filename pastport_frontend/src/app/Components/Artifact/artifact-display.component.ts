@@ -282,6 +282,19 @@ export class ArtifactDisplayComponent implements OnInit, OnDestroy {
   }
 
   /**
+   * Open chat with current artifact context
+   */
+  openChat(): void {
+    if (this.artifactId) {
+      // Navigate to chat with artifact ID parameter
+      this.router.navigate(['/chat', this.artifactId]);
+    } else {
+      // Navigate to general chat
+      this.router.navigate(['/chat']);
+    }
+  }
+
+  /**
    * Add to tour (placeholder)
    */
   addToTour(): void {

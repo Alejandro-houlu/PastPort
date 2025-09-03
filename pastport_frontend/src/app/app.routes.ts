@@ -20,6 +20,18 @@ export const routes: Routes = [
     canActivate:[AuthGuard]
   },
   
+  // Chat routes (no layout - full screen)
+  {
+    path: 'chat',
+    loadComponent: () => import('./Components/Chat/chat.component').then(m => m.ChatComponent),
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'chat/:artifactId',
+    loadComponent: () => import('./Components/Chat/chat.component').then(m => m.ChatComponent),
+    canActivate: [AuthGuard]
+  },
+  
   // Main application routes (with layout)
   {
     path: '',

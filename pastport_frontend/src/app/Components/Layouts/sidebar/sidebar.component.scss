@@ -2,6 +2,10 @@
 // All sidebar functionality is handled by Galaxy global styles in src/assets/scss/structure/_vertical.scss
 
 // PastPort-specific sidebar customizations
+.navbar-brand-box {
+  padding-top: 20px !important;
+  padding-bottom: 20px;
+}
 .nav-link {
   &.active {
     background: linear-gradient(135deg, #ad64f1, #4788ff) !important;

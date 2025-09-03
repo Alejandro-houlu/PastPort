@@ -24,6 +24,7 @@ export class MainCamWebSocketService {
   // Frame tracking
   private frameId = 0;
   private isProcessing = false;
+  private streamingIntervalId: any = null;
   
   // Default configuration
   private currentConfig: RecognitionConfig = {
@@ -39,6 +40,17 @@ export class MainCamWebSocketService {
    */
   connect(): Promise<void> {
     console.log('🔌 Attempting to connect to WebSocket:', this.wsUrl);
+    
+    // Disconnect existing connection if any
+    if (this.socket) {
+      console.log('🔄 Closing existing WebSocket connection before creating new one');
+      this.disconnect();
+    }
+    
+    // Reset state before connecting
+    this.isProcessing = false;
+    this.frameId = 0;
+    
     return new Promise((resolve, reject) => {
       try {
         this.socket = new WebSocket(this.wsUrl);
@@ -55,15 +67,19 @@ export class MainCamWebSocketService {
           this.handleMessage(event.data);
         };
         
-        this.socket.onclose = () => {
-          console.log('MainCam WebSocket disconnected');
+        this.socket.onclose = (event) => {
+          console.log('🔌 MainCam WebSocket disconnected:', event.code, event.reason);
           this.connectionStatus$.next(false);
           this.socket = null;
+          // Reset processing state on close
+          this.isProcessing = false;
         };
         
         this.socket.onerror = (error) => {
-          console.error('MainCam WebSocket error:', error);
+          console.error('💥 MainCam WebSocket error:', error);
           this.errors$.next('WebSocket connection error');
+          // Reset processing state on error
+          this.isProcessing = false;
           reject(error);
         };
         
@@ -79,9 +95,13 @@ export class MainCamWebSocketService {
    */
   disconnect(): void {
     if (this.socket) {
+      console.log('🔌 Disconnecting WebSocket...');
       this.socket.close();
       this.socket = null;
       this.connectionStatus$.next(false);
+      // Reset processing state on disconnect
+      this.isProcessing = false;
+      this.frameId = 0;
     }
   }
 
@@ -145,6 +165,8 @@ export class MainCamWebSocketService {
   sendFrame(frameData: string): void {
     if (!this.isConnected()) {
       console.warn('⚠️ WebSocket not connected, cannot send frame');
+      // Reset processing state if connection is lost
+      this.isProcessing = false;
       return;
     }
 
@@ -204,7 +226,22 @@ export class MainCamWebSocketService {
    */
   private sendMessage(message: WebSocketMessage): void {
     if (this.socket && this.socket.readyState === WebSocket.OPEN) {
-      this.socket.send(JSON.stringify(message));
+      try {
+        this.socket.send(JSON.stringify(message));
+      } catch (error) {
+        console.error('💥 Error sending WebSocket message:', error);
+        // Reset processing state if sending fails
+        if (message.type === 'frame') {
+          this.isProcessing = false;
+        }
+        this.errors$.next('Failed to send message to server');
+      }
+    } else {
+      console.warn('⚠️ Cannot send message - WebSocket not connected');
+      // Reset processing state if connection is lost
+      if (message.type === 'frame') {
+        this.isProcessing = false;
+      }
     }
   }
 
@@ -246,6 +283,10 @@ export class MainCamWebSocketService {
           const errorMsg = message.message || 'Unknown WebSocket error';
           console.error('❌ WebSocket error:', errorMsg);
           this.errors$.next(errorMsg);
+          // If error is related to frame processing, ensure we can continue
+          if (errorMsg.includes('Frame processing error')) {
+            console.log('🔄 Frame processing error detected, resetting processing state');
+          }
           break;
           
         default:
@@ -255,6 +296,8 @@ export class MainCamWebSocketService {
     } catch (error) {
       console.error('💥 Failed to parse WebSocket message:', error);
       this.errors$.next('Failed to parse server message');
+      // Reset processing state on parse error to prevent getting stuck
+      this.isProcessing = false;
     }
   }
 
@@ -303,24 +346,50 @@ export class MainCamWebSocketService {
     const intervalId = setInterval(sendFrame, interval);
     
     // Store interval ID for cleanup
-    (this as any).streamingIntervalId = intervalId;
+    this.streamingIntervalId = intervalId;
   }
 
   /**
    * Stop automatic frame sending
    */
   stopFrameStreaming(): void {
-    if ((this as any).streamingIntervalId) {
-      clearInterval((this as any).streamingIntervalId);
-      (this as any).streamingIntervalId = null;
+    if (this.streamingIntervalId) {
+      clearInterval(this.streamingIntervalId);
+      this.streamingIntervalId = null;
     }
+  }
+
+  /**
+   * Force reset processing state - useful for recovery
+   */
+  forceResetProcessingState(): void {
+    console.log('🔄 Force resetting processing state');
+    this.isProcessing = false;
+  }
+
+  /**
+   * Get current processing state
+   */
+  getProcessingState(): boolean {
+    return this.isProcessing;
+  }
+
+  /**
+   * Reset connection state completely
+   */
+  resetConnectionState(): void {
+    console.log('🔄 Resetting all connection state');
+    this.isProcessing = false;
+    this.frameId = 0;
   }
 
   /**
    * Cleanup resources
    */
   cleanup(): void {
+    console.log('🧹 Cleaning up WebSocket service');
     this.stopFrameStreaming();
     this.disconnect();
+    this.resetConnectionState();
   }
 }

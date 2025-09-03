@@ -40,6 +40,9 @@ export class MainCamComponent implements OnInit, OnDestroy, AfterViewInit {
   ) {}
 
   ngOnInit(): void {
+    console.log('🚀 MainCam component initializing...');
+    // Force reset WebSocket state in case of previous issues
+    this.websocketService.resetConnectionState();
     // Initialize WebSocket connection first
     this.initializeRecognition();
   }
@@ -50,6 +53,7 @@ export class MainCamComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   ngOnDestroy(): void {
+    console.log('🧹 MainCam component destroying - cleaning up resources');
     // Cleanup camera resources
     this.cleanup();
   }
@@ -207,6 +211,9 @@ export class MainCamComponent implements OnInit, OnDestroy, AfterViewInit {
    * Navigate back to dashboard
    */
   goBack(): void {
+    console.log('🔙 Navigating back to dashboard - cleaning up first');
+    // Ensure cleanup before navigation
+    this.cleanup();
     this.router.navigate(['/dashboard']);
   }
 
@@ -261,7 +268,11 @@ export class MainCamComponent implements OnInit, OnDestroy, AfterViewInit {
       this.websocketService.getErrors().subscribe({
         next: (error) => {
           console.error('❌ WebSocket error received:', error);
-          // Could add user notification here
+          // Reset processing state on any error to prevent getting stuck
+          if (error.includes('Frame processing') || error.includes('Failed to send')) {
+            console.log('🔄 Resetting processing state due to error');
+            this.websocketService.forceResetProcessingState();
+          }
         },
         error: (streamError) => {
           console.error('❌ Error in error stream:', streamError);
@@ -488,11 +499,24 @@ export class MainCamComponent implements OnInit, OnDestroy, AfterViewInit {
    * Cleanup resources
    */
   private cleanup(): void {
-    console.log('Cleaning up camera and recognition resources...');
+    console.log('🧹 Cleaning up camera and recognition resources...');
+    
+    // Stop recognition first
     this.stopRecognition();
+    
+    // Clean up WebSocket service
     this.websocketService.cleanup();
+    
+    // Stop camera
     this.cameraService.stopCamera();
+    
+    // Reset component state
     this.cameraActive = false;
     this.isConnected = false;
+    this.recognitionActive = false;
+    this.lastRecognitionResult = null;
+    this.detectionCount = 0;
+    
+    console.log('✅ Cleanup completed');
   }
 }
