@@ -35,7 +35,16 @@ class MainCamConnectionManager:
         print(f"❌ MainCam WebSocket: Connection closed. Remaining connections: {len(self.active_connections)}")
     
     async def send_personal_message(self, message: dict, websocket: WebSocket):
-        await websocket.send_text(json.dumps(message))
+        try:
+            # Check if websocket is still connected before sending
+            if websocket.client_state.value == 1:  # WebSocketState.CONNECTED
+                await websocket.send_text(json.dumps(message))
+            else:
+                print(f"⚠️ MainCam WebSocket: Cannot send message - connection not active (state: {websocket.client_state})")
+        except Exception as e:
+            print(f"💥 MainCam WebSocket: Error sending message: {str(e)}")
+            # Remove the connection if sending fails
+            self.disconnect(websocket)
     
     async def broadcast(self, message: dict):
         for connection in self.active_connections:
@@ -96,11 +105,17 @@ async def handle_mainCam_websocket_connection(websocket: WebSocket):
         manager.disconnect(websocket)
     except Exception as e:
         print(f"💥 MainCam WebSocket: Connection error: {str(e)}")
-        await manager.send_personal_message({
-            "type": "error",
-            "message": str(e)
-        }, websocket)
-        manager.disconnect(websocket)
+        # Only try to send error message if connection is still active
+        try:
+            if websocket.client_state.value == 1:  # WebSocketState.CONNECTED
+                await manager.send_personal_message({
+                    "type": "error",
+                    "message": str(e)
+                }, websocket)
+        except:
+            print("⚠️ MainCam WebSocket: Could not send error message - connection already closed")
+        finally:
+            manager.disconnect(websocket)
 
 
 async def process_frame_message(websocket: WebSocket, message: dict):
@@ -159,8 +174,13 @@ async def process_frame_message(websocket: WebSocket, message: dict):
         
     except Exception as e:
         print(f"💥 MainCam WebSocket: Frame {frame_id} processing error: {str(e)}")
-        await manager.send_personal_message({
-            "type": "error",
-            "message": f"Frame processing error: {str(e)}",
-            "frame_id": message.get("frame_id")
-        }, websocket)
+        # Only try to send error message if connection is still active
+        try:
+            if websocket.client_state.value == 1:  # WebSocketState.CONNECTED
+                await manager.send_personal_message({
+                    "type": "error",
+                    "message": f"Frame processing error: {str(e)}",
+                    "frame_id": message.get("frame_id")
+                }, websocket)
+        except:
+            print(f"⚠️ MainCam WebSocket: Could not send frame error for {frame_id} - connection closed")

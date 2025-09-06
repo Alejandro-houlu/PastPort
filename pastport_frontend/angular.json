@@ -41,6 +41,7 @@
               }
             ],
             "styles": [
+              "src/tailwind.css",
               "src/styles.scss",
               "src/assets/scss/config/creative/bootstrap.scss",
               "src/assets/scss/config/creative/app.scss",
