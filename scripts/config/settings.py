@@ -13,19 +13,20 @@ class Config:
     CHUNK_OVERLAP = 100
 
     # MULTIQUERY MODEL
-    MULTIQ_MODEL = "unsloth-mistral-7b-instruct-v0.3-bnb-4bit-q4_k_m"
+    MULTIQ_MODEL = "mistral_merged_v3_q4km"
     
     # Embedding settings
     EMBEDDING_MODEL = "mxbai-embed-large:335m"
     # OR "nomic-embed-text"
     
     # LLM settings
-    LLM_MODEL = "unsloth-mistral-7b-instruct-v0.3-bnb-4bit-q4_k_m"
+    LLM_MODEL = "mistral_merged_v3_q4km"
     # OR llama3.1:8b
     # OR mistral:7b
     # OR mistral:7b-instruct-v0.3-q4_K_M
     # OR deepseek-r1:8b
     # OR unsloth-mistral-7b-instruct-v0.3-bnb-4bit-q4_k_m
+    # OR mistral_merged_v3_q4km
     
     # File types to process
     SUPPORTED_EXTENSIONS = [".pdf", ".md", ".txt"]
