@@ -1,0 +1,5482 @@
+[
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Before Jubi Lee, were sperm whales prevalent in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Could plastic ingestion be the cause of Jubi Lee’s death?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Do the Oriental Pied Hornbills require a primary forest habitat?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How are sperm whales social animals?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How are the Oriental Pied Hornbills able to adapt to an urban environment?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How can a juvenile king cobra be identified?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "How can a king cobra be visually distinguished from a keeled rat snake?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How can you differentiate a crocodile from an alligator?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How can you distinguish a male Oriental Pied Hornbill from a female?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How can you distinguish an adult king cobra from a juvenile?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How complete were the three Sauropods fossils sold to the museum?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How deep do sperm whales typically dive when foraging?\r\n\r\n",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do crocodiles regulate their body temperature?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do crocodiles typically hunt?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do estuarine crocodiles regulate their body temperature?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How do Oriental Pied Hornbills communicate?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How do sperm whales communicate and forage?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How do sperm whales protect their young?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How do you know the origin of Jubi Lee?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How does a crocodile use its teeth?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How does a female king cobra build her nest?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "How does the Neptune's Cup Sponge benefit water quality in Singapore?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "How does the presence of king cobras in Singapore challenge the idea that they prefer undisturbed forests?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "How has the knowledge about the diversity and distribution of Rafflesia changed in recent decades?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How has the Oriental Pied Hornbill adapted its diet to Singapore's urban environment?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "How is the conservation status of the king cobra viewed in Singapore compared to the global status?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How is the king cobra important in some cultures?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How long did it go from when Jubi Lee was found to the time that she was displayed in Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How long did the defleshing process for Jubi Lee take?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "How many eggs does a king cobra typically lay in a clutch, and what is the incubation period?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "How many living individuals of the Neptune's Cup Sponge were found in Singapore in 2011?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How many of the discovered fossils were offered for sale to the Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "How many official crocodile attacks were there in Singapore between 1842 and 1989?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How much did Lee Kong Chian Natural History Museum eventually spend on the Sauropodss?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How much money was raised for the Jubilee Whale Fund?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "How much of the known habitat of Rafflesia falls outside of protected areas?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How old are the fossils found at the Dana Quarry?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How potent is the king cobra's venom?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How was the sperm whale specimen preserved for Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "In what state was Jubi Lee found in?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "To what phylum does the Neptune's Cup Sponge belong?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What are conditions to increase the probability of Oriental Pied Hornbill sightings in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What are some anthropogenic threats faced by sperm whales?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What are some of the conservation efforts being made in Singapore to protect Neptune's Cup Sponge?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What are some of the scientific and human uses of Neptune’s Cup Sponges?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What are some of the threats to the Neptune's Cup Sponge in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What are some of the threats to the Oriental Pied Hornbill?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What are some of the threats to these sponges outside of Singapore?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What are some of the traditional uses of the Rafflesia flower?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What are some of the uses for king cobras that lead to them being hunted, farmed, and traded?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What are some physical characteristics of the Oriental Pied Hornbill that help in its identification?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What are some threats to king cobras in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What are the main threats to the king cobra's survival?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What are the phases a Rafflesia goes through in its development?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What are the phases a Rafflesia goes through in its development?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What are the two ways Neptune's Cup Sponges reproduce?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What are the typical body lengths for female hornbills?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What are the typical body lengths for male hornbills?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What countries have a population of estuarine crocodiles?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What did a study reveal about the Oriental pied hornbill's mental abilities?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What did John Crawfurd comment about Neptune's Cup Sponges in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What did Sir Stamford Raffles do in relation to the discovery of Rafflesia?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What did the historical records show about the sponge's occurrence outside of Singapore?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What did the presence of plastic debris in Jubi Lee's stomach showcase?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What do sauropods eat? How do they feed?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What do the claws of sauropods suggest they may have been used for?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What does a Rafflesia flower smell like, and what is the purpose of the smell?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What does the king cobra do when it is annoyed?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What does the king cobra eat?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What does the size of the crocodile's brain reveal about its nature?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What happened to the king cobra specimen on display at Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is a \"bachelor school\" of sperm whales?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is a distinctive feature of the king cobra's head that helps identify it in the field?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is a key finding about Rafflesia's metabolites?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is a notable behavioral trait of the Oriental Pied Hornbill?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is a physical trait of the Oriental Pied Hornbill that helps with seed dispersal?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What is a possible reason for the sponge's disappearance from Singapore waters?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is a recommended conservation approach for Rafflesia?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is a specific ecological role of sperm whales?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What is a specific human use of the sponge that is being explored by scientists?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is sexual dimorphism in sperm whales?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the appearance of an immature Rafflesia flower bud?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the appearance of the flower of Rafflesia?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is the average length of a large king cobra?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the conservation status of the estuarine crocodile on the IUCN Red List?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the conservation status of the genus Rafflesia?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the conservation status of the king cobra on the IUCN Red List and in the Singapore Red Data Book 3?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What is the conservation status of the Neptune's Cup Sponge in the Singapore Red Data Book?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the current worldwide population status of the estuarine crocodile?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the diet of the Oriental Pied Hornbill?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What is the difference between ovipary and vivipary in Neptune's Cup Sponge?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the distribution of the Oriental Pied Hornbills in the broader region?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the global conservation status of the sperm whale?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What is the habitat and depth at which the sponge is found in Singapore waters?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the key role of Oriental Pied Hornbills in the Singapore ecosystem?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the king cobra's reputation regarding its temperament?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the largest living reptile in the world?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the main physical characteristic of the estuarine crocodile's tail?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is the maximum recorded length of a king cobra?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the origin of the king cobra's generic name, Ophiophagus?\r\n\r\n",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the origin of the scientific name Anthracoceros albirostris for Oriental Pied Hornbill?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What is the possible origin of the sperm whale, Jubi Lee, found in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the primary diet of a crocodile?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the purpose of the Singapore Hornbill Project?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the purpose of their well-developed jaw muscles?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the scientific name of the sperm whale?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What is the scientific significance of some Rafflesia species?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the significance of the king cobra's generic name, Ophiophagus?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What is the significance of the low genetic diversity found in the Singapore population?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the size of a Rafflesia flower when it blooms?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What is the size of a sauropod's brain?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the size of Rafflesia flowers?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the specific conservation status of the Oriental Pied Hornbill in the Singapore Red Data Book as of March 2024?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is the typical color of the Neptune's Cup Sponge?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the typical nesting cycle for the Oriental pied hornbill?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is the typical size of a mature Neptune's Cup Sponge?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the weight range for a male Oriental pied hornbill?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the weight range for a male Oriental Pied Hornbill?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is unique about the placement of a crocodile's eyes and nostrils?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What is unique about Twinky's skeleton?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What kind of plants do Rafflesia parasitize?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What material makes up the skeleton of a sponge?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What notable king cobra specimen was held at the Singapore Zoo for nearly nine years?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What organizations does the Singapore Hornbill Project collaborate with?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What products were sperm whales hunted for in the 18th and 19th centuries?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What shape does the Neptune's Cup Sponge have?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What was a past reason for hunting crocodiles in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What was a past reason for hunting crocodiles?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What was found in the stomach contents of Jubi Lee?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What was the initial asking price for the three Sauropods specimens in Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What was the likely cause of Jubi Lee's injury?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What was the longest full specimen of a crocodile in the museum, and who shot it?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What was the longest king cobra ever recorded in Singapore that was collected for a museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What was the name given to the sperm whale found in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What was the name of the captive crocodile at the Singapore Zoo that was later donated to Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What was the name of the first full specimen of a crocodile in Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What was the weight of Kaiser after he was preserved by the Singapore Zoo and how was it changed later?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What were Jubi Lee’s injuries?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What were some historical uses for Neptune's Cup Sponge?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What were the final measurements of Apollonia, Prince, and Twinky?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What were the long necks and whiplash tails of diplodocid sauropods likely used for?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What were the names of the three fossils sold to Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "When and where was the first full specimen of a crocodile in Lee Kong Chian Natural History Museum shot?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "When did whaling for sperm whales happen, and is it legal now?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "When was the hornbill first observed in Singapore after its disappearance?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "When was the king cobra first recorded in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "When was the Neptune's Cup Sponge first described in Singapore, and by whom?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "When was the Neptune's Cup Sponge thought to be extinct in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "When was the sperm whale, Jubi Lee, found in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Where are king cobras commonly found?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Where are king cobras distributed?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Where can Oriental Pied Hornbill populations be found in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Where in Singapore are estuarine crocodiles mainly found?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Where in Singapore can king cobras be found?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Where is the estuarine crocodile found?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Where is the genus Rafflesia restricted to?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Where is the only species-specific king cobra antivenom produced?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Where was the king cobra specimen collected from?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Where was the Rafflesia flower first discovered?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Who gave the king cobra its scientific name, and when?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Who named the genus Rafflesia?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Who rediscovered the Neptune's Cup Sponge in Singapore, and when?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Who was Kaiser?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Who was the first person from the West to find and describe Rafflesia?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Who was the first person to see the flower from the exploration party and what did he observe?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Why did Sauropodsia, International LLC want to sell the Sauropodss to the Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Why did the Singapore Hornbill Project use artificial nest boxes?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Why do sperm whales have low birth rates?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Why does this king cobra have a dent on its head?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why is Apollonia's skeleton noteworthy?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Why is Rafflesia considered a holoparasitic plant?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Why is the conservation of Rafflesia hindered?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Why is the genus Rafflesia a suitable new icon for conservation in the Asian tropics?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why is the head of a sauropod small?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Why is the rediscovery of this sponge significant in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Why was the skin of Kaiser's preserved specimen color-matched to living specimens in Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Why were the Neptune's Cup Sponges popular in Europe?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What specific measures has Singapore's National Parks Board (NParks) implemented to manage the crocodile population in Sungei Buloh Wetland Reserve?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How has the creation of park connectors in Singapore contributed to the successful re-establishment of the Oriental Pied Hornbill population?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What role did the Sisters' Islands Marine Park play in the protection of the rediscovered Neptune's Cup Sponge?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What is the primary food source for sperm whales and how does their deep-diving ability help them hunt?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "How does the parental care of a female king cobra differ from that of other snake species?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What is the symbiotic relationship between the Rafflesia flower and its specific host vine, the Tetrastigma?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What anatomical features of sauropods allowed them to support their massive weight and long necks?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What is the function of the spermaceti organ found in the head of a sperm whale?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How does the casque of an Oriental Pied Hornbill differ in appearance between males, females, and juveniles?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the etymological origin of the name 'Rafflesia'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "How has the commercial farming of estuarine crocodiles impacted their wild population and conservation status globally?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the cultural significance of the king cobra in Hindu mythology and traditions?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Where can we see the Oriental Pied Hornbills flying in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Are there real crocodiles living in Singapore's rivers?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Was the big whale skeleton in the museum found in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Can you find the Neptune's Cup Sponge in the waters near Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What does a king cobra eat for dinner?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How do sperm whales talk to each other under the sea?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How does a mother hornbill take care of her babies inside a tree hole?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What did the giant dinosaurs with long necks like to eat?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How does a crocodile stay warm in the sun?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "How does the Rafflesia flower trick flies into visiting it?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why did the giant sauropod dinosaurs have such long necks?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What does the pattern on the back of a king cobra's hood look like?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "How can you tell the difference between a crocodile's snout and an alligator's snout?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the big bump on top of the hornbill's beak called?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What color is the Rafflesia flower?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Is a sperm whale bigger than a bus?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Why are sperm whales named after 'sperm'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did dinosaurs live at the same time as people?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Is the king cobra the king of all snakes?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Why is the Neptune's Cup Sponge named after a Roman god?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Have king cobras ever been spotted in the parks of Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why are the dinosaur bones in Singapore's museum so special?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Did the person who Singapore is named after, Sir Stamford Raffles, discover the Rafflesia flower?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Why is the Rafflesia called a 'corpse flower'?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Are crocodiles good swimmers?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What do sea sponges like the Neptune's Cup Sponge eat?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How long can a sperm whale hold its breath underwater?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Why do hornbills like to live in tall trees?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What does a Neptune's Cup Sponge feel like?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Why is a sperm whale's head so big and bumpy?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Were the sauropod's front legs longer or shorter than its back legs?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How many teeth does a crocodile have?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Are king cobras venomous?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Are hornbills noisy birds?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What does 'dinosaur' mean?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How big is a sperm whale's tooth?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Why do hornbills have such long eyelashes?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How long can a king cobra grow, as long as a car?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What are the bumpy scales on a crocodile's back for?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Was a sauropod's tail longer than a school bus?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Is the Neptune's Cup Sponge hard like a rock or soft like a pillow?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Does the Rafflesia flower have any green leaves?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Do sperm whales swim alone or in family groups?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What kinds of fruit do Oriental Pied Hornbills like to eat?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Do king cobras build nests for their eggs?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do crocodiles hide from other animals in the water?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did the giant sauropods travel together in big herds?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Do little fish and crabs ever live inside a Neptune's Cup Sponge?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "How many days is the Rafflesia flower open for before it wilts?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Are there special nesting boxes set up for hornbills in Singapore's parks?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What do the signs at Sungei Buloh Wetland Reserve say about crocodiles?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Why was the sperm whale found in Singapore named 'Jubi Lee'?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Are the Neptune's Cup Sponges in Singapore protected by any special rules?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "If someone in Singapore sees a king cobra, who should they call for help?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How did the giant dinosaur skeletons get all the way to the museum in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Are there any Rafflesia flowers growing in Singapore's nature reserves?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Besides Pulau Ubin, what other islands in Singapore can you spot hornbills?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Was it common to see crocodiles in Singapore a long time ago?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How did people in Singapore help pay for the whale skeleton exhibit?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "When was the last time a Neptune's Cup Sponge was seen in Singapore before it was rediscovered?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Which nature reserves in Singapore are known to have king cobras?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Are the dinosaurs in the Singapore museum real bones or copies?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How did hornbills return to Singapore after disappearing for many years?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the name of the big crocodile skeleton on display at the Singapore museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What did the museum have to do to clean the giant whale bones?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Who found the Neptune's Cup Sponge in Singapore after everyone thought it was gone?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Was the king cobra in the museum found in a forest or a city area in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Where in America did the dinosaur bones from the Singapore museum come from?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Does the Singapore Botanic Gardens have a Rafflesia?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What trees in Singapore do hornbills love to eat fruit from?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Are people allowed to swim in the reservoirs where crocodiles live in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "Did scientists find anything inside the Singapore whale's stomach?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "How deep in the sea off Singapore was the Neptune's Cup Sponge found?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Why is the king cobra important for Singapore's forests?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How many dinosaur skeletons are in the Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Is it true that hornbills in Singapore sometimes visit people's apartments?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What should you do if you see a crocodile on a beach in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How long is the sperm whale skeleton in the Singapore museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Is it rare to see a king cobra in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What are the nicknames of the three sauropod skeletons in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the 'Singapore Hornbill Project'?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Where is the best place in Singapore to try and see a wild crocodile safely?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Was the sperm whale found near Singapore alive or dead?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Are scientists in Singapore trying to grow more Neptune's Cup Sponges?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Does the Singapore Zoo have king cobras?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Did children in Singapore help raise money to buy the dinosaurs?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Why don't we see Rafflesia flowers in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What do the hornbills in Singapore's cities eat?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Has a wild crocodile ever been seen in the Singapore River near the Merlion?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Where exactly in Singapore did the sperm whale wash ashore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What part of the ocean near Singapore is home to the sponge?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Are there warning signs for snakes in Singapore's nature parks?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How did they put the giant dinosaur skeletons together inside the Singapore museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Are the hornbills we see in Singapore the same kind as those in Malaysia?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "How does Singapore make sure crocodiles and people stay safe from each other?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How long did it take to get the whale skeleton ready for the museum in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Why was it so surprising for scientists to find the Neptune's Cup Sponge in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is the biggest king cobra ever found in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Are the sauropods the main attraction at the Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What does a king cobra do when it meets another snake?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How does a sperm whale use clicks to find food in the dark ocean?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Why does the mother hornbill lock herself inside the nest?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods chew their food or swallow it whole?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "How long can a crocodile hold its breath while waiting for prey?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What kind of animal helps spread Rafflesia seeds?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How does a Neptune's Cup Sponge eat without a mouth?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Where do king cobras go to sleep at night?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Do baby sperm whales drink milk from their mothers?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How does the father hornbill feed his family while they are in the nest?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How did sauropods defend themselves from meat-eating dinosaurs?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Do crocodiles take care of their baby hatchlings?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "How does the Rafflesia plant get its food if it has no leaves?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Can a Neptune's Cup Sponge move from place to place?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Why does a king cobra lift its head up high off the ground?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is a sperm whale's favorite food?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Do hornbills stay with the same partner for their whole life?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods lay eggs or give birth to live babies?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Why do crocodiles sometimes lie with their mouths wide open?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "How long does it take for a Rafflesia bud to bloom into a flower?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What other sea creatures like to live near a Neptune's Cup Sponge?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Is a king cobra afraid of any other animals?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How deep in the ocean can a sperm whale dive?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How do hornbills help the forest by eating fruit?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What kind of environment did sauropods live in?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Can estuarine crocodiles live in both freshwater and saltwater?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What happens to the Rafflesia flower after it wilts?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How does a king cobra hunt for its food?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Why do sperm whales sometimes jump out of the water?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What sound does an Oriental Pied Hornbill make?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods have to eat all day long to get enough energy?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How does a crocodile use its tail when it swims?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Why does the Rafflesia only grow on a specific type of vine?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How does the sponge help keep the ocean water clean?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How does a king cobra shed its skin?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Do sperm whales sleep?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How do young hornbills learn how to fly and find food?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did sauropods drink water with such long necks?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is a crocodile's favorite time of day to hunt?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What pollinates the Rafflesia flower?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "How does a Neptune's Cup Sponge protect itself from being eaten?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Do king cobras guard their nests?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How do groups of female sperm whales protect their babies from sharks?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Do hornbills clean their feathers?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How fast could a giant sauropod walk?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the 'death roll' a crocodile does?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Can a Rafflesia flower bloom more than once?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How old can a Neptune's Cup Sponge get?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the square-shaped part of a sperm whale's head for?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How can you tell a male hornbill from a female hornbill by looking at their casque?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Why is it called a 'hood' on a king cobra?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Can you see a crocodile's teeth when its mouth is closed?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why was a sauropod's head so small compared to its body?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is the skeleton of a Neptune's Cup Sponge made of?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What do the five big petals of a Rafflesia flower look like?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Is a sperm whale's skin smooth or rough?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What color are the feathers of an Oriental Pied Hornbill?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What color are a king cobra's eyes?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How does a special eyelid help a crocodile see underwater?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What did the feet of a sauropod look like?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "How big can a Neptune's Cup Sponge grow? As tall as a person?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is in the center of the Rafflesia flower?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Does a sperm whale have a fin on its back like a dolphin?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Is the hornbill's large beak heavy or light?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Are baby king cobras the same color as the adults?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Where are a crocodile's eyes and nose located on its head, and why?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods have claws on their feet?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Why is it shaped like a cup or a goblet?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What does a Rafflesia flower bud look like before it opens?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How many blowholes does a sperm whale have?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the shape of a hornbill's wings?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How long are a king cobra's fangs?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What color is an estuarine crocodile?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Were sauropod bones hollow like a bird's or solid?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Which is bigger, a male or a female sperm whale?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How long is an Oriental Pied Hornbill's tail?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What do the scales of a king cobra feel like?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How strong is a crocodile's bite?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What did the skin of a sauropod look like?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Does the sponge have different colors?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Is the Rafflesia the biggest single flower in the world?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What does the tail of a sperm whale look like?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How much does an Oriental Pied Hornbill weigh?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How does a king cobra move without legs?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is different about a crocodile's heart compared to a human's?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How many bones are in a sauropod's long neck?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Does the sponge have a front and a back?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How big is a sperm whale's brain?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What do a hornbill's feet look like?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Can you tell how old a king cobra is by its size?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How big can an estuarine crocodile get?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How tall was a sauropod compared to a house?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "How much does a big Rafflesia flower weigh?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What does the inside of a Neptune's Cup Sponge look like?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Where does the name 'sperm whale' come from?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Are Oriental Pied Hornbills endangered?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Are there special medicines made from king cobra venom?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Are crocodiles dinosaurs?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How do we know what color dinosaurs were?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Why was the Neptune's Cup Sponge once used as a bathtub for babies?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Who was the flower Rafflesia named after?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What famous story was written about a white sperm whale?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Are hornbills considered good luck in some cultures?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Why are king cobras respected or feared in many countries?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the difference between a crocodile and an alligator?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What does the name 'sauropod' mean?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Is the Neptune's Cup Sponge an animal or a plant?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Are people trying to protect the forests where Rafflesia grows?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Why were sperm whales hunted by people in the past?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What does the scientific name for the Oriental Pied Hornbill mean?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What does the scientific name 'Ophiophagus hannah' mean?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Which countries have the most estuarine crocodiles?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "When did the sauropods become extinct?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Who was Neptune in ancient stories?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Is it against the law to pick a Rafflesia flower?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Are there laws to protect sperm whales today?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What other types of hornbills are there in the world?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Are king cobras good for the environment?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How long have crocodiles been on Earth?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Who are the scientists that study dinosaur bones?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Why did people think the Neptune's Cup Sponge was extinct?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What are the main threats to sperm whales today?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Are there snake charmers who work with king cobras?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Are crocodiles hunted for their skin?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What is the most famous type of sauropod?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Can you grow a Rafflesia in your own garden?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How does pollution in the ocean affect sperm whales?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Are there any cartoons or movies with hornbills in them?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is the difference between venom and poison?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Are there stories or myths about crocodiles?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How do scientists get dinosaur bones out of the ground?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Are there other types of giant sponges in the sea?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Why is it important to save the Rafflesia flower from extinction?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What does the word 'cetacean' mean?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Do people build artificial nests to help hornbills?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Where is the king cobra on the list of the world's most venomous snakes?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Is the estuarine crocodile the largest reptile in the world?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Could a sauropod live in today's world?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Are sponges like the Neptune's Cup found in deep parts of the ocean?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What country has the most types of Rafflesia?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the conservation status of the sperm whale?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Is it true that a mongoose can fight a king cobra?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How long ago did the sauropods live?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "If a Rafflesia were to be found in Singapore, would it be in the news?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What does the 'ACRES' group in Singapore do if they find a king cobra?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Are there any videos or pictures of the Neptune's Cup Sponge taken in Singapore's waters?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "Did any kids from Singapore get to see the whale skeleton being put together?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Are the crocodiles in the Singapore Zoo from Singapore originally?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Do schools in Singapore ever go on trips to see the hornbills?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Is the dinosaur exhibit in Singapore a popular place for families to visit?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Who was the first person from Singapore to see a Rafflesia in another country?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Are there stories about king cobras in Singapore's history?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Do divers in Singapore look for more Neptune's Cup Sponges?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "Were there any traffic jams in Singapore when they moved the giant whale bones?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Are there fences in Singapore to keep crocodiles in their reserves?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Do people in Singapore leave out fruit for the hornbills?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Does the Singapore museum have a gift shop with dinosaur toys?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "How does Singapore teach people to live safely with snakes like the king cobra?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Was the Singapore whale a boy or a girl?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the most famous crocodile that ever lived in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Has a hornbill ever been seen near the Merlion in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Is the water where the sponge lives in Singapore busy with ships?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What other fossils were found with the sauropods that came to Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Why is it hard for a plant like Rafflesia to grow in a busy city like Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What should you do if you find a snake skin in a Singapore park?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "Is the sperm whale the biggest skeleton in any museum in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Were people in old Singapore scared of crocodiles?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Are the hornbills in Singapore tagged by scientists to study them?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How much did the tickets cost to see the dinosaurs when the exhibit first opened in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Could a big ship's anchor accidentally hurt the sponges in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Has anyone in Singapore tried to grow a Rafflesia in a special greenhouse?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Are there any roads in Singapore where signs say 'Beware of snakes crossing'?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What other sea animal skeletons are in the same museum as the Singapore whale?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Do the reservoirs in Singapore have signs warning about crocodiles?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How do we know the hornbill population in Singapore is growing?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Did the Singapore museum have to build a special room to fit the giant dinosaurs?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Do sea turtles in Singapore ever swim near the Neptune's Cup Sponge?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Does Singapore have an anti-venom for king cobra bites in its hospitals?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "If you could bring one plant to Singapore, would a Rafflesia be a good choice?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What was the biggest challenge in getting the whale skeleton to Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "How do nature photographers in Singapore take pictures of crocodiles safely?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is being done in Singapore to make sure hornbills always have a home?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Are the dinosaur bones in Singapore arranged to look like they are walking?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Has a king cobra ever been found in someone's garden in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Are there plans to make the area where sponges live a protected marine park in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How many people visit the whale exhibit in Singapore each year?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Does Singapore use drones to monitor its crocodile population?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the best time of day to see hornbills in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Does the Singapore museum let kids sleep over with the dinosaurs?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Which country near Singapore is the best place to see a wild Rafflesia?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Do the army soldiers in Singapore get trained on what to do if they see a king cobra?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Does water pollution from Singapore affect the Neptune's Cup Sponge?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Is the story of the Singapore whale taught in schools?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Why can't the Rafflesia flower grow on its own?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How does a king cobra use its tongue to smell?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Does the sponge have baby sponges?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Do sperm whales play games with each other?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do crocodiles stay so still in the water?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Do hornbills throw away the seeds after eating the fruit?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods need to sleep standing up?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What happens to the vine that the Rafflesia lives on?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Can a king cobra climb trees?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How does water flow through a sponge?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Do sperm whales ever get lost in the big ocean?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Do crocodiles have friends?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How does a hornbill break open hard fruits with its beak?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods use their long tails like a whip?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Does the Rafflesia flower have a favorite type of weather?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How many eggs does a mother king cobra lay?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Does anything try to eat the Neptune's Cup Sponge?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How do mother sperm whales teach their babies to hunt?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Can a crocodile run fast on land?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Do hornbills ever fight with each other?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods migrate to find food?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Does the smelly Rafflesia attract bees or flies?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How does a king cobra find a mate?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What happens to the sponge during a big storm in the sea?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Do sperm whales have a leader in their group?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What does a baby crocodile eat?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Where do hornbills go when it rains heavily?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods need to drink a lot of water?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "How does the Rafflesia attach itself to the host vine?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Do king cobras like hot weather or cool weather?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Can a broken piece of a sponge grow into a new sponge?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How do sperm whales help the ocean ecosystem?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Do crocodiles have a good sense of smell?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How do hornbills find the perfect tree to make a nest?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did baby sauropods stay with their parents?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Is the Rafflesia a shy flower?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Can a king cobra swim?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How does the sponge stay attached to the sea floor?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the biggest enemy of the sperm whale?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do crocodiles communicate with each other?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How far can an Oriental Pied Hornbill fly in one day?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What did sauropods do for fun?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Does the Rafflesia have any predators?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How often does a king cobra need to eat?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is the main job of a sponge in the ocean?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How long does a sperm whale live?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Do crocodiles get cavities in their teeth?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What time do hornbills wake up in the morning?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did sauropods protect their eggs?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the life cycle of a Rafflesia flower?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why did sauropods have such thick legs?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Does the Rafflesia flower feel soft or leathery?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How does a king cobra's skeleton look?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Can you see through a Neptune's Cup Sponge?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How thick is a sperm whale's layer of blubber?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Are a crocodile's scales waterproof?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Does the casque on a hornbill's beak serve a purpose?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How many toes did a sauropod have on each foot?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Are all Rafflesia flowers the same size?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Is a king cobra's belly the same color as its back?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Does the shape of the sponge change as it gets older?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Are a sperm whale's eyes big or small for its body?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Does a crocodile have a tongue?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How does a hornbill use its beak to pick up small things?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How much did a single sauropod footprint weigh?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Does the Rafflesia have a stem like other flowers?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How is a king cobra different from a regular cobra?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What are the little holes on the sponge for?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is inside a sperm whale's giant head?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Do crocodiles have good eyesight?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Do hornbill feathers have different patterns?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How were a sauropod's teeth shaped for eating plants?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What color is a Rafflesia bud?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Does a king cobra have ears?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Is the rim of the sponge's cup smooth or jagged?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How much does a sperm whale's heart weigh?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Can a crocodile replace its teeth if they fall out?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How strong is a hornbill's neck to support its large beak?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How long was the longest sauropod ever discovered?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Does the Rafflesia have roots?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What are the stripes or patterns on a young king cobra called?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How is the base of the sponge attached to the ground?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How powerful is a sperm whale's tail fin?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How is a crocodile's body designed for sneaking up on prey?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Are a hornbill's bones heavy or light?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did all sauropods have long necks and long tails?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Is the Rafflesia flower hot or cold to the touch?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How does a king cobra's body feel to touch?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How much water can a large Neptune's Cup Sponge hold?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How is a sperm whale's blowhole different from other whales?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How many chambers does a crocodile's heart have?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Can you tell how old a hornbill is by its casque?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How big was a sauropod's brain?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the texture of a Rafflesia petal?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Does the king cobra have good eyesight?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Is the sponge heavier than it looks?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What are the grooves on a sperm whale's throat for?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Are male and female crocodiles different sizes?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How does a hornbill fly with such a big beak?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How much did a sauropod weigh?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Where did the first dinosaur bone get its name from?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Are there any cartoons or movies that feature a Rafflesia flower?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "In which country is the king cobra a national symbol?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Are there any famous paintings that include a Neptune's Cup Sponge?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Have sperm whales ever been featured on a country's money?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What ancient cultures worshipped crocodiles as gods?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Are there any traditional stories or myths about hornbills?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What is the job of a paleontologist?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What does 'parasite' mean when talking about plants?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is 'anti-venom' and how is it made?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Why do museums want to have a Neptune's Cup Sponge in their collection?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is 'ambergris' and why was it so valuable?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Why is it important to conserve crocodiles?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How do birdwatchers identify different types of hornbills?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did scientists figure out what dinosaurs ate?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What does the word 'endangered' mean for a plant?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Is it legal to own a king cobra as a pet?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What scientific family do sponges belong to?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Are sperm whales and dolphins related?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What are the biggest threats to crocodiles in the wild today?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Why are healthy forests important for hornbills?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What was the world like when sauropods were alive?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Are there different species of Rafflesia flowers?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What other animals are immune to a king cobra's venom?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Are new species of sea sponges still being discovered?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How do scientists count how many sperm whales are in the ocean?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is a 'cold-blooded' animal?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is 'seed dispersal' and why is it important?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why aren't there any dinosaurs alive today?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Has the Rafflesia flower ever been used as a medicine?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is the difference between a king cobra and a python?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What are the main threats to coral reefs where sponges might live?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the 'IUCN Red List'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What do you call a scientist who studies reptiles?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What do you call a scientist who studies birds?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Are there any dinosaurs that are related to birds?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Can tourism help or hurt the Rafflesia flower?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Why shouldn't you approach a king cobra in the wild?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is 'marine biology'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How do loud noises from ships affect whales?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Are crocodile farms a good thing or a bad thing for the species?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Why is cutting down trees bad for hornbills?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Could scientists ever bring dinosaurs back to life like in the movies?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What does the word 'botanist' mean?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How do snakebite kits work?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is 'biodiversity' and why is the sponge a part of it?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is a 'mammal'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How can you tell how old a crocodile is?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What other animals live in the same forests as hornbills?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What was the biggest meat-eating dinosaur that hunted sauropods?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Are there any special lights or sounds in the dinosaur exhibit in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "If a Rafflesia grew in Singapore, would it be on the front page of the newspaper?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Do the zookeepers at the Singapore Zoo have a special way to handle king cobras safely?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Has the discovery of the sponge in Singapore led to more people wanting to protect the sea?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "Are there any art drawings by Singaporean children of the Jubi Lee whale?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Do the crocodiles at the Singapore Zoo have names?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Are there any stamps or coins in Singapore that feature the Oriental Pied Hornbill?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What is the most common question kids ask about the dinosaurs at the Singapore museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Could Singapore's warm weather be a good home for a Rafflesia?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What other kinds of snakes can you find in Singapore's nature reserves?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Are there any local legends in Singapore about strange sea creatures like the sponge?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How do they dust the giant sperm whale skeleton in the Singapore museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Have any crocodiles ever escaped from the Singapore Zoo?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the penalty in Singapore for hurting a protected bird like the hornbill?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Can you take a selfie with the dinosaurs in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the longest a king cobra has lived for in the Singapore Zoo?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Did Sir Stamford Raffles write about any smelly flowers in his notes about Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Do tour boats in Singapore go to the area where the sponges were found?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "Are there any plans to add more whale skeletons to the museum in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the diet of the crocodiles at the Singapore Zoo?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Are there more hornbills in Singapore now than there were 10 years ago?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Does the Singapore museum have any dinosaur eggs on display?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Do firemen in Singapore ever get calls about snakes?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "Was the Singapore whale skeleton assembled by local or international experts?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Are there any famous crocodile stories from the Singapore River?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Do the hornbills in Singapore migrate to other countries during certain times of the year?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "How does Singapore's land reclamation affect sea life like the sponge?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Is there a video at the Singapore museum showing how they found the dinosaur bones?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the closest place to Singapore to see a Rafflesia?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Have there been any movies filmed in Singapore that feature its wildlife like king cobras?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What is the official name of the museum in Singapore where the whale is located?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "How deep are the waters where crocodiles are found in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Are there any specific 'hornbill crossing' signs for traffic in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How many shipping containers did it take to bring the dinosaur bones to Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Is the location of the Neptune's Cup Sponge in Singapore a secret to protect it?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Do public parks in Singapore have information boards about local snakes?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Do any books in Singapore's libraries talk about the Rafflesia?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "Did the sperm whale get a special ceremony when it was first displayed in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Are there any crocodile farms in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Do hornbills in Singapore have any natural predators?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Can you touch the dinosaur bones in the Singapore museum?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What part of Singapore has the most snake sightings?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Does Singapore's navy know about the location of the sponges to avoid them?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What tools did they use to clean the barnacles off the whale bones in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the legal status of crocodile hunting in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Is the hornbill the most famous bird in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How does the Singapore museum protect the dinosaur bones from earthquakes?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Are there any Singaporean scientists studying the Rafflesia flower?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How does Singapore's hot weather affect the king cobras?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Does the water temperature around Singapore affect the sponge's health?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods ever get sick?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Why does the Rafflesia flower smell so bad?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Are baby king cobras dangerous from the moment they hatch?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Does the sponge do anything at night?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How do sperm whales navigate in the deep, dark ocean?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Do crocodiles have territories that they defend?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Do hornbills take baths?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What sounds did sauropods make?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Does the Rafflesia flower produce any heat?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Why do king cobras sometimes eat their own kind?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How is the sponge important for other small sea creatures?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "Do sperm whales have different accents in their clicks depending on where they live?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How does a crocodile catch a bird?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How do hornbills decide who gets the best food?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods have any predators?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "How many seeds does a single Rafflesia fruit contain?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Does a king cobra dance to a snake charmer's music?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is the biggest threat to a sponge's life in the ocean?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is a 'whale fall' and why is it important?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Can a crocodile live for a long time without eating?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How do hornbills help plant new trees?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods swallow stones to help digest their food?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What happens if the host vine of a Rafflesia dies?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Is a king cobra shy or aggressive?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Does the sponge have a brain?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Do sperm whales ever fight with giant squids?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do crocodiles help keep rivers and swamps healthy?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Do hornbills play?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did sauropods live in herds?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Can you be allergic to a Rafflesia flower's smell?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Do king cobras hibernate?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How do sponges reproduce?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the social structure of a sperm whale pod?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do baby crocodiles get into the water after they hatch?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the purpose of the casque on a hornbill's beak?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Did sauropods walk with their legs straight under them or out to the side like a lizard?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Does the Rafflesia only bloom at a certain time of year?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How far can a king cobra travel in a day?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Do sponges feel pain?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Do older sperm whales teach the younger ones?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Do crocodiles cry 'crocodile tears'?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How do hornbills keep their nests clean?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods wallow in mud?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Is the Rafflesia helpful or harmful to the vine it lives on?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What happens when two male king cobras meet?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How long does a sponge take to grow to its full size?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How do sperm whales protect themselves from orcas?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Can a crocodile jump out of the water?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the hornbill's role in the food chain?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why did sauropods become extinct?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What is the biggest bone in a sauropod's body?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Does a Rafflesia flower have nectar?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Can a king cobra hear you talking?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Is the sponge's skeleton on the inside or the outside?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Does a sperm whale have teeth on its top jaw and bottom jaw?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How is a crocodile's skin like a suit of armor?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Do hornbills have a good sense of smell?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did a sauropod's body stay balanced?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "How many different species of Rafflesia are there?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How does a king cobra's hood work?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What color is a Neptune's Cup Sponge when it's alive versus when it's a dry skeleton?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How much does a sperm whale's brain weigh?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Why do crocodile's have a 'third eyelid'?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Are a hornbill's wings noisy when it flies?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Were sauropods warm-blooded like us or cold-blooded like lizards?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Can you see the Rafflesia's vine host above the ground?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Does a king cobra's venom work on all animals?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Is a bigger sponge an older sponge?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How is a sperm whale's skeleton different from a land animal's skeleton?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Do crocodiles have fingerprints?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What does a hornbill's skeleton look like?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How did scientists figure out how sauropods walked from just their bones?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Is the Rafflesia heavy to carry?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Is a king cobra's blood warm or cold?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "If you looked at a piece of sponge under a microscope, what would you see?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Do sperm whales get scars and other marks on their skin?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How much does a big estuarine crocodile weigh?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How do a hornbill's feet grip onto branches?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Which part of the sauropod is the most difficult to find as a fossil?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Why are the petals of a Rafflesia so thick?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How flexible is a king cobra?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Does the sponge have a top and a bottom?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How big is a baby sperm whale when it is born?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is unique about a crocodile's stomach?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Can a hornbill see in color?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods have a good sense of smell?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the texture of the center part of the Rafflesia?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Does a king cobra have a forked tongue like other snakes?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Is the sponge symmetrical?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How does a sperm whale's body handle the pressure of deep dives?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How does a crocodile's jaw work?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How sharp is a hornbill's beak?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How did a sauropod's neck bones fit together to allow movement?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Does the flower look different from the top than from the side?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How many ribs does a king cobra have?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Are all Neptune's Cup Sponges perfectly cup-shaped?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What do the scars from giant squid on sperm whales look like?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What does a crocodile's footprint look like?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Do male and female hornbills have different colored eyes?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What is the most interesting bone in a sauropod's body?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "If dinosaurs were alive, could we have them as pets?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Why is it important for people to see the Rafflesia in its natural habitat instead of a picture?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "If you were to create a superhero based on a king cobra, what powers would it have?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What would it be like to live inside a Neptune's Cup Sponge?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the most amazing fact about sperm whales?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Are crocodiles smarter than we think?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Why are hornbills a symbol of a healthy forest?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What are the biggest misconceptions people have about dinosaurs?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the future of the Rafflesia flower?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is the role of the king cobra in myths and legends?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How did the sponge get its scientific name?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How has our understanding of whales changed over time?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What can we learn from studying an ancient animal like the crocodile?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What can people do to help protect hornbills?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How has technology helped us learn more about dinosaurs?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is 'ecotourism'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Why do some people worship snakes?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What other amazing creatures live in the deep sea?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is 'whale watching'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How have crocodiles survived for millions of years?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is an 'indicator species'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What is a 'fossil'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Why is it important to protect rainforests?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What should you do if you are bitten by a snake?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is a 'living fossil'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How can we reduce plastic pollution to help whales?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the difference between a reptile and an amphibian?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is an 'omnivore'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What are the different periods of the dinosaur age?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "How do scientists discover new species of plants?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Are snakes deaf?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is 'scuba diving'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is 'echolocation'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is 'conservation'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is 'monogamous'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What is 'continental drift' and how did it affect dinosaurs?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is 'symbiosis'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What does it mean if a snake is a 'constrictor'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is a 'marine protected area'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Why is the ocean important for our planet?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is an 'apex predator'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is 'deforestation'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What killed the dinosaurs?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is 'biodiversity hotspot'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is 'molting' or 'shedding'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is a 'ROV' (Remotely Operated Vehicle)?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the 'International Whaling Commission'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the 'CITES' treaty?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is a 'wildlife corridor'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How do we know how old a dinosaur fossil is?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What year was the sperm whale specimen found in Singapore?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Which government agency in Singapore is involved with the Singapore Hornbill Project?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the name of the primary wetland reserve in Singapore where crocodiles are found?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "From which specific location in Singapore was the museum's king cobra specimen collected?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What was the fundraising target for the acquisition of the sauropod fossils for the Singapore museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "The rediscovery of the Neptune's Cup Sponge occurred in which of Singapore's marine areas?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Did Sir Stamford Raffles document the Rafflesia during his time in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What was the estimated age of the sperm whale found off Singapore's coast?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What type of artificial structures are used to encourage hornbill nesting in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the management protocol for crocodile sightings in public areas of Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Are king cobra populations in Singapore considered stable?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Which quarry in the United States were the Singapore museum's sauropod fossils excavated from?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What maritime activities in Singapore pose a potential threat to the Neptune's Cup Sponge?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What preservation techniques were used on the Singapore sperm whale specimen?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How has urbanization in Singapore affected the natural habitat of the hornbill?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Are there historical records of crocodile attacks in colonial Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What role do Singapore's nature reserves play in the conservation of the king cobra?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What is the estimated monetary value of the sauropod fossils housed in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What specific water conditions are required for the Neptune's Cup Sponge to thrive near Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Is the host vine required by Rafflesia found anywhere in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What non-biological items were found in the stomach of the Singapore sperm whale?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Which part of Singapore has the highest density of Oriental Pied Hornbills?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What was the name of the captive crocodile from the Singapore Zoo that is now a museum specimen?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the protocol for wildlife rescue groups in Singapore when a king cobra is reported in a residential area?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How long did the assembly process for the sauropod skeletons take in the Singapore museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "How did the scientific community in Singapore verify the rediscovery of the Neptune's Cup Sponge?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What injuries were observed on the carcass of the Singapore sperm whale?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What year were Oriental Pied Hornbills officially declared locally extinct in Singapore before their return?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "How does the National Parks Board (NParks) in Singapore educate the public about crocodiles?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Are there any genetic studies on the king cobra population specific to Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What engineering challenges were faced when mounting the sauropod skeletons in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Is the public allowed to dive at the location where the Neptune's Cup Sponge was found in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "Which organizations collaborated on the recovery and preservation of the Singapore whale?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What impact does the hornbill population have on Singapore's urban green spaces?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the estimated population size of estuarine crocodiles in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the legal status of killing a king cobra in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How are the sauropod fossils in Singapore protected from environmental damage like humidity?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Who made the first historical record of the Neptune's Cup Sponge in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What is the official exhibit name for the sperm whale at the Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How do researchers in Singapore track the movement of hornbills?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "Are the crocodile habitats in Singapore expanding or shrinking?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What other snake species are the primary prey for king cobras in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What educational programs does the Singapore museum offer related to its sauropod fossils?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What ongoing research is being conducted on the Neptune's Cup Sponge population in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How does the Singapore museum use the sperm whale specimen for scientific research?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What role did Pulau Ubin play in the re-establishment of hornbills in Singapore?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "How does Singapore's water management affect crocodile habitats?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "How do Singapore's 'park connector' networks affect the movement of king cobras?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What percentage of the Lee Kong Chian Natural History Museum's collection do the sauropods represent?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What conservation status was assigned to the Neptune's Cup Sponge in Singapore after its rediscovery?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the typical prey of a sperm whale?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "Describe the nesting behavior of the Oriental Pied Hornbill.",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What hunting technique is characteristic of the estuarine crocodile?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is the primary diet of a king cobra?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What type of vegetation did sauropods consume?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "How does the Neptune's Cup Sponge obtain nutrients?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "Describe the parasitic relationship between Rafflesia and its host.",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the social structure of a typical sperm whale pod?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the male hornbill's role during the nesting period?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do estuarine crocodiles regulate their body temperature?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Describe the process of nest building by a female king cobra.",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What evidence suggests sauropods were herd animals?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What is the ecological role of the Neptune's Cup Sponge in its habitat?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How do sperm whales use sound for communication and foraging?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the ecological significance of the hornbill's role as a seed disperser?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the typical lifespan of an estuarine crocodile in the wild?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What defensive behaviors does a king cobra display when threatened?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What theories explain how sauropods supported their long necks?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What are the reproductive methods of the Neptune's Cup Sponge?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the method of pollination for the Rafflesia flower?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What is the average dive depth and duration for a foraging sperm whale?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the incubation period for Oriental Pied Hornbill eggs?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do female crocodiles protect their nests?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is the typical incubation period for king cobra eggs?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What was the likely growth rate of a sauropod from hatchling to adult?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What environmental factors limit the distribution of the Neptune's Cup Sponge?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What are the primary natural predators of sperm whales?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How have Oriental Pied Hornbills adapted to urban environments?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the significance of the 'death roll' in crocodile hunting behavior?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What habitats do king cobras typically prefer?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How did sauropods process the large amounts of plant matter they consumed?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "How does the sponge's structure provide habitat for other marine organisms?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "How long is the blooming period of a single Rafflesia flower?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Describe the migratory patterns of sperm whales.",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What vocalizations are characteristic of the Oriental Pied Hornbill?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do estuarine crocodiles tolerate saltwater environments?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How do king cobras interact with other snake species?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What was the function of the long tails of diplodocid sauropods?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What is the growth rate of a Neptune's Cup Sponge?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the gestation period for a sperm whale?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the primary diet of an Oriental Pied Hornbill?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How do hatchling crocodiles communicate with their mother?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "Describe the territorial behavior of king cobras.",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What evidence exists for parental care in sauropods?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "How do changes in water quality affect the Neptune's Cup Sponge?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What is the process of seed dispersal for Rafflesia?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What is the 'Marguerite formation' used by sperm whales for defense?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How long do juvenile hornbills stay with their parents?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the role of the estuarine crocodile as an apex predator in its ecosystem?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "How does a king cobra track its prey?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What was the ecological impact of large sauropod herds on the environment?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What is the function of the spermaceti organ in a sperm whale's head?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What are the key physical differences between male and female Oriental Pied Hornbills?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What features distinguish an estuarine crocodile from a freshwater crocodile?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What are the distinguishing features of a king cobra's head and scales?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What anatomical adaptations allowed sauropods to attain such large sizes?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What is the skeletal structure of a Neptune's Cup Sponge composed of?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "Describe the morphology of a mature Rafflesia flower.",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What is the average length and weight of an adult male sperm whale?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the structure and function of the casque on a hornbill's beak?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "Describe the dental structure of an estuarine crocodile.",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "How does the coloration of a juvenile king cobra differ from that of an adult?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What were the functions of the air sacs in the bones of sauropods?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What are the typical dimensions of a mature Neptune's Cup Sponge?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Describe the unique positioning of a sperm whale's blowhole.",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the average wingspan of an Oriental Pied Hornbill?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the purpose of the nictitating membrane in a crocodile's eye?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is the maximum recorded length of a king cobra?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Describe the structure of a sauropod's foot.",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What is the texture and consistency of a living Neptune's Cup Sponge?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "What parts of a typical plant are absent in Rafflesia?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How does the physical appearance of a male sperm whale differ from a female?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Describe the coloration and pattern of a hornbill's feathers.",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What are the osteoderms on a crocodile's back?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Describe the fangs and venom delivery system of a king cobra.",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How did the structure of the sauropod heart and circulatory system likely function?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Describe the internal canal system of the sponge.",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the physical structure of a sperm whale's flipper?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What are the physical characteristics of a hornbill's eyes?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the function of the palatal valve in a crocodile's throat?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the function of the Jacobson's organ in a king cobra?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What do fossilized trackways reveal about the locomotion of sauropods?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "How does the physical structure of the sponge facilitate filter-feeding?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What is the physical appearance of a Rafflesia bud before it blooms?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "Describe the skin texture of a sperm whale.",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "How is the hornbill's beak adapted for its diet?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How does the tail structure of a crocodile aid in swimming?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is the scale arrangement on a king cobra?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What was the purpose of the claws on the feet of some sauropods?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What causes the color variation in Neptune's Cup Sponges?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the average size of a newborn sperm whale calf?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Oriental Pied Hornbill",
+    "Question": "What is the weight range of an adult Oriental Pied Hornbill?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "How does the snout shape of a crocodile differ from an alligator?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Describe the mechanism that allows a king cobra to expand its hood.",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How did the skeletal structure of a sauropod support its immense weight?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "What are spicules in the context of a sponge?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What is the average diameter of a fully bloomed Rafflesia arnoldii?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "How are the teeth of a sperm whale adapted for its diet?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "Describe the physical development of a hornbill from chick to adult.",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the average weight of an adult male estuarine crocodile?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "How does the internal anatomy of a king cobra accommodate its elongated shape?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What do fossilized skin impressions tell us about the appearance of sauropods?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the current IUCN Red List status of the sperm whale?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the etymology of the scientific name 'Anthracoceros albirostris'?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "In which geological period did the ancestors of modern crocodiles first appear?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What is the origin of the genus name 'Ophiophagus'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What does the term 'sauropod' mean?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "To what phylum does the Neptune's Cup Sponge belong?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Rafflesia",
+    "Question": "For whom is the genus Rafflesia named?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What was the primary product for which sperm whales were hunted during the whaling era?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the global population trend for the Oriental Pied Hornbill?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the CITES status of the estuarine crocodile?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "Where is the primary production center for king cobra antivenom?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "During which geologic period did sauropods reach their greatest diversity?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What was the historical use of Neptune's Cup Sponges in the 19th century?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What major international treaty protects sperm whales from commercial hunting?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the conservation status of the Oriental Pied Hornbill in Singapore's Red Data Book?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What is the cultural significance of crocodiles in ancient Egyptian civilization?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the cultural significance of the king cobra in Hinduism?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Who were some of the key paleontologists in the discovery of major sauropod fossils?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "Why was the Neptune's Cup Sponge believed to be extinct for over a century?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What are the main threats to the conservation of Rafflesia species?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is ambergris and what was its historical value?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the geographic distribution of the Oriental Pied Hornbill?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the economic impact of commercial crocodile farming?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "King Cobra",
+    "Question": "What are the main components of king cobra venom?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What were the main competing theories about sauropod posture and lifestyle during the 20th century?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Neptune's Cup Sponge",
+    "Question": "Is the Neptune's Cup Sponge considered a 'living fossil'?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What are the primary anthropogenic threats facing sperm whales today?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the relationship between hornbills and their role in folklore and mythology?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "How does climate change impact estuarine crocodile habitats?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the conservation status of the king cobra according to the IUCN?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What event led to the mass extinction of the sauropods?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What scientific advancements led to the potential for rediscovering species like the Neptune's Cup Sponge?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What is the IUCN conservation status for the most critically endangered Rafflesia species?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sperm Whale",
+    "Question": "What is the scientific classification of the sperm whale?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What are the main conservation challenges for the Oriental Pied Hornbill?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Estuarine Crocodile",
+    "Question": "What is the geographic range of the estuarine crocodile?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the medicinal or scientific value of studying king cobra venom?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How did the discovery of sauropod fossils influence early theories of evolution?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What is the taxonomic classification of the Neptune's Cup Sponge?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "What role does the sperm whale play in marine nutrient cycles?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "How does deforestation affect the survival of the Oriental Pied Hornbill?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "What legal frameworks exist for the international trade of crocodile products?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What are the primary reasons for the decline in king cobra populations?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What is the significance of the Morrison Formation for sauropod paleontology?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Neptune's Cup Sponge",
+    "Question": "What is the potential for discovering new bioactive compounds from the Neptune's Cup Sponge?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Rafflesia",
+    "Question": "What is the role of habitat protection in the conservation of Rafflesia?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sperm Whale",
+    "Question": "How do ship strikes and noise pollution affect sperm whale populations?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Oriental Pied Hornbill",
+    "Question": "What is the role of citizen science in monitoring hornbill populations?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Estuarine Crocodile",
+    "Question": "How do scientists study the population dynamics of estuarine crocodiles?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "King Cobra",
+    "Question": "What is the role of habitat fragmentation in threatening king cobra survival?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What techniques are used to date sauropod fossils?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How did scientists first recognize sauropods as a distinct dinosaur group?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What role did sauropods play in inspiring public interest in paleontology?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What is the largest sauropod fossil ever discovered?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why are complete sauropod skeletons so rare?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How do paleontologists reconstruct missing parts of sauropod fossils?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What are some famous sauropod discoveries in history?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What techniques are used to date sauropod fossils?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How do sauropod footprints help scientists understand their behavior?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Have sauropod fossils in Singapore inspired new museum exhibitions?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How do Singapore researchers collaborate with other countries on sauropod studies?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Are sauropod fossils in Singapore used for international research projects?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What impact have sauropods had on Singapore’s tourism industry?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How do Singapore schools use sauropod exhibits in teaching science?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Has Singapore contributed to global sauropod fossil conservation?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Do Singapore museums run workshops on sauropod fossils?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What was the bone structure of a sauropod like?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How many vertebrae did sauropods typically have in their necks?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How strong were the leg bones of sauropods?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods have sharp or flat teeth?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What does the shape of sauropod jaws suggest about their diet?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did sauropods balance their long necks and tails?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What adaptations made sauropods the largest land animals?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods have any special features in their ribcages?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did sauropods influence the vegetation of their time?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Did sauropods compete with other herbivorous dinosaurs for food?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did sauropods communicate with one another?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What evidence suggests sauropods traveled long distances?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods prefer living near rivers or forests?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What nesting behaviors have been discovered in sauropods?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did sauropods’ massive size protect them from predators?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What role did sauropods play in shaping prehistoric ecosystems?",
+    "Intent": "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Where were most sauropod fossils discovered around the world?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How do paleontologists identify sauropod fossils?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What challenges do researchers face when excavating sauropods?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How do museums preserve large sauropod skeletons?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why are sauropods often considered iconic dinosaurs?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What scientific debates surround sauropod classification?",
+    "Intent"  : "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "How did sauropod discoveries change our understanding of dinosaurs?",
+    "Intent": "GET_OTHER"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Why are sauropods important to the Lee Kong Chian Natural History Museum?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Have sauropods been featured in Singapore's dinosaur exhibitions?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What role do sauropod fossils play in Singapore's science education?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How has the Singapore public responded to sauropod displays?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Are there any Singapore-led studies focusing on sauropods?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why did Singapore choose to acquire sauropod fossils?",
+    "Intent"  : "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What conservation steps are taken in Singapore for sauropod fossils?",
+    "Intent": "GET_SINGAPORE_CONTEXT"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How long could the largest sauropods grow?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What was the average weight of a sauropod?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How many bones are typically found in a sauropod skeleton?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What is unique about the neck structure of sauropods?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Why were sauropod tails so long?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "What does the size of a sauropod’s skull reveal about its diet?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species": "Sauropods",
+    "Question": "Did sauropods have large or small brains compared to their body size?",
+    "Intent": "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What features distinguish sauropods from other dinosaurs?",
+    "Intent"  : "GET_PHYSICAL_CHARACTERISTICS"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What plants did sauropods mainly eat?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did sauropods reach food in tall trees?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods live in herds?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did sauropods protect themselves from predators?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods migrate to find food?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How fast could a sauropod walk?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "What role did sauropods play in their ecosystems?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "How did sauropods care for their young?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  },
+  {
+    "Species" : "Sauropods",
+    "Question": "Did sauropods prefer swampy or dry environments?",
+    "Intent"  : "GET_ECOLOGY_AND_BEHAVIOR"
+  }
+]
