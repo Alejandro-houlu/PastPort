@@ -4,8 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
 import { RouterModule } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
+import { MuseumChatWebSocketService, ChatResponse, ChatThinkingUpdate } from '../../Services/museum-chat-websocket.service';
+import { AuthService } from '../../Services/auth.service';
 
-// Mock data interfaces - same as React version
+// Interfaces for chat functionality
 interface Artifact {
   id: number;
   name: string;
@@ -19,10 +21,19 @@ interface Artifact {
 }
 
 interface ChatMessage {
-  id: number;
+  id: string;
   text: string;
   isUser: boolean;
   timestamp: string;
+  source?: string; // museum_rag, openai_web, etc.
+  contexts?: Array<{
+    content: string;
+    metadata: any;
+    relevance_score: number;
+    id: string;
+  }>;
+  isThinking?: boolean;
+  thinkingStage?: string;
 }
 
 interface ChatHistory {
@@ -54,12 +65,21 @@ interface PhotoAlbum {
 export class ChatComponent implements OnInit, OnDestroy {
   private destroy$ = new Subject<void>();
   
-  // Component properties - equivalent to React useState
+  // Component properties
   selectedArtifact: Artifact | null = null;
   chatMessages: ChatMessage[] = [];
   inputMessage = '';
   activeView: 'artifacts' | 'chat' | 'history' | 'photos' = 'artifacts';
   sidebarOpen = false;
+  
+  // WebSocket chat properties
+  isConnected = false;
+  isProcessing = false;
+  currentSessionId = '';
+  currentUserId = '';
+  currentUserName = '';
+  currentUserAgeGroup: 'child' | 'teen' | 'adult' | 'senior' = 'adult';
+  currentThinkingMessage: ChatMessage | null = null;
 
   // Mock data - same as React version but updated for PastPort
   mockArtifacts: Artifact[] = [
@@ -132,10 +152,14 @@ export class ChatComponent implements OnInit, OnDestroy {
 
   constructor(
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private museumChatService: MuseumChatWebSocketService,
+    private authService: AuthService
   ) {}
 
   ngOnInit(): void {
+    this.initializeChat();
+    
     // Check if artifact ID is provided in route
     this.route.paramMap
       .pipe(takeUntil(this.destroy$))
@@ -151,80 +175,207 @@ export class ChatComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
+    this.museumChatService.disconnect();
     this.destroy$.next();
     this.destroy$.complete();
   }
 
-  // Component methods - equivalent to React functions
+  private initializeChat(): void {
+    // Get current user from auth service
+    const currentUser = this.authService.getCurrentUser();
+    
+    if (currentUser) {
+      this.currentUserId = currentUser.id;
+      this.currentUserName = currentUser.name;
+      this.currentUserAgeGroup = currentUser.age_group;
+      console.log(`Initialized chat for user: ${currentUser.name} (${currentUser.id}), age group: ${currentUser.age_group}`);
+    } else {
+      console.warn('No authenticated user found, chat may not work properly');
+      // Redirect to login if no user is authenticated
+      this.router.navigate(['/login']);
+      return;
+    }
+
+    // Initialize WebSocket service with user context
+    this.museumChatService.initialize(this.currentUserId, this.currentUserAgeGroup, this.currentUserName);
+    
+    // Generate session ID
+    this.currentSessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    
+    // Subscribe to connection status
+    this.museumChatService.getConnectionStatus()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(connected => {
+        this.isConnected = connected;
+        console.log('Museum chat connection status:', connected);
+      });
+    
+    // Subscribe to chat responses
+    this.museumChatService.getChatResponses()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(response => {
+        this.handleChatResponse(response);
+      });
+    
+    // Subscribe to thinking updates
+    this.museumChatService.getThinkingUpdates()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(update => {
+        this.handleThinkingUpdate(update);
+      });
+    
+    // Subscribe to errors
+    this.museumChatService.getErrors()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(error => {
+        this.handleChatError(error);
+      });
+    
+    // Connect to WebSocket
+    this.museumChatService.connect().catch(error => {
+      console.error('Failed to connect to museum chat:', error);
+    });
+  }
+
+  private handleChatResponse(response: ChatResponse): void {
+    this.isProcessing = false;
+    
+    // Remove thinking message if exists
+    if (this.currentThinkingMessage) {
+      this.chatMessages = this.chatMessages.filter(msg => msg.id !== this.currentThinkingMessage!.id);
+      this.currentThinkingMessage = null;
+    }
+    
+    // Add the actual response
+    const aiMessage: ChatMessage = {
+      id: response.message_id || `msg_${Date.now()}`,
+      text: response.content || 'I apologize, I could not generate a response.',
+      isUser: false,
+      timestamp: new Date().toLocaleTimeString(),
+      source: response.source,
+      contexts: response.contexts
+    };
+    
+    this.chatMessages = [...this.chatMessages, aiMessage];
+  }
+
+  private handleThinkingUpdate(update: ChatThinkingUpdate): void {
+    // Update or create thinking message
+    if (this.currentThinkingMessage) {
+      // Update existing thinking message
+      this.currentThinkingMessage.text = update.content;
+      this.currentThinkingMessage.thinkingStage = update.stage;
+    } else {
+      // Create new thinking message
+      this.currentThinkingMessage = {
+        id: `thinking_${Date.now()}`,
+        text: update.content,
+        isUser: false,
+        timestamp: new Date().toLocaleTimeString(),
+        isThinking: true,
+        thinkingStage: update.stage
+      };
+      this.chatMessages = [...this.chatMessages, this.currentThinkingMessage];
+    }
+  }
+
+  private handleChatError(error: string): void {
+    this.isProcessing = false;
+    
+    // Remove thinking message if exists
+    if (this.currentThinkingMessage) {
+      this.chatMessages = this.chatMessages.filter(msg => msg.id !== this.currentThinkingMessage!.id);
+      this.currentThinkingMessage = null;
+    }
+    
+    // Add error message
+    const errorMessage: ChatMessage = {
+      id: `error_${Date.now()}`,
+      text: `Sorry, I encountered an error: ${error}`,
+      isUser: false,
+      timestamp: new Date().toLocaleTimeString(),
+      source: 'error'
+    };
+    
+    this.chatMessages = [...this.chatMessages, errorMessage];
+  }
+
   handleArtifactSelect(artifact: Artifact): void {
     this.selectedArtifact = artifact;
     this.activeView = 'chat';
-    this.sidebarOpen = false; // Auto-close sidebar
+    this.sidebarOpen = false;
 
     // Initialize chat with welcome message
     this.chatMessages = [
       {
-        id: 1,
+        id: "welcome",
         text: `Hello! I'm your AI museum guide. I can tell you more about the ${artifact.name}. What would you like to know?`,
         isUser: false,
         timestamp: new Date().toLocaleTimeString(),
       },
     ];
+    
+    // Connect to chat service if not already connected
+    if (!this.isConnected) {
+      this.museumChatService.connect();
+    }
   }
 
   handleHistoryItemClick(chat: ChatHistory): void {
-    // Find the artifact associated with this chat
     const artifact = this.mockArtifacts.find((a) => a.id === chat.artifactId);
     if (artifact) {
       this.selectedArtifact = artifact;
       this.activeView = 'chat';
-      // Auto-close sidebar when viewing full chat history in main area
       this.sidebarOpen = false;
 
-      // Load previous chat messages (mock implementation)
+      // Initialize with welcome back message
       this.chatMessages = [
         {
-          id: 1,
+          id: "welcome_back",
           text: `Welcome back! Let's continue our discussion about the ${artifact.name}.`,
           isUser: false,
           timestamp: new Date().toLocaleTimeString(),
-        },
-        {
-          id: 2,
-          text: chat.lastMessage,
-          isUser: true,
-          timestamp: chat.timestamp,
-        },
+        }
       ];
     }
   }
 
   handlePhotoClick(photo: PhotoAlbum): void {
-    // Auto-close sidebar when viewing full photo details in main area
     this.sidebarOpen = false;
-    // Could expand to show photo analysis in main area
   }
 
   handleSendMessage(): void {
-    if (!this.inputMessage.trim() || !this.selectedArtifact) return;
+    if (!this.inputMessage.trim() || !this.isConnected || this.isProcessing) {
+      return;
+    }
 
+    const messageText = this.inputMessage.trim();
+    this.inputMessage = ''; // Clear input immediately
+    this.isProcessing = true;
+
+    // Add user message to chat
     const userMessage: ChatMessage = {
-      id: this.chatMessages.length + 1,
-      text: this.inputMessage,
+      id: `user_${Date.now()}`,
+      text: messageText,
       isUser: true,
       timestamp: new Date().toLocaleTimeString(),
     };
+    
+    this.chatMessages = [...this.chatMessages, userMessage];
 
-    // Mock AI response
-    const aiResponse: ChatMessage = {
-      id: this.chatMessages.length + 2,
-      text: `That's a great question about the ${this.selectedArtifact.name}! This artifact from the ${this.selectedArtifact.period} is particularly interesting because of its ${this.selectedArtifact.significance}. The piece was discovered in ${this.selectedArtifact.dateDiscovered} and represents the artistic traditions of ${this.selectedArtifact.category}.`,
-      isUser: false,
-      timestamp: new Date().toLocaleTimeString(),
-    };
+    // Prepare image result if available (from camera recognition)
+    const imageResult = this.selectedArtifact ? {
+      label: this.selectedArtifact.name,
+      confidence: 0.95,
+      entity_id: this.selectedArtifact.id.toString()
+    } : undefined;
 
-    this.chatMessages = [...this.chatMessages, userMessage, aiResponse];
-    this.inputMessage = '';
+    // Send message through WebSocket service
+    this.museumChatService.sendMessage(
+      messageText,
+      this.currentSessionId,
+      imageResult
+    );
   }
 
   // Helper methods

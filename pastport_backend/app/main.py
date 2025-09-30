@@ -1,3 +1,5 @@
+import logging
+from contextlib import asynccontextmanager
 from fastapi import FastAPI, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import Response
@@ -7,13 +9,50 @@ from app.api.auth import router as auth_router
 from app.api.mainCam_recognition import router as mainCam_router
 from app.api.artifacts_api import router as artifacts_router
 from app.websocket.mainCam_handler import handle_mainCam_websocket_connection
+from app.websocket.museum_chat_handler import handle_museum_chat_websocket_connection
+from app.dependencies.rag import initialize_rag_system, cleanup_rag_system, RAGInitializationError
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """
+    FastAPI lifespan context manager for startup and shutdown events
+    """
+    # Startup
+    logger.info("Starting PastPort Data Processor...")
+    
+    try:
+        # Initialize RAG system
+        logger.info("Initializing Museum RAG system...")
+        initialize_rag_system()
+        logger.info("Museum RAG system initialized successfully!")
+    except RAGInitializationError as e:
+        logger.error(f"Failed to initialize RAG system: {e}")
+        logger.warning("Application will continue without RAG functionality")
+    except Exception as e:
+        logger.error(f"Unexpected error during RAG initialization: {e}", exc_info=True)
+        logger.warning("Application will continue without RAG functionality")
+    
+    logger.info("PastPort Data Processor startup completed!")
+    
+    yield
+    
+    # Shutdown
+    logger.info("Shutting down PastPort Data Processor...")
+    cleanup_rag_system()
+    logger.info("PastPort Data Processor shutdown completed!")
 
 # Create FastAPI app
 app = FastAPI(
     title="PastPort Data Processor",
     description="FastAPI backend for PastPort data processing application",
     version="1.0.0",
-    debug=settings.debug
+    debug=settings.debug,
+    lifespan=lifespan
 )
 
 # Configure CORS
@@ -36,6 +75,12 @@ app.include_router(artifacts_router, prefix="/api/v1", tags=["artifacts"])
 async def websocket_mainCam_endpoint(websocket: WebSocket):
     """WebSocket endpoint for real-time mainCam recognition"""
     await handle_mainCam_websocket_connection(websocket)
+
+
+@app.websocket("/ws/chat")
+async def websocket_museum_chat_endpoint(websocket: WebSocket):
+    """WebSocket endpoint for real-time museum chat with RAG system"""
+    await handle_museum_chat_websocket_connection(websocket)
 
 @app.get("/")
 async def root():

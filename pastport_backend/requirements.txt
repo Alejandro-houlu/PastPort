@@ -11,5 +11,20 @@ passlib[bcrypt]
 python-multipart
 python-dotenv
 requests
+httpx
+websockets
 numpy
 boto3
+
+# Museum RAG dependencies
+langchain-community
+langchain-chroma
+langchain-ollama
+langchain-core
+chromadb
+pypdf
+tqdm
+
+# Three-agent LangGraph system dependencies
+openai
+langgraph
