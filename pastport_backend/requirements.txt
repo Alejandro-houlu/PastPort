@@ -28,3 +28,7 @@ tqdm
 # Three-agent LangGraph system dependencies
 openai
 langgraph
+
+opencv-python
+Pillow
+ultralytics
