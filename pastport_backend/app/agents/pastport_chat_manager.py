@@ -617,7 +617,9 @@ Keep your response to ONLY the artifact name or "NONE"."""
             # Step 1C: Determine if we need to fetch artifact data for header update
             if is_artifact_exist and state.get('artifact_name'):
                 # Artifact found in query - check if it differs from current image context
-                current_image_label = state.get('image_result', {}).get('label')
+                # current_image_label = state.get('image_result', {}).get('label')
+                current_image_label = (state.get("image_result") or {}).get("label")
+
                 
                 if current_image_label and current_image_label == state['artifact_name']:
                     # Same artifact as current context - no header update needed
