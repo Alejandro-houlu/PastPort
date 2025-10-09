@@ -1,80 +1,64 @@
-import { Injectable } from '@angular/core';
-import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent, HttpErrorResponse } from '@angular/common/http';
-import { Observable, throwError, BehaviorSubject } from 'rxjs';
-import { catchError, filter, take, switchMap } from 'rxjs/operators';
+import { HttpInterceptorFn, HttpErrorResponse } from '@angular/common/http';
+import { inject } from '@angular/core';
+import { catchError, throwError } from 'rxjs';
 import { AuthService } from './auth.service';
 
-@Injectable()
-export class JwtInterceptor implements HttpInterceptor {
-  private isRefreshing = false;
-  private refreshTokenSubject: BehaviorSubject<any> = new BehaviorSubject<any>(null);
-
-  constructor(private authService: AuthService) {}
-
-  intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
-    // Add JWT token to requests
-    const token = this.authService.getToken();
-    
-    if (token && !this.isAuthUrl(request.url)) {
-      request = this.addTokenToRequest(request, token);
-    }
-
-    return next.handle(request).pipe(
-      catchError((error: HttpErrorResponse) => {
-        // Handle 401 errors (token expired/invalid)
-        if (error.status === 401 && !this.isAuthUrl(request.url)) {
-          return this.handle401Error(request, next);
-        }
-        
-        return throwError(() => error);
-      })
-    );
-  }
-
-  private addTokenToRequest(request: HttpRequest<any>, token: string): HttpRequest<any> {
-    return request.clone({
-      setHeaders: {
-        Authorization: `Bearer ${token}`
-      }
-    });
-  }
-
-  private isAuthUrl(url: string): boolean {
-    // Don't add token to auth endpoints
+/**
+ * Functional HTTP interceptor for adding JWT token to requests
+ * This is the modern Angular approach for interceptors
+ */
+export const jwtInterceptorFn: HttpInterceptorFn = (req, next) => {
+  const authService = inject(AuthService);
+  
+  // Helper function to check if URL is an auth endpoint
+  const isAuthUrl = (url: string): boolean => {
     return url.includes('/auth/login') || 
            url.includes('/auth/register') || 
            url.includes('/auth/face-login') || 
            url.includes('/auth/face-register') ||
            url.includes('/auth/refresh');
+  };
+  
+  // Get token from auth service
+  const token = authService.getToken();
+  
+  // DEBUG LOGGING
+  console.log('🔐 JWT Interceptor - Request:', {
+    method: req.method,
+    url: req.url,
+    hasToken: !!token,
+    tokenPreview: token ? token.substring(0, 20) + '...' : 'NO TOKEN',
+    isAuthUrl: isAuthUrl(req.url),
+    willAddAuth: !!(token && !isAuthUrl(req.url))
+  });
+  
+  // Clone request and add authorization header if token exists and not an auth URL
+  let authReq = req;
+  if (token && !isAuthUrl(req.url)) {
+    authReq = req.clone({
+      setHeaders: {
+        Authorization: `Bearer ${token}`
+      }
+    });
+    console.log('✅ Added Authorization header');
+  } else {
+    console.warn('⚠️ Authorization header NOT added:', {
+      hasToken: !!token,
+      isAuthUrl: isAuthUrl(req.url)
+    });
   }
-
-  private handle401Error(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
-    if (!this.isRefreshing) {
-      this.isRefreshing = true;
-      this.refreshTokenSubject.next(null);
-
-      // Try to refresh token
-      const refreshToken = localStorage.getItem('pastport_refresh_token');
-      
-      if (refreshToken) {
-        // Note: We would need to implement token refresh in AuthService
-        // For now, just logout the user
-        this.authService.logout();
-        return throwError(() => new Error('Session expired. Please login again.'));
-      } else {
-        // No refresh token, logout user
-        this.authService.logout();
+  
+  // Handle the request and catch errors
+  return next(authReq).pipe(
+    catchError((error: HttpErrorResponse) => {
+      // Handle 401 errors (token expired/invalid)
+      if (error.status === 401 && !isAuthUrl(req.url)) {
+        console.warn('JWT token expired or invalid, logging out user');
+        authService.logout();
         return throwError(() => new Error('Session expired. Please login again.'));
       }
-    } else {
-      // Wait for refresh to complete
-      return this.refreshTokenSubject.pipe(
-        filter(token => token != null),
-        take(1),
-        switchMap(token => {
-          return next.handle(this.addTokenToRequest(request, token));
-        })
-      );
-    }
-  }
-}
+      
+      return throwError(() => error);
+    })
+  );
+};

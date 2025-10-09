@@ -21,6 +21,113 @@ logger = logging.getLogger(__name__)
 router = APIRouter()
 
 
+@router.get("/artifacts/{artifact_name}")
+async def get_artifact(
+    artifact_name: str,
+    include_images: bool = Query(default=True, description="Include image URLs from S3"),
+    all_images: bool = Query(default=True, description="Get all images (true) or just first image (false)"),
+    current_user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db)
+):
+    """
+    Get artifact details by name with optional S3 image URLs
+    
+    Args:
+        artifact_name: Name of the artifact (e.g., 'rafflesia')
+        include_images: Whether to fetch and include image URLs from S3
+        all_images: If true, return all images; if false, return only first image
+        current_user: Authenticated user (JWT required)
+        db: Database session
+    
+    Returns:
+        JSON with artifact data and optional image URLs/keys
+    
+    Raises:
+        HTTPException: If artifact not found or S3 error
+    """
+    try:
+        # Query artifact from database by name
+        result = await db.execute(
+            select(Artifact).filter(Artifact.artifact_name == artifact_name)
+        )
+        artifact = result.scalar_one_or_none()
+        
+        if not artifact:
+            logger.warning(f"Artifact not found: {artifact_name}")
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Artifact '{artifact_name}' not found"
+            )
+        
+        # Convert artifact to dictionary and handle datetime serialization
+        artifact_data = artifact.to_dict()
+        
+        # Convert datetime objects to ISO format strings
+        if artifact_data.get('created_at'):
+            artifact_data['created_at'] = artifact_data['created_at'].isoformat()
+        if artifact_data.get('updated_at'):
+            artifact_data['updated_at'] = artifact_data['updated_at'].isoformat()
+        if artifact_data.get('display_startDate'):
+            artifact_data['display_startDate'] = artifact_data['display_startDate'].isoformat()
+        
+        # Fetch S3 images if requested
+        if include_images:
+            # Construct S3 folder path: pastport/artifact_images/{artifact_name}_{id}/
+            folder_path = f"pastport/artifact_images/{artifact_name}_{artifact.id}/"
+            logger.info(f"Fetching images from S3 folder: {folder_path}")
+            
+            image_keys = []
+            
+            if all_images:
+                # Get all image files from folder
+                all_keys = s3_service.list_folder_contents(folder_path)
+                
+                # Filter for image files
+                image_extensions = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp'}
+                image_keys = [
+                    key for key in all_keys 
+                    if any(key.lower().endswith(ext) for ext in image_extensions)
+                ]
+                
+                # Sort for consistent ordering
+                image_keys.sort()
+            else:
+                # Get only the first image
+                first_image = s3_service.get_first_image(folder_path)
+                if first_image:
+                    image_keys = [first_image]
+            
+            # Generate presigned URLs for all image keys
+            image_urls = []
+            for image_key in image_keys:
+                presigned_url = s3_service.generate_presigned_url(image_key, expiration=3600)
+                if presigned_url:
+                    image_urls.append(presigned_url)
+            
+            # Add image data to response
+            artifact_data['image_urls'] = image_urls
+            artifact_data['image_keys'] = image_keys
+            
+            logger.info(f"Found {len(image_keys)} images for artifact '{artifact_name}'")
+        
+        return JSONResponse(
+            content=artifact_data,
+            headers={
+                "Cache-Control": "private, max-age=300"  # Cache for 5 minutes
+            }
+        )
+        
+    except HTTPException:
+        # Re-raise HTTP exceptions
+        raise
+    except Exception as e:
+        logger.error(f"Unexpected error getting artifact: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Internal server error while retrieving artifact"
+        )
+
+
 @router.get("/artifacts/{artifact_name}/image")
 async def get_artifact_image(
     artifact_name: str,

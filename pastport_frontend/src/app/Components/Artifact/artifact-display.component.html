@@ -25,7 +25,7 @@
 }
 
 <!-- Artifact Display -->
-@if (enhancedArtifact && !isLoading && !error) {
+@if (artifactData && !isLoading && !error) {
   <div class="row">
     <div class="col-lg-12">
       <div class="card">
@@ -52,11 +52,11 @@
             <div class="col-xl-4 col-md-6">
               <div class="product-img-slider sticky-side-div">
                 <!-- Main Image -->
-                @if (enhancedArtifact.images && enhancedArtifact.images.length > 0) {
+                @if (artifactData.images && artifactData.images.length > 0) {
                   <div class="swiper-slide">
                     <img 
-                      [src]="enhancedArtifact.images[selectedImageIndex]" 
-                      [alt]="enhancedArtifact.display_name"
+                      [src]="artifactData.images[selectedImageIndex]" 
+                      [alt]="artifactData.display_name"
                       class="img-fluid d-block"
                       (error)="$any($event.target).src='assets/images/rafflesia.jpg'"
                     />
@@ -73,9 +73,9 @@
                 }
 
                 <!-- Image Thumbnails -->
-                @if (enhancedArtifact.images && enhancedArtifact.images.length > 1) {
+                @if (artifactData.images && artifactData.images.length > 1) {
                   <div class="d-flex gap-2 mt-2">
-                    @for (image of enhancedArtifact.images; track $index) {
+                    @for (image of artifactData.images; track $index) {
                       <div 
                         class="nav-slide-item me-2"
                         [class.border-primary]="selectedImageIndex === $index"
@@ -84,7 +84,7 @@
                       >
                         <img 
                           [src]="image" 
-                          [alt]="enhancedArtifact.display_name + ' view ' + ($index + 1)"
+                          [alt]="artifactData.display_name + ' view ' + ($index + 1)"
                           class="img-fluid d-block"
                           style="width: 60px; height: 60px; object-fit: cover;"
                           (error)="$any($event.target).src='assets/images/rafflesia.jpg'"
@@ -102,14 +102,14 @@
               <div class="mt-xl-0 mt-5">
                 <div class="d-flex">
                   <div class="flex-grow-1">
-                    <h4>{{ enhancedArtifact.display_name }}</h4>
+                    <h4>{{ artifactData.display_name }}</h4>
                     <div class="hstack gap-3 flex-wrap">
-                      <div><a href="javascript:void(0);" class="text-primary d-block">{{ enhancedArtifact.category }}</a></div>
+                      <div><a href="javascript:void(0);" class="text-primary d-block">{{ artifactData.category }}</a></div>
                       <div class="vr"></div>
-                      <div class="text-muted">Museum : <span class="text-body fw-medium">{{ enhancedArtifact.museum_location }}</span></div>
-                      @if (enhancedArtifact.artifact_location) {
+                      <div class="text-muted">Museum : <span class="text-body fw-medium">{{ artifactData.museum_location }}</span></div>
+                      @if (artifactData.artifact_location) {
                         <div class="vr"></div>
-                        <div class="text-muted">Location : <span class="text-body fw-medium">{{ enhancedArtifact.artifact_location }}</span></div>
+                        <div class="text-muted">Location : <span class="text-body fw-medium">{{ artifactData.artifact_location }}</span></div>
                       }
                     </div>
                   </div>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="flex-grow-1">
                           <p class="text-muted mb-1">Category :</p>
-                          <h5 class="mb-0 fs-14">{{ enhancedArtifact.category }}</h5>
+                          <h5 class="mb-0 fs-14">{{ artifactData.category }}</h5>
                         </div>
                       </div>
                     </div>
@@ -143,13 +143,13 @@
                         </div>
                         <div class="flex-grow-1">
                           <p class="text-muted mb-1">Museum :</p>
-                          <h5 class="mb-0 fs-14">{{ enhancedArtifact.museum_location }}</h5>
+                          <h5 class="mb-0 fs-14">{{ artifactData.museum_location }}</h5>
                         </div>
                       </div>
                     </div>
                   </div>
                   <!-- end col -->
-                  @if (enhancedArtifact.isDisplay) {
+                  @if (artifactData.isDisplay) {
                     <div class="col-lg-3 col-sm-6">
                       <div class="p-2 border border-dashed rounded">
                         <div class="d-flex align-items-center">
@@ -177,7 +177,7 @@
                         </div>
                         <div class="flex-grow-1">
                           <p class="text-muted mb-1">Updated :</p>
-                          <h5 class="mb-0 fs-14">{{ enhancedArtifact.updated_at | date:'MMM d, y' }}</h5>
+                          <h5 class="mb-0 fs-14">{{ artifactData.updated_at | date:'MMM d, y' }}</h5>
                         </div>
                       </div>
                     </div>
@@ -188,7 +188,7 @@
                 <!-- Description -->
                 <div class="mt-4 text-muted">
                   <h5 class="fs-14">Description :</h5>
-                  <p>{{ enhancedArtifact.description }}</p>
+                  <p>{{ artifactData.description }}</p>
                 </div>
 
                 <!-- Tabbed Content -->
@@ -204,7 +204,7 @@
                           <div class="table-responsive">
                             <table class="table mb-0">
                               <tbody>
-                                @for (spec of enhancedArtifact.specifications | keyvalue; track spec.key) {
+                                @for (spec of artifactData.specifications | keyvalue; track spec.key) {
                                   <tr>
                                     <th scope="row" style="width: 200px;">{{ spec.key }}</th>
                                     <td>{{ spec.value }}</td>
@@ -223,7 +223,7 @@
                       <ng-template ngbNavContent>
                         <div>
                           <h5 class="font-size-16 mb-3">Historical Background</h5>
-                          <p>{{ enhancedArtifact.historical_context }}</p>
+                          <p>{{ artifactData.historical_context }}</p>
                         </div>
                       </ng-template>
                     </li>
@@ -234,7 +234,7 @@
                       <ng-template ngbNavContent>
                         <div>
                           <h5 class="font-size-16 mb-3">Conservation Notes</h5>
-                          <p>{{ enhancedArtifact.conservation_notes }}</p>
+                          <p>{{ artifactData.conservation_notes }}</p>
                         </div>
                       </ng-template>
                     </li>
@@ -247,11 +247,11 @@
                 <!-- product-content -->
 
                 <!-- Related Artifacts -->
-                @if (enhancedArtifact.related_artifacts && enhancedArtifact.related_artifacts.length > 0) {
+                @if (artifactData.related_artifacts && artifactData.related_artifacts.length > 0) {
                   <div class="mt-5">
                     <h5 class="fs-14 mb-3">Related Artifacts :</h5>
                     <div class="row">
-                      @for (related of enhancedArtifact.related_artifacts; track related.id) {
+                      @for (related of artifactData.related_artifacts; track related.id) {
                         <div class="col-lg-4 col-sm-6 mb-3">
                           <div class="border border-dashed rounded p-3 h-100" style="cursor: pointer;" (click)="viewRelatedArtifact(related.id)">
                             <div class="d-flex align-items-center">

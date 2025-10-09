@@ -324,7 +324,7 @@ export class FaceLoginComponent implements OnInit, OnDestroy {
       setTimeout(() => {
         console.log('🔄 Redirecting to dashboard');
         this.router.navigate(['/dashboard']);
-      }, 800);
+      }, 2000);
     } catch (error) {
       console.error('Error during login:', error);
       this.handleError('Login failed. Please try again.');
@@ -403,7 +403,7 @@ export class FaceLoginComponent implements OnInit, OnDestroy {
           // Navigate to main app after short delay
           setTimeout(() => {
             console.log('🔄 Would navigate to dashboard (disabled for demo)');
-            // this.router.navigate(['/dashboard']); // Disabled for frontend testing
+            this.router.navigate(['/dashboard']); 
           }, 2000);
         } else {
           // Registration successful but no authentication data

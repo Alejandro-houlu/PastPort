@@ -10,11 +10,15 @@
       <div class="glass-card h-full border-r border-border/50 flex flex-col">
         <!-- Sidebar Header -->
         <div class="p-4 border-b border-border/50">
-          <div class="flex items-center gap-2">
-            <!-- Sparkles Icon -->
-            <svg class="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l14 9-14 9V3z"></path>
-            </svg>
+          <div class="flex items-center gap-3">
+            <!-- PastPort Icon - Clickable -->
+            <img 
+              src="/assets/images/icononly_transparent_nobuffer.png" 
+              alt="PastPort" 
+              class="h-12 w-12 object-contain flex-shrink-0 cursor-pointer logo-hover transition-transform"
+              (click)="goBackToDashboard()"
+              title="Return to Dashboard"
+            />
             <h1 class="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               PastPort Chat
             </h1>
@@ -70,74 +74,113 @@
             <!-- Content based on active view -->
             <div class="space-y-4">
               <!-- Artifacts View -->
-              <div *ngIf="activeView === 'artifacts'" class="space-y-3">
-                <h3 class="font-semibold text-foreground">Recognized Artifacts</h3>
-                <div 
-                  *ngFor="let artifact of mockArtifacts" 
-                  class="glass-card cursor-pointer transition-all hover:scale-105"
-                  [class.ring-2]="selectedArtifact?.id === artifact.id"
-                  [class.ring-primary]="selectedArtifact?.id === artifact.id"
-                  (click)="handleArtifactSelect(artifact)"
-                >
-                  <div class="p-3">
-                    <div class="flex gap-3">
-                      <img
-                        [src]="artifact.image || '/assets/images/rafflesia.jpg'"
-                        [alt]="artifact.name"
-                        class="w-12 h-12 rounded-lg object-cover"
-                      />
-                      <div class="flex-1 min-w-0">
-                        <h4 class="font-medium text-sm text-foreground truncate">{{ artifact.name }}</h4>
-                        <p class="text-xs text-muted-foreground">{{ artifact.category }}</p>
+              @if (activeView === 'artifacts') {
+                <div class="space-y-3">
+                  <h3 class="font-semibold text-foreground">Recent Artifacts</h3>
+                  
+                  <!-- Loading state -->
+                  @if (isLoadingArtifacts) {
+                    <div class="flex justify-center p-4">
+                      <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+                    </div>
+                  }
+                  
+                  <!-- Artifacts list -->
+                  @for (artifact of recentArtifacts; track artifact.id) {
+                    <div 
+                      class="glass-card cursor-pointer transition-all hover:scale-105"
+                      (click)="handleArtifactClick(artifact)"
+                    >
+                      <div class="p-3">
+                        <div class="flex gap-3">
+                          <img
+                            [src]="artifact.image_url || '/assets/images/rafflesia.jpg'"
+                            [alt]="artifact.artifact_name"
+                            class="w-12 h-12 rounded-lg object-cover"
+                          />
+                          <div class="flex-1 min-w-0">
+                            <h4 class="font-medium text-sm text-foreground truncate">{{ artifact.artifact_name }}</h4>
+                            <p class="text-xs text-muted-foreground">{{ artifact.museum_location || 'Museum' }}</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  }
+                  
+                  <!-- Empty state -->
+                  @if (!isLoadingArtifacts && recentArtifacts.length === 0) {
+                    <div class="text-center p-4 text-muted-foreground text-sm">
+                      No artifacts viewed yet
+                    </div>
+                  }
                 </div>
-              </div>
+              }
 
               <!-- History View -->
-              <div *ngIf="activeView === 'history'" class="space-y-3">
-                <h3 class="font-semibold text-foreground">Chat History</h3>
-                <div 
-                  *ngFor="let chat of mockChatHistory"
-                  class="glass-card cursor-pointer hover:scale-105 transition-all"
-                  (click)="handleHistoryItemClick(chat)"
-                >
-                  <div class="p-3">
-                    <div class="space-y-2">
-                      <h4 class="font-medium text-sm text-foreground truncate">{{ chat.artifactName }}</h4>
-                      <p class="text-xs text-muted-foreground line-clamp-2">{{ chat.lastMessage }}</p>
-                      <p class="text-xs text-muted-foreground">{{ chat.timestamp }}</p>
+              @if (activeView === 'history') {
+                <div class="space-y-3">
+                  <h3 class="font-semibold text-foreground">Chat History</h3>
+                  
+                  <!-- Loading state -->
+                  @if (isLoadingHistory) {
+                    <div class="flex justify-center p-4">
+                      <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
                     </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Photos View -->
-              <div *ngIf="activeView === 'photos'" class="space-y-3">
-                <h3 class="font-semibold text-foreground">Photo Album</h3>
-                <div 
-                  *ngFor="let photo of mockPhotoAlbum"
-                  class="glass-card cursor-pointer hover:scale-105 transition-all"
-                  (click)="handlePhotoClick(photo)"
-                >
-                  <div class="p-3">
-                    <div class="space-y-2">
-                      <img
-                        [src]="photo.image || '/assets/images/rafflesia.jpg'"
-                        alt="Museum photo"
-                        class="w-full h-20 rounded-lg object-cover"
-                      />
-                      <div class="flex justify-between items-center">
-                        <span class="text-xs bg-secondary text-secondary-foreground px-2 py-1 rounded-full">
-                          {{ photo.recognizedArtifacts }} artifacts
-                        </span>
-                        <span class="text-xs text-muted-foreground">{{ photo.timestamp }}</span>
+                  }
+                  
+                  <!-- History list -->
+                  @for (chat of chatHistory; track chat.session_id) {
+                    <div 
+                      class="glass-card cursor-pointer hover:scale-105 transition-all"
+                      (click)="handleChatHistoryClick(chat)"
+                    >
+                      <div class="p-3">
+                        <div class="space-y-2">
+                          <h4 class="font-medium text-sm text-foreground truncate">{{ chat.artifact_name || 'General Chat' }}</h4>
+                          <p class="text-xs text-muted-foreground line-clamp-2">{{ chat.last_message }}</p>
+                          <p class="text-xs text-muted-foreground">{{ chat.timestamp | date: 'short' }}</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  }
+                  
+                  <!-- Empty state -->
+                  @if (!isLoadingHistory && chatHistory.length === 0) {
+                    <div class="text-center p-4 text-muted-foreground text-sm">
+                      No chat history yet
+                    </div>
+                  }
                 </div>
-              </div>
+              }
+
+              <!-- Photos View -->
+              @if (activeView === 'photos') {
+                <div class="space-y-3">
+                  <h3 class="font-semibold text-foreground">Photo Album</h3>
+                  @for (photo of mockPhotoAlbum; track photo.id) {
+                    <div 
+                      class="glass-card cursor-pointer hover:scale-105 transition-all"
+                      (click)="handlePhotoClick(photo)"
+                    >
+                      <div class="p-3">
+                        <div class="space-y-2">
+                          <img
+                            [src]="photo.image || '/assets/images/rafflesia.jpg'"
+                            alt="Museum photo"
+                            class="w-full h-20 rounded-lg object-cover"
+                          />
+                          <div class="flex justify-between items-center">
+                            <span class="text-xs bg-secondary text-secondary-foreground px-2 py-1 rounded-full">
+                              {{ photo.recognizedArtifacts }} artifacts
+                            </span>
+                            <span class="text-xs text-muted-foreground">{{ photo.timestamp }}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  }
+                </div>
+              }
             </div>
           </div>
         </div>
@@ -147,91 +190,113 @@
     <!-- Main Content Area -->
     <div class="flex-1 flex flex-col">
       <!-- Top Navigation Bar for Main Content -->
-      <div class="glass-card border-b border-border/50 p-4 lg:hidden">
+      <div class="glass-card border-b border-border/50 p-4">
         <div class="flex items-center justify-between">
-          <button class="p-2 hover:bg-accent rounded-md transition-colors" (click)="toggleSidebar()">
-            <!-- Menu Icon -->
-            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
+          <div class="flex items-center gap-2">
+            <!-- Back Button -->
+            <button 
+              class="p-2 hover:bg-accent rounded-md transition-colors"
+              (click)="goBack()"
+              title="Go back"
+            >
+              <!-- Back Arrow Icon -->
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+              </svg>
+            </button>
+            <!-- Mobile Menu Button -->
+            <button class="p-2 hover:bg-accent rounded-md transition-colors lg:hidden" (click)="toggleSidebar()">
+              <!-- Menu Icon -->
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
           <span class="glass-card px-3 py-1 rounded-full text-sm">
             {{ selectedArtifact ? 'Discussing: ' + selectedArtifact.name : 'Select an artifact to begin' }}
           </span>
         </div>
       </div>
 
-      <!-- Welcome Screen -->
-      <div *ngIf="!selectedArtifact" class="h-screen flex items-center justify-center p-6">
-        <div class="text-center space-y-6 max-w-2xl">
-          <div class="space-y-4">
-            <!-- Sparkles Icon -->
-            <svg class="h-16 w-16 text-primary mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l14 9-14 9V3z"></path>
-            </svg>
-            <h2 class="text-3xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Welcome to PastPort AI Guide
-            </h2>
-            <p class="text-lg text-muted-foreground">
-              Discover the stories behind museum artifacts through AI-powered conversations. Select an artifact
-              from the sidebar to begin your journey through history.
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
-            <div 
-              *ngFor="let artifact of mockArtifacts"
-              class="glass-card cursor-pointer transition-all hover:scale-105"
-              (click)="handleArtifactSelect(artifact)"
-            >
-              <div class="p-4">
-                <img
-                  [src]="artifact.image || '/assets/images/rafflesia.jpg'"
-                  [alt]="artifact.name"
-                  class="w-full h-32 object-cover rounded-lg mb-3"
-                />
-                <h3 class="font-semibold text-sm text-foreground mb-1">{{ artifact.name }}</h3>
-                <p class="text-xs text-muted-foreground mb-2">{{ artifact.period }}</p>
-                <span class="text-xs border border-border px-2 py-1 rounded-full">
-                  {{ artifact.category }}
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Chat Interface -->
-      <div *ngIf="selectedArtifact" class="h-screen flex flex-col">
-        <!-- Artifact Header -->
+      <!-- Chat Interface - Always visible -->
+      <div class="h-screen flex flex-col">
+        <!-- Artifact Header - only shown when arriving from artifact page -->
+        @if (showArtifactHeader && selectedArtifact) {
         <div class="glass-card border-b border-border/50 p-4">
           <div class="flex items-start gap-4">
             <img
-              [src]="selectedArtifact.image || '/assets/images/rafflesia.jpg'"
-              [alt]="selectedArtifact.name"
+              [src]="selectedArtifact?.image || '/assets/images/rafflesia.jpg'"
+              [alt]="selectedArtifact?.name || 'Artifact'"
               class="w-16 h-16 rounded-lg object-cover"
             />
             <div class="flex-1">
-              <h2 class="text-xl font-bold text-foreground mb-1">{{ selectedArtifact.name }}</h2>
+              <h2 class="text-xl font-bold text-foreground mb-1">{{ selectedArtifact?.name }}</h2>
               <p class="text-sm text-muted-foreground mb-2">
-                {{ selectedArtifact.period }} • {{ selectedArtifact.location }}
+                {{ selectedArtifact?.period }} • {{ selectedArtifact?.location }}
               </p>
               <div class="flex gap-2">
                 <span class="text-xs bg-secondary text-secondary-foreground px-2 py-1 rounded-full">
-                  {{ selectedArtifact.category }}
+                  {{ selectedArtifact?.category }}
                 </span>
                 <span class="text-xs border border-border px-2 py-1 rounded-full">
-                  Discovered {{ selectedArtifact.dateDiscovered }}
+                  Discovered {{ selectedArtifact?.dateDiscovered }}
                 </span>
               </div>
             </div>
           </div>
         </div>
+        }
 
-        <!-- Chat Messages -->
+        <!-- Chat Messages or Welcome Screen -->
         <div class="flex-1 overflow-y-auto p-6 space-y-4">
+          <!-- Welcome message when no artifact is selected and no messages -->
+          @if (chatMessages.length === 0) {
+          <div class="flex flex-col items-center justify-center h-full space-y-6">
+            <div class="text-center space-y-4 max-w-2xl">
+              <img 
+                src="/assets/images/icononly_transparent_nobuffer.png" 
+                alt="PastPort" 
+                class="h-20 w-20 mx-auto"
+              />
+              <h2 class="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                Welcome to PastPort AI Guide
+              </h2>
+              <p class="text-muted-foreground">
+                Start chatting about museum artifacts or select one from the suggestions below
+              </p>
+            </div>
+            
+            <!-- Quick Access to Recent Artifacts -->
+            @if (recentArtifacts.length > 0) {
+            <div class="w-full max-w-2xl">
+              <h3 class="text-sm font-semibold text-foreground mb-3 text-center">Recently Viewed Artifacts</h3>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                @for (artifact of recentArtifacts.slice(0, 3); track artifact.id) {
+                <div 
+                  class="glass-card cursor-pointer transition-all hover:scale-105"
+                  (click)="handleArtifactClick(artifact)"
+                >
+                  <div class="p-3">
+                    <div class="flex flex-col items-center gap-2 text-center">
+                      <img
+                        [src]="artifact.image_url || '/assets/images/rafflesia.jpg'"
+                        [alt]="artifact.artifact_name"
+                        class="w-16 h-16 rounded-lg object-cover"
+                      />
+                      <h4 class="font-medium text-sm text-foreground line-clamp-2">{{ artifact.artifact_name }}</h4>
+                    </div>
+                  </div>
+                </div>
+                }
+              </div>
+            </div>
+            }
+          </div>
+          }
+          
+          <!-- Chat Messages -->
+          @for (message of chatMessages; track message.id) {
           <div 
-            *ngFor="let message of chatMessages" 
             class="flex"
             [class.justify-end]="message.isUser"
             [class.justify-start]="!message.isUser"
@@ -255,14 +320,83 @@
               </p>
             </div>
           </div>
+          }
         </div>
 
-        <!-- Chat Input -->
+        <!-- Question Recommendations Section -->
+        @if (showRecommendations && recommendedQuestions) {
         <div class="glass-card border-t border-border/50 p-4">
+          <div class="flex items-start justify-between mb-3">
+            <h3 class="text-sm font-semibold text-foreground">Suggested Questions</h3>
+            <button 
+              (click)="dismissRecommendations()"
+              class="p-1 hover:bg-accent rounded-md transition-colors"
+              title="Dismiss suggestions"
+            >
+              <!-- X Icon -->
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
+          
+          <div class="space-y-3">
+            <!-- Same Species Questions (no header) -->
+            @if (recommendedQuestions.questions.same_intent_species.length > 0 || recommendedQuestions.questions.diff_intent_same_species.length > 0) {
+            <div class="flex flex-wrap gap-2">
+              @for (question of recommendedQuestions.questions.same_intent_species; track question) {
+                <button
+                  (click)="handleRecommendedQuestionClick(question)"
+                  class="px-3 py-2 text-sm rounded-full border border-primary/30 bg-primary/5 hover:bg-primary/10 text-foreground transition-colors text-left"
+                >
+                  {{ question }}
+                </button>
+              }
+              @for (question of recommendedQuestions.questions.diff_intent_same_species; track question) {
+                <button
+                  (click)="handleRecommendedQuestionClick(question)"
+                  class="px-3 py-2 text-sm rounded-full border border-primary/30 bg-primary/5 hover:bg-primary/10 text-foreground transition-colors text-left"
+                >
+                  {{ question }}
+                </button>
+              }
+            </div>
+            }
+            
+            <!-- Different Species Questions with header -->
+            @if (recommendedQuestions.questions.diff_species_same_intent.length > 0 || recommendedQuestions.questions.diff_species_intent.length > 0) {
+            <div class="space-y-2">
+              <h4 class="text-xs font-medium text-muted-foreground">You may also want to know</h4>
+              <div class="flex flex-wrap gap-2">
+                @for (question of recommendedQuestions.questions.diff_species_same_intent; track question) {
+                  <button
+                    (click)="handleRecommendedQuestionClick(question)"
+                    class="px-3 py-2 text-sm rounded-full border border-border bg-background/50 hover:bg-accent text-foreground transition-colors text-left"
+                  >
+                    {{ question }}
+                  </button>
+                }
+                @for (question of recommendedQuestions.questions.diff_species_intent; track question) {
+                  <button
+                    (click)="handleRecommendedQuestionClick(question)"
+                    class="px-3 py-2 text-sm rounded-full border border-border bg-background/50 hover:bg-accent text-foreground transition-colors text-left"
+                  >
+                    {{ question }}
+                  </button>
+                }
+              </div>
+            </div>
+            }
+          </div>
+        </div>
+        }
+
+        <!-- Chat Input - Always available -->
+        <div class="glass-card border-t border-border/50 p-4 pb-safe">
           <div class="flex gap-3">
             <input
               [(ngModel)]="inputMessage"
-              placeholder="Ask me anything about this artifact..."
+              [placeholder]="selectedArtifact ? 'Ask me anything about this artifact...' : 'Ask me anything about museum artifacts...'"
               class="flex-1 glass-input px-3 py-2 rounded-md border border-border bg-background/50 backdrop-blur-sm min-h-[44px] text-base"
               (keypress)="onKeyPress($event)"
             />
@@ -284,8 +418,9 @@
 </div>
 
 <!-- Mobile Sidebar Overlay -->
+@if (sidebarOpen) {
 <div 
-  *ngIf="sidebarOpen" 
   class="fixed inset-0 bg-black/50 z-20 lg:hidden" 
   (click)="toggleSidebar()"
 ></div>
+}

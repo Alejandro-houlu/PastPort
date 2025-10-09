@@ -3,20 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Subject, takeUntil } from 'rxjs';
 import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
-
-// Artifact interface based on database schema
-interface Artifact {
-  id: string;
-  artifact_name: string;
-  description: string;
-  museum_location: string;
-  artifact_location: string | null;
-  image_url: string | null;
-  isDisplay: number;
-  display_startDate: string | null;
-  created_at: string;
-  updated_at: string;
-}
+import { ArtifactService, Artifact } from '../../Services/artifact.service';
 
 @Component({
   selector: 'app-artifact-display',
@@ -39,12 +26,13 @@ export class ArtifactDisplayComponent implements OnInit, OnDestroy {
   activeTab = 'description';
   activeNavId = 1;
 
-  // Enhanced artifact data (generated from database data)
-  enhancedArtifact: any = null;
+  // Artifact data with UI enhancements (generated from database data)
+  artifactData: any = null;
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private artifactService: ArtifactService
   ) {}
 
   ngOnInit(): void {
@@ -63,71 +51,55 @@ export class ArtifactDisplayComponent implements OnInit, OnDestroy {
   }
 
   /**
-   * Load artifact data (placeholder implementation)
+   * Load artifact data from backend API
    */
   private loadArtifactData(): void {
+    if (!this.artifactId) {
+      this.error = 'No artifact ID provided';
+      this.isLoading = false;
+      return;
+    }
+
     this.isLoading = true;
     this.error = null;
 
-    // Simulate API call with timeout
-    setTimeout(() => {
-      try {
-        // For now, use the rafflesia data as example
-        // TODO: Replace with actual API call to artifact service
-        if (this.artifactId?.toLowerCase() === 'rafflesia') {
-          this.artifact = {
-            id: '870a2f4d',
-            artifact_name: 'rafflesia',
-            description: 'The genus includes the giant R. arnoldii, sometimes known as the corpse flower or monster flower, which produces the largest-known individual flower of any plant species in the world and is found in the forested mountains of Sumatra and Borneo. Its fully developed flower appears aboveground as a thick fleshy five-lobed structure weighing up to 11 kg (24 pounds) and measuring almost one meter (about one yard) across.',
-            museum_location: 'Lee Kong Chian Natural History Museum',
-            artifact_location: null,
-            image_url: null,
-            isDisplay: 1,
-            display_startDate: null,
-            created_at: '2025-08-25 20:38:07',
-            updated_at: '2025-08-25 20:38:07'
-          };
-        } else {
-          // Generate placeholder data for other artifacts
-          this.artifact = this.generatePlaceholderArtifact(this.artifactId);
+    // Call real API with all images
+    this.artifactService.getArtifact(this.artifactId)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe({
+        next: (artifact) => {
+          console.log('Artifact loaded from API:', artifact);
+          console.log('Image URLs:', artifact.image_urls);
+          console.log('Image Keys:', artifact.image_keys);
+          
+          this.artifact = artifact;
+          
+          // Build artifact data with UI-specific information (still hardcoded)
+          this.artifactData = this.buildArtifactData(artifact);
+          this.isLoading = false;
+        },
+        error: (error) => {
+          console.error('Error loading artifact:', error);
+          this.error = error.message || 'Failed to load artifact data';
+          this.isLoading = false;
         }
-
-        // Enhance artifact data with additional information
-        this.enhancedArtifact = this.enhanceArtifactData(this.artifact);
-        this.isLoading = false;
-      } catch (error) {
-        this.error = 'Failed to load artifact data';
-        this.isLoading = false;
-      }
-    }, 1000);
+      });
   }
 
   /**
-   * Generate placeholder artifact data for unknown artifacts
+   * Build artifact data with additional display information
    */
-  private generatePlaceholderArtifact(id: string | null): Artifact {
-    const artifactName = id || 'unknown';
-    return {
-      id: this.generateId(),
-      artifact_name: artifactName,
-      description: `This is a ${artifactName} artifact from the museum collection. Detailed information about this artifact is being updated in our database.`,
-      museum_location: 'Lee Kong Chian Natural History Museum',
-      artifact_location: null,
-      image_url: null,
-      isDisplay: 1,
-      display_startDate: null,
-      created_at: new Date().toISOString(),
-      updated_at: new Date().toISOString()
-    };
-  }
-
-  /**
-   * Enhance artifact data with additional display information
-   */
-  private enhanceArtifactData(artifact: Artifact): any {
+  private buildArtifactData(artifact: Artifact): any {
     const displayName = this.getDisplayName(artifact.artifact_name);
     const category = this.getCategory(artifact.artifact_name);
-    const images = this.getImages(artifact.artifact_name, artifact.image_url);
+    
+    // Use real images from S3 if available, otherwise use placeholder
+    const images = artifact.image_urls && artifact.image_urls.length > 0 
+      ? artifact.image_urls 
+      : this.getImages(artifact.artifact_name, artifact.image_url);
+    
+    console.log('Building artifact data with images:', images);
+    console.log('Using S3 URLs:', artifact.image_urls && artifact.image_urls.length > 0);
     
     return {
       ...artifact,
@@ -283,11 +255,12 @@ export class ArtifactDisplayComponent implements OnInit, OnDestroy {
 
   /**
    * Open chat with current artifact context
+   * Note: Click recording is done in main-cam component when user first clicks artifact
    */
   openChat(): void {
-    if (this.artifactId) {
+    if (this.artifact && this.artifact.id) {
       // Navigate to chat with artifact ID parameter
-      this.router.navigate(['/chat', this.artifactId]);
+      this.router.navigate(['/chat', this.artifact.id]);
     } else {
       // Navigate to general chat
       this.router.navigate(['/chat']);

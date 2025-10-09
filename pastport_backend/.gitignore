@@ -4,5 +4,6 @@ yolo-api-server/
 ca-certificate.crt
 migrate_face_data.py
 __pycache__/
+data/
 
 

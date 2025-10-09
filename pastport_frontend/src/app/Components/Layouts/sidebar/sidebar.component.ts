@@ -43,10 +43,16 @@ export class SidebarComponent implements OnInit {
       link: '/documents'
     },
     {
-      id: 'face-recognition',
-      label: 'Face Recognition',
-      icon: 'bx bx-face',
-      link: '/face-recognition'
+      id: 'artifact-recognition',
+      label: 'Artifact Recognition',
+      icon: 'bx bx-camera',
+      link: '/camera'
+    },
+    {
+      id: 'chat',
+      label: 'Chat',
+      icon: 'bx bx-message-dots',
+      link: '/chat'
     },
     {
       id: 'profile',

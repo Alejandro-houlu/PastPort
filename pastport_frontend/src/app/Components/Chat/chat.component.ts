@@ -4,8 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
 import { RouterModule } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
+import { MuseumChatWebSocketService, ChatResponse, ChatThinkingUpdate } from '../../Services/museum-chat-websocket.service';
+import { AuthService } from '../../Services/auth.service';
+import { UserClickHistoryService, ArtifactClick, ChatHistoryItem } from '../../Services/user-click-history.service';
+import { QuestionRecommenderService, QuestionRecommendations } from '../../Services/question-recommender.service';
 
-// Mock data interfaces - same as React version
+// Interfaces for chat functionality
 interface Artifact {
   id: number;
   name: string;
@@ -19,10 +23,19 @@ interface Artifact {
 }
 
 interface ChatMessage {
-  id: number;
+  id: string;
   text: string;
   isUser: boolean;
   timestamp: string;
+  source?: string; // museum_rag, openai_web, etc.
+  contexts?: Array<{
+    content: string;
+    metadata: any;
+    relevance_score: number;
+    id: string;
+  }>;
+  isThinking?: boolean;
+  thinkingStage?: string;
 }
 
 interface ChatHistory {
@@ -54,177 +67,488 @@ interface PhotoAlbum {
 export class ChatComponent implements OnInit, OnDestroy {
   private destroy$ = new Subject<void>();
   
-  // Component properties - equivalent to React useState
+  // Component properties
   selectedArtifact: Artifact | null = null;
+  showArtifactHeader = false;
   chatMessages: ChatMessage[] = [];
   inputMessage = '';
   activeView: 'artifacts' | 'chat' | 'history' | 'photos' = 'artifacts';
   sidebarOpen = false;
+  referrerRoute: string = '/dashboard'; // Default to dashboard
+  
+  // WebSocket chat properties
+  isConnected = false;
+  isProcessing = false;
+  currentSessionId = '';
+  currentUserId = '';
+  currentUserName = '';
+  currentUserAgeGroup: 'child' | 'teen' | 'adult' | 'senior' = 'adult';
+  currentThinkingMessage: ChatMessage | null = null;
 
-  // Mock data - same as React version but updated for PastPort
-  mockArtifacts: Artifact[] = [
-    {
-      id: 1,
-      name: 'Rafflesia',
-      period: 'Contemporary',
-      location: 'Sumatra and Borneo',
-      description: 'The genus includes the giant R. arnoldii, sometimes known as the corpse flower or monster flower, which produces the largest-known individual flower of any plant species in the world and is found in the forested mountains of Sumatra and Borneo. Its fully developed flower appears aboveground as a thick fleshy five-lobed structure weighing up to 11 kg (24 pounds) and measuring almost one meter (about one yard) across.',
-      image: '/assets/images/rafflesia.jpg',
-      category: 'Botany',
-      dateDiscovered: 'Modern',
-      significance: "World's largest flower",
-    },
-    {
-      id: 2,
-      name: 'American Rhinocerous Beetle',
-      period: 'Contemporary',
-      location: 'United States',
-      description: 'The American rhinoceros beetle (Xyloryctes jamaicensis) is a species of scarab beetle native to the United States, characterized by the male\'s prominent head horn used for fighting, and a female that only has a small tubercle. These nocturnal, herbivorous beetles have larvae that live in the soil, feeding on decaying organic matter and sometimes roots, while the adults feed on tree cambium and sap.',
-      image: '/assets/images/american_rhinocerous_beetle.png',
-      category: 'Entomology',
-      dateDiscovered: 'Modern',
-      significance: 'Native beetle species',
-    },
-    {
-      id: 3,
-      name: 'Changi Tree Slice',
-      period: 'Pre-1942',
-      location: 'Changi, Singapore',
-      description: 'The Sindora ×changiensis was a magnificent natural hybrid, endemic to Singapore, with a massive crown and distinctive velvety leaves. This centuries-old giant was so prominent it was marked on nautical charts for over 50 years as a pre-war landmark. In 1942, British forces tragically cut it down to prevent its use as a Japanese artillery marker. Carbon dating confirmed this heritage tree was at least 226 years old, making it one of the original inhabitants of the Changi rainforest.',
-      image: '/assets/images/changi_tree_slice2.jpeg',
-      category: 'Forestry Heritage',
-      dateDiscovered: '1942',
-      significance: 'Singapore heritage landmark',
-    },
-  ];
+  // Real data from backend
+  recentArtifacts: ArtifactClick[] = [];
+  chatHistory: ChatHistoryItem[] = [];
+  isLoadingArtifacts = false;
+  isLoadingHistory = false;
 
-  mockChatHistory: ChatHistory[] = [
-    {
-      id: 1,
-      artifactId: 1,
-      artifactName: 'Rafflesia',
-      lastMessage: 'How does the corpse flower attract pollinators?',
-      timestamp: '2 hours ago',
-    },
-    {
-      id: 2,
-      artifactId: 2,
-      artifactName: 'American Rhinocerous Beetle',
-      lastMessage: 'What is the purpose of the male\'s horn?',
-      timestamp: '1 day ago',
-    },
-  ];
+  // Question recommender properties
+  recommendedQuestions: QuestionRecommendations | null = null;
+  showRecommendations = false;
+  isLoadingRecommendations = false;
 
-  mockPhotoAlbum: PhotoAlbum[] = [
-    {
-      id: 1,
-      image: '/assets/images/rafflesia.jpg',
-      recognizedArtifacts: 1,
-      timestamp: 'Today, 2:30 PM',
-    },
-    {
-      id: 2,
-      image: '/assets/images/changi_tree_slice2.jpeg',
-      recognizedArtifacts: 1,
-      timestamp: 'Yesterday, 4:15 PM',
-    },
-  ];
+  mockPhotoAlbum: PhotoAlbum[] = []; // Keep for future photo album feature
 
   constructor(
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private museumChatService: MuseumChatWebSocketService,
+    private authService: AuthService,
+    private clickHistoryService: UserClickHistoryService,
+    private questionRecommenderService: QuestionRecommenderService
   ) {}
 
   ngOnInit(): void {
+    this.initializeChat();
+    
+    // Capture referrer route from query params or navigation state
+    this.route.queryParams
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(params => {
+        if (params['from']) {
+          this.referrerRoute = params['from'];
+        }
+      });
+    
+    // Load recent clicks and chat history
+    this.loadRecentArtifacts();
+    this.loadChatHistory();
+    
     // Check if artifact ID is provided in route
     this.route.paramMap
       .pipe(takeUntil(this.destroy$))
       .subscribe(params => {
         const artifactId = params.get('artifactId');
         if (artifactId) {
-          const artifact = this.mockArtifacts.find(a => a.id.toString() === artifactId);
-          if (artifact) {
-            this.handleArtifactSelect(artifact);
+          // Arrived from artifact page - show artifact header
+          this.showArtifactHeader = true;
+          // Set referrer to artifact page if not already set
+          if (this.referrerRoute === '/dashboard') {
+            this.referrerRoute = `/artifact/${artifactId}`;
           }
+          // Find artifact in recent clicks
+          const artifact = this.recentArtifacts.find(a => a.id === artifactId);
+          if (artifact) {
+            this.handleArtifactClick(artifact);
+          }
+        } else {
+          // Arrived from sidebar - no artifact context
+          this.showArtifactHeader = false;
+          // Keep activeView as 'artifacts' (default)
         }
       });
   }
 
   ngOnDestroy(): void {
+    this.museumChatService.disconnect();
     this.destroy$.next();
     this.destroy$.complete();
   }
 
-  // Component methods - equivalent to React functions
+  private initializeChat(): void {
+    // Get current user from auth service
+    const currentUser = this.authService.getCurrentUser();
+    
+    if (currentUser) {
+      this.currentUserId = currentUser.id;
+      this.currentUserName = currentUser.name;
+      this.currentUserAgeGroup = currentUser.age_group;
+      console.log(`Initialized chat for user: ${currentUser.name} (${currentUser.id}), age group: ${currentUser.age_group}`);
+    } else {
+      console.warn('No authenticated user found, chat may not work properly');
+      // Redirect to login if no user is authenticated
+      this.router.navigate(['/login']);
+      return;
+    }
+
+    // Initialize WebSocket service with user context
+    this.museumChatService.initialize(this.currentUserId, this.currentUserAgeGroup, this.currentUserName);
+    
+    // Generate session ID
+    this.currentSessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    
+    // Subscribe to connection status
+    this.museumChatService.getConnectionStatus()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(connected => {
+        this.isConnected = connected;
+        console.log('Museum chat connection status:', connected);
+      });
+    
+    // Subscribe to chat responses
+    this.museumChatService.getChatResponses()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(response => {
+        this.handleChatResponse(response);
+      });
+    
+    // Subscribe to thinking updates
+    this.museumChatService.getThinkingUpdates()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(update => {
+        this.handleThinkingUpdate(update);
+      });
+    
+    // Subscribe to errors
+    this.museumChatService.getErrors()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(error => {
+        this.handleChatError(error);
+      });
+    
+    // Subscribe to recommendations
+    this.museumChatService.getRecommendations()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(recommendations => {
+        this.handleRecommendations(recommendations);
+      });
+    
+    // Subscribe to header updates
+    this.museumChatService.getHeaderUpdates()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(artifactData => {
+        this.handleHeaderUpdate(artifactData);
+      });
+    
+    // Connect to WebSocket
+    this.museumChatService.connect().catch(error => {
+      console.error('Failed to connect to museum chat:', error);
+    });
+  }
+
+  private handleChatResponse(response: ChatResponse): void {
+    this.isProcessing = false;
+    
+    // Remove thinking message if exists
+    if (this.currentThinkingMessage) {
+      this.chatMessages = this.chatMessages.filter(msg => msg.id !== this.currentThinkingMessage!.id);
+      this.currentThinkingMessage = null;
+    }
+    
+    // Add the actual response
+    const aiMessage: ChatMessage = {
+      id: response.message_id || `msg_${Date.now()}`,
+      text: response.content || 'I apologize, I could not generate a response.',
+      isUser: false,
+      timestamp: new Date().toLocaleTimeString(),
+      source: response.source,
+      contexts: response.contexts
+    };
+    
+    this.chatMessages = [...this.chatMessages, aiMessage];
+  }
+
+  private handleThinkingUpdate(update: ChatThinkingUpdate): void {
+    // Update or create thinking message
+    if (this.currentThinkingMessage) {
+      // Update existing thinking message
+      this.currentThinkingMessage.text = update.content;
+      this.currentThinkingMessage.thinkingStage = update.stage;
+    } else {
+      // Create new thinking message
+      this.currentThinkingMessage = {
+        id: `thinking_${Date.now()}`,
+        text: update.content,
+        isUser: false,
+        timestamp: new Date().toLocaleTimeString(),
+        isThinking: true,
+        thinkingStage: update.stage
+      };
+      this.chatMessages = [...this.chatMessages, this.currentThinkingMessage];
+    }
+  }
+
+  private handleChatError(error: string): void {
+    this.isProcessing = false;
+    
+    // Remove thinking message if exists
+    if (this.currentThinkingMessage) {
+      this.chatMessages = this.chatMessages.filter(msg => msg.id !== this.currentThinkingMessage!.id);
+      this.currentThinkingMessage = null;
+    }
+    
+    // Add error message
+    const errorMessage: ChatMessage = {
+      id: `error_${Date.now()}`,
+      text: `Sorry, I encountered an error: ${error}`,
+      isUser: false,
+      timestamp: new Date().toLocaleTimeString(),
+      source: 'error'
+    };
+    
+    this.chatMessages = [...this.chatMessages, errorMessage];
+  }
+
   handleArtifactSelect(artifact: Artifact): void {
     this.selectedArtifact = artifact;
     this.activeView = 'chat';
-    this.sidebarOpen = false; // Auto-close sidebar
+    this.sidebarOpen = false;
 
     // Initialize chat with welcome message
     this.chatMessages = [
       {
-        id: 1,
+        id: "welcome",
         text: `Hello! I'm your AI museum guide. I can tell you more about the ${artifact.name}. What would you like to know?`,
         isUser: false,
         timestamp: new Date().toLocaleTimeString(),
       },
     ];
+    
+    // Note: WebSocket connection is already established in initializeChat()
+    // No need to connect again here
   }
 
-  handleHistoryItemClick(chat: ChatHistory): void {
-    // Find the artifact associated with this chat
-    const artifact = this.mockArtifacts.find((a) => a.id === chat.artifactId);
-    if (artifact) {
-      this.selectedArtifact = artifact;
-      this.activeView = 'chat';
-      // Auto-close sidebar when viewing full chat history in main area
-      this.sidebarOpen = false;
+  /**
+   * Load recent artifact clicks from backend
+   */
+  private loadRecentArtifacts(): void {
+    if (!this.currentUserId) return;
+    
+    this.isLoadingArtifacts = true;
+    this.clickHistoryService.getRecentClicks(this.currentUserId, 5)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe({
+        next: (artifacts) => {
+          this.recentArtifacts = artifacts;
+          console.log('Loaded recent artifacts:', artifacts);
+          this.isLoadingArtifacts = false;
+        },
+        error: (error) => {
+          console.error('Error loading recent artifacts:', error);
+          this.isLoadingArtifacts = false;
+        }
+      });
+  }
 
-      // Load previous chat messages (mock implementation)
-      this.chatMessages = [
-        {
-          id: 1,
-          text: `Welcome back! Let's continue our discussion about the ${artifact.name}.`,
-          isUser: false,
-          timestamp: new Date().toLocaleTimeString(),
+  /**
+   * Load chat history from backend
+   */
+  private loadChatHistory(): void {
+    if (!this.currentUserId) return;
+    
+    this.isLoadingHistory = true;
+    this.clickHistoryService.getChatHistory(this.currentUserId, 10)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe({
+        next: (history) => {
+          this.chatHistory = history;
+          console.log('Loaded chat history:', history);
+          this.isLoadingHistory = false;
         },
-        {
-          id: 2,
-          text: chat.lastMessage,
-          isUser: true,
-          timestamp: chat.timestamp,
+        error: (error) => {
+          console.error('Error loading chat history:', error);
+          this.isLoadingHistory = false;
+        }
+      });
+  }
+
+  /**
+   * Handle artifact click from the sidebar - starts FRESH conversation
+   */
+  handleArtifactClick(artifactClick: ArtifactClick): void {
+    // Show artifact header when clicking from sidebar
+    this.showArtifactHeader = true;
+    
+    // Convert ArtifactClick to Artifact interface
+    const artifact: Artifact = {
+      id: 0,
+      name: artifactClick.artifact_name,
+      period: 'Contemporary',
+      location: artifactClick.museum_location || 'Unknown',
+      description: artifactClick.description || '',
+      image: artifactClick.image_url || '/assets/images/rafflesia.jpg',
+      category: 'Artifact',
+      dateDiscovered: 'Modern',
+      significance: ''
+    };
+    
+    // Use handleArtifactSelect to show welcome message and start fresh
+    this.handleArtifactSelect(artifact);
+    
+    // Load question recommendations for this artifact
+    this.loadQuestionRecommendations(artifactClick.artifact_name);
+  }
+
+  /**
+   * Load question recommendations from backend
+   */
+  private loadQuestionRecommendations(artifactName: string): void {
+    this.isLoadingRecommendations = true;
+    
+    this.questionRecommenderService.getRecommendations(artifactName)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe({
+        next: (recommendations) => {
+          if (recommendations.success) {
+            this.recommendedQuestions = recommendations;
+            this.showRecommendations = true;
+            console.log('Loaded question recommendations:', recommendations);
+          } else {
+            console.log('No recommendations available for', artifactName);
+            this.recommendedQuestions = null;
+            this.showRecommendations = false;
+          }
+          this.isLoadingRecommendations = false;
         },
-      ];
+        error: (error) => {
+          console.error('Error loading question recommendations:', error);
+          this.recommendedQuestions = null;
+          this.showRecommendations = false;
+          this.isLoadingRecommendations = false;
+        }
+      });
+  }
+
+  /**
+   * Handle clicking on a recommended question
+   */
+  handleRecommendedQuestionClick(question: string): void {
+    // Set the input message and send immediately
+    this.inputMessage = question;
+    this.handleSendMessage();
+  }
+
+  /**
+   * Handle incoming recommendations from WebSocket
+   */
+  private handleRecommendations(recommendations: any): void {
+    if (recommendations && recommendations.success) {
+      this.recommendedQuestions = recommendations;
+      this.showRecommendations = true;
+      console.log('Received dynamic question recommendations:', recommendations);
+    } else {
+      console.log('No recommendations in WebSocket message');
     }
   }
 
-  handlePhotoClick(photo: PhotoAlbum): void {
-    // Auto-close sidebar when viewing full photo details in main area
+  /**
+   * Handle incoming artifact header updates from WebSocket
+   */
+  private handleHeaderUpdate(artifactData: any): void {
+    if (artifactData.is_general_question) {
+      // General question - hide artifact header
+      console.log('General question detected - hiding artifact header');
+      this.showArtifactHeader = false;
+      this.selectedArtifact = null;
+    } else if (artifactData) {
+      // Update to new artifact
+      console.log('Updating artifact header to:', artifactData.artifact_name);
+      this.selectedArtifact = {
+        id: artifactData.id || 0,
+        name: artifactData.artifact_name || 'Unknown',
+        period: 'Contemporary',
+        location: artifactData.museum_location || 'Unknown',
+        description: artifactData.description || '',
+        image: artifactData.image_url || '/assets/images/rafflesia.jpg',
+        category: artifactData.category || 'Artifact',
+        dateDiscovered: artifactData.display_startDate || 'Modern',
+        significance: artifactData.significance || ''
+      };
+      this.showArtifactHeader = true;
+    }
+  }
+
+  /**
+   * Dismiss the recommendations panel
+   */
+  dismissRecommendations(): void {
+    this.showRecommendations = false;
+  }
+
+  /**
+   * Handle chat history item click - loads EXISTING conversation
+   */
+  handleChatHistoryClick(historyItem: ChatHistoryItem): void {
+    this.activeView = 'chat';
     this.sidebarOpen = false;
-    // Could expand to show photo analysis in main area
+    this.selectedArtifact = null; // No specific artifact for history
+    
+    // Load the existing messages from this session
+    this.clickHistoryService.getSessionMessages(historyItem.session_id)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe({
+        next: (sessionData) => {
+          console.log('Loaded session messages:', sessionData);
+          
+          // Convert session messages to chat messages
+          this.chatMessages = sessionData.messages.map((msg: any) => ({
+            id: msg.message_id,
+            text: msg.user_query,
+            isUser: true,
+            timestamp: new Date(msg.timestamp).toLocaleTimeString()
+          })).concat(sessionData.messages.map((msg: any) => ({
+            id: `ai_${msg.message_id}`,
+            text: msg.museum_response,
+            isUser: false,
+            timestamp: new Date(msg.timestamp).toLocaleTimeString(),
+            source: msg.source,
+            contexts: msg.contexts
+          }))).sort((a: ChatMessage, b: ChatMessage) => {
+            // Sort by timestamp to maintain conversation order
+            return new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime();
+          });
+          
+          // Update session ID to continue this conversation
+          this.currentSessionId = historyItem.session_id;
+        },
+        error: (error) => {
+          console.error('Error loading session messages:', error);
+          this.chatMessages = [{
+            id: 'error',
+            text: 'Failed to load chat history. Please try again.',
+            isUser: false,
+            timestamp: new Date().toLocaleTimeString(),
+            source: 'error'
+          }];
+        }
+      });
+  }
+
+  handlePhotoClick(photo: PhotoAlbum): void {
+    this.sidebarOpen = false;
   }
 
   handleSendMessage(): void {
-    if (!this.inputMessage.trim() || !this.selectedArtifact) return;
+    if (!this.inputMessage.trim() || !this.isConnected || this.isProcessing) {
+      return;
+    }
 
+    const messageText = this.inputMessage.trim();
+    this.inputMessage = ''; // Clear input immediately
+    this.isProcessing = true;
+
+    // Add user message to chat
     const userMessage: ChatMessage = {
-      id: this.chatMessages.length + 1,
-      text: this.inputMessage,
+      id: `user_${Date.now()}`,
+      text: messageText,
       isUser: true,
       timestamp: new Date().toLocaleTimeString(),
     };
+    
+    this.chatMessages = [...this.chatMessages, userMessage];
 
-    // Mock AI response
-    const aiResponse: ChatMessage = {
-      id: this.chatMessages.length + 2,
-      text: `That's a great question about the ${this.selectedArtifact.name}! This artifact from the ${this.selectedArtifact.period} is particularly interesting because of its ${this.selectedArtifact.significance}. The piece was discovered in ${this.selectedArtifact.dateDiscovered} and represents the artistic traditions of ${this.selectedArtifact.category}.`,
-      isUser: false,
-      timestamp: new Date().toLocaleTimeString(),
-    };
+    // Prepare image result if available (from camera recognition)
+    const imageResult = this.selectedArtifact ? {
+      label: this.selectedArtifact.name,
+      confidence: 0.95,
+      entity_id: this.selectedArtifact.id.toString()
+    } : undefined;
 
-    this.chatMessages = [...this.chatMessages, userMessage, aiResponse];
-    this.inputMessage = '';
+    // Send message through WebSocket service
+    this.museumChatService.sendMessage(
+      messageText,
+      this.currentSessionId,
+      imageResult
+    );
   }
 
   // Helper methods
@@ -237,6 +561,10 @@ export class ChatComponent implements OnInit, OnDestroy {
   }
 
   // Navigation methods
+  goBack(): void {
+    this.router.navigate([this.referrerRoute]);
+  }
+
   goBackToCamera(): void {
     this.router.navigate(['/camera']);
   }

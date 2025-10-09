@@ -393,7 +393,8 @@ export class FaceLoginService {
         
         // Check if this is a "Face not recognized" error (new user scenario)
         if (error.error?.detail === 'Face not recognized' || 
-            error.status === 401 || 
+            error.status === 401 ||
+            error.status === 404 ||
             error.error?.message?.includes('not found') || 
             error.error?.message?.includes('No matching')) {
           
