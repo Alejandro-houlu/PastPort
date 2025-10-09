@@ -51,6 +51,8 @@ export class MuseumChatWebSocketService {
   private chatResponses$ = new Subject<ChatResponse>();
   private thinkingUpdates$ = new Subject<ChatThinkingUpdate>();
   private errors$ = new Subject<string>();
+  private recommendations$ = new Subject<any>();
+  private headerUpdates$ = new Subject<any>();
   
   // Connection management
   private reconnectAttempts = 0;
@@ -190,6 +192,20 @@ export class MuseumChatWebSocketService {
   }
 
   /**
+   * Get recommendations observable
+   */
+  getRecommendations(): Observable<any> {
+    return this.recommendations$.asObservable();
+  }
+
+  /**
+   * Get header updates observable
+   */
+  getHeaderUpdates(): Observable<any> {
+    return this.headerUpdates$.asObservable();
+  }
+
+  /**
    * Send a chat message
    */
   sendMessage(
@@ -203,6 +219,7 @@ export class MuseumChatWebSocketService {
       this.errors$.next('Not connected to chat service');
       return;
     }
+    const finalMessageId = messageId ?? this.generateMessageId();
 
     const message: ChatMessage = {
       type: 'query',
@@ -211,12 +228,12 @@ export class MuseumChatWebSocketService {
       user_id: this.currentUserId,
       user_name: this.currentUserName,
       user_age_group: this.currentUserAgeGroup,
-      message_id: messageId || this.generateMessageId(),
+      message_id: finalMessageId,
       image_result: imageResult,
       timestamp: Date.now()
     };
 
-    console.log('📤 Sending chat message:', { content: content.substring(0, 50), sessionId, messageId });
+    console.log('📤 Sending chat message:', { content: content.substring(0, 50), sessionId, finalMessageId });
     this.sendRawMessage(message);
   }
 
@@ -338,6 +355,22 @@ export class MuseumChatWebSocketService {
         case 'pong':
           // Handle pong responses
           console.log('🏓 Received pong from server');
+          break;
+        
+        case 'recommendations':
+          // Handle question recommendations
+          console.log('💡 Question recommendations received');
+          if (response.metadata && response.metadata.recommendations) {
+            this.recommendations$.next(response.metadata.recommendations);
+          }
+          break;
+        
+        case 'header_update':
+          // Handle artifact header updates
+          console.log('🖼️ Artifact header update received');
+          if (response.metadata && response.metadata.artifact_data) {
+            this.headerUpdates$.next(response.metadata.artifact_data);
+          }
           break;
           
         default:

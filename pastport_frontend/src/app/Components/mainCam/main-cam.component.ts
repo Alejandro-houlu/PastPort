@@ -6,6 +6,8 @@ import { MainCamRecognitionService } from '../../Services/mainCam-recognition.se
 import { MainCamWebSocketService } from '../../Services/mainCam-websocket.service';
 import { MainCamVisualizationService } from '../../Services/mainCam-visualization.service';
 import { RecognitionResult } from '../../Models/mainCam-recognition.models';
+import { AuthService } from '../../Services/auth.service';
+import { UserClickHistoryService } from '../../Services/user-click-history.service';
 
 @Component({
   selector: 'app-main-cam',
@@ -36,7 +38,8 @@ export class MainCamComponent implements OnInit, OnDestroy, AfterViewInit {
     private cameraService: CameraService,
     private recognitionService: MainCamRecognitionService,
     private websocketService: MainCamWebSocketService,
-    private visualizationService: MainCamVisualizationService
+    private visualizationService: MainCamVisualizationService,
+    private clickHistoryService: UserClickHistoryService
   ) {}
 
   ngOnInit(): void {
@@ -372,9 +375,24 @@ export class MainCamComponent implements OnInit, OnDestroy, AfterViewInit {
 
   /**
    * Handle artifact mask click
+   * Records the click in user history before navigating to artifact page
    */
   private onArtifactClick(detection: any): void {
     console.log(`🎯 Artifact clicked: ${detection.class_name} (confidence: ${(detection.confidence * 100).toFixed(1)}%)`);
+    
+    // Record the click to backend (user determined from JWT token)
+    this.clickHistoryService.recordClick(
+      detection.class_name,
+      'camera'  // source is 'camera' since click is from camera view
+    ).subscribe({
+      next: (response) => {
+        console.log('✅ Artifact click recorded:', response);
+      },
+      error: (error) => {
+        console.error('❌ Failed to record artifact click:', error);
+        // Continue navigation even if recording fails
+      }
+    });
     
     // Navigate to artifact display page
     this.router.navigate(['/artifact', detection.class_name]);

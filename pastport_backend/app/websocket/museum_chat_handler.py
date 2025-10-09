@@ -112,7 +112,7 @@ async def handle_museum_chat_websocket_connection(websocket: WebSocket, client_i
                 "available_commands": ["query", "ping", "status"]
             }
         )
-        await manager.send_message(client_id, initial_response.dict())
+        await manager.send_message(client_id, initial_response.model_dump())
     except Exception as e:
         logger.error(f"Error sending initial status to {client_id}: {e}")
     
@@ -127,6 +127,7 @@ async def handle_museum_chat_websocket_connection(websocket: WebSocket, client_i
                 chat_message = ChatMessage(**message_data)
                 
                 logger.info(f"Received message from {client_id}: {chat_message.type}")
+                logger.info(f"Received message from {client_id}: {chat_message}")
                 
                 # Handle different message types
                 if chat_message.type == "query":
@@ -223,11 +224,39 @@ async def handle_query_message(client_id: str, message: ChatMessage):
                 f"Three-agent response sent to {client_id} "
                 f"(source: {agent_result['source']}, length: {len(agent_result['response'])})"
             )
+            
+            # Send recommendations if available
+            if agent_result.get("recommended_questions"):
+                logger.info(f"Sending question recommendations to {client_id}")
+                recommendation_response = ChatResponse(
+                    type="recommendations",
+                    session_id=message.session_id,
+                    message_id=message_id,
+                    metadata={
+                        "recommendations": agent_result["recommended_questions"]
+                    }
+                )
+                await manager.send_message(client_id, recommendation_response.dict())
+                logger.info(f"Question recommendations sent to {client_id}")
+            
+            # Send artifact header update if available
+            if agent_result.get("artifact_data"):
+                logger.info(f"Sending artifact header update to {client_id}")
+                header_update_response = ChatResponse(
+                    type="header_update",
+                    session_id=message.session_id,
+                    message_id=message_id,
+                    metadata={
+                        "artifact_data": agent_result["artifact_data"]
+                    }
+                )
+                await manager.send_message(client_id, header_update_response.dict())
+                logger.info(f"Artifact header update sent to {client_id}")
         else:
             # Send error response
             error_response = ChatResponse(
                 type="error",
-                content=agent_result["response"],  # User-friendly error message
+                content=agent_result.get("error"),  # User-friendly error message
                 session_id=message.session_id,
                 message_id=message_id,
                 metadata={

@@ -55,12 +55,6 @@ Examples:
 Keep responses brief and focused on search optimization."""
         
         user_content = f"Original user query: '{query}'"
-        
-        if image_result:
-            user_content += f"\n\nImage recognition context: User scanned '{image_result.get('label')}' with {image_result.get('confidence', 0):.2f} confidence."
-            user_content += f"\nEntity ID: {image_result.get('entity_id', 'unknown')}"
-            user_content += f"\nPlease rephrase the query to incorporate this image context and make it more search-friendly."
-        
         user_content += "\n\nProvide a rephrased query optimized for museum database search:"
         
         return [
@@ -99,10 +93,6 @@ RESPONSE STRUCTURE:
 Remember: This is general knowledge, not specific to any particular museum's collection."""
         
         user_content = query
-        
-        if image_result:
-            user_content = f"The user scanned an image identified as '{image_result.get('label')}' and asked: '{query}'"
-            user_content += f"\n\nPlease provide educational information about this topic."
         
         return [
             {"role": "system", "content": system_prompt},
@@ -190,45 +180,65 @@ Remember: This is general knowledge, not specific to any particular museum's col
                 search_query = state['original_query']  # Fallback to original
                 self.logger.warning("Query rephrasing failed, using original query")
             
-            # Step 2: Query the museum RAG system
+            # Step 2: Check if query is about known artifacts BEFORE trying RAG
+            # If query is valid but not about our artifacts, skip RAG entirely
             rag_success = False
             rag_response = None
             contexts = []
             
-            try:
-                self.logger.info("Querying museum RAG system")
-                
-                # Check RAG system status
-                rag_status = get_rag_status()
-                if rag_status["status"] != "ready":
-                    raise Exception(f"RAG system not ready: {rag_status.get('error', 'Unknown error')}")
-                
-                # Execute RAG query
-                query_engine = get_query_engine()
-                rag_result = query_engine.query(search_query, k=5)
-                
-                self.logger.info(f"RAG query executed, response length: {len(rag_result.answer) if rag_result.answer else 0}")
-                
-                # Evaluate response quality
-                if (rag_result.answer and 
-                    self.is_meaningful_response(rag_result.answer)):
-                    rag_success = True
-                    rag_response = rag_result.answer
-                    contexts = rag_result.contexts or []
-                    self.logger.info(f"RAG query successful with {len(contexts)} contexts")
-                else:
-                    self.logger.info("RAG returned insufficient answer, will use OpenAI fallback")
-                    
-            except Exception as e:
-                self.logger.error(f"RAG query failed: {str(e)}")
-                # Continue to fallback - this is expected behavior
-            
-            # Step 3: Use OpenAI GPT-4 fallback if RAG failed
-            if not rag_success:
-                self.logger.info("Using OpenAI GPT-4 fallback for museum query")
+            if (not state.get('is_artifact_exist') and 
+                state.get('manager_validation', {}).get('is_valid')):
+                self.logger.info("Query not about museum artifacts, skipping RAG and using GPT-4 directly")
                 
                 # Update thinking status
                 if state.get('websocket_callback'):
+                    await state['websocket_callback']({
+                        "type": "thinking",
+                        "content": "This question is not about our specific artifacts. Searching general knowledge...",
+                        "stage": "general_search",
+                        "session_id": state['session_id'],
+                        "message_id": state['message_id']
+                    })
+                
+                # Skip RAG, will go directly to GPT-4 fallback below
+                rag_success = False
+                
+            else:
+                # Step 3: Query the museum RAG system (only if query might be about artifacts)
+                try:
+                    self.logger.info("Querying museum RAG system")
+                    
+                    # Check RAG system status
+                    rag_status = get_rag_status()
+                    if rag_status["status"] != "ready":
+                        raise Exception(f"RAG system not ready: {rag_status.get('error', 'Unknown error')}")
+                    
+                    # Execute RAG query
+                    query_engine = get_query_engine()
+                    rag_result = query_engine.query(search_query, k=5)
+                    
+                    self.logger.info(f"RAG query executed, response length: {len(rag_result.answer) if rag_result.answer else 0}")
+                    
+                    # Evaluate response quality
+                    if (rag_result.answer and 
+                        self.is_meaningful_response(rag_result.answer)):
+                        rag_success = True
+                        rag_response = rag_result.answer
+                        contexts = rag_result.contexts or []
+                        self.logger.info(f"RAG query successful with {len(contexts)} contexts")
+                    else:
+                        self.logger.info("RAG returned insufficient answer, will use OpenAI fallback")
+                        
+                except Exception as e:
+                    self.logger.error(f"RAG query failed: {str(e)}")
+                    # Continue to fallback - this is expected behavior
+            
+            # Step 4: Use OpenAI GPT-4 fallback if RAG was skipped or failed
+            if not rag_success:
+                self.logger.info("Using OpenAI GPT-4 fallback")
+                
+                # Update thinking status (only if not already set above)
+                if state.get('is_artifact_exist') and state.get('websocket_callback'):
                     await state['websocket_callback']({
                         "type": "thinking",
                         "content": "Museum database didn't have specific info, searching general knowledge...",

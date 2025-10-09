@@ -182,6 +182,7 @@ def create_initial_state(
         response_source="",
         contexts=[],
         processing_metadata={},
+        recommended_questions=None,  # Will be populated by manager_exit
         
         # Error handling
         error=None,
@@ -242,10 +243,14 @@ async def process_museum_chat(
                 "source": final_state['response_source'],
                 "contexts": final_state['contexts'],
                 "metadata": final_state['processing_metadata'],
+                "recommended_questions": final_state.get('recommended_questions'),
+                "artifact_data": final_state.get('artifact_data'),
                 "session_id": session_id,
                 "message_id": message_id
             }
             logger.info(f"Museum chat processing completed successfully (source: {final_state['response_source']})")
+            if final_state.get('recommended_questions'):
+                logger.info("Including question recommendations in response")
         else:
             # Handle error case
             error_msg = final_state.get('error', 'Unknown processing error')

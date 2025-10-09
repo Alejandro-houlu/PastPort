@@ -23,6 +23,9 @@ class ChatState(TypedDict):
     
     # Agent results
     manager_validation: Optional[Dict[str, Any]]
+    is_artifact_exist: Optional[bool]  # Whether query mentions a known artifact
+    artifact_name: Optional[str]  # Artifact name in database format (e.g., 'sperm_whale')
+    artifact_data: Optional[Dict[str, Any]]  # Full artifact data with S3 URLs for header update
     museum_response: Optional[Dict[str, Any]]
     comms_response: Optional[Dict[str, Any]]
     
@@ -31,6 +34,7 @@ class ChatState(TypedDict):
     response_source: str
     contexts: List[Dict[str, Any]]
     processing_metadata: Dict[str, Any]
+    recommended_questions: Optional[Dict[str, Any]]  # Question recommendations
     
     # Error handling
     error: Optional[str]

@@ -8,9 +8,17 @@ from app.api.health import router as health_router
 from app.api.auth import router as auth_router
 from app.api.mainCam_recognition import router as mainCam_router
 from app.api.artifacts_api import router as artifacts_router
+from app.api.user_click_history_api import router as user_clicks_router
+from app.api.chat_history_api import router as chat_history_router
+from app.api.question_recommender_api import router as question_recommender_router
 from app.websocket.mainCam_handler import handle_mainCam_websocket_connection
 from app.websocket.museum_chat_handler import handle_museum_chat_websocket_connection
 from app.dependencies.rag import initialize_rag_system, cleanup_rag_system, RAGInitializationError
+from app.dependencies.question_recommender import (
+    initialize_question_recommender, 
+    cleanup_question_recommender, 
+    QuestionRecommenderInitializationError
+)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -37,6 +45,18 @@ async def lifespan(app: FastAPI):
         logger.error(f"Unexpected error during RAG initialization: {e}", exc_info=True)
         logger.warning("Application will continue without RAG functionality")
     
+    try:
+        # Initialize Question Recommender system
+        logger.info("Initializing Question Recommender system...")
+        initialize_question_recommender()
+        logger.info("Question Recommender system initialized successfully!")
+    except QuestionRecommenderInitializationError as e:
+        logger.error(f"Failed to initialize Question Recommender system: {e}")
+        logger.warning("Application will continue without Question Recommender functionality")
+    except Exception as e:
+        logger.error(f"Unexpected error during Question Recommender initialization: {e}", exc_info=True)
+        logger.warning("Application will continue without Question Recommender functionality")
+    
     logger.info("PastPort Data Processor startup completed!")
     
     yield
@@ -44,6 +64,7 @@ async def lifespan(app: FastAPI):
     # Shutdown
     logger.info("Shutting down PastPort Data Processor...")
     cleanup_rag_system()
+    cleanup_question_recommender()
     logger.info("PastPort Data Processor shutdown completed!")
 
 # Create FastAPI app
@@ -69,6 +90,9 @@ app.include_router(health_router, prefix="/api/v1", tags=["health"])
 app.include_router(auth_router, tags=["authentication"])
 app.include_router(mainCam_router, prefix="/api/v1/mainCam", tags=["mainCam recognition"])
 app.include_router(artifacts_router, prefix="/api/v1", tags=["artifacts"])
+app.include_router(user_clicks_router, tags=["user_click_history"])
+app.include_router(chat_history_router, tags=["chat_history"])
+app.include_router(question_recommender_router)
 
 
 @app.websocket("/ws/mainCam")
