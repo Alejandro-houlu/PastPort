@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild, ElementRef, AfterViewChecked } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
@@ -64,8 +64,12 @@ interface PhotoAlbum {
   templateUrl: './chat.component.html',
   styleUrls: ['./chat.component.scss']
 })
-export class ChatComponent implements OnInit, OnDestroy {
+export class ChatComponent implements OnInit, OnDestroy, AfterViewChecked {
   private destroy$ = new Subject<void>();
+  
+  // ViewChild for auto-scrolling
+  @ViewChild('messagesContainer') private messagesContainer!: ElementRef;
+  private shouldScrollToBottom = false;
   
   // Component properties
   selectedArtifact: Artifact | null = null;
@@ -95,6 +99,10 @@ export class ChatComponent implements OnInit, OnDestroy {
   recommendedQuestions: QuestionRecommendations | null = null;
   showRecommendations = false;
   isLoadingRecommendations = false;
+  
+  // Mobile responsiveness
+  isMobileView = false;
+  hasStartedChatOnMobile = false;
 
   mockPhotoAlbum: PhotoAlbum[] = []; // Keep for future photo album feature
 
@@ -109,6 +117,14 @@ export class ChatComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.initializeChat();
+    
+    // Check if mobile view
+    this.checkMobileView();
+    
+    // Listen for window resize
+    if (typeof window !== 'undefined') {
+      window.addEventListener('resize', () => this.checkMobileView());
+    }
     
     // Capture referrer route from query params or navigation state
     this.route.queryParams
@@ -245,6 +261,7 @@ export class ChatComponent implements OnInit, OnDestroy {
     };
     
     this.chatMessages = [...this.chatMessages, aiMessage];
+    this.shouldScrollToBottom = true; // Trigger scroll after AI response
   }
 
   private handleThinkingUpdate(update: ChatThinkingUpdate): void {
@@ -265,6 +282,7 @@ export class ChatComponent implements OnInit, OnDestroy {
       };
       this.chatMessages = [...this.chatMessages, this.currentThinkingMessage];
     }
+    this.shouldScrollToBottom = true; // Scroll to bottom on every thinking update
   }
 
   private handleChatError(error: string): void {
@@ -425,6 +443,7 @@ export class ChatComponent implements OnInit, OnDestroy {
       this.recommendedQuestions = recommendations;
       this.showRecommendations = true;
       console.log('Received dynamic question recommendations:', recommendations);
+      this.shouldScrollToBottom = true; // Scroll to bottom when recommendations appear
     } else {
       console.log('No recommendations in WebSocket message');
     }
@@ -517,6 +536,23 @@ export class ChatComponent implements OnInit, OnDestroy {
     this.sidebarOpen = false;
   }
 
+  ngAfterViewChecked(): void {
+    if (this.shouldScrollToBottom) {
+      this.scrollToBottom();
+      this.shouldScrollToBottom = false;
+    }
+  }
+
+  private scrollToBottom(): void {
+    try {
+      if (this.messagesContainer) {
+        this.messagesContainer.nativeElement.scrollTop = this.messagesContainer.nativeElement.scrollHeight;
+      }
+    } catch (err) {
+      console.error('Could not scroll to bottom:', err);
+    }
+  }
+
   handleSendMessage(): void {
     if (!this.inputMessage.trim() || !this.isConnected || this.isProcessing) {
       return;
@@ -535,6 +571,14 @@ export class ChatComponent implements OnInit, OnDestroy {
     };
     
     this.chatMessages = [...this.chatMessages, userMessage];
+    this.shouldScrollToBottom = true; // Trigger scroll after message added
+
+    // On mobile, auto-hide recommendations after first query is sent
+    if (this.isMobileView && !this.hasStartedChatOnMobile) {
+      this.hasStartedChatOnMobile = true;
+      this.showRecommendations = false;
+      console.log('Mobile: Auto-hiding recommendations after first query');
+    }
 
     // Prepare image result if available (from camera recognition)
     const imageResult = this.selectedArtifact ? {
@@ -549,6 +593,51 @@ export class ChatComponent implements OnInit, OnDestroy {
       this.currentSessionId,
       imageResult
     );
+  }
+
+  /**
+   * Check if current viewport is mobile
+   */
+  private checkMobileView(): void {
+    if (typeof window !== 'undefined') {
+      this.isMobileView = window.innerWidth <= 576;
+      console.log('Mobile view:', this.isMobileView);
+    }
+  }
+
+  /**
+   * Get mobile-optimized recommendations (max 2 questions)
+   * Prioritizes: same_intent_species and diff_species_same_intent
+   */
+  getMobileRecommendations(): { same_species: string[], diff_species: string[] } {
+    if (!this.recommendedQuestions) {
+      return { same_species: [], diff_species: [] };
+    }
+
+    const sameSpecies = this.recommendedQuestions.questions.same_intent_species || [];
+    const diffSpecies = this.recommendedQuestions.questions.diff_species_same_intent || [];
+    
+    // If total is 2 or less, return all
+    const totalQuestions = sameSpecies.length + diffSpecies.length;
+    if (totalQuestions <= 2) {
+      return { same_species: sameSpecies, diff_species: diffSpecies };
+    }
+    
+    // Otherwise, limit to max 2 total, prioritizing same_species first
+    const result: { same_species: string[], diff_species: string[] } = { same_species: [], diff_species: [] };
+    let remaining = 2;
+    
+    // First, add from same_species (up to 2)
+    const sameToAdd = Math.min(sameSpecies.length, remaining);
+    result.same_species = sameSpecies.slice(0, sameToAdd);
+    remaining -= sameToAdd;
+    
+    // Then add from diff_species if we still have slots
+    if (remaining > 0) {
+      result.diff_species = diffSpecies.slice(0, remaining);
+    }
+    
+    return result;
   }
 
   // Helper methods

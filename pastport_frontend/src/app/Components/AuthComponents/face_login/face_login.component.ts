@@ -245,17 +245,18 @@ export class FaceLoginComponent implements OnInit, OnDestroy {
    * Capture and process using streamlined authentication flow
    */
   async captureAndProcess(): Promise<void> {
-    if(this.state.step === 'processing')return;
+    // Prevent multiple simultaneous captures
+    if(this.state.step === 'processing' || this.state.step === 'success' || this.state.step === 'registration') {
+      console.log('⚠️ Capture already in progress or completed, skipping...');
+      return;
+    }
 
     const videoEl = this.videoElement?.nativeElement;
     const canvas = this.canvasElement?.nativeElement;
 
-    if (!videoEl || !canvas) {
-      this.handleError('Camera or canvas not available');
-      return;
-    }
-
+    // Stop detection IMMEDIATELY to prevent race conditions
     this.stopDetection();
+    
     this.state.step = 'processing';
     this.state.isLoading = true;
     this.state.message = 'Capturing and analyzing your face...';

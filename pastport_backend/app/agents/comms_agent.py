@@ -113,6 +113,7 @@ CRITICAL RULES:
 - Only adjust language style, tone, and presentation
 - Consider the conversation history to make responses feel connected
 - Make the information accessible and engaging for the target age group
+- Keep response within 100 words.
 
 ❌ DON'T:
 - Add information not in the original response
