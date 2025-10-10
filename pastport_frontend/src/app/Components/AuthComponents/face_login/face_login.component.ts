@@ -248,9 +248,11 @@ export class FaceLoginComponent implements OnInit, OnDestroy {
     if(this.state.step === 'processing')return;
 
     const videoEl = this.videoElement?.nativeElement;
+    const canvas = this.canvasElement?.nativeElement;
 
-    if (!this.videoElement?.nativeElement) {
-      throw new Error('Video element not available');return;
+    if (!videoEl || !canvas) {
+      this.handleError('Camera or canvas not available');
+      return;
     }
 
     this.stopDetection();
@@ -260,12 +262,13 @@ export class FaceLoginComponent implements OnInit, OnDestroy {
     
 
     try {
-      // Check if video element is available
-
       console.log('🎯 Starting streamlined authentication flow...');
       
-      // Use the new streamlined authentication method
-      const authResult = await this.faceLoginService.authenticateUser(videoEl);
+      // Capture video frame to canvas for consistent processing across devices
+      this.captureFrameToCanvas(videoEl, canvas);
+      
+      // Use the canvas instead of video element for consistent image processing
+      const authResult = await this.faceLoginService.authenticateUser(canvas);
 
       console.log('🔍 AUTHENTICATION RESULT - COMPLETE DATA:', {
         isRecognized: authResult.isRecognized,
@@ -482,6 +485,28 @@ export class FaceLoginComponent implements OnInit, OnDestroy {
       clearInterval(this.livenessCheckInterval);
       this.livenessCheckInterval = null;
     }
+  }
+
+  /**
+   * Capture video frame to canvas for consistent cross-device processing
+   */
+  private captureFrameToCanvas(video: HTMLVideoElement, canvas: HTMLCanvasElement): void {
+    // Set canvas dimensions to match video
+    canvas.width = video.videoWidth;
+    canvas.height = video.videoHeight;
+    
+    const ctx = canvas.getContext('2d');
+    if (!ctx) {
+      throw new Error('Could not get canvas context');
+    }
+    
+    // Draw current video frame to canvas
+    ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+    
+    console.log('📸 Captured frame to canvas:', {
+      width: canvas.width,
+      height: canvas.height
+    });
   }
 
   /**
