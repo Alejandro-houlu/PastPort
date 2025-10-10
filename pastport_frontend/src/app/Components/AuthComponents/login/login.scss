@@ -462,87 +462,127 @@ $text-gray-dark: #6b7280;
 }
 
 @media (max-width: 576px) {
+  // Reduce header to ~40px
   .landing-header {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
   }
 
-  .logo-circle {
-    width: 160px;
-    height: 160px;
-    padding: 1.75rem;
+  .logo-badge {
+    padding: 1.5px;
+    margin-bottom: 0.25rem;
   }
 
-  .logo-img {
-    max-width: 95px;
+  .logo-inner {
+    padding: 0.35rem 1rem;
   }
 
-  .headline-text {
-    font-size: 1.5rem;
-  }
-
-  .headline-subtitle {
-    font-size: 0.8rem;
-  }
-
-  .login-card {
-    margin: 1.25rem 0.5rem 0;
-    padding: 1rem;
-  }
-
-  .face-icon-wrapper {
-    width: 4.5rem;
-    height: 4.5rem;
-  }
-
-  .face-icon {
-    font-size: 2.25rem;
-  }
-
-  .logo-display {
-    margin-bottom: 1rem;
-  }
-
-  .headline {
-    margin-bottom: 1rem;
-  }
-
-  .hero-section {
-    padding: 1.25rem 0.75rem;
+  .logo-text {
+    font-size: 1.1rem;
   }
 
   .logo-subtitle {
+    font-size: 0.65rem;
+    margin-top: 0.15rem;
+  }
+
+  // Reduce logo display to ~100px
+  .logo-display {
+    margin-bottom: 0.75rem;
+  }
+
+  .logo-circle {
+    width: 110px;
+    height: 110px;
+    padding: 1.25rem;
+  }
+
+  .logo-img {
+    max-width: 65px;
+  }
+
+  // Compact headline to ~80px
+  .headline {
+    margin-bottom: 0.75rem;
+  }
+
+  .headline-text {
+    font-size: 1.25rem;
+    line-height: 1.15;
+    margin-bottom: 0.5rem;
+  }
+
+  .headline-subtitle {
     font-size: 0.7rem;
-    margin-top: 0.25rem;
+    text-shadow: 0 0 15px rgba($primary, 0.5);
+  }
+
+  // Reduce hero section padding
+  .hero-section {
+    padding: 0.75rem 0.75rem;
+  }
+
+  // Compact login card to ~160px
+  .login-card-wrapper {
+    margin: 0.75rem auto 0;
+  }
+
+  .login-card {
+    padding: 0.85rem;
+    margin: 0 0.5rem;
+  }
+
+  .face-icon-container {
+    margin-bottom: 1rem;
+  }
+
+  .face-icon-wrapper {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .face-icon-circle {
+    padding: 1rem;
+  }
+
+  .face-icon {
+    font-size: 1.75rem;
+  }
+
+  .card-content {
+    margin-bottom: 1rem;
   }
 
   .card-title {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    margin-bottom: 0.35rem;
   }
 
   .card-subtitle {
-    font-size: 0.8rem;
-  }
-
-  .login-card-wrapper {
-    margin: 1rem auto 0;
+    font-size: 0.75rem;
   }
 
   .face-login-btn {
-    padding: 0.85rem 1.5rem;
-    font-size: 0.9rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.85rem;
+
+    .btn-icon {
+      left: 1.25rem;
+      font-size: 1.1rem;
+    }
   }
 
   .features-grid {
-    gap: 0.75rem;
-    padding-top: 1rem;
-    margin-top: 1rem;
+    gap: 0.65rem;
+    padding-top: 0.85rem;
+    margin-top: 0.85rem;
   }
 
   .feature-emoji {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
   }
 
   .feature-label {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 }
