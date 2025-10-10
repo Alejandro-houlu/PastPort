@@ -7,7 +7,7 @@ from chromadb.config import Settings
 class GetEmbeddings:
     def __init__(self, model: str = Config.EMBEDDING_MODEL):
         self.model = model
-        self.embeddings = OllamaEmbeddings(model=model)
+        self.embeddings = OllamaEmbeddings(model=model, keep_alive=0)
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
         return self.embeddings.embed_documents(texts)

@@ -13,7 +13,8 @@ class Config:
     CHUNK_OVERLAP = int(os.getenv("PASTPORT_CHUNK_OVERLAP", "100"))
 
     # MULTIQUERY MODEL
-    MULTIQ_MODEL = os.getenv("PASTPORT_MULTIQ_MODEL", "mistral:7b-instruct-v0.3-q4_K_M")
+    MULTIQ_MODEL = os.getenv("PASTPORT_MULTIQ_MODEL", "hf.co/kahhoe/lkc-museum-mistral-v4")
+    #mistral:7b-instruct-v0.3-q4_K_M
     
     # Embedding settings
     EMBEDDING_MODEL = os.getenv("PASTPORT_EMBED_MODEL", "mxbai-embed-large:335m")

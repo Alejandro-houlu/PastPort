@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --configuration=production",
-    "serve:dev": "ng serve --configuration=development",
+    "serve:dev": "ng serve --configuration=development --host 0.0.0.0 --disable-host-check",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
