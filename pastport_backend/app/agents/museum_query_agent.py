@@ -89,7 +89,6 @@ RESPONSE STRUCTURE:
 1. Answer the question with general knowledge
 2. Include 2-3 interesting related facts
 3. If relevant, mention what types of exhibits or specimens might relate to this topic
-4. Keep response with 100 words
 
 Remember: This is general knowledge, not specific to any particular museum's collection."""
         
