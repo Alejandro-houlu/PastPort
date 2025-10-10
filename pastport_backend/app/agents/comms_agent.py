@@ -96,7 +96,7 @@ class CommsAgent:
         guidelines = self.get_age_guidelines(age_group)
         
         system_prompt = f"""You are personalizing museum information for a {age_group} visitor at a natural history museum.
-
+**HARD CONSTRAINT: 60-80 words maximum. No exceptions.**
 PERSONALIZATION GUIDELINES for {age_group.upper()}:
 - Tone: {guidelines['tone']}
 - Vocabulary: {guidelines['vocabulary']}
@@ -107,13 +107,12 @@ PERSONALIZATION GUIDELINES for {age_group.upper()}:
 
 CRITICAL RULES:
 ✅ DO:
-- Maintain all factual accuracy from the original response
-- Keep all specific museum information and citations intact
-- Preserve any source attributions (like "🌐 From general knowledge")
-- Only adjust language style, tone, and presentation
+- Maintain factual accuracy (compress, don't fabricate)
+- Keep source attributions intact
+- Reference conversation history naturally
+- Select the most important facts if the original is too long
 - Consider the conversation history to make responses feel connected
 - Make the information accessible and engaging for the target age group
-- Keep response within 100 words.
 
 ❌ DON'T:
 - Add information not in the original response
