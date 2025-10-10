@@ -80,7 +80,7 @@ export class FaceLoginService {
   /**
    * Detect face and extract features with fallback support
    */
-  async detectFace(input: HTMLVideoElement | HTMLImageElement): Promise<FaceDetectionResult> {
+  async detectFace(input: HTMLVideoElement | HTMLImageElement | HTMLCanvasElement): Promise<FaceDetectionResult> {
     if (!this.modelsLoaded) {
       await this.loadModels();
     }
@@ -172,7 +172,7 @@ export class FaceLoginService {
   /**
    * Generate face embedding for recognition with fallback support
    */
-  async generateFaceEmbedding(input: HTMLVideoElement | HTMLImageElement): Promise<Float32Array | null> {
+  async generateFaceEmbedding(input: HTMLVideoElement | HTMLImageElement | HTMLCanvasElement): Promise<Float32Array | null> {
     if (!this.modelsLoaded) {
       await this.loadModels();
     }
@@ -291,7 +291,7 @@ export class FaceLoginService {
   /**
    * Main authentication flow using backend matching
    */
-  async authenticateUser(input: HTMLVideoElement): Promise<{
+  async authenticateUser(input: HTMLVideoElement | HTMLCanvasElement): Promise<{
     isRecognized: boolean;
     isNewUser: boolean;
     userId?: string;
@@ -444,7 +444,7 @@ export class FaceLoginService {
   /**
    * Register new user with backend and handle authentication
    */
-  async registerNewUser(input: HTMLVideoElement | null, username: string): Promise<{
+  async registerNewUser(input: HTMLVideoElement | HTMLCanvasElement | null, username: string): Promise<{
     success: boolean;
     authResult?: {
       isRecognized: boolean;
