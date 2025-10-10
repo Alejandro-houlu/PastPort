@@ -369,6 +369,232 @@
   }
 }
 
+/* Mobile responsive styles for compact UI */
+@media (max-width: 576px) {
+  :host {
+    /* Input box should stay at bottom in normal flow */
+    .glass-card.border-t.p-4.pb-safe {
+      flex-shrink: 0 !important; /* Never shrink - always visible */
+    }
+    
+    /* Compact artifact header for mobile */
+    .glass-card.border-b {
+      padding: 0.75rem !important;
+      
+      img {
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+      }
+      
+      h2 {
+        font-size: 1rem !important;
+        margin-bottom: 0.25rem !important;
+      }
+      
+      p {
+        font-size: 0.75rem !important;
+        margin-bottom: 0.5rem !important;
+      }
+      
+      .flex.gap-2 {
+        gap: 0.35rem !important;
+        
+        span {
+          font-size: 0.65rem !important;
+          padding: 0.15rem 0.5rem !important;
+        }
+      }
+    }
+    
+    /* Compact recommended questions section for mobile - EXTRA SMALL */
+    .glass-card.border-t {
+      padding: 0.5rem !important;
+      
+      h3 {
+        font-size: 0.7rem !important;
+        margin-bottom: 0.35rem !important;
+      }
+      
+      h4 {
+        font-size: 0.65rem !important;
+        margin-bottom: 0.25rem !important;
+      }
+      
+      .space-y-3 {
+        > * + * {
+          margin-top: 0.3rem !important;
+        }
+      }
+      
+      .space-y-2 {
+        > * + * {
+          margin-top: 0.25rem !important;
+        }
+      }
+      
+      .flex.flex-wrap.gap-2 {
+        gap: 0.3rem !important;
+      }
+      
+      button {
+        padding: 0.3rem 0.5rem !important;
+        font-size: 0.7rem !important;
+        min-height: 32px !important;
+        line-height: 1.2 !important;
+      }
+      
+      /* Dismiss button */
+      .p-1 {
+        padding: 0.25rem !important;
+      }
+      
+      svg {
+        width: 0.9rem !important;
+        height: 0.9rem !important;
+      }
+    }
+    
+    /* Compact top navigation bar */
+    .glass-card.border-b.p-4:first-child {
+      padding: 0.65rem !important;
+      
+      button {
+        padding: 0.4rem !important;
+      }
+      
+      span {
+        font-size: 0.75rem !important;
+        padding: 0.35rem 0.65rem !important;
+      }
+    }
+    
+    /* Compact sidebar header */
+    .p-4.border-b {
+      padding: 0.75rem !important;
+      
+      img {
+        height: 2.5rem !important;
+        width: 2.5rem !important;
+      }
+      
+      h1 {
+        font-size: 1.1rem !important;
+      }
+    }
+    
+    /* Compact sidebar content */
+    .flex-1.p-6 {
+      padding: 1rem !important;
+      
+      .space-y-6 > * + * {
+        margin-top: 1rem !important;
+      }
+    }
+    
+    /* Compact navigation tabs */
+    .grid.grid-cols-2.gap-2 {
+      gap: 0.4rem !important;
+      
+      button {
+        padding: 0.5rem 0.65rem !important;
+        font-size: 0.75rem !important;
+        min-height: 38px !important;
+      }
+    }
+    
+    /* Compact artifact/history cards in sidebar */
+    .glass-card.cursor-pointer {
+      .p-3 {
+        padding: 0.6rem !important;
+      }
+      
+      img {
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+      }
+      
+      h4 {
+        font-size: 0.8rem !important;
+      }
+      
+      p, span {
+        font-size: 0.7rem !important;
+      }
+    }
+    
+    /* Compact chat messages */
+    .flex-1.overflow-y-auto.p-6 {
+      padding: 1rem !important;
+      
+      .space-y-4 > * + * {
+        margin-top: 0.75rem !important;
+      }
+    }
+    
+    /* Compact welcome screen */
+    .flex.flex-col.items-center.justify-center {
+      .space-y-6 > * + * {
+        margin-top: 1rem !important;
+      }
+      
+      img {
+        height: 3.5rem !important;
+        width: 3.5rem !important;
+      }
+      
+      h2 {
+        font-size: 1.25rem !important;
+      }
+      
+      p {
+        font-size: 0.85rem !important;
+      }
+      
+      h3 {
+        font-size: 0.8rem !important;
+      }
+    }
+    
+    /* Compact chat input */
+    .glass-card.border-t.p-4.pb-safe {
+      padding: 0.65rem !important;
+      padding-bottom: 0.65rem !important;
+      height: 140px;
+      
+      .flex.gap-3 {
+        gap: 0.5rem !important;
+      }
+      
+      input {
+        padding: 0.55rem 0.7rem !important;
+        font-size: 0.875rem !important;
+        min-height: 38px !important;
+      }
+      
+      button {
+        padding: 0.55rem !important;
+        min-width: 38px !important;
+        min-height: 38px !important;
+      }
+    }
+    
+    /* Compact message bubbles */
+    .max-w-\[80\%\] {
+      max-width: 85% !important;
+      padding: 0.65rem !important;
+      
+      p.text-sm {
+        font-size: 0.85rem !important;
+      }
+      
+      p.text-xs {
+        font-size: 0.7rem !important;
+        margin-top: 0.35rem !important;
+      }
+    }
+  }
+}
+
 /* Large screen utilities */
 @media (min-width: 1024px) {
   :host {
@@ -408,10 +634,12 @@
   @supports (padding: max(0px)) {
     padding-bottom: max(1rem, calc(1rem + env(safe-area-inset-bottom))) !important;
   }
-  
-  /* Additional mobile browser UI bar padding */
-  @media (max-width: 768px) {
-    padding-bottom: max(1.5rem, calc(1.5rem + env(safe-area-inset-bottom))) !important;
+}
+
+/* Mobile override for pb-safe - must come after to override */
+@media (max-width: 576px) {
+  .pb-safe {
+    padding-bottom: 0.65rem !important;
   }
 }
 

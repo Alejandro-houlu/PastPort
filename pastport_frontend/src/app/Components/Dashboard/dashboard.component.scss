@@ -362,14 +362,90 @@
     padding: 0.5rem 0;
   }
   
+  // Compact welcome card
   .welcome-card {
-    border-radius: 12px;
     padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 12px;
   }
   
+  .welcome-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.35rem;
+  }
+  
+  .welcome-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .date-time-info {
+    gap: 0.5rem;
+    
+    .date, .time {
+      padding: 0.35rem 0.75rem;
+      font-size: 0.75rem;
+      border-radius: 6px;
+    }
+  }
+  
+  .welcome-logo {
+    .logo-icon {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  // Compact action card
   .action-card {
-    border-radius: 16px;
-    padding: 1.5rem 1rem;
+    padding: 1.25rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 14px;
+  }
+  
+  .action-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+    
+    i {
+      font-size: 1.25rem;
+    }
+  }
+  
+  .action-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .action-description {
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.4;
+  }
+  
+  .btn-get-started {
+    padding: 0.75rem 1.75rem;
+    font-size: 0.9rem;
+    border-radius: 10px;
+  }
+  
+  // Compact quick stats
+  .quick-stats {
+    margin-top: 1rem !important;
+    
+    .stat-item {
+      padding: 0.5rem;
+      
+      .stat-number {
+        font-size: 1.5rem;
+        margin-bottom: 0.15rem;
+      }
+      
+      .stat-label {
+        font-size: 0.7rem;
+      }
+    }
   }
   
   .feature-card {
@@ -388,5 +464,14 @@
     .loading-text {
       font-size: 0.8rem;
     }
+  }
+  
+  // Skeleton loading
+  .skeleton-title {
+    height: 1.5rem;
+  }
+  
+  .skeleton-subtitle {
+    height: 0.95rem;
   }
 }
