@@ -48,8 +48,8 @@
 
   <!-- Camera Controls (Bottom) -->
   <div class="camera-controls">
-    <!-- Last Image Thumbnail -->
-    <div class="last-image-container" (click)="onLastImageClick()">
+    <!-- COMMENTED OUT: Last Image Thumbnail -->
+    <!-- <div class="last-image-container" (click)="onLastImageClick()">
       <div class="image-thumbnail">
         @if (lastCapturedImage) {
           <img [src]="lastCapturedImage" alt="Last captured">
@@ -59,10 +59,10 @@
           </div>
         }
       </div>
-    </div>
+    </div> -->
 
-    <!-- Capture Button -->
-    <div class="capture-container">
+    <!-- COMMENTED OUT: Capture Button -->
+    <!-- <div class="capture-container">
       <button class="capture-btn" 
               (click)="captureAndAnalyze()" 
               [disabled]="isLoading"
@@ -75,10 +75,10 @@
           }
         </div>
       </button>
-    </div>
+    </div> -->
 
-    <!-- Camera Flip Button -->
-    <div class="flip-container">
+    <!-- Camera Flip Button - Centered -->
+    <div class="flip-container-centered">
       <button class="flip-btn" (click)="onFlipCamera()" type="button">
         <i class="bx bx-refresh"></i>
       </button>

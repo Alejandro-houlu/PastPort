@@ -372,9 +372,9 @@
 /* Mobile responsive styles for compact UI */
 @media (max-width: 576px) {
   :host {
-    /* Input box should stay at bottom in normal flow */
-    .glass-card.border-t.p-4.pb-safe {
-      flex-shrink: 0 !important; /* Never shrink - always visible */
+    /* Add padding to messages so they don't get hidden behind input */
+    .flex-1.overflow-y-auto {
+      padding-bottom: 100px !important; /* Space for input + recommendations */
     }
     
     /* Compact artifact header for mobile */
@@ -559,7 +559,6 @@
     .glass-card.border-t.p-4.pb-safe {
       padding: 0.65rem !important;
       padding-bottom: 0.65rem !important;
-      height: 140px;
       
       .flex.gap-3 {
         gap: 0.5rem !important;
@@ -636,10 +635,11 @@
   }
 }
 
-/* Mobile override for pb-safe - must come after to override */
+/* Mobile override for pb-safe - Hybrid approach for Chrome toolbar + safe areas */
 @media (max-width: 576px) {
   .pb-safe {
-    padding-bottom: 0.65rem !important;
+    /* Base padding for Chrome mobile toolbar + safe area */
+    padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0)) !important;
   }
 }
 
@@ -734,4 +734,37 @@
   border: none !important;
   outline: none !important;
   background: transparent !important;
+}
+
+/* CRITICAL FIX: Prevent input from being pushed down */
+:host {
+  /* The main chat container must be a fixed height flex container */
+  .h-screen.flex.flex-col {
+    height: 100vh !important;
+    max-height: 100vh !important;
+    overflow: hidden !important;
+  }
+  
+  /* Messages container should flex-grow but with min-height to prevent overflow */
+  .flex-1.overflow-y-auto {
+    flex: 1 1 0% !important;
+    min-height: 0 !important; /* CRITICAL: This prevents flex items from overflowing */
+    overflow-y: auto !important;
+  }
+  
+  /* Recommendations and input must NOT flex-grow */
+  .glass-card.border-t {
+    flex-shrink: 0 !important;
+    flex-grow: 0 !important;
+  }
+}
+
+/* Mobile specific fix */
+@media (max-width: 576px) {
+  :host {
+    .h-screen.flex.flex-col {
+      height: 100dvh !important;
+      max-height: 100dvh !important;
+    }
+  }
 }

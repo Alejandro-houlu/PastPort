@@ -224,7 +224,7 @@
     }
   }
 
-  // Camera Flip Button
+  // Camera Flip Button (Original - commented out in HTML)
   .flip-container {
     .flip-btn {
       width: 60px;
@@ -235,6 +235,39 @@
       backdrop-filter: blur(10px);
       color: #fff;
       font-size: 24px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: scale(1.05);
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+
+  // Camera Flip Button - Centered
+  .flip-container-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .flip-btn {
+      width: 70px;
+      height: 70px;
+      border: none;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      color: #fff;
+      font-size: 28px;
       cursor: pointer;
       transition: all 0.3s ease;
       display: flex;
