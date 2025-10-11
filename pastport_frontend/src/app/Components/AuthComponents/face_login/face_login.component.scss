@@ -1,10 +1,17 @@
+// 1. Main container - use dvh consistently
 .face-login-container {
   position: relative;
   width: 100%;
-  min-height: 100dvh;            /* dynamic visual viewport */
-  height: auto;                  /* let it grow if needed */
-  overflow-x: hidden;            /* keep horizontal clipped */
-  overflow-y: auto;              /* vertical scroll allowed */
+  min-height: 100dvh;
+  height: 100dvh; // Changed from auto to dvh
+  overflow-x: hidden;
+  overflow-y: auto;
+  
+  // Safari-specific fix
+  @supports (-webkit-touch-callout: none) {
+    height: -webkit-fill-available;
+    min-height: -webkit-fill-available;
+  }
 }
 .registration-form .auth-page-wrapper {
   min-height: 100dvh;
@@ -137,18 +144,32 @@
   }
 }
 
-// Camera Interface
+// 2. Camera Interface - CRITICAL FIX
 .camera-interface {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100dvh; // Changed from 100% to 100dvh
   background: #000;
+  
+  // Safari-specific fix
+  @supports (-webkit-touch-callout: none) {
+    height: -webkit-fill-available;
+    min-height: 100dvh;
+  }
 
   &.fullscreen {
     position: fixed;
     top: 0;
     left: 0;
+    width: 100vw; // Add explicit width
+    height: 100dvh; // Add explicit height
     z-index: 999;
+    
+    // Safari-specific fix for fullscreen
+    @supports (-webkit-touch-callout: none) {
+      height: -webkit-fill-available;
+      min-height: 100dvh;
+    }
   }
 
   .camera-video {
@@ -156,12 +177,19 @@
     height: 100%;
     object-fit: cover;
     background: #000;
+    
+    // Safari fix - ensure video fills container
+    @supports (-webkit-touch-callout: none) {
+      height: -webkit-fill-available;
+      min-height: 100%;
+    }
 
     &.mirrored {
       transform: scaleX(-1); // Mirror front camera
     }
   }
 
+  // Face overlay - ensure it covers entire camera
   .face-overlay {
     position: absolute;
     top: 0;
@@ -210,6 +238,7 @@
     }
   }
 
+  // Camera controls - safe area for Safari's bottom bar
   .camera-controls {
     position: absolute;
     bottom: 40px;
@@ -219,6 +248,13 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
+    z-index: 10;
+    
+    // Safari iOS - add padding for bottom URL bar and safe area
+    @supports (-webkit-touch-callout: none) {
+      bottom: calc(40px + env(safe-area-inset-bottom, 0px));
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+    }
 
     .control-btn {
       width: 50px;
@@ -280,6 +316,7 @@
     }
   }
 
+  // Status message - safe area for notch
   .status-message {
     position: absolute;
     top: 60px;
@@ -287,6 +324,13 @@
     right: 0;
     text-align: center;
     padding: 0 20px;
+    z-index: 10;
+    
+    // Safari iOS - add padding for notch/dynamic island
+    @supports (-webkit-touch-callout: none) {
+      top: calc(60px + env(safe-area-inset-top, 0px));
+      padding-top: env(safe-area-inset-top, 0px);
+    }
 
     p {
       color: white;
@@ -323,13 +367,13 @@
   }
 }
 
-// Processing State
+// 4. Processing State - with dvh
 .processing-state {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100dvh; // Changed from 100%
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   display: flex;
   flex-direction: column;
@@ -338,6 +382,10 @@
   color: white;
   text-align: center;
   padding: 20px;
+  
+  @supports (-webkit-touch-callout: none) {
+    height: -webkit-fill-available;
+  }
 
   .processing-animation {
     margin-bottom: 30px;
@@ -405,15 +453,19 @@
   }
 }
 
-// Registration, Success, and Error states use existing auth styles
+// 5. Other states that need dvh
 .registration-form,
 .success-state,
 .error-state {
   .auth-page-wrapper {
-    min-height: 100vh;
+    min-height: 100dvh; // Changed from 100vh
     display: flex;
     align-items: center;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    
+    @supports (-webkit-touch-callout: none) {
+      min-height: -webkit-fill-available;
+    }
   }
 }
 
@@ -474,12 +526,39 @@
   }
 }
 
-// Mobile-specific adjustments
+// 3. Mobile-specific adjustments
 @media (max-width: 768px) {
   .camera-interface {
+    height: 100dvh;
+    max-height: 100dvh;
+    
+    @supports (-webkit-touch-callout: none) {
+      height: -webkit-fill-available;
+      max-height: -webkit-fill-available;
+    }
+    
+    &.fullscreen {
+      // Ensure fullscreen works on mobile Safari
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100vw;
+      height: 100dvh;
+      
+      @supports (-webkit-touch-callout: none) {
+        height: -webkit-fill-available;
+      }
+    }
+
     .camera-controls {
       bottom: 30px;
       padding: 0 20px;
+      
+      @supports (-webkit-touch-callout: none) {
+        bottom: calc(30px + env(safe-area-inset-bottom, 0px));
+      }
 
       .control-btn {
         width: 45px;
@@ -491,6 +570,10 @@
     .status-message {
       top: 40px;
       padding: 0 15px;
+      
+      @supports (-webkit-touch-callout: none) {
+        top: calc(40px + env(safe-area-inset-top, 0px));
+      }
 
       p {
         font-size: 1rem;
