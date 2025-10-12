@@ -6,6 +6,7 @@ import numpy as np
 from fastapi import WebSocket, WebSocketDisconnect
 from typing import Dict, List
 from app.services.mainCam_service import mainCam_recognition_service
+from app.config import settings
 
 
 class MainCamConnectionManager:
@@ -20,9 +21,9 @@ class MainCamConnectionManager:
         await websocket.accept()
         self.active_connections.append(websocket)
         self.connection_configs[websocket] = {
-            "model_name": "yolo11n-seg-custom-v7.pt",
-            "confidence": 0.25,
-            "iou_threshold": 0.45
+            "model_name": settings.cv_model,
+            "confidence": settings.cv_confidence,
+            "iou_threshold": settings.cv_iou_threshold
         }
         print(f"✅ MainCam WebSocket: Connection established. Total connections: {len(self.active_connections)}")
     

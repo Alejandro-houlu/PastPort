@@ -30,6 +30,11 @@ class Settings(BaseSettings):
     host: str = Field("0.0.0.0", env="HOST")
     port: int = Field(8000, env="PORT")
     debug: bool = Field(False, env="DEBUG")
+
+    # Computer Vision Configuration
+    cv_model: str = Field(..., env="CV_MODEL")
+    cv_confidence: float = Field(0.25, env="CV_MODEL_CONFIDENCE")
+    cv_iou_threshold: float = Field(0.45, env="CV_MODEL_IOU_THRESHOLD")
     
     @property
     def database_url(self) -> str:
@@ -42,6 +47,7 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
         case_sensitive = False
+        extra="ignore"
 
 
 def get_settings() -> Settings:

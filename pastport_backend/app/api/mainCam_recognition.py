@@ -7,15 +7,16 @@ import json
 import aiohttp
 import numpy as np
 from app.services.mainCam_service import mainCam_recognition_service
+from app.config import settings
 
 router = APIRouter()
 
 
 class ImagePredictionRequest(BaseModel):
     image_data: str  # base64 encoded image
-    model_name: Optional[str] = "yolo11n-seg-custom-v7.pt"
-    confidence: Optional[float] = 0.25
-    iou_threshold: Optional[float] = 0.45
+    model_name: Optional[str] = settings.cv_model
+    confidence: Optional[float] = settings.cv_confidence
+    iou_threshold: Optional[float] = settings.cv_iou_threshold
 
 
 class PredictionResponse(BaseModel):
@@ -46,9 +47,9 @@ async def get_supported_models():
 @router.post("/predict/upload", response_model=PredictionResponse)
 async def predict_from_upload(
     file: UploadFile = File(...),
-    model_name: Optional[str] = Form("yolo11n-seg-custom-v7.pt"),
-    confidence: Optional[float] = Form(0.25),
-    iou_threshold: Optional[float] = Form(0.45)
+    model_name: Optional[str] = Form(settings.cv_model),
+    confidence: Optional[float] = Form(settings.cv_confidence),
+    iou_threshold: Optional[float] = Form(settings.cv_iou_threshold)
 ):
     """Predict segmentation from uploaded image file"""
     print(f"📤 MainCam API: Upload prediction request - file: {file.filename}, model: {model_name}")
@@ -105,9 +106,9 @@ async def predict_from_base64(request: ImagePredictionRequest):
 @router.post("/predict/url")
 async def predict_from_url(
     image_url: str,
-    model_name: Optional[str] = "yolo11n-seg-custom-v7.pt",
-    confidence: Optional[float] = 0.25,
-    iou_threshold: Optional[float] = 0.45
+    model_name: Optional[str] = settings.cv_model,
+    confidence: Optional[float] = settings.cv_confidence,
+    iou_threshold: Optional[float] = settings.cv_iou_threshold
 ):
     """Predict segmentation from image URL"""
     print(f"🌐 MainCam API: URL prediction request - URL: {image_url}, model: {model_name}")

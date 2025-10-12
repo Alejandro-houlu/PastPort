@@ -9,6 +9,7 @@ from typing import Dict, List, Optional, Union, Tuple
 import json
 import os
 from pathlib import Path
+from app.config import settings
 
 
 class MainCamRecognitionService:
@@ -89,8 +90,8 @@ class MainCamRecognitionService:
         self, 
         image_data: Union[str, bytes, np.ndarray],
         model_name: str = None,
-        confidence: float = 0.25,
-        iou_threshold: float = 0.45
+        confidence: float = settings.cv_confidence,
+        iou_threshold: float = settings.cv_iou_threshold
     ) -> Dict:
         """Perform segmentation prediction on image"""
         if model_name is None:
@@ -183,8 +184,8 @@ class MainCamRecognitionService:
         self,
         frame: np.ndarray,
         model_name: str = None,
-        confidence: float = 0.25,
-        iou_threshold: float = 0.45
+        confidence: float = settings.cv_confidence,
+        iou_threshold: float = settings.cv_iou_threshold
     ) -> Dict:
         """Process single video frame for real-time streaming"""
         return await self.predict_segmentation(

@@ -28,9 +28,9 @@ export class MainCamWebSocketService {
   
   // Default configuration
   private currentConfig: RecognitionConfig = {
-    model_name: 'yolo11n-seg-custom-v7.pt',
-    confidence: 0.25,
-    iou_threshold: 0.45
+    model_name: environment.cvModel,
+    confidence: environment.cvConfidence,
+    iou_threshold: environment.cvIouThreshold
   };
 
   constructor() {}
