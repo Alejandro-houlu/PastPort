@@ -32,3 +32,7 @@ langgraph
 
 pandas
 transformers
+opencv-python
+Pillow
+ultralytics
+greenlet
