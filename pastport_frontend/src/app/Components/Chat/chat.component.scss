@@ -67,11 +67,11 @@
   
   /* Layout utilities */
   .min-h-screen {
-    min-height: 100vh !important;
+    min-height: 100dvh !important;
   }
   
   .h-screen {
-    height: 100vh !important;
+    height: 100dvh !important;
   }
   
   .h-full {
@@ -635,13 +635,6 @@
   }
 }
 
-/* Mobile override for pb-safe - Hybrid approach for Chrome toolbar + safe areas */
-@media (max-width: 576px) {
-  .pb-safe {
-    /* Base padding for Chrome mobile toolbar + safe area */
-    padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0)) !important;
-  }
-}
 
 @supports (padding: max(0px)) {
   .safe-area-inset-bottom {
@@ -740,8 +733,8 @@
 :host {
   /* The main chat container must be a fixed height flex container */
   .h-screen.flex.flex-col {
-    height: 100vh !important;
-    max-height: 100vh !important;
+    height: 100dvh !important;
+    max-height: 100dvh !important;
     overflow: hidden !important;
   }
   
